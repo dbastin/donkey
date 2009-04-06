@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Groovy" name="Groovy" implicit="true">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/java/prod" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/java/test" isTestSource="true" />
+    </content>
+    <orderEntry type="library" name="groovy-1.6.0" level="application" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="runtime">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/build/lib/runtime/commons-io" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/tibco" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/log4j" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/sybase" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/boost" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/slf4j" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/oracle" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/dom4j" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/commons-lang" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/tibco" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/boost" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons-io" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons-lang" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/dom4j" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/log4j" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/oracle" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/slf4j" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/sybase" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/tibco" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tools">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/build/lib/tools/junit" />
+          <root url="file://$MODULE_DIR$/build/lib/tools/dbunit" />
+          <root url="file://$MODULE_DIR$/build/lib/tools/antcontrib" />
+          <root url="file://$MODULE_DIR$/build/lib/tools/checkstyle" />
+          <root url="file://$MODULE_DIR$/build/lib/tools/cobertura" />
+          <root url="file://$MODULE_DIR$/build/lib/tools/groovy" />
+          <root url="file://$MODULE_DIR$/build/lib/tools/clover" />
+          <root url="file://$MODULE_DIR$/build/lib/tools/logging" />
+          <root url="file://$MODULE_DIR$/build/lib/tools/jmock" />
+          <root url="file://$MODULE_DIR$/build/lib/tools/hsqldb" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/antcontrib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/checkstyle" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/clover" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/cobertura" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/dbunit" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/groovy" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/hsqldb" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/jmock" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/junit" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/logging" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntryProperties />
+  </component>
+</module>
+

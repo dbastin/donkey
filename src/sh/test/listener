@@ -1,0 +1,22 @@
+#!/bin/sh
+
+if [ $# != 2 ] ; then
+    echo 1>&2 "Usage: $0 <System Number> <Host Name>"
+    exit 127
+fi
+
+SYSTEM=$1
+HOSTNAME=$2
+
+TANGO=`echo $HOSTNAME | grep konst`
+if [ -n "$TANGO" ] ; then
+    NETWORK="bge0:2;224.${SYSTEM}.${SYSTEM}.${SYSTEM}"
+
+else
+    NETWORK="e1000g0;224.1${SYSTEM}.1${SYSTEM}.1${SYSTEM}"
+fi
+
+SERVICE=7${SYSTEM}${SYSTEM}${SYSTEM}
+DAEMON=tcp:$HOSTNAME:7${SYSTEM}00
+
+exec tibrvlisten -network "${NETWORK}" -service ${SERVICE} -daemon "${DAEMON}" ">"

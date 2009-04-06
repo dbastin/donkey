@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="base-init" default="ignore">
+    <tstamp>
+        <format property="build.date" pattern="yyyyMMdd HH:mm:ss"/>
+    </tstamp>
+    <property name="build.name" value="build-dev"/>
+    <property name="project.name" value="TSR"/>
+    <property name="version" value="1.0"/>
+    <property name="label" value="build.0"/>
+    <property name="build.num" value="${label}"/>
+    <property name="build.dir" location="build"/>
+    <property name="gen.dir" location="gen"/>
+    <property name="src.dir" location="src"/>
+    <property name="config.dir" location="${build.dir}/config"/>
+    <property name="coverage.dir" location="${gen.dir}/coverage"/>
+    <property name="coverage.db.dir" value="${coverage.dir}/db"/>
+    <property name="prod.src.dir" location="${src.dir}/prod"/>
+    <property name="test.src.dir" location="${src.dir}/test"/>
+    <property name="coverage.src.dir" location="${coverage.dir}/src"/>
+    <property name="artifacts.dir" location="${gen.dir}/artifacts"/>
+    <property name="jars.dir" location="${artifacts.dir}/jars"/>
+    <property name="artifacts.template.dir" location="${config.dir}/artifacts"/>
+    <property name="reports.dir" location="${artifacts.dir}/reports"/>
+    <property name="test.report.dir" location="${reports.dir}/test"/>
+    <property name="coverage.reports.dir" location="${reports.dir}/coverage"/>
+    <property name="build.lib.dir" location="${build.dir}/lib"/>
+    <property name="runtime.lib.dir" value="${build.lib.dir}/runtime"/>
+    <property name="compile.lib.dir" value="${build.lib.dir}/compile"/>
+    <property name="tools.lib.dir" value="${build.lib.dir}/tools"/>
+    <property name="classes.dir" location="${gen.dir}/classes"/>
+    <property name="prod.class.dir" location="${classes.dir}/prod"/>
+    <property name="test.class.dir" location="${classes.dir}/test"/>
+    <property name="coverage.class.dir" location="${coverage.dir}/classes"/>
+    <property name="jar.temp.dir" location="${gen.dir}/jar"/>
+    <property name="dist.jar.name" value="${project.name}.jar"/>
+    <property name="sweeper.dir" value="${artifacts.dir}/sweep"/>
+    <property name="sweeper.fix.maxdays" value="7"/>
+    <property name="sweeper.fix.warndays" value="5"/>
+    <property name="min.coverage" value="100"/>
+
+    <patternset id="jar.pattern" includes="**/*.jar"/>
+    <patternset id="code.pattern" includes="**/*.java"/>
+    <patternset id="class.pattern" includes="**/*.class"/>
+    <patternset id="simian.pattern">
+        <include name="**/*.java"/>
+        <exclude name="**/*_Old.java"/>
+        <exclude name="**/old/*"/>
+    </patternset>
+    <patternset id="sweeper.fix.pattern">
+        <exclude name='**/*.jar'/>
+        <exclude name="**/*.tar"/>
+        <exclude name="**/*.zip"/>
+        <exclude name="**/*.pkg"/>
+        <exclude name="**/*.jpg"/>
+        <exclude name="**/*.gif"/>
+        <exclude name="**/*.class"/>
+        <exclude name="**/lib/**"/>
+        <exclude name="**/gen/**"/>
+        <exclude name="**/ibuild/**"/>
+    </patternset>
+
+    <fileset id="jar.prod.code" dir="${prod.src.dir}">
+        <patternset includes="**"/>
+    </fileset>
+
+    <fileset id="jar.prod.properties" dir="${prod.src.dir}">
+        <patternset includes="**/*.properties"/>
+    </fileset>
+
+    <fileset id="jar.prod.class" dir="${prod.class.dir}">
+        <patternset includes="**"/>
+    </fileset>
+
+    <fileset id="checkstyle.prod.code" dir="${prod.src.dir}">
+        <patternset refid="simian.pattern"/>
+    </fileset>
+
+    <fileset id="checkstyle.test.code" dir="${test.src.dir}">
+        <patternset refid="simian.pattern"/>
+    </fileset>
+
+    <fileset id="simian.prod.code" dir="${prod.src.dir}">
+        <patternset refid="simian.pattern"/>
+    </fileset>
+
+    <fileset id="simian.test.code" dir="${test.src.dir}">
+        <patternset refid="simian.pattern"/>
+    </fileset>
+
+    <fileset id="sweeper.fix.files" dir="${basedir}">
+        <patternset refid="sweeper.fix.pattern"/>
+    </fileset>
+
+    <path id="lib.runtime.classpath">
+        <fileset dir="${runtime.lib.dir}">
+            <patternset refid="jar.pattern"/>
+        </fileset>
+    </path>
+
+    <path id="clover.classpath">
+        <fileset dir="${tools.lib.dir}/clover">
+            <patternset refid="jar.pattern"/>
+        </fileset>
+    </path>
+
+    <path id="cobertura.classpath">
+        <fileset dir="${tools.lib.dir}/cobertura">
+            <patternset refid="jar.pattern"/>
+        </fileset>
+    </path>
+
+    <path id="junit.classpath">
+        <fileset dir="${tools.lib.dir}/junit">
+            <patternset refid="jar.pattern"/>
+        </fileset>
+    </path>
+
+    <path id="jmock.classpath">
+        <fileset dir="${tools.lib.dir}/jmock">
+            <patternset refid="jar.pattern"/>
+        </fileset>
+    </path>
+
+    <path id="checkstyle.classpath">
+        <fileset dir="${tools.lib.dir}/checkstyle">
+            <patternset refid="jar.pattern"/>
+        </fileset>
+    </path>
+
+    <path id="antcontrib.classpath">
+        <fileset dir="${tools.lib.dir}/antcontrib">
+            <patternset refid="jar.pattern"/>
+        </fileset>
+    </path>
+
+    <path id="groovy.classpath">
+        <fileset dir="${tools.lib.dir}/groovy">
+            <patternset refid="jar.pattern"/>
+        </fileset>
+    </path>
+
+    <taskdef resource="cloverlib.xml" classpathref="clover.classpath"/>
+    <taskdef resource="tasks.properties" classpathref="cobertura.classpath"/>
+    <taskdef resource="checkstyletask.properties" classpathref="checkstyle.classpath"/>
+    <taskdef resource="net/sf/antcontrib/antlib.xml" classpathref="antcontrib.classpath"/>
+    <taskdef name="groovy" classname="org.codehaus.groovy.ant.Groovy" classpathref="groovy.classpath"/>
+    <taskdef name="groovyc" classname="org.codehaus.groovy.ant.Groovyc" classpathref="groovy.classpath"/>
+
+    <target name="ignore"/>
+
+    <tstamp>
+        <format property="build.date" pattern="yyyyMMdd HH:mm:ss"/>
+    </tstamp>
+    <tstamp>
+        <format property="build.date.short" pattern="yyyyMMddHHmmss"/>
+    </tstamp>
+
+</project>

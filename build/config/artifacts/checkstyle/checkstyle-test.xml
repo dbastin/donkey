@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.2//EN" "http://www.puppycrawl.com/dtds/configuration_1_2.dtd"
+        [ <!ENTITY suppression-filter SYSTEM "file:build/config/checkstyle/checkstyle-suppression.xml">
+                <!ENTITY simian-check SYSTEM "file:build/config/checkstyle/checkstyle-simian.xml">
+                <!ENTITY common-rules SYSTEM "file:build/config/checkstyle/checkstyle-common.xml"> ]
+        >
+<module name="Checker">
+    &suppression-filter;
+    <module name="TreeWalker">
+        <property name="cacheFile" value="gen/checkstyle/checkstyle-test.cache"/>
+        &common-rules;
+        <module name="IllegalImport">
+            <!-- Use automocking instead. -->
+            <property name="illegalPkgs" value="org.jmock"/>
+        </module>
+    </module>
+    &simian-check;
+</module>

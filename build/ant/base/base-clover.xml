@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="base-clover" default="ignore">
+    <import file="base-init.xml"/>
+
+    <macrodef name="macro_instrument_clover">
+        <attribute name="test.type"/>
+        <attribute name="fileset.ref"/>
+        <sequential>
+            <clover-instr destdir="${coverage.src.dir}/@{test.type}" initstring="${coverage.db.dir}/@{test.type}_coverage">
+                <fileset refid="@{fileset.ref}"/>
+            </clover-instr>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_report_clover">
+        <attribute name="code.type"/>
+        <attribute name="test.type"/>
+        <attribute name="title" default="${project.name}"/>
+        <sequential>
+            <clover-html-report outdir="${coverage.reports.dir}/@{code.type}/@{test.type}"
+                                testresultsdir="${test.report.dir}/@{test.type}/xml"
+                                title="@{title}"
+                                initstring="${coverage.db.dir}/@{test.type}_coverage">
+            </clover-html-report>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_check_clover">
+        <attribute name="code.type"/>
+        <attribute name="test.type"/>
+        <attribute name="min.coverage" default="${min.coverage}"/>
+        <sequential>
+            <clover-check target="@{min.coverage}%"
+                          methodTarget="@{min.coverage}%"
+                          statementTarget="@{min.coverage}%"
+                          conditionalTarget="@{min.coverage}%" 
+                          initstring="${coverage.db.dir}/@{test.type}_coverage"
+                          failureProperty="coverage.@{code.type}.failed"
+                          haltOnFailure="true"/>
+        </sequential>
+    </macrodef>
+
+</project>

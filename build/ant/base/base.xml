@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="base" default="ignore">
+    <import file="base-init.xml"/>
+    <import file="base-misc.xml"/>
+    <import file="base-clover.xml"/>
+    <import file="base-cobertura.xml"/>
+    <import file="base-compile.xml"/>
+    <import file="base-artifacts.xml"/>
+    <import file="base-checkstyle.xml"/>
+    <import file="base-test.xml"/>
+    <import file="base-package.xml"/>
+    <import file="base-resources.xml"/>
+    <import file="base-util.xml"/>
+    <import file="base-sweeper.xml"/>
+</project>

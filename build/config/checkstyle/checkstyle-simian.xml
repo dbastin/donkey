@@ -1,0 +1,5 @@
+<module name="au.com.redhillconsulting.simian.SimianCheck">
+    <property name="threshold" value="4"/>
+    <property name="language" value="java"/>
+    <property name="ignoreBlocks" value="SIMIAN OFF:SIMIAN ON"/>
+</module>

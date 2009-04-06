@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="base-compile" default="ignore">
+    <import file="base-init.xml"/>
+
+    <macrodef name="macro_javac">
+        <attribute name="version"/>
+        <attribute name="srcdir"/>
+        <attribute name="destdir"/>
+        <attribute name="classpathref"/>
+        <attribute name="excludes" default="NO_EXCLUDES"/>
+        <sequential>
+            <mkdir dir="@{destdir}"/>
+            <property name="temp" refid="@{classpathref}"/>
+            <echo message="classpath: ${temp}"/>
+            <javac source="@{version}" target="@{version}" srcdir="@{srcdir}" destdir="@{destdir}"
+                   classpathref="@{classpathref}" excludes="@{excludes}" debug="true" includeantruntime="false"/>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_compile">
+        <attribute name="version"/>
+        <attribute name="src.type"/>
+        <sequential>
+            <macro_javac version="@{version}" srcdir="${@{src.type}.src.dir}" destdir="${@{src.type}.class.dir}"
+                         classpathref="@{src.type}.compile.classpath"/>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_compile_coverage">
+        <attribute name="test.type"/>
+        <sequential>
+            <macro_javac version="1.5"
+                         srcdir="${coverage.src.dir}/@{test.type}"
+                         destdir="${coverage.class.dir}/@{test.type}"
+                         classpathref="coverage.compile.classpath"/>
+        </sequential>
+    </macrodef>
+</project>

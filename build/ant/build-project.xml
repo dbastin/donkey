@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="project" default="ignore" basedir="../..">
+    <import file="build-init.xml"/>
+    <import file="build-quality.xml"/>
+    <import file="build-dist.xml"/>
+
+    <target name="-donkey" depends="-clean, artifacts, -donkey_quality, dist"/>
+    <target name="-distribution" depends="-clean, artifacts, -distribution_quality"/>
+</project>

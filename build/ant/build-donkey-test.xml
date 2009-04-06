@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="build-donkey-test" default="ignore" basedir="../..">
+    <import file="build-init.xml"/>
+    <import file="build-compile.xml"/>
+
+    <propertyset id="sysprops">
+        <propertyref builtin="commandline"/>
+        <propertyref name="log4j.configuration"/>
+    </propertyset>
+
+    <target name="-donkey_test_run" depends="-compile, -compile_coverage">
+        <macro_test test.types="donkey" sysprop.refid="sysprops"/>
+    </target>
+
+    <target name="-donkey_test_report">
+        <macro_junit_report test.types="donkey"/>
+    </target>
+
+    <target name="-donkey_test_check">
+        <macro_junit_check test.types="donkey"/>
+    </target>
+
+</project>

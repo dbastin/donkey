@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="base-util" default="ignore">
+
+    <macrodef name="macro_check_token_replace" description="Checks that all tokens of the form @TOKEN@ have been replaced in a file.">
+        <attribute name="file"/>
+        <sequential>
+            <loadfile srcfile="@{file}" property="@{file}.content"/>
+            <condition property="token.not.replaced">
+                <or>
+                    <matches string="${@{file}.content}" pattern="@.*@"/>
+                    <matches string="${@{file}.content}" pattern="\$\{.*\}"/>
+                </or>
+            </condition>
+            <fail if="token.not.replaced" message="Please ensure all tokens in @{file} are replaced!"/>
+        </sequential>
+    </macrodef>
+
+    <target name="update_runtime">
+        <cvs dest="${runtime.lib.dir}" command="update -C" failonerror="false"/>
+    </target>
+
+    <target name="ignore"/>
+</project>

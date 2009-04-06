@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="distribution" default="ignore" basedir="../..">
+    <import file="build-init.xml"/>
+    <import file="build-compile.xml"/>
+
+    <propertyset id="sysprops">
+        <propertyref builtin="commandline"/>
+        <propertyref name="log4j.configuration"/>
+    </propertyset>
+
+    <target name="-distribution_test_run" depends="-compile">
+        <macro_test test.types="distribution" sysprop.refid="sysprops"/>
+    </target>
+
+    <target name="-distribution_test_report">
+        <macro_junit_report test.types="distribution"/>
+    </target>
+
+    <target name="-distribution_test_check">
+        <macro_junit_check test.types="distribution"/>
+    </target>
+
+</project>

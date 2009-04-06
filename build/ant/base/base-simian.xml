@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="base-simian" default="ignore">
+    <import file="base-init.xml"/>
+
+    <property name="simian.code.types" value=""/>
+    <property name="simian.enforce.dupe.code.types" value=""/>
+    <property name="simian.enforce.lines.limit.code.types" value=""/>
+    <property name="simian.report.dir" location="${reports.dir}/simian"/>
+    <property name="simian.config.dir" location="${config.dir}/simian"/>
+
+    <target name="-simian_run">
+        <macro_run_and_report_simian code.types="${simian.code.types}"/>
+    </target>
+
+    <target name="-simian_check">
+        <macro_no_duplication code.types="${simian.code.types}"/>
+        <macro_simian_enforce_duplication code.types="${simian.enforce.dupe.code.types}"/>
+        <macro_simian_enforce_significant_lines_limit code.types="${simian.enforce.lines.limit.code.types}"/>
+    </target>
+
+    <macrodef name="macro_run_and_report_simian">
+        <attribute name="code.types"/>
+        <sequential>
+            <mkdir dir="${simian.report.dir}"/>
+            <for list="@{code.types}" param="code.type">
+                <sequential>
+                    <simian threshold="4"
+                            language="java"
+                            balanceParentheses="true"
+                            balanceSquareBrackets="true"
+                            failureProperty="simian.@{code.type}.failed"
+                            ignoreCurlyBraces="true">
+                        <fileset refid="simian.@{code.type}.code"/>
+                        <formatter type="xml" tofile="${simian.report.dir}/simian-@{code.type}.xml"/>
+                        <formatter type="plain"/>
+                    </simian>
+                    <xslt in="${simian.report.dir}/simian-@{code.type}.xml"
+                          out="${simian.report.dir}/simian-@{code.type}.html"
+                          style="${simian.config.dir}/simian.xsl"/>
+                </sequential>
+            </for>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_no_duplication">
+        <attribute name="code.types"/>
+        <sequential>
+            <for list="@{code.types}" param="code.type">
+                <sequential>
+                    <fail if="simian.@{code.type}.failed" message="Duplication found in @{code.type} code."/>
+                </sequential>
+            </for>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_simian_enforce_duplication">
+        <attribute name="code.types"/>
+        <sequential>
+            <for list="@{code.types}" param="code.type">
+                <sequential>
+                    <property name="quality.@{code.type}.duplication.limit" value="0"/>
+                    <echo message="------------------------------ DUPLICATION LIMIT IS ${quality.@{code.type}.duplication.limit}% ------------------------------"/>
+                    <xslt in="${simian.report.dir}/simian-@{code.type}.xml"
+                          out="${simian.report.dir}/simian-@{code.type}-IGNORE_1.html"
+                          style="${simian.config.dir}/simian-enforce-duplication-limit.xsl">
+                        <param name="duplication.limit" expression="${quality.@{code.type}.duplication.limit}"/>
+                    </xslt>
+                </sequential>
+            </for>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_simian_enforce_significant_lines_limit">
+        <attribute name="code.types"/>
+        <sequential>
+            <for list="@{code.types}" param="code.type">
+                <sequential>
+                    <property name="quality.@{code.type}.significant.lines.limit" value="0"/>
+                    <echo message="------------------------------- LINE LIMIT IS ${quality.@{code.type}.significant.lines.limit} -------------------------------"/>
+                    <xslt in="${simian.report.dir}/simian-@{code.type}.xml"
+                          out="${simian.report.dir}/simian-@{code.type}-IGNORE_2.html"
+                          style="${simian.config.dir}/simian-enforce-significant-lines-limit.xsl">
+                        <param name="significant.lines.limit" expression="${quality.@{code.type}.significant.lines.limit}"/>
+                    </xslt>
+                </sequential>
+            </for>
+        </sequential>
+    </macrodef>
+</project>

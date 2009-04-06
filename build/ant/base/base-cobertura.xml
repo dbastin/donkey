@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="base-cobertura" default="ignore">
+    <import file="base-init.xml"/>
+
+    <macrodef name="macro_instrument_cobertura">
+        <attribute name="code.type"/>
+        <attribute name="test.type"/>
+        <sequential>
+            <mkdir dir="${coverage.class.dir}/@{test.type}"/>
+            <cobertura-instrument todir="${coverage.class.dir}/@{test.type}"
+                                  datafile="${coverage.db.dir}/@{test.type}_coverage.ser">
+                <fileset dir="${classes.dir}/@{code.type}">
+                    <include name="**/*.class"/>
+                </fileset>
+            </cobertura-instrument>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_report_cobertura">
+        <attribute name="code.type"/>
+        <attribute name="test.type"/>
+        <sequential>
+            <mkdir dir="${coverage.reports.dir}/@{code.type}/@{test.type}"/>
+            <cobertura-report destdir="${coverage.reports.dir}/@{code.type}/@{test.type}"
+                              datafile="${coverage.db.dir}/@{test.type}_coverage.ser">
+                <fileset dir="${@{code.type}.src.dir}" includes="**/*.java"/>
+            </cobertura-report>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_check_cobertura">
+        <attribute name="code.type"/>
+        <attribute name="test.type"/>
+        <attribute name="min.branch.coverage" default="${min.coverage}"/>
+        <attribute name="min.line.coverage" default="${min.coverage}"/>
+        <sequential>
+            <cobertura-check totalbranchrate="@{min.branch.coverage}" totallinerate="@{min.line.coverage}"
+                             failureproperty="coverage.@{code.type}.failed" haltonfailure="true"
+                             datafile="${coverage.db.dir}/@{test.type}_coverage.ser"/>
+        </sequential>
+    </macrodef>
+</project>

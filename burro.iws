@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project relativePaths="false" version="4">
+  <component name="ChangeListManager">
+    <list default="true" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Payload.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/file/ReferenceInputFileNameProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultStriper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/cobertura/asm-tree-2.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/log/Slf4jLogEngineAtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/SplittingPush.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/slf4j/slf4j-log4j12-1.5.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultFileStamper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/reports/trace" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/antcontrib/ant-contrib-1.0b3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/ErrorReport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummyPayload.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/PassThroughTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/com/tibco" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/junit-3.8.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirWatcherWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/operation/UpdateOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/marker/DistBasedir.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/CsvSlurper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/jtds-1.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/internals/DefaultServiceParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/InputFileNames.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/core/Slurper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/tibco/tibrvj-8.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/string/LineSorter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/string/DefaultStripper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/instance/DefaultOverrider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/TibcoDispatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/cake/Bakery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/TibcoPublisher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/InputDirName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/instance/DefaultInstanceOverrides.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/csv/WeakCsvSlurper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/log4j" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/harness" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultExpandingStringer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/api/log/DefaultLogs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/hsqldb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/tibco/TibrvMsgChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/commons-lang/commons-lang-2.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/mnemonic/DefaultMnemonicFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox/DefaultInboxFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/string/StringMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/ValueProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/error/DefaultTasterFailureMolecularTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/PushCoverageTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/DefaultDataHarness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/build-init.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/date/DateConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/process/CommandRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultSlice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/apache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/io/FileUtilsStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvTimer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/factory/DefaultLifecycleTibcoFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultConfigMapExpander.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/model/DefaultEnvironments.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/core" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/testcase/TsrTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/file/FileReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/log/Slf4jLogEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/stream/StreamChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/DefaultSqller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/DefaultDatabase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/Filler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sh/test/test.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/database/statement" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DatabaseSlurper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/InputTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/stream/StreamCheckingPollingBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/wire" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/LocalHost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/DefaultTestCsvStringer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/InputFileName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/dataset/IDataSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/SqlBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/SliceValueReplacer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/sql/DriverManagerStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/ErrorReportPukerAtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/block/WireConfigBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvMsg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/checkstyle/checkstyle-simian.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/constants" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/cake/DefaultStriperAtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/cake/DefaultTolerantBaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/instance/InstanceOverrideConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/DirectoryScanner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/date/DefaultDates.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox/DefaultLocalHost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/checkstyle/checkstyle-noframes-sorted.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/process/DefaultCommandController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/jmock/jmock-1.1.0-src.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/DefaultFileWizard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/BarfingSpitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/check/DefaultSliceChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/checker/UniqueCakeJudge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/error" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sh/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/DefaultStringStamper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DonkeyWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sh/prod" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/operation/InsertOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/testcase" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/stream/DefaultStreamChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/factory/TibcoFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/file/FileCheckingPollingBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/TokenUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Donkey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/DefaultTaster.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultConnectionPurveyor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/pdfbox" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/SpideredMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/core/LoggingMessageHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport/DefaultTibcoTransportFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/apache/commons/lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/javax/xml/parsers/SAXParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/time/DateUtilsStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/report/DefaultErrorReportFileWizard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/EmptyStringToDbNullListConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/layer/OverrideConfigLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/WeakConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/StartRunnable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/UnsupportedTypeException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config/TestTibcoWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/FileScribbler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/ssh/DefaultSsh.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/dataset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/ice/SqlIcer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/checkstyle/checkstyle-simian.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/api/log/LogRetriever.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/Sql.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/constants/WatcherConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/date" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/core" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/jmock/jmock-1.1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/file" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/ErrorDirName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/farmer/SafePush.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/operation/DatabaseOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/mnemonic/MnemonicBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/DatabaseNullCoverageTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/WrappingTrebuchet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/ant-launcher-1.7.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/Transform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/file/FileMetaSlurper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/io" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/enrich/DefaultEnrichChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/operation/DeleteOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco/Publisher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/directory/DefaultDirPoller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/ShiftyErrorAssistant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/csv/CommaSeparatedMapValues.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/suite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/type" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/StringTruncate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/javax/xml/parsers/SAXParserFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/snooze" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/IDatabaseConnectionProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/javax/xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/ConnectionPurveyor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/snooze/DefaultSnoozer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/commons-io/commons-io-1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/StreamGobbler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/farmer/SafePushAtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/file/InputFileNameProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherTestWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvDispatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/artifacts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/DatabaseDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/watcher/OperationManagerFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox/InboxFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/Stripes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/apache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultCakeFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultSlicer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/ant-1.7.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/DefaultConfigDrivenOutputFileWizard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/sql/Connection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/config/BadType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/wire/UtilitiesWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/DosFileReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base-underrides.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/io/FileInputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/DefaultFiller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/LongNameUnique.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/DefaultCsvReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/log/FileReaderLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/clover/clover.license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultStripes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/ExpandingStringer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/InstallSimulator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/instance" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/api/log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/check" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/checkstyle/checkstyle-edge.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/util" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/csv/DefaultWeakCsvSlurper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/text" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/date/NowUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/OutputExtension.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultSliceHydrater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/SingleResultQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/lang/ClassStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/env/DefaultDbParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/util/concurrent" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/IDatabaseTester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/ice" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/date/Dates.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/string/DefaultReplacer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/string/Replacer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/DefaultConfigClassMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/Mapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/constants/DbTestConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/file" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/Sqller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/checkstyle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/TestDatabaseWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/EmptyCakeException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/DatabaseUrl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/reports/trace/resources/report.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirWatcherWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/PropertiesLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/prefix/DefaultPrefixOverrides.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/process/DefaultCommandRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/inbox" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/expression" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/core/MessageHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/FileWizard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/build-donkey-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/internals" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/lang/Thread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/cake/DefaultPatissierAtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/log/LogCleaner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/DirWatcherStopper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/OutputDirName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/core" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/file/DefaultInputFileNameProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/enrich/DefaultEnrichCheckerEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/commons-io" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/block/BasedirBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/time/DateFormatUtilsStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/internals/ServiceParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/cake/TolerantBaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/dispatcher" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco/DefaultWireTap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/ConfigClassMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/boost" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/string/DefaultLineSorter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/io/InputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/DefaultDirectoryScanner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/DefaultSqlWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/log4j/log4j-1.2.15.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultErrorEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/ColumnMismatchException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/date/DefaultDatabaseDateConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/ErrorReportDirName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/layer/TokenReplaceLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/farmer/SafePushLoggingMolecularTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/csv/CommaSeparatedValues.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/env/DefaultLocalParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/checkstyle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/antcontrib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/DefaultTail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/poll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/DefaultSingleResultQueryCoverageTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/ice/SqlIcerSpitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/dom4j" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/ssh/DefaultScp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/model/ServiceStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/Slice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/java/lang/RuntimeStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/java/io" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/Patissier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-clover.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/directory" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultTestTrebuchet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/TemplateSliceExpander.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/suite/MolecularTestSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/core" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/clover" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/edge/DefaultEdgeMessageHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultCake.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sh/test/donkey.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/cake/DefaultBakery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/block/ReadOnly.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/wire/DefaultDna.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/log4j" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/file/ShiftingFileChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultCakeHydrater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/FileShifter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/core/DefaultConfigClassMapperCoverageTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/build-quality.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/cobertura/cobertura-1.9.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/reports/trace/resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/time" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/DbStringUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/groovy/sweeper/XmlFixReport.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/apache/commons" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/SplittingPushAtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/core/DefaultOverrides.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/jconn3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/AsyncDonkeyShell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/DefaultCsvSlurperEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sh/prod/donkey.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/PrimaryKeyColumnFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/dataset/csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/tibco/DefaultTibrvMsgChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/poll/PollingBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/ConfigLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/javax/xml/parsers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/process/CommandController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/apache/commons" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/TestTibcoDispatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/core" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/WrappingSqlWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/string/StringChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultInstallSimulator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/build-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/java/io/PrintWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/process" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/DatabasePassword.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/StringUtilsStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirWatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco/WireTap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/AsyncDirWatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/StringUnique.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/DataHarness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/database" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/checker/SuccessExpectation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/DefaultTestDirUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/file/DefaultFileExistsPoller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/DefaultTibcoPublisher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DatabaseNull.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/factory" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/pdfbox/pdmodel/PDDocument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/string" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/apache/commons/io" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/Querifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/ErrorAssistant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/file/DefaultPollingFileChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/sybase/jtds-1.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/net/InetAddressStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/SingleSliceCakeAugmenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordStringer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/dom4j/dom4j-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/logging" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-simian.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/HurlerAtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/javax" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/block" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/csv/DefaultHeaderPrependerAtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-artifacts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/jsch-0.1.39.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/boost/boost.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/BarfingSpitterTestWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/ErrorReportExtension.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/mnemonic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/block/DeleteDataBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/hsqldb/hsqldb.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/ErrorAssistants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/tibco/TibrvMsgCheckingPollingBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/TibcoWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/layer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/string/StringGroupFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/web/EnvironmentWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/log4j/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/dbunit/dbunit-2.3.0-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/stream" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/sql/ResultSetMetaData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/MapFlattener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/dataset/ITableMetaData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirWatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/CsvStringer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultValueProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultQueryRunnerEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/HeaderPrependingCsvReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/env/DbParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/groovy/sweeper/Fix.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-checkstyle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/Daemon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/CakeFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/DefaultColumns.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/xstream-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport/TibcoTransportFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/Cake.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/build-distribution-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/StringEscapeUtilsStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/apache/commons/io/IOUtilsStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/DefaultSqlIcerCoverageTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/FileConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/oracle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/interfacer/PausedTestResumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/database/statement/IBatchStatement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/DefaultFileScribbler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/marker/UsesHarness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/util/concurrent/BlockingQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/string" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-init.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/ssh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/ant-junit-1.7.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateSliceExpander.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/DatabaseOperator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ShiftySpitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/FileWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/util/concurrent/LinkedBlockingQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/java/io/ByteArrayOutputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/cobertura" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/enrich" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport/TibcoTransport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport/DefaultTibcoTransport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/type/Basedir.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/report/ErrorReportFileWizard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/burro.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/internals/SshContextFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/tibco.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/date" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-cobertura.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/checkstyle/checkstyle-all-4.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/tibco/TibrvMsgHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/DatabaseNullConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultExecutive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/DefaultStringTruncate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/file/DefaultFileReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/io/FileReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/DefaultQuerifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/prefix/PrefixOverrides.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/sql/Statement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/cobertura/asm-2.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/csv/DefaultCommaSeparatedValues.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/OutputTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/watcher" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/ssh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/Columns.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/Service.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/TimeStampCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/ice/DefaultSqlIcer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/pdfbox/util/PDFTextStripper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-package.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultSingleResultQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/io/FileWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/checkstyle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/date/DateTruncator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Crank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/text/SimpleDateFormat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/dataset/Column.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/farmer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/instance/Overrider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/groovy-all-1.6.0-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/harness/Harness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/DefaultTibcoDispatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/expression/DefaultDatabaseExpressionEvaluator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/currency/DefaultDollars.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/TibcoDispatcherFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/checker/FailureExpectation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/DefaultFieldConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/api" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/DefaultReplace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sh/test/listener" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/checkstyle/checkstyle-common.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultQueryRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/date/DefaultDateConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/wire/Dna.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvRvdTransport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/watcher/DefaultOperationManagerFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/block/OverrideConfigBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/TestTrebuchet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultWrappingTrebuchet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/clover/clover.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/string/DefaultStringGroupFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/enrich/EnrichChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/WhereClauseBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/Executive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/servlet-api-2.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/build-coverage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/Frequency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/dbunit/dbunit-2.3.0-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/log/FileScribblerLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/DefaultTibcoDispatcherFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/file/PollingFileChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/junit/junit-4.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/directory/DirPoller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/model/Environment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/CsvSpitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/logging/slf4j-log4j12-1.5.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/log/TasterLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/burro.ipr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/DefaultConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/groovy/sweeper/FileContentProcessor.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DatabaseConnectionProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/logging/slf4j-api-1.5.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/SqlWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/pdfbox/util" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/checkstyle/checkstyle-suppression.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base-overrides.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/Icer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/checkstyle/checkstyle-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/CakeAugmenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/DonkeyLoggingWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/api/log/Logs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/groovy/sweeper/Paleontologist.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/common/TibcoConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/cake/StubSlice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/block/MasterDatabaseProtectionException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/groovy-all-1.6.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/Tail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/DefaultWeakConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/file/FileExistsPoller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/prefix" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/checkstyle/checkstyle-suppression.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultDonkeyShell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/type" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/au/com/bytecode/opencsv/CSVReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/wire" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/CakeHydrater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/string/DefaultStringMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/check/DefaultSliceCheckerAtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/Replace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/process/CommandRunnerMolecularTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/core/SpitterWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/poll/DefaultPoller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/io/BufferedWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/operation" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/slf4j" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedRecordDefinition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/jline-0.9.94.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/core/ApplyOverrides.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/DefaultGargler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/Database.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/junit/junit-4.5-src.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/burro.iws" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/DefaultMapFlattener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/layer/CsvThrottlerLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/DefaultFileComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/TransformException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultTrebuchet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/core/Spitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherFailureMolecularTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/checkstyle/checkstyle-prod.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/Tokenizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/ReplacingSpitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/distributor/Distributor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/DefaultTokenUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/web/SniperOverridesWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/currency/CurrencyUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/DefaultDosFileReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/FileUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/jmock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox/Inbox.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/reports" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/au/com/bytecode/opencsv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultPatissier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultPropertiesLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/FieldConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/checkstyle/checkstyle-noframes-sorted.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/QueryException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/DatabaseUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/TransformClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/layer/SybaseThrottlingLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/au/com/bytecode" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordSpitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/edge" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/internals/DefaultSshContextFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/expression/DefaultDatabaseExpressionResolver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/interfacer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/TransformConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/ssh/SshContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/tibco" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/DefaultPukerAtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/core/HandledException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/cake/SliceCoverageTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/slf4j/LoggerFactoryStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/log/LogWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/TestDirUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/common" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/DefaultDatabaseNullConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/layer/OracleThrottlingLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/java/lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/DefaultDbStringUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/commons-logging-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/csv/DefaultCommaSeparatedMapValues.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/net" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DonkeyShell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/slf4j/slf4j-api-1.5.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/dbunit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/checkstyle/simian-2.2.24.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/DefaultStreamGobbler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/junit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/file/DefaultFileChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/DefaultFileWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/TemplateCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/Gargler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/FileComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultCrank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/dataset/ITable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/file" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/cake/MultiSliceCakeAugmenterCoverageTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/StringStamper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultWhereClauseBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/ssh/DefaultSshContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ConfigDrivenOutputFileWizard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/DefaultDbScriptRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/oracle/ojdbc14.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/Slicer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/api/log/DefaultLogRetriever.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/TestFileUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/exception/MissingExpectationException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/web/TsrTestWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/edge/EdgeMessageHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/UniqueFileWizard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/DefaultXmlSliceCleaner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/sybase" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-resources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/ssh/DefaultSshOk.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/ssh/SshOk.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/checker/DefaultMnemonicMan.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/database/statement/IStatementFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-util.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultAntRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/WrappingSqlBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/cake/CakeCoverageTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/checkstyle/checkstyle-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/apache/commons/lang/RandomStringUtilsStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/date" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/io" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/marker/OverridesConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/Puker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/checkstyle/checkstyle-prod.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/snooze/Snoozer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultConfigLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/log/LoaderLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/ConfigMapExpander.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/DefaultLocalHost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultAsyncDonkeyShell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/TestCsvStringer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/DefaultCachingProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config/TibcoParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/java/sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/build-dist.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/database/IDatabaseConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/groovy/sweeper/FixSweeper.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/currency/Dollars.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/date" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/date/DefaultDateTruncator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/DuplicateColumnException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/date/DatabaseDateConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/OutputName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvTransport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/XmlSliceCleaner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/wire/DefaultConfigRegistrar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/CsvSlurperEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/pdfbox/pdmodel" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/env/TestTokens.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/mnemonic/DefaultMnemonicBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/slf4j/Logger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/marker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/poll/Poller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/report" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/core" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/date/DefaultNowUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/java/lang/Runtime.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/ErrorEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/DefaultWrappingSqlWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/CsvReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/bsf-2.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/env/DefaultTestTokens.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirWatcherWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco/DefaultPublisher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/string/DefaultStringChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/config/SqlContextSpitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultSqlBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/jsp-api-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/dbunit/dbunit-2.3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/Transforms.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/file/FileExistsPollingBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/InconsistentSliceException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/distributor" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/groovy/sweeper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/marker/Enriched.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/ConfigWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/groovy/sweeper/LineProcessor.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/DefaultStringUnique.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/io/DefaultTestFileUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/pdfbox/pdmodel/PDDocumentStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/ivy-2.0.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/NoResultsException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/au/com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultSliceReplicator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/TemplateSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/block/InsertDataBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/FeedingDonkey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/enrich/EnrichCheckerEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultCsvStringer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/dispatcher/DefaultTibcoDispatcherAtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/ConnectionCacheWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/QueryRunnerEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/block/TsrTestLifecycleBlocks.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/Taster.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/cobertura/jakarta-oro-2.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/DefaultDatabaseOperator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/TibrvTransportControl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/ControlQueryRunnerEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/DefaultSliceValueReplacer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/checker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/DefaultTibrvTransportControl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/string/Stripper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/MissingValueException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/expression/InvalidExpressionException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/build-project.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/text/DateFormat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/ShortNameUnique.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/WatchInterval.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/inbox/ContextualInboxFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/currency" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/currency/DefaultCurrencyUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config/DefaultTestTibcoWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/ListConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/au" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/tokens" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/ant-jcsh-1.7.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/farmer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/log/DefaultLogCleaner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/io/FileStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultFileUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/Striper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/util/Properties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/model/Service.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/marker/Nameable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/expression/DatabaseExpressionEvaluator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/env" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/java/io/OutputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/Templator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/text/MessageFormatStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/core" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/DefaultErrorAssistants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultFileShifter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/DefaultTokenizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/org/slf4j" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/commons-cli-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/type/Occurence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/FileStamper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/DefaultPrimaryKeyColumnFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/DefaultDirWatcherStopper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/Network.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/MultiSliceCakeAugmenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/tibco/tibrvj-7.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/checker/DefaultUniqueCakeJudge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/HeaderPrepender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/checkstyle/checkstyle-edge.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/WatchingDonkey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/tibco" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultTimeStampCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/artifacts/show.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/logging/log4j-1.2.15.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Trebuchet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/expression/UnsupportedDatabaseException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/checker/MnemonicMan.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/web" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox/LocalHost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/runtime/commons-lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/file/FileChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/cake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/DefaultPuker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/DefaultListConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/factory/LifecycleTibcoFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/instance/InstanceOverrides.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/org/dbunit/dataset/csv/CsvDataSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/model/Status.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/TransportMolecularTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/core/Overrides.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/ResultSetExpandingStringer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/farmer/SingleFilePush.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/ErrorReportPuker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/config/override/prefix/PrefixingConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/edge/java/sql/ResultSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/expression/DatabaseExpressionResolver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/SliceReplicator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/DefaultFixedWidthRecordStringer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/DefaultHeaderPrepender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/constants/TestConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Wirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/wire/ConfigRegistrar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/ssh/Scp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/check/SliceChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/groovy/groovy-xmlrpc-0.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config/DefaultTibcoParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/utils/ssh/Ssh.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/cobertura/log4j-1.2.9.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/dbunit/DbScriptRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/web/IConnectionCacheWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/mnemonic/MnemonicFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/exception" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/FilePuller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/ShiftyErrorAssistants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultConfigWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/env/EnvPropertyGetter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/util/distributor/DefaultDistributor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/AntRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/core/AugmentingSlurper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/QueryRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Sling.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/CompositeTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/checkstyle/checkstyle-common.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/CompletedDirname.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/CachingProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/shed/model/Environments.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/base/base-sweeper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/interfaces/common/checker/IncomingExpectation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/check" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/directory/DirectoryPollingBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/edge/javax/xml/parsers/SAXParserFactoryStatic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/Config.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/SliceHydrater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/log/FileMovingLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/env/LocalParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher" />
+    </list>
+    <ignored path="burro.iws" />
+    <ignored path=".idea/workspace.xml" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+    <option name="REVERSE_PATCH" value="false" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="HIDE_WARNINGS" value="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="burro" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DefaultConfigClassMapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/DefaultConfigClassMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.3883495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="donkey.bat" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sh/test/donkey.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="donkey.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sh/prod/donkey.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.5970149">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Daemon.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/Daemon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.14563107">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultConfigClassMapperCoverageTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/config/core/DefaultConfigClassMapperCoverageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.07281554">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-overrides.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/ant/base-overrides.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="53" selection-start="279" selection-end="279" vertical-scroll-proportion="0.10016695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/config/log4j/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkstyle-simian.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/config/checkstyle/checkstyle-simian.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkstyle-test.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/config/checkstyle/checkstyle-test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-coverage.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-clover.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/ant/base/base-clover.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.10445205">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="SORT_ALPHABETICALLY" value="false" />
+    <option name="HIDE_CLASSES_WHERE_METHOD_NOT_IMPLEMENTED" value="false" />
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectPane">
+    <subPane>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/sh" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/sh/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/sh" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/sh/prod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build/config" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build/ant" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </subPane>
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="0.16666667" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <showStructure ProjectPane="false" />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="Regex">
+    <option name="pos1" value="218" />
+    <option name="pos2" value="218" />
+    <option name="pos3" value="162" />
+    <option name="pos4" value="444" />
+    <option name="pos5" value="162" />
+    <option name="autoUpdate" value="true" />
+    <option name="referenceOn" value="false" />
+    <option name="referencePos" value="0" />
+    <option name="showLabels" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <method>
+        <option name="Make" value="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="true" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
+    <option name="ACTIVE_ACTIONS" value="" />
+  </component>
+  <component name="SvnConfiguration">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="UPDATE_RUN_STATUS" value="false" />
+    <option name="UPDATE_RECURSIVELY" value="true" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <configuration useDefault="true">/home/tsrdev/.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-5" y="25" width="1930" height="1154" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" order="1" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" order="1" />
+      <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="3" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935324" order="8" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
+      <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" order="0" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="2" />
+      <window_info id="DBOutput" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="5" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="0" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
+      <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="4" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="true" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <antCommandLine value="" />
+      <runInBackground value="true" />
+      <targetFilters>
+        <filter targetName="-binary_jar" isVisible="false" />
+        <filter targetName="-checkstyle" isVisible="false" />
+        <filter targetName="-checkstyle_check" isVisible="false" />
+        <filter targetName="-checkstyle_run" isVisible="false" />
+        <filter targetName="-clean" isVisible="false" />
+        <filter targetName="-compile" isVisible="false" />
+        <filter targetName="-compile_coverage" isVisible="false" />
+        <filter targetName="-coverage_check" isVisible="false" />
+        <filter targetName="-coverage_report" isVisible="false" />
+        <filter targetName="-distribution" isVisible="false" />
+        <filter targetName="-distribution_quality" isVisible="false" />
+        <filter targetName="-distribution_test_check" isVisible="false" />
+        <filter targetName="-distribution_test_report" isVisible="false" />
+        <filter targetName="-distribution_test_run" isVisible="false" />
+        <filter targetName="-donkey" isVisible="false" />
+        <filter targetName="-donkey_quality" isVisible="false" />
+        <filter targetName="-donkey_quality-prep" isVisible="false" />
+        <filter targetName="-donkey_quality_check" isVisible="false" />
+        <filter targetName="-donkey_quality_report" isVisible="false" />
+        <filter targetName="-donkey_quality_run" isVisible="false" />
+        <filter targetName="-donkey_test_check" isVisible="false" />
+        <filter targetName="-donkey_test_report" isVisible="false" />
+        <filter targetName="-donkey_test_run" isVisible="false" />
+        <filter targetName="-instrument" isVisible="false" />
+        <filter targetName="-jar" isVisible="false" />
+        <filter targetName="-source_jar" isVisible="false" />
+        <filter targetName="-success" isVisible="false" />
+        <filter targetName="-zip" isVisible="false" />
+        <filter targetName="artifacts" isVisible="false" />
+        <filter targetName="checkstyle" isVisible="false" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="compile" isVisible="false" />
+        <filter targetName="dist" isVisible="false" />
+        <filter targetName="distribution" isVisible="false" />
+        <filter targetName="donkey" isVisible="true" />
+        <filter targetName="donkey_dist" isVisible="false" />
+        <filter targetName="ignore" isVisible="false" />
+        <filter targetName="resources" isVisible="false" />
+        <filter targetName="sweep" isVisible="false" />
+        <filter targetName="unzip" isVisible="false" />
+        <filter targetName="update_runtime" isVisible="false" />
+      </targetFilters>
+      <treeView value="true" />
+      <verbose value="true" />
+      <viewClosedWhenNoErrors value="false" />
+    </buildFile>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/DefaultConfigClassMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.3883495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sh/test/donkey.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sh/prod/donkey.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.5970149">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/Daemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.14563107">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/config/core/DefaultConfigClassMapperCoverageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.07281554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/base-overrides.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="53" selection-start="279" selection-end="279" vertical-scroll-proportion="0.10016695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/config/log4j/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/config/checkstyle/checkstyle-simian.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/config/checkstyle/checkstyle-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/base/base-clover.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.10445205">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="quality" default="ignore" basedir="../..">
+    <import file="build-init.xml"/>
+    <import file="build-donkey-test.xml"/>
+    <import file="build-distribution-test.xml"/>
+    <import file="build-coverage.xml"/>
+
+    <target name="-checkstyle" depends="-checkstyle_run,-checkstyle_check"/>
+
+    <target name="-donkey_quality" depends="-donkey_quality_run, -donkey_quality_report, -donkey_quality_check"/>
+    <target name="-donkey_quality-prep" depends="-checkstyle, -instrument"/>
+    <target name="-donkey_quality_run" depends="-donkey_quality-prep, -donkey_test_run"/>
+    <target name="-donkey_quality_report" depends="-donkey_test_report, -coverage_report"/>
+    <target name="-donkey_quality_check" depends="-donkey_test_check, -coverage_check"/>
+
+    <target name="-distribution_quality" depends="-distribution_test_run, -distribution_test_report, -distribution_test_check"/>
+</project>

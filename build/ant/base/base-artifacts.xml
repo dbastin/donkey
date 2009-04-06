@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="base-artifacts" default="ignore">
+    <import file="base-init.xml"/>
+
+    <fileset id="artifacts.fileset" dir="${artifacts.template.dir}">
+        <include name="**/*"/>
+    </fileset>
+
+    <filterset id="artifacts.filterset">
+        <filter token="BUILD_DATE" value="${build.date}"/>
+        <filter token="BUILD_NAME" value="${build.name}"/>
+        <filter token="DIST_JAR_NAME" value="${dist.jar.name}"/>
+    </filterset>
+
+    <target name="artifacts">
+        <macro_artifacts/>
+    </target>
+
+    <macrodef name="macro_artifacts">
+        <attribute name="artifacts.dir" default="${artifacts.dir}"/>
+        <attribute name="artifacts.fileset" default="artifacts.fileset"/>
+        <attribute name="artifacts.filterset" default="artifacts.filterset"/>
+        <sequential>
+            <copy todir="@{artifacts.dir}">
+                <fileset refid="@{artifacts.fileset}"/>
+                <filterset refid="@{artifacts.filterset}"/>
+            </copy>
+        </sequential>
+    </macrodef>
+
+</project>
+

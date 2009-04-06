@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="base-package" default="ignore">
+    <import file="base-init.xml"/>
+
+    <target name="-jar" depends="-binary_jar, -source_jar"/>
+
+    <target name="-binary_jar">
+        <macro_get_jar_list list="jar.list" fileset.prefix="jar"/>
+        <macro_jars list="${jar.list}" fileset.prefix="jar"/>
+    </target>
+
+    <target name="-source_jar">
+        <macro_get_jar_list list="jar.src.list" fileset.prefix="jar\.src"/>
+        <macro_jars list="${jar.src.list}" fileset.prefix="jar.src" name.suffix="-src"/>
+    </target>
+
+
+    <macrodef name="macro_get_jar_list">
+        <attribute name="list"/>
+        <attribute name="fileset.prefix"/>
+        <sequential>
+            <propertyselector property="@{list}"
+                              delimiter=","
+                              match="@{fileset.prefix}\.([^\.]*)\.fileset.ids"
+                              select="\1"
+                              casesensitive="false"/>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_jars">
+        <attribute name="list"/>
+        <attribute name="fileset.prefix"/>
+        <attribute name="name.suffix" default=""/>
+        <sequential>
+            <for list="@{list}" param="name">
+                <sequential>
+                    <macro_jar fileset.ids="${@{fileset.prefix}.@{name}.fileset.ids}" build.jar.name="@{name}@{name.suffix}"/>
+                </sequential>
+            </for>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_jar">
+        <attribute name="fileset.ids"/>
+        <attribute name="build.jar.name"/>
+        <sequential>
+            <fail unless="vendor.name"/>
+            <mkdir dir="${jar.temp.dir}/@{build.jar.name}"/>
+            <for list="@{fileset.ids}" param="fileset.id">
+                <sequential>
+                    <copy todir="${jar.temp.dir}/@{build.jar.name}">
+                        <fileset refid="@{fileset.id}"/>
+                    </copy>
+                </sequential>
+            </for>
+            <mkdir dir="${jars.dir}"/>
+            <jar jarfile="${jars.dir}/@{build.jar.name}.jar" basedir="${jar.temp.dir}/@{build.jar.name}">
+                <manifest>
+                    <attribute name="Implementation-Title" value="${project.name}"/>
+                    <attribute name="Implementation-Version" value="${build.date}"/>
+                    <attribute name="Implementation-Vendor" value="${vendor.name}"/>
+                </manifest>
+            </jar>
+        </sequential>
+    </macrodef>
+</project>

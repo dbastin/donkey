@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="base-test" default="ignore">
+    <import file="base-init.xml"/>
+
+    <propertyset id="no.sys.props"/>
+
+    <macrodef name="macro_migration_test">
+        <attribute name="test.types"/>
+        <attribute name="sysprop.refid" default="no.sys.props"/>
+        <attribute name="xmx" default="1512m"/>
+        <attribute name="output.formatter" default="false"/>
+        <sequential>
+            <for list="@{test.types}" param="test.type">
+                <sequential>
+                    <if>
+                        <not>
+                            <isset property="refreshmigration.fail"/>
+                        </not>
+                        <then>
+                            <macro_test test.types="@{test.type}"
+                                        sysprop.refid="@{sysprop.refid}"
+                                        xmx="@{xmx}"
+                                        output.formatter="@{output.formatter}"/>
+                        </then>
+                    </if>
+                </sequential>
+            </for>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_test">
+        <attribute name="test.types"/>
+        <attribute name="code.type" default="not_used"/>
+        <attribute name="sysprop.refid" default="no.sys.props"/>
+        <attribute name="working.dir" default="${basedir}"/>
+        <attribute name="xms" default="64m"/>
+        <attribute name="xmx" default="1256m"/>
+        <attribute name="output.formatter" default="true"/>
+        <sequential>
+            <for list="@{test.types}" param="test.type">
+                <sequential>
+                    <macro_junit_run tests.refid="@{test.type}.tests"
+                                     code.type="@{code.type}"
+                                     test.type="@{test.type}"
+                                     sysprop.refid="@{sysprop.refid}"
+                                     working.dir="@{working.dir}"
+                                     xms="@{xms}"
+                                     xmx="@{xmx}"
+                                     output.formatter="@{output.formatter}"/>
+                </sequential>
+            </for>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_junit_report">
+        <attribute name="test.types"/>
+        <sequential>
+            <for list="@{test.types}" param="test.type">
+                <sequential>
+                    <junitreport todir="${test.report.dir}" tofile="TestReport.xml">
+                        <fileset dir="${test.report.dir}/@{test.type}/xml">
+                            <include name="TEST-*.xml"/>
+                        </fileset>
+                        <report format="frames" todir="${test.report.dir}/@{test.type}"/>
+                    </junitreport>
+                </sequential>
+            </for>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_junit_migration_report">
+        <attribute name="test.types"/>
+        <attribute name="test.suite.pattern"/>
+        <sequential>
+            <for list="@{test.types}" param="test.type">
+                <sequential>
+                    <junitreport todir="${test.report.dir}/@{test.type}" tofile="TestReport.xml">
+                        <fileset dir="${test.report.dir}/@{test.type}/xml">
+                            <include name="TEST-*.xml"/>
+                        </fileset>
+                    </junitreport>
+                </sequential>
+            </for>
+            <report_migration_junit_reports test.suite.pattern="@{test.suite.pattern}"/>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="report_migration_junit_reports">
+        <attribute name="test.suite.pattern"/>
+        <sequential>
+            <junitreport>
+                <fileset dir="${test.report.dir}">
+                    <include name="*migration/xml/TEST-*@{test.suite.pattern}.xml"/>
+                </fileset>
+                <report format="frames" todir="${test.report.dir}/migration"/>
+            </junitreport>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_junit_check">
+        <attribute name="test.types"/>
+        <sequential>
+            <for list="@{test.types}" param="test.type">
+                <sequential>
+                    <fail if="@{test.type}.fail" message="One or more tests failed [@{test.type}]."/>
+                </sequential>
+            </for>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="macro_junit_run">
+        <attribute name="tests.refid"/>
+        <attribute name="code.type"/>
+        <attribute name="test.type"/>
+        <attribute name="sysprop.refid"/>
+        <attribute name="working.dir"/>
+        <attribute name="xms"/>
+        <attribute name="xmx"/>
+        <attribute name="output.formatter"/>
+        <sequential>
+            <mkdir dir="${test.report.dir}/@{test.type}/xml"/>
+            <junit fork="true" forkmode="once" printSummary="true" haltonfailure="false"
+                   failureproperty="@{test.type}.fail" dir="@{working.dir}" includeantruntime="false"
+                   outputtoformatters="@{output.formatter}">
+                <jvmarg value="-server"/>
+                <jvmarg value="-Xms@{xms}"/>
+                <jvmarg value="-Xmx@{xmx}"/>
+                <!-- The two GC options are causing errors on solaris -->
+                <!--<jvmarg value="-XX:-UseConcMarkSweepGC"/>-->
+                <!--<jvmarg value="-XX:+UseParNewGC"/>-->
+                <syspropertyset refid="@{sysprop.refid}"/>
+                <sysproperty key="net.sourceforge.cobertura.datafile"
+                             file="${coverage.db.dir}/@{test.type}_coverage.ser"/>
+                <classpath refid="@{test.type}.test.classpath"/>
+                <formatter type="xml"/>
+                <formatter type="plain"/>
+                <batchtest todir="${test.report.dir}/@{test.type}/xml">
+                    <fileset refid="@{tests.refid}"/>
+                </batchtest>
+            </junit>
+        </sequential>
+    </macrodef>
+
+</project>

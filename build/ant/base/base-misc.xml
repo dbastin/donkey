@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="base-misc" default="ignore">
+    <import file="base-init.xml"/>
+
+    <target name="-clean">
+        <delete dir="${gen.dir}"/>
+    </target>
+
+    <target name="-success">
+        <macro_spaces/>
+        <echo message="=========> Point your web browser at ${artifacts.dir} to see the build artifacts."/>
+        <macro_spaces/>
+    </target>
+
+    <macrodef name="macro_spaces">
+        <sequential>
+            <echo/>
+            <echo/>
+            <echo/>
+            <echo/>
+            <echo/>
+        </sequential>
+    </macrodef>
+</project>
