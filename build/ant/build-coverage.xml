@@ -10,16 +10,16 @@
     </fileset>
 
     <target name="-instrument">
-        <macro_instrument_clover test.type="donkey" fileset.ref="donkey.test.fileset"/>
-        <macro_instrument_clover test.type="donkey" fileset.ref="donkey.fileset"/>
+        <macro_instrument_cobertura test.type="donkey" fileset.ref="donkey.test.fileset"/>
+        <macro_instrument_cobertura test.type="donkey" fileset.ref="donkey.fileset"/>
     </target>
 
     <target name="-coverage_report">
-        <macro_report_clover code.type="prod" test.type="donkey"/>
+        <macro_report_cobertura code.type="prod" test.type="donkey"/>
     </target>
 
     <target name="-coverage_check">
-        <macro_check_clover code.type="prod" test.type="donkey" min.coverage="41.9%"/>
+        <macro_check_cobertura code.type="prod" test.type="donkey" min.coverage="42"/>
     </target>
 
 </project>
