@@ -36,14 +36,13 @@
         <path refid="junit.classpath"/>
         <path refid="jmock.classpath"/>
         <path refid="dbunit.classpath"/>
+        <path refid="hsqldb.classpath"/>
         <path refid="misc.classpath"/>
     </path>
 
     <path id="test.runtime.classpath">
         <path location="${test.class.dir}"/>
         <path refid="test.compile.classpath"/>
-        <path refid="sybase.classpath"/>
-        <path refid="hsqldb.classpath"/>
         <path refid="commons.classpath"/>
         <path refid="cobertura.classpath"/>
     </path>
@@ -69,31 +68,16 @@
 
     <fileset id="runtime.lib.jars" dir="${runtime.lib.dir}">
         <patternset refid="jar.pattern"/>
-        <exclude name="**/tibrvj-8.1.jar"/>
     </fileset>
 
-    <patternset id="donkey.test.pattern"
-                includes="**/*AtomicTest.java,**/*MolecularTest.java,**/*AcceptanceTest.java,**/*CoverageTest.java"/>
-
+    <patternset id="donkey.test.pattern" includes="**/*AtomicTest.java,**/*MolecularTest.java,**/*CoverageTest.java" excludes="**/tibco/**/*.java"/>
 
     <fileset id="donkey.tests" dir="${test.src.dir}">
         <patternset refid="donkey.test.pattern"/>
     </fileset>
 
-    <path id="boost.classpath">
-        <fileset dir="build/lib/runtime/boost">
-            <patternset refid="jar.pattern"/>
-        </fileset>
-    </path>
-
     <path id="dbunit.classpath">
         <fileset dir="${tools.lib.dir}/dbunit">
-            <patternset refid="jar.pattern"/>
-        </fileset>
-    </path>
-
-    <path id="sybase.classpath">
-        <fileset dir="${runtime.lib.dir}/sybase">
             <patternset refid="jar.pattern"/>
         </fileset>
     </path>

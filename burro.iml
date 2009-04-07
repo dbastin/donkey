@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/build/config/log4j" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/java/prod" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/java/stub" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/java/test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -13,7 +14,6 @@
       <library name="runtime">
         <CLASSES>
           <root url="file://$MODULE_DIR$/build/lib/runtime/commons-io" />
-          <root url="file://$MODULE_DIR$/build/lib/runtime/tibco" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/log4j" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/sybase" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/boost" />
@@ -21,7 +21,6 @@
           <root url="file://$MODULE_DIR$/build/lib/runtime/oracle" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/dom4j" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/commons-lang" />
-          <root url="file://$MODULE_DIR$/build/lib/runtime/tibco" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -33,7 +32,6 @@
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/oracle" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/slf4j" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/sybase" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/tibco" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">

@@ -24,8 +24,7 @@
             <include name="slf4j/slf4j-api-1.5.5.jar"/>
             <include name="slf4j/slf4j-log4j12-1.5.5.jar"/>
             <include name="sybase/jtds-1.2.2.jar"/>
-            <include if="os.linux" name="tibco/tibrvj-8.1.jar"/>
-            <include unless="os.linux" name="tibco/tibrvj-7.5.jar"/>
+            <include name="tibco/tibco.jar"/>
         </fileset>
     </path>
 

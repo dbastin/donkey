@@ -18,6 +18,6 @@
     </target>
 
     <target name="-coverage_check">
-        <macro_check_cobertura code.type="prod" test.type="donkey" min.coverage="42"/>
+        <macro_check_cobertura code.type="prod" test.type="donkey" min.coverage="31"/>
     </target>
 </project>
