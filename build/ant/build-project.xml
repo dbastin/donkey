@@ -4,6 +4,5 @@
     <import file="build-quality.xml"/>
     <import file="build-dist.xml"/>
 
-    <target name="-donkey" depends="-clean, artifacts, -donkey_quality, dist"/>
-    <target name="-distribution" depends="-clean, artifacts, -distribution_quality"/>
+    <target name="-donkey" depends="-clean, artifacts, -quality, dist"/>
 </project>

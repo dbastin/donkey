@@ -7,6 +7,4 @@
     <target name="clean" depends="-clean"/>
     <target name="checkstyle" depends="-checkstyle"/>
     <target name="donkey" depends="-donkey"/>
-    <target name="donkey_dist" depends="donkey, distribution"/>
-    <target name="distribution" depends="-distribution"/>
 </project>

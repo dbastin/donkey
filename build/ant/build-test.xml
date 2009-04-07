@@ -8,15 +8,15 @@
         <propertyref name="log4j.configuration"/>
     </propertyset>
 
-    <target name="-donkey_test_run" depends="-compile, -compile_coverage">
+    <target name="-test_run">
         <macro_test test.types="donkey" sysprop.refid="sysprops"/>
     </target>
 
-    <target name="-donkey_test_report">
+    <target name="-test_report">
         <macro_junit_report test.types="donkey"/>
     </target>
 
-    <target name="-donkey_test_check">
+    <target name="-test_check">
         <macro_junit_check test.types="donkey"/>
     </target>
 

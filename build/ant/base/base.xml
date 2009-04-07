@@ -11,5 +11,4 @@
     <import file="base-package.xml"/>
     <import file="base-resources.xml"/>
     <import file="base-util.xml"/>
-    <import file="base-sweeper.xml"/>
 </project>

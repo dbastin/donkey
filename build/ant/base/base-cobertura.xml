@@ -3,13 +3,15 @@
     <import file="base-init.xml"/>
 
     <macrodef name="macro_instrument_cobertura">
+        <attribute name="code.type"/>
         <attribute name="test.type"/>
-        <attribute name="fileset.ref"/>
         <sequential>
-            <mkdir dir="${coverage.src.dir}/@{test.type}"/>
-            <cobertura-instrument todir="${coverage.src.dir}/@{test.type}"
+            <mkdir dir="${coverage.class.dir}/@{test.type}"/>
+            <cobertura-instrument todir="${coverage.class.dir}/@{test.type}"
                                   datafile="${coverage.db.dir}/@{test.type}_coverage.ser">
-                <fileset refid="@{fileset.ref}"/>
+                <fileset dir="${classes.dir}/@{code.type}">
+                    <include name="**/*.class"/>
+                </fileset>
             </cobertura-instrument>
         </sequential>
     </macrodef>

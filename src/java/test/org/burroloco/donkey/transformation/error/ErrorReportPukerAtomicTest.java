@@ -37,5 +37,4 @@ public class ErrorReportPukerAtomicTest extends TsrTestCase implements LazyField
         subject.puke(slice, e);
         fileChecker.check(errorReport, ONCE, "random: \\{\\} for slice: \\{\\}");
     }
-
 }

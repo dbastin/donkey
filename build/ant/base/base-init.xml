@@ -4,7 +4,7 @@
         <format property="build.date" pattern="yyyyMMdd HH:mm:ss"/>
     </tstamp>
     <property name="build.name" value="build-dev"/>
-    <property name="project.name" value="TSR"/>
+    <property name="project.name" value="DONKEY"/>
     <property name="version" value="1.0"/>
     <property name="label" value="build.0"/>
     <property name="build.num" value="${label}"/>
@@ -33,9 +33,6 @@
     <property name="coverage.class.dir" location="${coverage.dir}/classes"/>
     <property name="jar.temp.dir" location="${gen.dir}/jar"/>
     <property name="dist.jar.name" value="${project.name}.jar"/>
-    <property name="sweeper.dir" value="${artifacts.dir}/sweep"/>
-    <property name="sweeper.fix.maxdays" value="7"/>
-    <property name="sweeper.fix.warndays" value="5"/>
     <property name="min.coverage" value="100"/>
 
     <patternset id="jar.pattern" includes="**/*.jar"/>
@@ -45,18 +42,6 @@
         <include name="**/*.java"/>
         <exclude name="**/*_Old.java"/>
         <exclude name="**/old/*"/>
-    </patternset>
-    <patternset id="sweeper.fix.pattern">
-        <exclude name='**/*.jar'/>
-        <exclude name="**/*.tar"/>
-        <exclude name="**/*.zip"/>
-        <exclude name="**/*.pkg"/>
-        <exclude name="**/*.jpg"/>
-        <exclude name="**/*.gif"/>
-        <exclude name="**/*.class"/>
-        <exclude name="**/lib/**"/>
-        <exclude name="**/gen/**"/>
-        <exclude name="**/ibuild/**"/>
     </patternset>
 
     <fileset id="jar.prod.code" dir="${prod.src.dir}">
@@ -85,10 +70,6 @@
 
     <fileset id="simian.test.code" dir="${test.src.dir}">
         <patternset refid="simian.pattern"/>
-    </fileset>
-
-    <fileset id="sweeper.fix.files" dir="${basedir}">
-        <patternset refid="sweeper.fix.pattern"/>
     </fileset>
 
     <path id="lib.runtime.classpath">
@@ -133,18 +114,10 @@
         </fileset>
     </path>
 
-    <path id="groovy.classpath">
-        <fileset dir="${tools.lib.dir}/groovy">
-            <patternset refid="jar.pattern"/>
-        </fileset>
-    </path>
-
     <taskdef resource="cloverlib.xml" classpathref="clover.classpath"/>
     <taskdef resource="tasks.properties" classpathref="cobertura.classpath"/>
     <taskdef resource="checkstyletask.properties" classpathref="checkstyle.classpath"/>
     <taskdef resource="net/sf/antcontrib/antlib.xml" classpathref="antcontrib.classpath"/>
-    <taskdef name="groovy" classname="org.codehaus.groovy.ant.Groovy" classpathref="groovy.classpath"/>
-    <taskdef name="groovyc" classname="org.codehaus.groovy.ant.Groovyc" classpathref="groovy.classpath"/>
 
     <target name="ignore"/>
 

@@ -4,37 +4,13 @@
 
     <propertyset id="no.sys.props"/>
 
-    <macrodef name="macro_migration_test">
-        <attribute name="test.types"/>
-        <attribute name="sysprop.refid" default="no.sys.props"/>
-        <attribute name="xmx" default="1512m"/>
-        <attribute name="output.formatter" default="false"/>
-        <sequential>
-            <for list="@{test.types}" param="test.type">
-                <sequential>
-                    <if>
-                        <not>
-                            <isset property="refreshmigration.fail"/>
-                        </not>
-                        <then>
-                            <macro_test test.types="@{test.type}"
-                                        sysprop.refid="@{sysprop.refid}"
-                                        xmx="@{xmx}"
-                                        output.formatter="@{output.formatter}"/>
-                        </then>
-                    </if>
-                </sequential>
-            </for>
-        </sequential>
-    </macrodef>
-
     <macrodef name="macro_test">
         <attribute name="test.types"/>
         <attribute name="code.type" default="not_used"/>
         <attribute name="sysprop.refid" default="no.sys.props"/>
         <attribute name="working.dir" default="${basedir}"/>
         <attribute name="xms" default="64m"/>
-        <attribute name="xmx" default="1256m"/>
+        <attribute name="xmx" default="1024m"/>
         <attribute name="output.formatter" default="true"/>
         <sequential>
             <for list="@{test.types}" param="test.type">
@@ -65,35 +41,6 @@
                     </junitreport>
                 </sequential>
             </for>
-        </sequential>
-    </macrodef>
-
-    <macrodef name="macro_junit_migration_report">
-        <attribute name="test.types"/>
-        <attribute name="test.suite.pattern"/>
-        <sequential>
-            <for list="@{test.types}" param="test.type">
-                <sequential>
-                    <junitreport todir="${test.report.dir}/@{test.type}" tofile="TestReport.xml">
-                        <fileset dir="${test.report.dir}/@{test.type}/xml">
-                            <include name="TEST-*.xml"/>
-                        </fileset>
-                    </junitreport>
-                </sequential>
-            </for>
-            <report_migration_junit_reports test.suite.pattern="@{test.suite.pattern}"/>
-        </sequential>
-    </macrodef>
-
-    <macrodef name="report_migration_junit_reports">
-        <attribute name="test.suite.pattern"/>
-        <sequential>
-            <junitreport>
-                <fileset dir="${test.report.dir}">
-                    <include name="*migration/xml/TEST-*@{test.suite.pattern}.xml"/>
-                </fileset>
-                <report format="frames" todir="${test.report.dir}/migration"/>
-            </junitreport>
         </sequential>
     </macrodef>
 

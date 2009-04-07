@@ -5,13 +5,6 @@
     <target name="-compile">
         <macro_compile version="1.5" src.type="prod"/>
         <macro_compile version="1.5" src.type="test"/>
-        <groovy_compile src.type="test" />
     </target>
-
-    <target name="-compile_coverage">
-        <macro_compile_coverage test.type="donkey"/>
-    </target>
-
-    <target name="compile" depends="-compile"/>
 
 </project>

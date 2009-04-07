@@ -12,7 +12,7 @@
     <property name="log4j.configuration" value="file:build/config/log4j/log4j.properties"/>
 
     <property name="artifacts.logs.dir" location="${artifacts.dir}/logs"/>
-    <property name="groovy.tools.dir" location="${tools.lib.dir}/groovy"/>
+    <property name="misc.tools.dir" location="${tools.lib.dir}/misc"/>
     <property name="script.src.dir" location="src/sh/prod"/>
     <property name="prod.config.dir" location="config"/>
     <property name="webtest.tools.dir" location="${tools.lib.dir}/webtest"/>
@@ -36,25 +36,13 @@
         <path refid="junit.classpath"/>
         <path refid="jmock.classpath"/>
         <path refid="dbunit.classpath"/>
-        <path refid="groovy.classpath"/>
-    </path>
-
-    <path id="test.groovy.compile.classpath">
-        <path refid="test.compile.classpath"/>
-    </path>
-
-    <path id="coverage.compile.classpath">
-        <path refid="prod.compile.classpath"/>
-        <path refid="test.compile.classpath"/>
-        <path refid="clover.classpath"/>
-        <path location="${test.class.dir}"/>
+        <path refid="misc.classpath"/>
     </path>
 
     <path id="test.runtime.classpath">
-        <path refid="clover.classpath"/>
+        <!--<path refid="cobertura.classpath"/>-->
         <path location="${test.class.dir}"/>
         <path refid="test.compile.classpath"/>
-        <path refid="logging.classpath"/>
         <path refid="sybase.classpath"/>
         <path refid="hsqldb.classpath"/>
         <path refid="commons.classpath"/>
@@ -65,12 +53,8 @@
         <path refid="test.runtime.classpath"/>
     </path>
 
-    <path id="distribution.test.classpath">
-        <path refid="test.runtime.classpath"/>
-    </path>
-
-    <path id="groovy.classpath">
-        <fileset dir="${groovy.tools.dir}">
+    <path id="misc.classpath">
+        <fileset dir="${misc.tools.dir}">
             <patternset refid="jar.pattern"/>
         </fileset>
     </path>
@@ -90,15 +74,10 @@
 
     <patternset id="donkey.test.pattern"
                 includes="**/*AtomicTest.java,**/*MolecularTest.java,**/*AcceptanceTest.java,**/*CoverageTest.java"/>
-    <patternset id="distribution.test.pattern" includes="**/DistributionTestSuite.java"/>
 
 
     <fileset id="donkey.tests" dir="${test.src.dir}">
         <patternset refid="donkey.test.pattern"/>
-    </fileset>
-
-    <fileset id="distribution.tests" dir="${test.src.dir}">
-        <patternset refid="distribution.test.pattern"/>
     </fileset>
 
     <path id="boost.classpath">
@@ -109,12 +88,6 @@
 
     <path id="dbunit.classpath">
         <fileset dir="${tools.lib.dir}/dbunit">
-            <patternset refid="jar.pattern"/>
-        </fileset>
-    </path>
-
-    <path id="logging.classpath">
-        <fileset dir="${tools.lib.dir}/logging">
             <patternset refid="jar.pattern"/>
         </fileset>
     </path>
@@ -136,14 +109,5 @@
             <patternset refid="jar.pattern"/>
         </fileset>
     </path>
-
-    <macrodef name="groovy_compile">
-        <attribute name="src.type"/>
-        <sequential>
-            <mkdir dir="${@{src.type}.src.dir}"/>
-            <groovyc srcdir="${@{src.type}.src.dir}" destdir="${@{src.type}.class.dir}" includes="**/*.groovy"
-                     classpathref="@{src.type}.compile.classpath" includeantruntime="false"/>
-        </sequential>
-    </macrodef>
 
 </project>
