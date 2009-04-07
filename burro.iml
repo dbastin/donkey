@@ -45,9 +45,11 @@
           <root url="file://$MODULE_DIR$/build/lib/tools/checkstyle" />
           <root url="file://$MODULE_DIR$/build/lib/tools/jmock" />
           <root url="file://$MODULE_DIR$/build/lib/tools/hsqldb" />
-          <root url="file://$MODULE_DIR$/build/lib/tools/misc" />
           <root url="file://$MODULE_DIR$/build/lib/tools/cobertura" />
           <root url="file://$MODULE_DIR$/build/lib/tools/cobertura" />
+          <root url="jar://$MODULE_DIR$/build/lib/tools/misc/jsch-0.1.39.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/lib/tools/misc/ant-jcsh-1.7.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/lib/tools/misc/ant-1.7.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -58,7 +60,6 @@
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/hsqldb" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/jmock" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/junit" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/misc" recursive="false" />
       </library>
     </orderEntry>
     <orderEntryProperties />
