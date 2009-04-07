@@ -40,12 +40,12 @@
     </path>
 
     <path id="test.runtime.classpath">
-        <!--<path refid="cobertura.classpath"/>-->
         <path location="${test.class.dir}"/>
         <path refid="test.compile.classpath"/>
         <path refid="sybase.classpath"/>
         <path refid="hsqldb.classpath"/>
         <path refid="commons.classpath"/>
+        <path refid="cobertura.classpath"/>
     </path>
 
     <path id="donkey.test.classpath">

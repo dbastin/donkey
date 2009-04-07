@@ -2,33 +2,9 @@
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/ErrorReportPukerAtomicTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/ErrorReportPukerAtomicTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/groovy/sweeper" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/groovy/sweeper/FileContentProcessor.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-coverage.xml" afterPath="$PROJECT_DIR$/build/ant/build-coverage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/base/base-cobertura.xml" afterPath="$PROJECT_DIR$/build/ant/base/base-cobertura.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-quality.xml" afterPath="$PROJECT_DIR$/build/ant/build-quality.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/groovy/sweeper/Paleontologist.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/config/artifacts/index.html" afterPath="$PROJECT_DIR$/build/config/artifacts/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/config/artifacts/artifacts.html" afterPath="$PROJECT_DIR$/build/config/artifacts/artifacts.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/groovy/sweeper/Fix.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/base/base-compile.xml" afterPath="$PROJECT_DIR$/build/ant/base/base-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/base/base.xml" afterPath="$PROJECT_DIR$/build/ant/base/base.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/groovy/sweeper/FixSweeper.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/groovy/sweeper/XmlFixReport.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/base/base-test.xml" afterPath="$PROJECT_DIR$/build/ant/base/base-test.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/ant/build-donkey-test.xml" afterPath="$PROJECT_DIR$/build/ant/build-test.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/ant/base/base-sweeper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/groovy/sweeper/LineProcessor.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-init.xml" afterPath="$PROJECT_DIR$/build/ant/build-init.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iml" afterPath="$PROJECT_DIR$/burro.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-project.xml" afterPath="$PROJECT_DIR$/build/ant/build-project.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/ant/build-distribution-test.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-compile.xml" afterPath="$PROJECT_DIR$/build/ant/build-compile.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/base/base-init.xml" afterPath="$PROJECT_DIR$/build/ant/base/base-init.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-init.xml" afterPath="$PROJECT_DIR$/build/ant/build-init.xml" />
     </list>
     <ignored path="burro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -170,10 +146,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build-init.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build-init.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/ant/build-init.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="47" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.56798625">
+            <state line="47" column="32" selection-start="2088" selection-end="2088" vertical-scroll-proportion="0.74870914">
               <folding />
             </state>
           </provider>
@@ -188,10 +164,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build-quality.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build-quality.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/ant/build-quality.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="56" selection-start="625" selection-end="625" vertical-scroll-proportion="0.28399312">
+            <state line="13" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.33562824">
               <folding />
             </state>
           </provider>
@@ -1440,24 +1416,6 @@
           <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="burro" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="burro" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build/config" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -1726,7 +1684,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="25" width="1930" height="1154" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
@@ -1737,7 +1695,7 @@
       <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="3" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" order="8" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935324" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935324" order="8" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -1993,13 +1951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/ant/build-quality.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="56" selection-start="625" selection-end="625" vertical-scroll-proportion="0.28399312">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/ant/base/base-init.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="14" selection-start="3303" selection-end="3303" vertical-scroll-proportion="0.3321859">
@@ -2009,7 +1960,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/ant/build-init.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="47" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.56798625">
+        <state line="47" column="32" selection-start="2088" selection-end="2088" vertical-scroll-proportion="0.74870914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/build-quality.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.33562824">
           <folding />
         </state>
       </provider>
