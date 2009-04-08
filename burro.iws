@@ -2,25 +2,7 @@
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/DefaultTibrvTransportControl.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/DefaultTestTibrvRvdTransport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvMsg.java" afterPath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvTransport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-coverage.xml" afterPath="$PROJECT_DIR$/build/ant/build-coverage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-init.xml" afterPath="$PROJECT_DIR$/build/ant/build-init.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/runtime/tibco/tibco.jar" afterPath="$PROJECT_DIR$/build/lib/runtime/tibco/tibco.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco/DefaultWireTap.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco/DefaultWireTap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-project.xml" afterPath="$PROJECT_DIR$/build/ant/build-project.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/Tibrv.java" afterPath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/Tibrv.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/TransportMolecularTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/TransportMolecularTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvRvdTransport.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/TibrvTransportControl.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/TestTibrvRvdTransport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ant/build-stub.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvMsg.java" afterPath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvMsg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/base-overrides.xml" afterPath="$PROJECT_DIR$/build/ant/base-overrides.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/base/base-init.xml" afterPath="$PROJECT_DIR$/build/ant/base/base-init.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/testcase/TsrTestCase.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/testcase/TsrTestCase.java" />
     </list>
     <ignored path="burro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build-coverage.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build-coverage.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="83" selection-start="778" selection-end="778" vertical-scroll-proportion="0.5163511">
@@ -186,15 +168,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultTibcoTransport.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport/DefaultTibcoTransport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="181" selection-end="181" vertical-scroll-proportion="0.1">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TibrvStatic.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvStatic.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -208,6 +181,15 @@
         <entry file="file://$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/Tibrv.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.175">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OracleThrottlingLayer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/layer/OracleThrottlingLayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="784" selection-end="784" vertical-scroll-proportion="0.425">
               <folding />
             </state>
           </provider>
@@ -342,7 +324,197 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build" />
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/test/glue" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/test/glue" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/test/glue/layer" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -364,7 +536,55 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build/ant" />
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build/lib" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build/lib/tools" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build/lib/tools/clover" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build/lib" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/build" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -558,7 +778,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1930" height="1154" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
@@ -569,7 +789,7 @@
       <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="3" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" order="8" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935324" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935324" order="8" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -661,13 +881,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/TestDatabaseWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="520" selection-end="520" vertical-scroll-proportion="0.225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/TestTibrvRvdTransport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="59" selection-start="185" selection-end="185" vertical-scroll-proportion="0.125">
@@ -708,20 +921,6 @@
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport/DefaultTibcoTransport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="181" selection-end="181" vertical-scroll-proportion="0.1">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvStatic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/Tibrv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.175">
           <folding />
         </state>
       </provider>
@@ -841,6 +1040,27 @@
     <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="83" selection-start="778" selection-end="778" vertical-scroll-proportion="0.5163511">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvStatic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/Tibrv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/glue/layer/OracleThrottlingLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="784" selection-end="784" vertical-scroll-proportion="0.425">
           <folding />
         </state>
       </provider>

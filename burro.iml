@@ -21,6 +21,7 @@
           <root url="file://$MODULE_DIR$/build/lib/runtime/oracle" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/dom4j" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/commons-lang" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/tibco" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -32,6 +33,7 @@
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/oracle" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/slf4j" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/sybase" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/tibco" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
