@@ -6,6 +6,7 @@ import org.burroloco.test.butcher.fixture.process.CommandController;
 
 import java.io.File;
 
+// FIX TSR-DONKEY DELETE ME??
 public class DefaultWireTap implements WireTap {
     private static final String LISTENER_STARTED = "tibrvlisten: Listening to subject >";
     private static final File WORKING = new File("src/sh/test");

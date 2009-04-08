@@ -7,4 +7,5 @@
     <target name="clean" depends="-clean"/>
     <target name="checkstyle" depends="-checkstyle"/>
     <target name="donkey" depends="-donkey"/>
+    <target name="stub" depends="-stub"/>
 </project>

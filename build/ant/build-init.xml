@@ -30,6 +30,10 @@
         <path refid="lib.runtime.classpath"/>
     </path>
 
+    <path id="stub.compile.classpath">
+        <path refid="boost.classpath"/>
+    </path>
+
     <path id="test.compile.classpath">
         <path refid="lib.runtime.classpath"/>
         <path location="${prod.class.dir}"/>
@@ -70,7 +74,7 @@
         <patternset refid="jar.pattern"/>
     </fileset>
 
-    <patternset id="donkey.test.pattern" includes="**/*AtomicTest.java,**/*MolecularTest.java,**/*CoverageTest.java" excludes="**/tibco/**/*.java"/>
+    <patternset id="donkey.test.pattern" includes="**/*AtomicTest.java,**/*MolecularTest.java,**/*CoverageTest.java" />
 
     <fileset id="donkey.tests" dir="${test.src.dir}">
         <patternset refid="donkey.test.pattern"/>
@@ -78,6 +82,12 @@
 
     <path id="dbunit.classpath">
         <fileset dir="${tools.lib.dir}/dbunit">
+            <patternset refid="jar.pattern"/>
+        </fileset>
+    </path>
+
+    <path id="boost.classpath">
+        <fileset dir="build/lib/runtime/boost">
             <patternset refid="jar.pattern"/>
         </fileset>
     </path>

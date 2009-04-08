@@ -6,6 +6,7 @@
     <property name="src.dir" location="src"/>
     <property name="java.src.dir" location="${src.dir}/java"/>
     <property name="prod.src.dir" location="${java.src.dir}/prod"/>
+    <property name="stub.src.dir" location="${java.src.dir}/stub"/>
     <property name="test.src.dir" location="${java.src.dir}/test"/>
     <property name="simian.code.types" value="prod,test"/>
     <property name="checkstyle.code.types" value="prod,test"/>

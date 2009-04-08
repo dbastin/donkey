@@ -15,6 +15,7 @@
     <property name="coverage.dir" location="${gen.dir}/coverage"/>
     <property name="coverage.db.dir" value="${coverage.dir}/db"/>
     <property name="prod.src.dir" location="${src.dir}/prod"/>
+    <property name="stub.src.dir" location="${src.dir}/stub"/>
     <property name="test.src.dir" location="${src.dir}/test"/>
     <property name="coverage.src.dir" location="${coverage.dir}/src"/>
     <property name="artifacts.dir" location="${gen.dir}/artifacts"/>
@@ -29,6 +30,7 @@
     <property name="tools.lib.dir" value="${build.lib.dir}/tools"/>
     <property name="classes.dir" location="${gen.dir}/classes"/>
     <property name="prod.class.dir" location="${classes.dir}/prod"/>
+    <property name="stub.class.dir" location="${classes.dir}/stub"/>
     <property name="test.class.dir" location="${classes.dir}/test"/>
     <property name="coverage.class.dir" location="${coverage.dir}/classes"/>
     <property name="jar.temp.dir" location="${gen.dir}/jar"/>

@@ -16,8 +16,6 @@ public interface TibrvMsg extends Edge, Unedgable {
 
     Object get(java.lang.String s);
 
-    TibrvMsgField getField(String typeStr);
-
     String getSendSubject();
 
     int getNumFields();

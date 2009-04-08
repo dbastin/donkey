@@ -1,5 +1,7 @@
 package com.tibco.tibrv;
 
-public interface Tibrv {
-    int IMPL_NATIVE = 1;
+public class Tibrv {
+    public static final int IMPL_NATIVE = 1;
+    public static void close() {}
+    public static void open(int x) {}
 }
