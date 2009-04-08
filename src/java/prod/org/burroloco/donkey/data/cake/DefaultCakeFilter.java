@@ -27,12 +27,11 @@ public class DefaultCakeFilter implements CakeFilter {
 
     private boolean match(Slice key, Slice slice) {
         Set<String> keyNames = key.names();
-        boolean match = true;
         for (String keyName : keyNames) {
             Object a = key.value(keyName);
             Object b = slice.value(keyName);
-            match &= a.equals(b);
+            if (!a.equals(b)) return false;
         }
-        return match;
+        return true;
     }
 }

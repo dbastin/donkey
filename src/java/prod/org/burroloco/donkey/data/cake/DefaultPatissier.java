@@ -1,11 +1,13 @@
 package org.burroloco.donkey.data.cake;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
+import org.burroloco.donkey.util.CollectionSubtractor;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class DefaultPatissier implements Patissier {
+    CollectionSubtractor subtractor;
     Striper striper;
     Stripes stripes;
     Nu nu;
@@ -13,8 +15,7 @@ public class DefaultPatissier implements Patissier {
     public Cake same(Cake c1, Cake c2) {
         List<Slice> a = mutants(c1);
         List<Slice> b = c2.slices();
-        a.retainAll(b);
-        return cake(a);
+        return cake(subtractor.subtract(a, subtractor.subtract(a, b)));
     }
 
     public Cake minus(Cake c1, Cake c2, String... keys) {
@@ -25,8 +26,8 @@ public class DefaultPatissier implements Patissier {
     public Cake changes(Cake c1, Cake c2, String... keys) {
         List<Slice> sameKeys = stripes.same(c1, c2, keys);
         List<Slice> sameSame = striper.stripe(same(c1, c2), keys);
-        sameKeys.removeAll(sameSame);
-        return filter(c1, cake(sameKeys));
+        List<Slice> subtracted = subtractor.subtract(sameKeys, sameSame);
+        return filter(c1, cake(subtracted));
     }
 
     private List<Slice> mutants(Cake c) {
