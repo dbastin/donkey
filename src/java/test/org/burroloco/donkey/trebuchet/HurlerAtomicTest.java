@@ -16,18 +16,18 @@ public class HurlerAtomicTest extends TsrTestCase implements LazyFields, HasFixt
     }
 
     public void testSuccesfulTaster() {
-        expect.oneCall(trebuchetMock, VOID, "launch", DummyPayload.class);
-        execute(DummyPayload.class.getName());
+        expect.oneCall(trebuchetMock, VOID, "launch", DummyJob.class);
+        execute(DummyJob.class.getName());
     }
 
     public void testSuccesfulWatch() {
-        expect.oneCall(trebuchetMock, VOID, "launch", DummyPayload.class);
-        execute(DummyPayload.class.getName());
+        expect.oneCall(trebuchetMock, VOID, "launch", DummyJob.class);
+        execute(DummyJob.class.getName());
     }
 
     public void testWrongNumberOfArgs() {
         try {
-            execute("unwanted donkey", DummyPayload.class.getName());
+            execute("unwanted donkey", DummyJob.class.getName());
             fail("NOT FAILED!");
         } catch (IllegalArgumentException e) {
             // Expected.

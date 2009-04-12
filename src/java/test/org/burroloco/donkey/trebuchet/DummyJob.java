@@ -4,7 +4,7 @@ import au.net.netstorm.boost.bullet.primordial.Primordial;
 import junit.framework.AssertionFailedError;
 import org.burroloco.config.core.Config;
 
-public class DummyPayload extends Primordial implements Payload {
+public class DummyJob extends Primordial implements Job {
     public Config config() {
         throw new AssertionFailedError();
     }
@@ -13,7 +13,7 @@ public class DummyPayload extends Primordial implements Payload {
         throw new AssertionFailedError();
     }
 
-    public Class<? extends Loop> loop() {
+    public Class<? extends Loop> looping() {
         throw new AssertionFailedError();
     }
 }

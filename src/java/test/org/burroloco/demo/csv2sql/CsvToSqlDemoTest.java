@@ -13,7 +13,7 @@ public class CsvToSqlDemoTest extends TsrTestCase {
     Trebuchet trebuchet;
 
     public void testCsvToSql() {
-        trebuchet.launch(CsvToSqlPayload.class);
+        trebuchet.launch(CsvToSqlJob.class);
         String expected = fileUtils.readFileToString(EXPECTED);
         String actual = fileUtils.readFileToString(ACTUAL);
         assertEquals(expected, actual);

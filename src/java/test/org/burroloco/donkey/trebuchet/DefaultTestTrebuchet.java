@@ -11,11 +11,11 @@ public class DefaultTestTrebuchet implements TestTrebuchet {
     Crank crank;
     Impl impl;
 
-    public void launch(Class<? extends Payload> type, Class<? extends Web>... extras) {
-        Payload payload = impl.impl(type);
-        Config config = payload.config();
-        crank.crank(payload, config);
+    public void launch(Class<? extends Job> type, Class<? extends Web>... extras) {
+        Job job = impl.impl(type);
+        Config config = job.config();
+        crank.crank(job, config);
         spinneret.spin(extras);
-        sling.release(payload, config);
+        sling.release(job, config);
     }
 }

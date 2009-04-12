@@ -4,10 +4,10 @@ import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.core.OneLoop;
 import org.burroloco.donkey.trebuchet.Loop;
-import org.burroloco.donkey.trebuchet.Payload;
+import org.burroloco.donkey.trebuchet.Job;
 import org.burroloco.donkey.trebuchet.Wirer;
 
-public class CsvToSqlPayload implements Payload {
+public class CsvToSqlJob implements Job {
     ConfigLoader loader;
 
     public Config config() {
@@ -18,7 +18,7 @@ public class CsvToSqlPayload implements Payload {
         return CsvToSqlWirer.class;
     }
 
-    public Class<? extends Loop> loop() {
+    public Class<? extends Loop> looping() {
         return OneLoop.class;
     }
 }
