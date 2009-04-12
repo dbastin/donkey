@@ -74,7 +74,7 @@
         <patternset refid="jar.pattern"/>
     </fileset>
 
-    <patternset id="donkey.test.pattern" includes="**/*AtomicTest.java,**/*MolecularTest.java,**/*CoverageTest.java" />
+    <patternset id="donkey.test.pattern" includes="**/*AtomicTest.java,**/*MolecularTest.java,**/*CoverageTest.java,**/*DemoTest.java"/>
 
     <fileset id="donkey.tests" dir="${test.src.dir}">
         <patternset refid="donkey.test.pattern"/>
