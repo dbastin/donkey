@@ -4,9 +4,9 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.java.lang.Thread;
 
-public class AsyncDirWatcher implements DirWatcher {
+public class AsyncDirectoryWatcher implements DirectoryWatcher {
     private Thread thread;
-    DirWatcher delegate;
+    DirectoryWatcher delegate;
     Impl impl;
     Nu nu;
 

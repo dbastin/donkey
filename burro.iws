@@ -16,9 +16,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirWatcherWirer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirectoryWatcherWirer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultTimeStampCreator.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultTimeStampCreator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/ContinuousLoop.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/DirectoryWatcherLoop.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/DefaultDirWatcherStopper.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirWatcherWirer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirectoryWatcherWirer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirWatcher.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirectoryWatcher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/AsyncDirWatcher.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/AsyncDirectoryWatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherTestWeb.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherTestWeb.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherJob.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherFailureMolecularTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherFailureMolecularTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/DirWatcherStopper.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirWatcher.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirectoryWatcher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirWatcherWeb.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirectoryWatcherWeb.java" />
     </list>
     <ignored path="burro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,22 +97,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DirectoryWatcherDemoTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DirectoryWatcherDemoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="25" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.8095238">
+            <state line="34" column="43" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.46027398">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build-coverage.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="113" selection-start="808" selection-end="808" vertical-scroll-proportion="0.8633093">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +111,7 @@
       <file leaf-file-name="DirectoryWatcherWirer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherWirer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="0.9708738">
+            <state line="13" column="13" selection-start="594" selection-end="594" vertical-scroll-proportion="0.4105263">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,64 +119,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiftySpitter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ShiftySpitter.java">
+      <file leaf-file-name="DirectoryWatcherJob.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="16" selection-start="850" selection-end="850" vertical-scroll-proportion="0.69902915">
+            <state line="24" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.6">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultFileShifter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultFileShifter.java">
+      <file leaf-file-name="DirectoryWatcherLoop.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/DirectoryWatcherLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="204" selection-end="204" vertical-scroll-proportion="0.23300971">
+            <state line="8" column="28" selection-start="327" selection-end="327" vertical-scroll-proportion="0.15789473">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultFileStamper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultFileStamper.java">
+      <file leaf-file-name="DirectoryWatcherWeb.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirectoryWatcherWeb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="45" selection-start="384" selection-end="384" vertical-scroll-proportion="0.3883495">
+            <state line="17" column="16" selection-start="843" selection-end="843" vertical-scroll-proportion="0.12631579">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeStampCreator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/TimeStampCreator.java">
+      <file leaf-file-name="DefaultDirectoryWatcher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirectoryWatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="11" selection-start="83" selection-end="83" vertical-scroll-proportion="0.116504855">
+            <state line="8" column="19" selection-start="238" selection-end="238" vertical-scroll-proportion="0.25263157">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultTimeStampCreator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultTimeStampCreator.java">
+      <file leaf-file-name="FarmerStartStop.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/bullet/farmer/FarmerStartStop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="15" selection-start="367" selection-end="367" vertical-scroll-proportion="0.36734694">
+            <state line="23" column="16" selection-start="624" selection-end="624" vertical-scroll-proportion="0.7263158">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultDates.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/util/date/DefaultDates.java">
+      <file leaf-file-name="DefaultDirectoryWatcherWirer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirectoryWatcherWirer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.1553398">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CsvToSqlWirer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlWirer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="539" selection-end="539" vertical-scroll-proportion="0.1553398">
+            <state line="19" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.094736844">
               <folding />
             </state>
           </provider>
@@ -2459,7 +2452,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1270" height="774" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -2467,7 +2460,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24897625" order="0" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2780338" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872504" order="8" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
@@ -2475,7 +2468,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13513513" order="1" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" order="8" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.437788" order="2" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.437788" order="2" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" order="2" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39938557" order="3" />
@@ -2500,7 +2493,7 @@
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Raised coverage to line:59 branch:51" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed &quot;:&quot; from timestamp. OS X finder converts these to &quot;/&quot;." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -2516,6 +2509,7 @@
     <MESSAGE value="Renamed Payload to Job" />
     <MESSAGE value="DirectoryWatcherDemoTest" />
     <MESSAGE value="Raised coverage to line:59 branch:51" />
+    <MESSAGE value="Removed &quot;:&quot; from timestamp. OS X finder converts these to &quot;/&quot;." />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -2603,119 +2597,105 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/WatchInterval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="116" selection-end="116" vertical-scroll-proportion="0.15789473">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/bullet/farmer/Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="125" selection-end="125" vertical-scroll-proportion="0.12631579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/watcher.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="10" selection-start="36" selection-end="36" vertical-scroll-proportion="0.031578947">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherTestWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="269" selection-end="269" vertical-scroll-proportion="0.2630137">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/AsyncDirWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="496" selection-end="496" vertical-scroll-proportion="0.50526315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/DefaultDirWatcherStopper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="215" selection-end="215" vertical-scroll-proportion="0.23013699">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/util/date/DefaultDates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.1553398">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ShiftySpitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="850" selection-end="850" vertical-scroll-proportion="0.69902915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlWirer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="539" selection-end="539" vertical-scroll-proportion="0.1553398">
+        <state line="12" column="13" selection-start="539" selection-end="539" vertical-scroll-proportion="0.12631579">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherWirer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="0.9708738">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="113" selection-start="808" selection-end="808" vertical-scroll-proportion="0.8633093">
+        <state line="20" column="113" selection-start="808" selection-end="808" vertical-scroll-proportion="0.6876791">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultFileShifter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="204" selection-end="204" vertical-scroll-proportion="0.23300971">
+        <state line="8" column="8" selection-start="204" selection-end="204" vertical-scroll-proportion="0.18947369">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultTimeStampCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="367" selection-end="367" vertical-scroll-proportion="0.36734694">
+        <state line="12" column="15" selection-start="367" selection-end="367" vertical-scroll-proportion="0.29589042">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/TimeStampCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="83" selection-end="83" vertical-scroll-proportion="0.116504855">
+        <state line="3" column="11" selection-start="83" selection-end="83" vertical-scroll-proportion="0.094736844">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultFileStamper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="384" selection-end="384" vertical-scroll-proportion="0.3883495">
+        <state line="10" column="45" selection-start="384" selection-end="384" vertical-scroll-proportion="0.31578946">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirectoryWatcherWirer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.094736844">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/bullet/farmer/FarmerStartStop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="624" selection-end="624" vertical-scroll-proportion="0.7263158">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherWirer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="594" selection-end="594" vertical-scroll-proportion="0.4105263">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="25" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.8095238">
+        <state line="34" column="43" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.46027398">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirectoryWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="238" selection-end="238" vertical-scroll-proportion="0.25263157">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirectoryWatcherWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="843" selection-end="843" vertical-scroll-proportion="0.12631579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/DirectoryWatcherLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="327" selection-end="327" vertical-scroll-proportion="0.15789473">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.6">
+          <folding />
         </state>
       </provider>
     </entry>

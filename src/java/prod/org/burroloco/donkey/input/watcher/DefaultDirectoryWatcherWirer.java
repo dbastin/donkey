@@ -18,18 +18,18 @@ import org.burroloco.donkey.config.WatchInterval;
 import org.burroloco.donkey.farmer.SafePush;
 import org.burroloco.donkey.farmer.SingleFilePush;
 
-public class DefaultDirWatcherWirer implements DirWatcherWirer {
+public class DefaultDirectoryWatcherWirer implements DirectoryWatcherWirer {
     ConfigRegistrar registrar;
     Spinneret spinneret;
     Resolver resolver;
     Wire wire;
     Nu nu;
 
-    public DirWatcher nu(Config config) {
+    public DirectoryWatcher nu(Config config) {
         pull(config);
         push(config);
         interval(config);
-        spinneret.spin(DirWatcherWeb.class);
+        spinneret.spin(DirectoryWatcherWeb.class);
         return watcher();
     }
 
@@ -48,12 +48,12 @@ public class DefaultDirWatcherWirer implements DirWatcherWirer {
         wire.nu(Timeout.class, 0L).to(Timeout.class, DefaultOperationManager.class);
     }
 
-    private DirWatcher watcher() {
+    private DirectoryWatcher watcher() {
         Farmer farmer = nu.nu(Farmer.class);
         Pull pull = nu.nu(Pull.class);
         Push push = nu.nu(Push.class);
         StartStop stop = farmer.farm(push, pull);
-        wire.ref(stop).to(StartStop.class, DefaultDirWatcher.class);
-        return resolver.resolve(DirWatcher.class);
+        wire.ref(stop).to(StartStop.class, DefaultDirectoryWatcher.class);
+        return resolver.resolve(DirectoryWatcher.class);
     }
 }

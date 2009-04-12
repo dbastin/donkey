@@ -3,7 +3,7 @@ package org.burroloco.demo.watcher;
 import org.burroloco.donkey.trebuchet.Job;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.donkey.trebuchet.Loop;
-import org.burroloco.donkey.core.ContinuousLoop;
+import org.burroloco.donkey.core.DirectoryWatcherLoop;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
 
@@ -19,6 +19,6 @@ public class DirectoryWatcherJob implements Job {
     }
 
     public Class<? extends Loop> loop() {
-        return ContinuousLoop.class;
+        return DirectoryWatcherLoop.class;
     }
 }

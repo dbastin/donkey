@@ -15,7 +15,7 @@ import org.burroloco.donkey.input.file.InputFileNameProvider;
 import org.burroloco.donkey.input.file.ReferenceInputFileNameProvider;
 import org.burroloco.util.wire.Dna;
 
-public class DirWatcherWeb implements Web {
+public class DirectoryWatcherWeb implements Web {
     Wire wire;
     Dna dna;
 

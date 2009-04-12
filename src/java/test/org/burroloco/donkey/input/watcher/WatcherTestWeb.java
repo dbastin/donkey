@@ -7,7 +7,7 @@ public class WatcherTestWeb implements Web {
     Wire wire;
 
     public void web() {
-        wire.cls(AsyncDirWatcher.class).one().to(DirWatcher.class);
-        wire.cls(DefaultDirWatcher.class).one().to(DirWatcher.class, AsyncDirWatcher.class);
+        wire.cls(AsyncDirectoryWatcher.class).one().to(DirectoryWatcher.class);
+        wire.cls(DefaultDirectoryWatcher.class).one().to(DirectoryWatcher.class, AsyncDirectoryWatcher.class);
     }
 }

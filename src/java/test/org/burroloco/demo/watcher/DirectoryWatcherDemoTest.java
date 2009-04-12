@@ -3,7 +3,7 @@ package org.burroloco.demo.watcher;
 import au.net.netstorm.boost.sniper.marker.Destroyable;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import edge.org.apache.commons.io.FileUtilsStatic;
-import org.burroloco.donkey.input.watcher.DirWatcher;
+import org.burroloco.donkey.input.watcher.DirectoryWatcher;
 import org.burroloco.donkey.input.watcher.WatcherTestWeb;
 import org.burroloco.donkey.trebuchet.TestTrebuchet;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
@@ -38,7 +38,7 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
     }
 
     public void destroy() {
-        DirWatcher watcher = spider.resolve(DirWatcher.class);
+        DirectoryWatcher watcher = spider.resolve(DirectoryWatcher.class);
         watcher.stop();
     }
 
