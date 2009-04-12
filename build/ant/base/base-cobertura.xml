@@ -31,9 +31,10 @@
     <macrodef name="macro_check_cobertura">
         <attribute name="code.type"/>
         <attribute name="test.type"/>
-        <attribute name="min.coverage" default="${min.coverage}"/>
+        <attribute name="min.branch.coverage" default="100"/>
+        <attribute name="min.line.coverage" default="100"/>
         <sequential>
-            <cobertura-check totalbranchrate="@{min.coverage}" totallinerate="@{min.coverage}"
+            <cobertura-check totalbranchrate="@{min.branch.coverage}" totallinerate="@{min.line.coverage}"
                              failureproperty="coverage.@{code.type}.failed" haltonfailure="true"
                              datafile="${coverage.db.dir}/@{test.type}_coverage.ser"/>
         </sequential>
