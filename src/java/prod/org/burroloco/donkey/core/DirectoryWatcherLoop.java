@@ -9,7 +9,7 @@ public class DirectoryWatcherLoop implements Loop {
     DirectoryWatcherWirer watchers;
 
     public void go(Config config) {
-        DirectoryWatcher control = watchers.nu(config);
-        control.start();
+        DirectoryWatcher watcher = watchers.nu(config);
+        watcher.start();
     }
 }
