@@ -1,9 +1,9 @@
 package org.burroloco.config.core;
 
 import org.burroloco.donkey.config.BadType;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
-public class DefaultConfigClassMapperCoverageTest extends TsrTestCase {
+public class DefaultConfigClassMapperCoverageTest extends DonkeyTestCase {
     ConfigClassMapper subject;
 
     public void test() {

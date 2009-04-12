@@ -3,9 +3,9 @@ package org.burroloco.donkey.farmer;
 import au.net.netstorm.boost.bullet.farmer.Push;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.sniper.marker.OverlaysWeb;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
-public class SafePushAtomicTest extends TsrTestCase implements LazyFields, OverlaysWeb {
+public class SafePushAtomicTest extends DonkeyTestCase implements LazyFields, OverlaysWeb {
     Push pushMock;
     Push subject;
 

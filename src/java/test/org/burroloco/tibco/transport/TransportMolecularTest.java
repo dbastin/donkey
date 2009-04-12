@@ -9,13 +9,13 @@ import edge.com.tibco.tibrv.TibrvRvdTransport;
 import org.burroloco.test.butcher.fixture.checker.file.PollingFileChecker;
 import org.burroloco.test.butcher.fixture.checker.stream.StreamChecker;
 import org.burroloco.test.constants.TestConstants;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.io.FileWirer;
 import org.burroloco.tibco.config.TestTibcoWirer;
 import org.burroloco.tibco.factory.LifecycleTibcoFactory;
 
 // FIX TSR-DONKEY Move "listener" script to tsr?
-public class TransportMolecularTest extends TsrTestCase implements HasFixtures, LazyFields, Destroyable, TestConstants {
+public class TransportMolecularTest extends DonkeyTestCase implements HasFixtures, LazyFields, Destroyable, TestConstants {
     private LifecycleTibcoFactory tibco;
     private TibcoTransport subject;
     PollingFileChecker filePoller;

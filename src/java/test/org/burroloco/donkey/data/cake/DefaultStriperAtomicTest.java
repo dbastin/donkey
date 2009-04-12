@@ -3,13 +3,13 @@ package org.burroloco.donkey.data.cake;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import static org.burroloco.donkey.data.cake.Bakery.KEYS;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class DefaultStriperAtomicTest extends TsrTestCase implements HasFixtures {
+public class DefaultStriperAtomicTest extends DonkeyTestCase implements HasFixtures {
     private static final int SLICES = 8;
     private Cake chocolate;
     Striper subject;

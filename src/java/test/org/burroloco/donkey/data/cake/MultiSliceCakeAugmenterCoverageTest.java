@@ -4,11 +4,11 @@ import au.net.netstorm.boost.sniper.marker.InjectableSubject;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
 import java.util.List;
 
-public class MultiSliceCakeAugmenterCoverageTest extends TsrTestCase implements LazyFields, InjectableSubject {
+public class MultiSliceCakeAugmenterCoverageTest extends DonkeyTestCase implements LazyFields, InjectableSubject {
     private CakeAugmenter subject = new MultiSliceCakeAugmenter();
     List<Slice> slices;
     Config configMock;

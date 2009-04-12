@@ -8,10 +8,10 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.log.LogCleaner;
 import org.burroloco.test.butcher.fixture.checker.file.PollingFileChecker;
 import org.burroloco.test.constants.TestConstants;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.io.FileWirer;
 
-public class SafePushLoggingMolecularTest extends TsrTestCase implements HasFixtures, TestConstants, LazyFields {
+public class SafePushLoggingMolecularTest extends DonkeyTestCase implements HasFixtures, TestConstants, LazyFields {
     private static final String NOT_A_FILE = "xxx";
     private SafePush subject;
     PollingFileChecker filePoller;

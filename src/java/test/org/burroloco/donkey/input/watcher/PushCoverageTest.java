@@ -7,9 +7,9 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.farmer.SafePush;
 import org.burroloco.donkey.farmer.SingleFilePush;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
-public class PushCoverageTest extends TsrTestCase implements LazyFields, HasFixtures {
+public class PushCoverageTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private SplittingPush splittingPush;
     private SingleFilePush singleFilePush;
     private SafePush safePush;

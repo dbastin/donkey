@@ -4,10 +4,10 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.com.tibco.tibrv.TibrvDispatcher;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.tibco.config.TestTibcoWirer;
 
-public class DefaultTibcoDispatcherAtomicTest extends TsrTestCase implements HasFixtures, LazyFields {
+public class DefaultTibcoDispatcherAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private TibcoDispatcher subject;
     TibrvDispatcher dispatcherMock;
     TestTibcoWirer tibcoWirer;

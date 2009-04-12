@@ -1,10 +1,10 @@
 package org.burroloco.test.butcher.fixture.process;
 
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 
-public class CommandRunnerMolecularTest extends TsrTestCase {
+public class CommandRunnerMolecularTest extends DonkeyTestCase {
     private static final int EVERYTHING_COOL_MAN = 0;
     private static final int NOT_GOOD = 1;
     CommandRunner runner;

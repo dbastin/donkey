@@ -8,11 +8,11 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Resolver;
 import edge.org.slf4j.Logger;
 import edge.org.slf4j.LoggerFactoryStatic;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
 import java.util.Random;
 
-public final class Slf4jLogEngineAtomicTest extends TsrTestCase implements LazyFields, HasFixtures {
+public final class Slf4jLogEngineAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private static final LogLevel TRACE = LogLevel.TRACE;
     private static final LogLevel INFO = LogLevel.INFO;
     private static final LogLevel WARN = LogLevel.WARN;

@@ -23,7 +23,9 @@
           <root url="file://$MODULE_DIR$/build/lib/runtime/opencsv" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/build/lib/runtime/boost/boost.jar!/" />
+        </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/boost" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons-io" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons-lang" recursive="false" />

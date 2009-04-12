@@ -3,9 +3,9 @@ package org.burroloco.donkey.trebuchet;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
-public class HurlerAtomicTest extends TsrTestCase implements LazyFields, HasFixtures {
+public class HurlerAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private SpideredMain subject;
     Trebuchet trebuchetMock;
     Impl impl;

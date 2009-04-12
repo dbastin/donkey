@@ -12,9 +12,9 @@ import org.burroloco.donkey.config.InputDirName;
 import org.burroloco.donkey.config.WatchInterval;
 import org.burroloco.donkey.core.ContinuousLoop;
 import org.burroloco.donkey.trebuchet.Loop;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
-public class WatcherFailureMolecularTest extends TsrTestCase implements HasFixtures {
+public class WatcherFailureMolecularTest extends DonkeyTestCase implements HasFixtures {
     private static final String DODGY = "foo";
     private Loop subject;
     private Config config;

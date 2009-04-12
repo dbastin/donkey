@@ -5,11 +5,11 @@ import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.data.error.UnsupportedTypeException;
 import org.burroloco.donkey.output.ice.SqlIcer;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
 import java.util.Random;
 
-public class DefaultSqlIcerCoverageTest extends TsrTestCase implements HasFixtures {
+public class DefaultSqlIcerCoverageTest extends DonkeyTestCase implements HasFixtures {
     private static final String NAME = "UnsupportedType";
     private static final Random VALUE = new Random();
     SqlIcer subject;

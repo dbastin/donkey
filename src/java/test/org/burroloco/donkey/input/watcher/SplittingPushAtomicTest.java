@@ -4,11 +4,11 @@ import au.net.netstorm.boost.bullet.farmer.Push;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
 import java.util.Arrays;
 
-public class SplittingPushAtomicTest extends TsrTestCase implements HasFixtures, LazyFields {
+public class SplittingPushAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private Push subject;
     Push pushMock;
     Long[] list;

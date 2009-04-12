@@ -9,12 +9,12 @@ import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.log.LogCleaner;
 import org.burroloco.test.butcher.fixture.checker.file.FileChecker;
 import static org.burroloco.test.butcher.fixture.checker.type.Occurence.ONCE;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.io.FileWirer;
 
 import java.io.File;
 
-public class ErrorReportPukerAtomicTest extends TsrTestCase implements LazyFields, HasFixtures {
+public class ErrorReportPukerAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private static final String ERROR_FILE_NAME = "log/error-report.log";
     private Puker subject;
     private File errorReport;

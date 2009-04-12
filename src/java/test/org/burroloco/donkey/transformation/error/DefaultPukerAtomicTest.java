@@ -5,9 +5,9 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.cake.Slice;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
-public class DefaultPukerAtomicTest extends TsrTestCase implements LazyFields, HasFixtures {
+public class DefaultPukerAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private Puker subject;
     Slice slice;
     Log logMock;

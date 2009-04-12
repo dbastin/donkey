@@ -15,10 +15,10 @@ import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.transformation.gargler.Gargler;
 import org.burroloco.test.butcher.fixture.checker.file.FileChecker;
 import org.burroloco.test.constants.TestConstants;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.io.FileWirer;
 
-public class DefaultTasterFailureMolecularTest extends TsrTestCase implements LazyFields, HasFixtures, TestConstants {
+public class DefaultTasterFailureMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures, TestConstants {
     private Taster subject;
     private RuntimeException errorsAssistantException;
     private RuntimeException originalException;

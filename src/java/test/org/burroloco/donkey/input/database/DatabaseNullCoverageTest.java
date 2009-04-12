@@ -1,8 +1,8 @@
 package org.burroloco.donkey.input.database;
 
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
-public class DatabaseNullCoverageTest extends TsrTestCase {
+public class DatabaseNullCoverageTest extends DonkeyTestCase {
     private DatabaseNull subject = new DatabaseNull();
     
     public void testHasCannedHash() {

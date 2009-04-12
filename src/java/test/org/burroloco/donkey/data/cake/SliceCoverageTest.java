@@ -2,9 +2,9 @@ package org.burroloco.donkey.data.cake;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
-public class SliceCoverageTest extends TsrTestCase implements HasFixtures {
+public class SliceCoverageTest extends DonkeyTestCase implements HasFixtures {
     private static final String DUPLICATE_KEY = "a";
     private static final String EXPECTED_MESSAGE = "Value for '" + DUPLICATE_KEY + "' already set";
     Slice subject;

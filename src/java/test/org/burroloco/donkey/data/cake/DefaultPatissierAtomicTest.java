@@ -4,9 +4,9 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import static org.burroloco.donkey.data.cake.Bakery.KEYS;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
-public class DefaultPatissierAtomicTest extends TsrTestCase implements HasFixtures, LazyFields {
+public class DefaultPatissierAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     Patissier subject;
     Cake leftUnique;
     Cake leftChanges;

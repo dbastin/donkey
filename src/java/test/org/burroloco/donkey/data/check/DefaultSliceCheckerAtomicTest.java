@@ -5,9 +5,9 @@ import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.data.error.InconsistentSliceException;
-import org.burroloco.test.glue.testcase.TsrTestCase;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
-public class DefaultSliceCheckerAtomicTest extends TsrTestCase implements HasFixtures, LazyFields {
+public class DefaultSliceCheckerAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     SliceChecker subject;
     Slice dodgySlice;
     Impl impl;
