@@ -14,6 +14,10 @@ public class CsvToSqlDemoTest extends DonkeyTestCase {
 
     public void testCsvToSql() {
         trebuchet.launch(CsvToSqlJob.class);
+        check();
+    }
+
+    private void check() {
         String expected = fileUtils.readFileToString(EXPECTED);
         String actual = fileUtils.readFileToString(ACTUAL);
         assertEquals(expected, actual);
