@@ -53,7 +53,7 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
 
     private void dropFile() {
         fileUtils.copyFileToDirectory(INPUT, IN);
-        snoozer.snooze(500);
+        snoozer.snooze(1000);
     }
 
     private void checkInDir() {
