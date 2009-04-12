@@ -15,16 +15,7 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/FeedingDonkey.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/OneLoop.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Donkey.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Loop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Payload.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Payload.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/WatchingDonkey.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/ContinuousLoop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummyPayload.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummyPayload.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherFailureMolecularTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherFailureMolecularTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
-    </list>
+    <list default="true" name="Default" comment="" />
     <ignored path="burro.iws" />
     <ignored path=".idea/workspace.xml" />
   </component>
@@ -94,7 +85,7 @@
       <file leaf-file-name="build-coverage.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.79083097">
+            <state line="23" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.48421052">
               <folding />
             </state>
           </provider>
@@ -112,7 +103,7 @@
       <file leaf-file-name="csv2sql.properties" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/csv2sql.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="70" selection-start="181" selection-end="181" vertical-scroll-proportion="0.12631579">
+            <state line="4" column="70" selection-start="181" selection-end="181" vertical-scroll-proportion="0.079866886">
               <folding />
             </state>
           </provider>
@@ -121,7 +112,7 @@
       <file leaf-file-name="CsvToSqlDemoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="15" selection-start="650" selection-end="650" vertical-scroll-proportion="0.4105263">
+            <state line="17" column="15" selection-start="650" selection-end="650" vertical-scroll-proportion="0.25956738">
               <folding />
             </state>
           </provider>
@@ -130,7 +121,7 @@
       <file leaf-file-name="build-init.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/ant/build-init.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="134" selection-start="2954" selection-end="2954" vertical-scroll-proportion="0.47277936">
+            <state line="76" column="134" selection-start="2954" selection-end="2954" vertical-scroll-proportion="0.28947368">
               <folding />
             </state>
           </provider>
@@ -139,10 +130,8 @@
       <file leaf-file-name="CsvToSqlPayload.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlPayload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="41" selection-start="347" selection-end="347" vertical-scroll-proportion="0.28421053">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="41" selection-start="347" selection-end="347" vertical-scroll-proportion="0.079866886">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,7 +139,7 @@
       <file leaf-file-name="Payload.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Payload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.28421053">
+            <state line="9" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.1797005">
               <folding />
             </state>
           </provider>
@@ -159,7 +148,7 @@
       <file leaf-file-name="DefaultSling.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="38" selection-start="382" selection-end="382" vertical-scroll-proportion="0.31578946">
+            <state line="11" column="38" selection-start="382" selection-end="382" vertical-scroll-proportion="0.19966722">
               <folding />
             </state>
           </provider>
@@ -168,7 +157,7 @@
       <file leaf-file-name="DummyPayload.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummyPayload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="516" selection-end="516" vertical-scroll-proportion="0.5368421">
+            <state line="19" column="0" selection-start="516" selection-end="516" vertical-scroll-proportion="0.33943427">
               <folding />
             </state>
           </provider>
@@ -177,7 +166,7 @@
       <file leaf-file-name="OneLoop.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/OneLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="199" selection-end="199" vertical-scroll-proportion="0.22105263">
+            <state line="8" column="18" selection-start="199" selection-end="199" vertical-scroll-proportion="0.13976705">
               <folding />
             </state>
           </provider>
@@ -939,6 +928,28 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/build" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/build/ant" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
     </subPane>
   </component>
   <component name="ProjectReloadState">
@@ -1008,58 +1019,7 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.Csv2SqlDemoTest">
-    <tempConfiguration default="false" name="Csv2SqlDemoTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
-      <pattern value="org.burroloco.demo.*" />
-      <module name="burro" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.burroloco.demo.csv2sql" />
-      <option name="MAIN_CLASS_NAME" value="org.burroloco.demo.csv2sql.Csv2SqlDemoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="ADDITIONAL_CLASS_PATH" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </tempConfiguration>
-    <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false">
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="ADDITIONAL_CLASS_PATH" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method>
-        <option name="Make" value="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
@@ -1092,6 +1052,35 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method>
+        <option name="Make" value="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1114,9 +1103,7 @@
         <option name="Make" value="true" />
       </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Csv2SqlDemoTest" />
-    </list>
+    <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -1172,7 +1159,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1270" height="774" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -1180,7 +1167,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24897625" order="0" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2780338" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872504" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" order="8" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
@@ -1354,60 +1341,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="15" selection-start="650" selection-end="650" vertical-scroll-proportion="0.4105263">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/OneLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="199" selection-end="199" vertical-scroll-proportion="0.22105263">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/ant/build-init.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="134" selection-start="2954" selection-end="2954" vertical-scroll-proportion="0.47277936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlPayload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="347" selection-end="347" vertical-scroll-proportion="0.28421053">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="382" selection-end="382" vertical-scroll-proportion="0.31578946">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Payload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.28421053">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummyPayload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="516" selection-end="516" vertical-scroll-proportion="0.5368421">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.79083097">
+        <state line="23" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.48421052">
           <folding />
         </state>
       </provider>
@@ -1419,9 +1355,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="15" selection-start="650" selection-end="650" vertical-scroll-proportion="0.25956738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/build-init.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="134" selection-start="2954" selection-end="2954" vertical-scroll-proportion="0.28947368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlPayload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="41" selection-start="347" selection-end="347" vertical-scroll-proportion="0.079866886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Payload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.1797005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="38" selection-start="382" selection-end="382" vertical-scroll-proportion="0.19966722">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummyPayload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="516" selection-end="516" vertical-scroll-proportion="0.33943427">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/OneLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="199" selection-end="199" vertical-scroll-proportion="0.13976705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/csv2sql.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="70" selection-start="181" selection-end="181" vertical-scroll-proportion="0.12631579">
+        <state line="4" column="70" selection-start="181" selection-end="181" vertical-scroll-proportion="0.079866886">
           <folding />
         </state>
       </provider>
