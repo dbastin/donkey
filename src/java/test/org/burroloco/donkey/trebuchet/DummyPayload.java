@@ -13,7 +13,7 @@ public class DummyPayload extends Primordial implements Payload {
         throw new AssertionFailedError();
     }
 
-    public Class<? extends Donkey> donkey() {
+    public Class<? extends Loop> loop() {
         throw new AssertionFailedError();
     }
 }

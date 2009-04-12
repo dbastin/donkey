@@ -10,13 +10,13 @@ import org.burroloco.config.core.Config;
 import org.burroloco.config.override.instance.Overrider;
 import org.burroloco.donkey.config.InputDirName;
 import org.burroloco.donkey.config.WatchInterval;
-import org.burroloco.donkey.core.WatchingDonkey;
-import org.burroloco.donkey.trebuchet.Donkey;
+import org.burroloco.donkey.core.ContinuousLoop;
+import org.burroloco.donkey.trebuchet.Loop;
 import org.burroloco.test.glue.testcase.TsrTestCase;
 
 public class WatcherFailureMolecularTest extends TsrTestCase implements HasFixtures {
     private static final String DODGY = "foo";
-    private Donkey subject;
+    private Loop subject;
     private Config config;
     StrictMap<String, String> empty;
     Overrider overrider;
@@ -28,12 +28,12 @@ public class WatcherFailureMolecularTest extends TsrTestCase implements HasFixtu
     public void fixtures() {
         config = config();
         spinneret.spin(DirWatcherWeb.class);
-        subject = impl.impl(WatchingDonkey.class);
+        subject = impl.impl(ContinuousLoop.class);
     }
 
     public void testDodgyPullDir() {
         try {
-            subject.eat(config);
+            subject.go(config);
             fail();
         } catch (IllegalArgumentException e) {
             assertEquals(DODGY + " is not a valid directory.", e.getMessage());
