@@ -9,7 +9,7 @@ import org.burroloco.donkey.log.FileReaderLogger;
 import org.burroloco.donkey.log.FileScribblerLogger;
 import org.burroloco.donkey.log.LoaderLogger;
 import org.burroloco.donkey.log.TasterLogger;
-import org.burroloco.donkey.output.file.DefaultFileScribbler;
+import org.burroloco.donkey.output.file.DefaultScribbler;
 import org.burroloco.donkey.util.DefaultFileShifter;
 
 public class DonkeyLoggingWeb implements Web {
@@ -18,7 +18,7 @@ public class DonkeyLoggingWeb implements Web {
     public void web() {
         a.cut(DefaultTaster.class, TasterLogger.class);
         a.cut(DefaultConfigLoader.class, LoaderLogger.class);
-        a.cut(DefaultFileScribbler.class, FileScribblerLogger.class);
+        a.cut(DefaultScribbler.class, FileScribblerLogger.class);
         a.cut(DefaultFileShifter.class, FileMovingLogger.class);
         a.cut(DefaultCsvReader.class, FileReaderLogger.class);
     }

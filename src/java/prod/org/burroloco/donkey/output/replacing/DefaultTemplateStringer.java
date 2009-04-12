@@ -5,7 +5,7 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
 
-public class DefaultExpandingStringer implements ExpandingStringer {
+public class DefaultTemplateStringer implements TemplateStringer {
     TemplateSliceExpander expander;
 
     public String text(Config config, Cake cake) {
@@ -15,6 +15,7 @@ public class DefaultExpandingStringer implements ExpandingStringer {
     }
 
     public void append(Config config, StringBuilder result, Slice slice) {
-        result.append(expander.expand(config, slice)).append(LINE);
+        String expanded = expander.expand(config, slice);
+        result.append(expanded).append(LINE);
     }
 }

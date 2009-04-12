@@ -4,7 +4,7 @@ import edge.org.apache.commons.io.FileUtilsStatic;
 
 import java.io.File;
 
-public class DefaultFileScribbler implements FileScribbler {
+public class DefaultScribbler implements Scribbler {
     FileUtilsStatic fileUtils;
 
     public void scribble(File file, String loogie) {

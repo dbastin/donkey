@@ -8,7 +8,7 @@ import org.burroloco.donkey.config.OutputName;
 
 import java.io.File;
 
-public class DefaultConfigDrivenOutputFileWizard implements ConfigDrivenOutputFileWizard {
+public class DefaultOutputFileWizard implements OutputFileWizard {
     FileWizard files;
     WeakConfig weak;
 

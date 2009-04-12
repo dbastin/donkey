@@ -4,6 +4,6 @@ import org.burroloco.config.core.Config;
 
 import java.io.File;
 
-public interface ConfigDrivenOutputFileWizard {
+public interface OutputFileWizard {
     File file(Config config);
 }

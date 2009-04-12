@@ -16,11 +16,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlJob.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlJob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummyJob.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummyJob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Job.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Job.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/ExpandingStringer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/TemplateStringer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/ResultSetExpandingStringer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/ResultSetTemplateStringer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/ReplacingSpitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/FileSpitter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ConfigDrivenOutputFileWizard.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/OutputFileWizard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/CsvSpitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/CsvSpitter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/DonkeyLoggingWeb.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/DonkeyLoggingWeb.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/DefaultFileScribbler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/DefaultScribbler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/core/SpitterWeb.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/core/SpitterWeb.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/FileScribbler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/Scribbler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/DefaultConfigDrivenOutputFileWizard.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/DefaultOutputFileWizard.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultExpandingStringer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateStringer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordSpitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordSpitter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlWirer.java" />
     </list>
     <ignored path="burro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,28 +97,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="CsvToSqlJob.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="36" selection-start="586" selection-end="586" vertical-scroll-proportion="0.47368422">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="csv2sql.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/csv2sql.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="7" selection-start="105" selection-end="105" vertical-scroll-proportion="0.08716707">
+            <state line="3" column="7" selection-start="105" selection-end="105" vertical-scroll-proportion="0.094736844">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvToSqlDemoTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlDemoTest.java">
+      <file leaf-file-name="CsvToSqlWirer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlWirer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="558" selection-end="558" vertical-scroll-proportion="0.3196126">
+            <state line="18" column="26" selection-start="772" selection-end="772" vertical-scroll-proportion="0.31578946">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvToSqlJob.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlJob.java">
+      <file leaf-file-name="FileSpitter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/FileSpitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="36" selection-start="586" selection-end="586" vertical-scroll-proportion="0.43583536">
+            <state line="12" column="4" selection-start="393" selection-end="393" vertical-scroll-proportion="0.18947369">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultScribbler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/DefaultScribbler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="44" selection-start="161" selection-end="161" vertical-scroll-proportion="0.12631579">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultTemplateStringer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateStringer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="30" selection-start="484" selection-end="484" vertical-scroll-proportion="0.28421053">
               <folding />
             </state>
           </provider>
@@ -118,7 +154,7 @@
       <file leaf-file-name="DefaultSling.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="223" selection-end="223" vertical-scroll-proportion="0.20338982">
+            <state line="8" column="21" selection-start="223" selection-end="223" vertical-scroll-proportion="0.22105263">
               <folding />
             </state>
           </provider>
@@ -127,16 +163,7 @@
       <file leaf-file-name="ContinuousLoop.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/ContinuousLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="12" selection-start="293" selection-end="293" vertical-scroll-proportion="0.14527845">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirWatcherWirer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirWatcherWirer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="106" selection-end="106" vertical-scroll-proportion="0.11622276">
+            <state line="8" column="12" selection-start="293" selection-end="293" vertical-scroll-proportion="0.15789473">
               <folding />
             </state>
           </provider>
@@ -145,7 +172,7 @@
       <file leaf-file-name="DefaultDirWatcherWirer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirWatcherWirer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="24" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.4479419">
+            <state line="41" column="24" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.7894737">
               <folding />
             </state>
           </provider>
@@ -154,25 +181,7 @@
       <file leaf-file-name="SingleFilePush.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/farmer/SingleFilePush.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="13" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.94188863">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OneLoop.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/OneLoop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="167" selection-end="167" vertical-scroll-proportion="0.14527845">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultTaster.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/DefaultTaster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="0.11622276">
+            <state line="50" column="13" selection-start="1253" selection-end="1253" vertical-scroll-proportion="1.3263158">
               <folding />
             </state>
           </provider>
@@ -1006,6 +1015,140 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/output" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/output/replacing" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/output" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/output" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/output/file" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/input" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -1464,15 +1607,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1270" height="774" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32565284" order="7" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24897625" order="0" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2780338" order="1" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2780338" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" order="8" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872504" order="8" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
@@ -1606,34 +1749,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.48421052">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.34951457">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/tibco.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/input/employee.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.12631579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/ant/build-init.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="134" selection-start="2954" selection-end="2954" vertical-scroll-proportion="0.5935252">
@@ -1669,13 +1784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/csv2sql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="105" selection-end="105" vertical-scroll-proportion="0.08716707">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DirWatcherWirer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="19" selection-start="106" selection-end="106" vertical-scroll-proportion="0.11622276">
@@ -1685,35 +1793,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/farmer/SingleFilePush.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="13" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.94188863">
+        <state line="50" column="13" selection-start="1253" selection-end="1253" vertical-scroll-proportion="1.3263158">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/watcher/DefaultDirWatcherWirer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="24" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.4479419">
+        <state line="41" column="24" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.7894737">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/core/ContinuousLoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="293" selection-end="293" vertical-scroll-proportion="0.14527845">
+        <state line="8" column="12" selection-start="293" selection-end="293" vertical-scroll-proportion="0.15789473">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="223" selection-end="223" vertical-scroll-proportion="0.20338982">
+        <state line="8" column="21" selection-start="223" selection-end="223" vertical-scroll-proportion="0.22105263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/DefaultScribbler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="44" selection-start="161" selection-end="161" vertical-scroll-proportion="0.12631579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateStringer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="484" selection-end="484" vertical-scroll-proportion="0.28421053">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/csv2sql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="7" selection-start="105" selection-end="105" vertical-scroll-proportion="0.094736844">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="586" selection-end="586" vertical-scroll-proportion="0.43583536">
+        <state line="20" column="36" selection-start="586" selection-end="586" vertical-scroll-proportion="0.47368422">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlWirer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="772" selection-end="772" vertical-scroll-proportion="0.31578946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/FileSpitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="393" selection-end="393" vertical-scroll-proportion="0.18947369">
           <folding />
         </state>
       </provider>

@@ -1,4 +1,4 @@
-package org.burroloco.donkey.output.fixedwidth;
+package org.burroloco.donkey.output.replacing;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
@@ -8,14 +8,14 @@ import org.burroloco.donkey.output.file.Scribbler;
 
 import java.io.File;
 
-public class FixedWidthRecordSpitter implements Spitter {
-    FixedWidthRecordStringer stringer;
+public class FileSpitter implements Spitter {
     OutputFileWizard wizard;
+    TemplateStringer stringer;
     Scribbler scribbler;
 
     public void pertuh(Config config, Cake cake) {
-        File target = wizard.file(config);
-        String text = stringer.build(config, cake);
-        scribbler.scribble(target, text);
+        File outFile = wizard.file(config);
+        String text = stringer.text(config, cake);
+        scribbler.scribble(outFile, text);
     }
 }

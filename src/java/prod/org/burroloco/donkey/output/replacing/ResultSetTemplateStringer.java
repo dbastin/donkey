@@ -4,8 +4,8 @@ import static au.net.netstorm.boost.gunge.separator.Separator.LINE;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
 
-public class ResultSetExpandingStringer implements ExpandingStringer {
-    ExpandingStringer stringer;
+public class ResultSetTemplateStringer implements TemplateStringer {
+    TemplateStringer stringer;
 
     public String text(Config config, Cake cake) {
         StringBuilder result = new StringBuilder();

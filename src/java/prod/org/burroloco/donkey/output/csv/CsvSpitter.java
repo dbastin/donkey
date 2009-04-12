@@ -3,12 +3,12 @@ package org.burroloco.donkey.output.csv;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.output.core.Spitter;
-import org.burroloco.donkey.output.file.ConfigDrivenOutputFileWizard;
-import org.burroloco.donkey.output.file.FileScribbler;
+import org.burroloco.donkey.output.file.OutputFileWizard;
+import org.burroloco.donkey.output.file.Scribbler;
 
 public class CsvSpitter implements Spitter {
-    ConfigDrivenOutputFileWizard wizard;
-    FileScribbler scribbler;
+    OutputFileWizard wizard;
+    Scribbler scribbler;
     CsvStringer csv;
 
     public void pertuh(Config config, Cake cake) {
