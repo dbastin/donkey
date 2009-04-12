@@ -13,7 +13,7 @@ public class DummyJob extends Primordial implements Job {
         throw new AssertionFailedError();
     }
 
-    public Class<? extends Loop> looping() {
+    public Class<? extends Loop> loop() {
         throw new AssertionFailedError();
     }
 }

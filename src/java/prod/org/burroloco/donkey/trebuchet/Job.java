@@ -5,5 +5,5 @@ import org.burroloco.config.core.Config;
 public interface Job {
     Config config();
     Class<? extends Wirer> wirer();
-    Class<? extends Loop> looping();
+    Class<? extends Loop> loop();
 }

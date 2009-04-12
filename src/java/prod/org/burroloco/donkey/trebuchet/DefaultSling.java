@@ -7,7 +7,7 @@ public class DefaultSling implements Sling {
     Impl impl;
     
     public void release(Job job, Config config) {
-        Class<? extends Loop> loopType = job.looping();
+        Class<? extends Loop> loopType = job.loop();
         Loop loop = impl.impl(loopType);
         loop.go(config);
     }

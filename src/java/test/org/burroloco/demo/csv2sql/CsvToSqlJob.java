@@ -18,7 +18,7 @@ public class CsvToSqlJob implements Job {
         return CsvToSqlWirer.class;
     }
 
-    public Class<? extends Loop> looping() {
+    public Class<? extends Loop> loop() {
         return OneLoop.class;
     }
 }
