@@ -14,7 +14,6 @@ import org.burroloco.test.util.io.FileWirer;
 import org.burroloco.tibco.config.TestTibcoWirer;
 import org.burroloco.tibco.factory.LifecycleTibcoFactory;
 
-// FIX TSR-DONKEY Move "listener" script to tsr?
 public class TransportMolecularTest extends DonkeyTestCase implements HasFixtures, LazyFields, Destroyable, TestConstants {
     private LifecycleTibcoFactory tibco;
     private TibcoTransport subject;
