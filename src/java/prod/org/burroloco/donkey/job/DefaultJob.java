@@ -1,4 +1,4 @@
-package org.burroloco.donkey.core;
+package org.burroloco.donkey.job;
 
 import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
 import org.burroloco.config.core.Config;

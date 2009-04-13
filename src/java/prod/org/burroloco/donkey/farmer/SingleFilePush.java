@@ -6,7 +6,7 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.config.InputFileName;
-import org.burroloco.donkey.core.Job;
+import org.burroloco.donkey.job.Job;
 
 import java.io.File;
 

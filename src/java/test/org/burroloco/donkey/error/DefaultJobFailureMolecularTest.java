@@ -5,7 +5,7 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.core.Job;
+import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.error.core.HandledException;
 import org.burroloco.donkey.error.listener.assistant.ErrorAssistant;
 import org.burroloco.donkey.error.listener.assistant.ErrorAssistants;

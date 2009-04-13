@@ -1,8 +1,8 @@
 package org.burroloco.donkey.output.csv;
 
-import static org.burroloco.donkey.util.FileConstants.WIN_EOL;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
+import static org.burroloco.donkey.util.FileConstants.WIN_EOL;
 
 import java.util.Collection;
 import java.util.List;

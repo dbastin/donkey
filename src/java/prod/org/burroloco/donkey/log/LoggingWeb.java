@@ -5,8 +5,8 @@ import au.net.netstorm.boost.spider.api.config.aspect.Aspector;
 import au.net.netstorm.boost.spider.api.config.web.Web;
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.loader.DefaultConfigLoader;
-import org.burroloco.donkey.core.DefaultJob;
 import org.burroloco.donkey.input.csv.DefaultCsvReader;
+import org.burroloco.donkey.job.DefaultJob;
 import org.burroloco.donkey.output.file.DefaultScribbler;
 import org.burroloco.donkey.util.DefaultFileShifter;
 

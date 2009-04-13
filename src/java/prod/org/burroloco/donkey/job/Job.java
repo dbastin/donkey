@@ -1,4 +1,4 @@
-package org.burroloco.donkey.core;
+package org.burroloco.donkey.job;
 
 import org.burroloco.config.core.Config;
 
