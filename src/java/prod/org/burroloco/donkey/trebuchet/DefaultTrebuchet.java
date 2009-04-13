@@ -8,8 +8,8 @@ public class DefaultTrebuchet implements Trebuchet {
     Crank crank;
     Impl impl;
 
-    public void launch(Class<? extends JobSpec> type) {
-        JobSpec spec = impl.impl(type);
+    public void launch(Class<? extends Specification> type) {
+        Specification spec = impl.impl(type);
         Config config = spec.config();
         crank.crank(spec, config);
         sling.release(spec, config);

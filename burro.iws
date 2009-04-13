@@ -16,24 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlJob.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlJobSpec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/TestTrebuchet.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/TestTrebuchet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Job.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/JobSpec.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherJob.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherJobSpec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Crank.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Crank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultCrank.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultCrank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/WrappingTrebuchet.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/WrappingTrebuchet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummyJob.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummyJobSpec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/HurlerAtomicTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/HurlerAtomicTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlDemoTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlDemoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Sling.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Sling.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultWrappingTrebuchet.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultWrappingTrebuchet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultTestTrebuchet.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultTestTrebuchet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultTrebuchet.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultTrebuchet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Trebuchet.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Trebuchet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummyJobSpec.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummySpecification.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlJobSpec.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlSpecification.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherJobSpec.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherSpecification.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/JobSpec.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Specification.java" />
     </list>
     <ignored path="burro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,10 +87,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DirectoryWatcherJobSpec.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherJobSpec.java">
+      <file leaf-file-name="DirectoryWatcherSpecification.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherSpecification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="22" selection-start="655" selection-end="655" vertical-scroll-proportion="0.46489105">
+            <state line="21" column="22" selection-start="673" selection-end="673" vertical-scroll-proportion="0.46489105">
               <folding />
             </state>
           </provider>
@@ -146,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvToSqlJobSpec.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlJobSpec.java">
+      <file leaf-file-name="CsvToSqlSpecification.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlSpecification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="18" selection-start="622" selection-end="622" vertical-scroll-proportion="0.46489105">
+            <state line="24" column="0" selection-start="660" selection-end="660" vertical-scroll-proportion="0.5520581">
               <folding />
             </state>
           </provider>
@@ -2519,7 +2505,7 @@
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed Job to JobSpec" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -2537,6 +2523,7 @@
     <MESSAGE value="Raised coverage to line:59 branch:51" />
     <MESSAGE value="Removed &quot;:&quot; from timestamp. OS X finder converts these to &quot;/&quot;." />
     <MESSAGE value="Renamed DirWatcher to DirectoryWatcher" />
+    <MESSAGE value="Renamed Job to JobSpec" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -2670,9 +2657,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherJobSpec.java">
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="22" selection-start="655" selection-end="655" vertical-scroll-proportion="0.46489105">
+        <state line="21" column="22" selection-start="673" selection-end="673" vertical-scroll-proportion="0.46489105">
           <folding />
         </state>
       </provider>
@@ -2733,9 +2720,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlJobSpec.java">
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="622" selection-end="622" vertical-scroll-proportion="0.46489105">
+        <state line="24" column="0" selection-start="660" selection-end="660" vertical-scroll-proportion="0.5520581">
           <folding />
         </state>
       </provider>

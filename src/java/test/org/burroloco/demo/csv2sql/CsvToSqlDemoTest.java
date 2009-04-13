@@ -13,7 +13,7 @@ public class CsvToSqlDemoTest extends DonkeyTestCase {
     Trebuchet trebuchet;
 
     public void testCsvToSql() {
-        trebuchet.launch(CsvToSqlJobSpec.class);
+        trebuchet.launch(CsvToSqlSpecification.class);
         check();
     }
 

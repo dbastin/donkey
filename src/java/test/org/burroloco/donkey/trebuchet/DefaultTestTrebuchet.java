@@ -11,8 +11,8 @@ public class DefaultTestTrebuchet implements TestTrebuchet {
     Crank crank;
     Impl impl;
 
-    public void launch(Class<? extends JobSpec> type, Class<? extends Web>... extras) {
-        JobSpec spec = impl.impl(type);
+    public void launch(Class<? extends Specification> type, Class<? extends Web>... extras) {
+        Specification spec = impl.impl(type);
         Config config = spec.config();
         crank.crank(spec, config);
         spinneret.spin(extras);

@@ -16,18 +16,18 @@ public class HurlerAtomicTest extends DonkeyTestCase implements LazyFields, HasF
     }
 
     public void testSuccesfulTaster() {
-        expect.oneCall(trebuchetMock, VOID, "launch", DummyJobSpec.class);
-        execute(DummyJobSpec.class.getName());
+        expect.oneCall(trebuchetMock, VOID, "launch", DummySpecification.class);
+        execute(DummySpecification.class.getName());
     }
 
     public void testSuccesfulWatch() {
-        expect.oneCall(trebuchetMock, VOID, "launch", DummyJobSpec.class);
-        execute(DummyJobSpec.class.getName());
+        expect.oneCall(trebuchetMock, VOID, "launch", DummySpecification.class);
+        execute(DummySpecification.class.getName());
     }
 
     public void testWrongNumberOfArgs() {
         try {
-            execute("unwanted donkey", DummyJobSpec.class.getName());
+            execute("unwanted donkey", DummySpecification.class.getName());
             fail("NOT FAILED!");
         } catch (IllegalArgumentException e) {
             // Expected.
