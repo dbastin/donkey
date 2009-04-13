@@ -12,7 +12,7 @@ import org.burroloco.donkey.log.TasterLogger;
 import org.burroloco.donkey.output.file.DefaultScribbler;
 import org.burroloco.donkey.util.DefaultFileShifter;
 
-public class DonkeyLoggingWeb implements Web {
+public class LoggingWeb implements Web {
     Aspector a;
 
     public void web() {
