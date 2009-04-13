@@ -32,7 +32,7 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
     }
 
     public void testDirectoryWatcher() {
-        Class watcherJob = DirectoryWatcherJob.class;
+        Class watcherJob = DirectoryWatcherJobSpec.class;
         trebuchet.launch(watcherJob, WatcherTestWeb.class);
         repeat(3);
     }

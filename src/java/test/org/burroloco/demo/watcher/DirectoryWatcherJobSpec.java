@@ -1,13 +1,13 @@
 package org.burroloco.demo.watcher;
 
-import org.burroloco.donkey.trebuchet.Job;
+import org.burroloco.donkey.trebuchet.JobSpec;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.donkey.trebuchet.Loop;
 import org.burroloco.donkey.core.DirectoryWatcherLoop;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
 
-public class DirectoryWatcherJob implements Job {
+public class DirectoryWatcherJobSpec implements JobSpec {
     ConfigLoader loader;
 
     public Config config() {

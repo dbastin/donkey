@@ -4,10 +4,10 @@ import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.core.OneLoop;
 import org.burroloco.donkey.trebuchet.Loop;
-import org.burroloco.donkey.trebuchet.Job;
+import org.burroloco.donkey.trebuchet.JobSpec;
 import org.burroloco.donkey.trebuchet.Wirer;
 
-public class CsvToSqlJob implements Job {
+public class CsvToSqlJobSpec implements JobSpec {
     ConfigLoader loader;
 
     public Config config() {

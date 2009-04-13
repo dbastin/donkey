@@ -4,7 +4,7 @@ import au.net.netstorm.boost.bullet.primordial.Primordial;
 import junit.framework.AssertionFailedError;
 import org.burroloco.config.core.Config;
 
-public class DummyJob extends Primordial implements Job {
+public class DummyJobSpec extends Primordial implements JobSpec {
     public Config config() {
         throw new AssertionFailedError();
     }
