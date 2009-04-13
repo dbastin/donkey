@@ -1,6 +1,7 @@
 package org.burroloco.donkey.trebuchet;
 
 import au.net.netstorm.boost.spider.api.runtime.Impl;
+import org.burroloco.config.core.Config;
 
 public class DefaultTrebuchet implements Trebuchet {
     Sling sling;
@@ -9,7 +10,8 @@ public class DefaultTrebuchet implements Trebuchet {
 
     public void launch(Class<? extends Specification> specCls) {
         Specification spec = impl.impl(specCls);
-        crank.crank(spec);
-        sling.release(spec);
+        Config config = spec.config();
+        crank.crank(spec, config);
+        sling.release(spec, config);
     }
 }

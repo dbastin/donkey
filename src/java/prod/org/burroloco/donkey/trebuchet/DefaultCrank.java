@@ -1,13 +1,14 @@
 package org.burroloco.donkey.trebuchet;
 
+import au.net.netstorm.boost.spider.api.runtime.Impl;
 import org.burroloco.config.core.Config;
 
 public class DefaultCrank implements Crank {
-    ConfigWirer wirer;
+    Impl impl;
 
-    public void crank(Specification spec) {
-        Config config = spec.config();
-        Class<? extends Wirer> wirer = spec.wirer();
-        this.wirer.wire(config, wirer);
+    public void crank(Specification spec, Config config) {
+        Class<? extends Wirer> wirerCls = spec.wirer();
+        Wirer wirer = impl.impl(wirerCls);
+        wirer.wire(config);
     }
 }

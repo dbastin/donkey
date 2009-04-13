@@ -5,15 +5,10 @@ import org.burroloco.config.core.Config;
 
 public class DefaultSling implements Sling {
     Impl impl;
-    
-    public void release(Specification spec) {
-        Config config = spec.config();
-        Loop loop = loop(spec);
-        loop.go(config);
-    }
 
-    private Loop loop(Specification spec) {
-        Class<? extends Loop> loopType = spec.loop();
-        return impl.impl(loopType);
+    public void release(Specification spec, Config config) {
+        Class<? extends Loop> loopCls = spec.loop();
+        Loop loop = impl.impl(loopCls);
+        loop.go(config);
     }
 }
