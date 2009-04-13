@@ -16,7 +16,7 @@ public class LoggingWeb implements Web {
     Aspector a;
 
     public void web() {
-        a.cut(DefaultTaster.class, TasterLogger.class);
+        a.cut(DefaultJob.class, TasterLogger.class);
         a.cut(DefaultConfigLoader.class, LoaderLogger.class);
         a.cut(DefaultScribbler.class, FileScribblerLogger.class);
         a.cut(DefaultFileShifter.class, FileMovingLogger.class);

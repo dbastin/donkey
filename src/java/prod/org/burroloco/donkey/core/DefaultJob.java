@@ -8,14 +8,14 @@ import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.transformation.gargler.Gargler;
 
-public class DefaultTaster implements Taster {
+public class DefaultJob implements Job {
     ErrorEventListener error;
     ThrowableMaster chuckie;
     Slurper slurper;
     Gargler gargler;
     Spitter spitter;
 
-    public void sample(Config config) {
+    public void go(Config config) {
         try {
             Cake slurped = slurper.slurp(config);
             Cake sloshed = gargler.slosh(config, slurped);

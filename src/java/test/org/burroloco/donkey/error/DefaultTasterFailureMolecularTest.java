@@ -5,7 +5,7 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.core.Taster;
+import org.burroloco.donkey.core.Job;
 import org.burroloco.donkey.error.core.HandledException;
 import org.burroloco.donkey.error.listener.assistant.ErrorAssistant;
 import org.burroloco.donkey.error.listener.assistant.ErrorAssistants;
@@ -19,7 +19,7 @@ import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.io.FileWirer;
 
 public class DefaultTasterFailureMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures, TestConstants {
-    private Taster subject;
+    private Job subject;
     private RuntimeException errorsAssistantException;
     private RuntimeException originalException;
     ErrorAssistant naughtyAssistantMock;
@@ -69,9 +69,9 @@ public class DefaultTasterFailureMolecularTest extends DonkeyTestCase implements
     }
 
     private void sampleFailure() {
-        subject = nu.nu(Taster.class);
+        subject = nu.nu(Job.class);
         try {
-            subject.sample(configDummy);
+            subject.go(configDummy);
             fail("Go should have failed.");
         } catch (HandledException e) {
             assertEquals(originalException, throwables.rootCause(e));

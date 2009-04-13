@@ -6,7 +6,7 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.config.InputFileName;
-import org.burroloco.donkey.core.Taster;
+import org.burroloco.donkey.core.Job;
 
 import java.io.File;
 
@@ -36,8 +36,8 @@ public class SingleFilePush implements Push {
     }
 
     private void taste() {
-        Taster taster = nu.nu(Taster.class);
-        taster.sample(config);
+        Job job = nu.nu(Job.class);
+        job.go(config);
     }
 
     public void fail(Throwable t) {
