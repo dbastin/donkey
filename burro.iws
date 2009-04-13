@@ -16,20 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config/DefaultTestTibcoWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config/DefaultTestTibcoWirer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultConfigWirer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/ConfigWirer.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/HurlerAtomicTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/SpideredMainAtomicTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
     </list>
-    <list name="part2" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Sling.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Sling.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Crank.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Crank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultTestTrebuchet.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultTestTrebuchet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultCrank.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultCrank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultTrebuchet.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultTrebuchet.java" />
-    </list>
+    <list name="part2" comment="" />
     <ignored path="burro.iws" />
     <ignored path=".idea/workspace.xml" />
   </component>
@@ -96,28 +86,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HurlerAtomicTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/HurlerAtomicTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="23" selection-start="929" selection-end="929" vertical-scroll-proportion="0.7561644">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sling.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Sling.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="122" selection-end="122" vertical-scroll-proportion="0.15789473">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DefaultSling.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.4105263">
+            <state line="14" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.25956738">
               <folding />
             </state>
           </provider>
@@ -126,10 +98,8 @@
       <file leaf-file-name="DefaultTrebuchet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultTrebuchet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="411" selection-end="411" vertical-scroll-proportion="0.4105263">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="13" column="18" selection-start="411" selection-end="411" vertical-scroll-proportion="0.23960066">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,10 +107,8 @@
       <file leaf-file-name="DefaultCrank.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultCrank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="39" selection-start="296" selection-end="296" vertical-scroll-proportion="0.28421053">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="39" selection-start="296" selection-end="296" vertical-scroll-proportion="0.15973377">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,7 +116,7 @@
       <file leaf-file-name="DefaultTestTrebuchet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultTestTrebuchet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="38" selection-start="572" selection-end="572" vertical-scroll-proportion="0.39452055">
+            <state line="15" column="38" selection-start="572" selection-end="572" vertical-scroll-proportion="0.24573378">
               <folding />
             </state>
           </provider>
@@ -166,19 +134,35 @@
       <file leaf-file-name="WatcherTestWeb.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherTestWeb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.13150685">
+            <state line="5" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.081911266">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultTestTibcoWirer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DefaultTestTibcoWirer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config/DefaultTestTibcoWirer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.22105263">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="7" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.079866886">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DummySpecification.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummySpecification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.079866886">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpideredMainAtomicTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/SpideredMainAtomicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="18" selection-start="281" selection-end="281" vertical-scroll-proportion="0.081911266">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -186,7 +170,7 @@
       <file leaf-file-name="TibcoWirer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/TibcoWirer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.13150685">
+            <state line="13" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.081911266">
               <folding />
             </state>
           </provider>
@@ -1739,97 +1723,6 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="4/13/09 8:25 AM" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-            <PATH vcs="svn" revision="27">$PROJECT_DIR$/data/input/employee.csv</PATH>
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
-  </component>
   <component name="RunManager" selected="JUnit.DirectoryWatcherDemoTest">
     <tempConfiguration default="false" name="DirectoryWatcherDemoTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <pattern value="org.burroloco.demo.watcher.*" />
@@ -2003,7 +1896,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1270" height="774" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -2011,7 +1904,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24897625" order="0" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2780338" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872504" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" order="8" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
@@ -2154,13 +2047,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/DefaultErrorAssistants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0776699">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/ShiftyErrorAssistant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="313" selection-end="313" vertical-scroll-proportion="0.1553398">
@@ -2196,55 +2082,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/HurlerAtomicTest.java">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Sling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="929" selection-end="929" vertical-scroll-proportion="0.7561644">
+        <state line="5" column="14" selection-start="122" selection-end="122" vertical-scroll-proportion="0.09983361">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/Sling.java">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="122" selection-end="122" vertical-scroll-proportion="0.15789473">
+        <state line="14" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.25956738">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultTrebuchet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="411" selection-end="411" vertical-scroll-proportion="0.4105263">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/TibcoWirer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.13150685">
+        <state line="13" column="18" selection-start="411" selection-end="411" vertical-scroll-proportion="0.23960066">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultCrank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="296" selection-end="296" vertical-scroll-proportion="0.28421053">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="9" column="39" selection-start="296" selection-end="296" vertical-scroll-proportion="0.15973377">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultTestTrebuchet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="572" selection-end="572" vertical-scroll-proportion="0.39452055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherTestWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.13150685">
+        <state line="15" column="38" selection-start="572" selection-end="572" vertical-scroll-proportion="0.24573378">
           <folding />
         </state>
       </provider>
@@ -2256,19 +2124,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/trebuchet/DefaultSling.java">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/TibcoWirer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.4105263">
+        <state line="13" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.081911266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/watcher/WatcherTestWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.081911266">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config/DefaultTestTibcoWirer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.22105263">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="7" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.079866886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DummySpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.079866886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/SpideredMainAtomicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="281" selection-end="281" vertical-scroll-proportion="0.081911266">
+          <folding />
         </state>
       </provider>
     </entry>
