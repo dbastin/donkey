@@ -1,8 +1,8 @@
 package org.burroloco.demo.csv2sql;
 
+import edge.org.apache.commons.io.FileUtilsStatic;
 import org.burroloco.donkey.trebuchet.Trebuchet;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
-import edge.org.apache.commons.io.FileUtilsStatic;
 
 import java.io.File;
 

@@ -8,8 +8,8 @@ public class DefaultWrappingTrebuchet implements WrappingTrebuchet {
     WrappingSqlWirer wirer;
     Trebuchet trebuchet;
 
-    public void launch(Class<? extends Specification> payload, File sqlWrap) {
+    public void launch(Class<? extends Specification> specCls, File sqlWrap) {
         wirer.wire(sqlWrap);
-        trebuchet.launch(payload);
+        trebuchet.launch(specCls);
     }
 }

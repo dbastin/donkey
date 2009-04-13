@@ -10,7 +10,7 @@ public class SpideredMain implements Go {
 
     public void go(String[] args) {
         if (args.length != 1) throw new IllegalArgumentException(USAGE);
-        Class sling = classer.forName(args[0]);
-        trebuchet.launch(sling);
+        Class specCls = classer.forName(args[0]);
+        trebuchet.launch(specCls);
     }
 }
