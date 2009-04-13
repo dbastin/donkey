@@ -30,6 +30,7 @@ public class DefaultWireTap implements WireTap {
     }
 
     private void listen(String number, String host, java.io.OutputStream out) {
+        // FIX TSR-DONKEY Move "listener" script to tsr?
         process = control.start(WORKING, out, out, "sh", "listener", number, host);
     }
 
