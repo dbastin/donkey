@@ -1,4 +1,4 @@
-package org.burroloco.donkey.core;
+package org.burroloco.donkey.cache;
 
 import au.net.netstorm.boost.spider.plugs.provider.core.DelegatingProvider;
 import au.net.netstorm.boost.spider.plugs.provider.core.Provider;

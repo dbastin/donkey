@@ -2,8 +2,8 @@ package org.burroloco.demo.watcher;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
-import org.burroloco.donkey.core.DirectoryWatcherLoop;
-import org.burroloco.donkey.trebuchet.Loop;
+import org.burroloco.donkey.loop.DirectoryWatcherLoop;
+import org.burroloco.donkey.loop.Loop;
 import org.burroloco.donkey.trebuchet.Specification;
 import org.burroloco.donkey.trebuchet.Wirer;
 

@@ -5,9 +5,8 @@ import au.net.netstorm.boost.spider.api.config.factory.Factorer;
 import au.net.netstorm.boost.spider.api.config.mapping.Mapper;
 import au.net.netstorm.boost.spider.api.config.web.Web;
 import au.net.netstorm.boost.spider.plugs.factory.supplied.ThreadedFactory;
-import org.burroloco.donkey.core.ConnectionCacheWeb;
-import org.burroloco.donkey.core.LoggingWeb;
-import org.burroloco.donkey.log.LogWeb;
+import org.burroloco.donkey.cache.ConnectionCacheWeb;
+import org.burroloco.donkey.log.LoggingWeb;
 import org.burroloco.donkey.output.core.SpitterWeb;
 import org.burroloco.util.wire.UtilitiesWeb;
 
@@ -20,6 +19,6 @@ public class DonkeyWeb implements Web {
     public void web() {
         mapper.prefix("Default", scope);
         factorer.add(ThreadedFactory.class);
-        spinneret.spin(LogWeb.class, LoggingWeb.class, ConnectionCacheWeb.class, SpitterWeb.class, UtilitiesWeb.class);
+        spinneret.spin(LoggingWeb.class, ConnectionCacheWeb.class, SpitterWeb.class, UtilitiesWeb.class);
     }
 }

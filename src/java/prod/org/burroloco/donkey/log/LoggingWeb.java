@@ -1,19 +1,18 @@
-package org.burroloco.donkey.core;
+package org.burroloco.donkey.log;
 
+import au.net.netstorm.boost.bullet.log.LogEngine;
 import au.net.netstorm.boost.spider.api.config.aspect.Aspector;
 import au.net.netstorm.boost.spider.api.config.web.Web;
+import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.loader.DefaultConfigLoader;
+import org.burroloco.donkey.core.DefaultJob;
 import org.burroloco.donkey.input.csv.DefaultCsvReader;
-import org.burroloco.donkey.log.FileMovingLogger;
-import org.burroloco.donkey.log.FileReaderLogger;
-import org.burroloco.donkey.log.FileScribblerLogger;
-import org.burroloco.donkey.log.LoaderLogger;
-import org.burroloco.donkey.log.TasterLogger;
 import org.burroloco.donkey.output.file.DefaultScribbler;
 import org.burroloco.donkey.util.DefaultFileShifter;
 
 public class LoggingWeb implements Web {
     Aspector a;
+    Wire wire;
 
     public void web() {
         a.cut(DefaultJob.class, TasterLogger.class);
@@ -21,5 +20,6 @@ public class LoggingWeb implements Web {
         a.cut(DefaultScribbler.class, FileScribblerLogger.class);
         a.cut(DefaultFileShifter.class, FileMovingLogger.class);
         a.cut(DefaultCsvReader.class, FileReaderLogger.class);
+        wire.cls(Slf4jLogEngine.class).to(LogEngine.class);
     }
 }

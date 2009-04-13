@@ -6,7 +6,7 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import au.net.netstorm.boost.spider.plugs.provider.core.Provider;
 import edge.org.dbunit.database.IDatabaseConnection;
-import org.burroloco.donkey.core.CachingProvider;
+import org.burroloco.donkey.cache.CachingProvider;
 import org.burroloco.test.util.dbunit.IDatabaseConnectionProvider;
 
 public class IConnectionCacheWeb implements Web {

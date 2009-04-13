@@ -1,4 +1,4 @@
-package org.burroloco.donkey.trebuchet;
+package org.burroloco.donkey.loop;
 
 import org.burroloco.config.core.Config;
 

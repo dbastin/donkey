@@ -10,8 +10,8 @@ import org.burroloco.config.core.Config;
 import org.burroloco.config.override.instance.Overrider;
 import org.burroloco.donkey.config.InputDirName;
 import org.burroloco.donkey.config.WatchInterval;
-import org.burroloco.donkey.core.DirectoryWatcherLoop;
-import org.burroloco.donkey.trebuchet.Loop;
+import org.burroloco.donkey.loop.DirectoryWatcherLoop;
+import org.burroloco.donkey.loop.Loop;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
 public class WatcherFailureMolecularTest extends DonkeyTestCase implements HasFixtures {

@@ -1,9 +1,8 @@
-package org.burroloco.donkey.core;
+package org.burroloco.donkey.loop;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.input.watcher.DirectoryWatcher;
 import org.burroloco.donkey.input.watcher.DirectoryWatcherWirer;
-import org.burroloco.donkey.trebuchet.Loop;
 
 public class DirectoryWatcherLoop implements Loop {
     DirectoryWatcherWirer watchers;

@@ -2,8 +2,8 @@ package org.burroloco.demo.csv2sql;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
-import org.burroloco.donkey.core.OneLoop;
-import org.burroloco.donkey.trebuchet.Loop;
+import org.burroloco.donkey.loop.SingleLoop;
+import org.burroloco.donkey.loop.Loop;
 import org.burroloco.donkey.trebuchet.Specification;
 import org.burroloco.donkey.trebuchet.Wirer;
 
@@ -19,6 +19,6 @@ public class CsvToSqlSpecification implements Specification {
     }
 
     public Class<? extends Loop> loop() {
-        return OneLoop.class;
+        return SingleLoop.class;
     }
 }

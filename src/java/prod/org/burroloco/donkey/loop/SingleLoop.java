@@ -1,9 +1,9 @@
-package org.burroloco.donkey.core;
+package org.burroloco.donkey.loop;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.trebuchet.Loop;
+import org.burroloco.donkey.core.Job;
 
-public class OneLoop implements Loop {
+public class SingleLoop implements Loop {
     Job job;
 
     public void go(Config config) {
