@@ -18,7 +18,7 @@ import org.burroloco.test.constants.TestConstants;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.io.FileWirer;
 
-public class DefaultTasterFailureMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures, TestConstants {
+public class DefaultJobFailureMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures, TestConstants {
     private Job subject;
     private RuntimeException errorsAssistantException;
     private RuntimeException originalException;
@@ -40,13 +40,13 @@ public class DefaultTasterFailureMolecularTest extends DonkeyTestCase implements
         logCleaner.clean();
     }
 
-    public void testTasterFailureWithNoAssistant() {
-        sampleFailure();
+    public void testJobFailureWithNoAssistant() {
+        jobFailure();
     }
 
-    public void testTasterFailureWithAssistant() {
+    public void testJobFailureWithAssistant() {
         assistantsMock();
-        sampleFailure();
+        jobFailure();
         checkAssistantExceptionsLogged();
     }
 
@@ -68,7 +68,7 @@ public class DefaultTasterFailureMolecularTest extends DonkeyTestCase implements
         wire.ref(assistantsMock).to(ErrorAssistants.class);
     }
 
-    private void sampleFailure() {
+    private void jobFailure() {
         subject = nu.nu(Job.class);
         try {
             subject.go(configDummy);

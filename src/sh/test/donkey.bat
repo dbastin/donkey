@@ -1,7 +1,7 @@
 setLocal EnableDelayedExpansion
 
 set SCRIPT_DIR=%~dp0
-set PAYLOAD_CLASSNAME=%1
+set SPECIFICATION_CLASSNAME=%1
 set CONFIG_DIR=%SCRIPT_DIR%\config
 set JAVA_CMD=%JAVA_HOME%\bin\java
 
@@ -15,7 +15,7 @@ set CLASSPATH="C:\TEMP\donkey\*"
 echo %CLASSPATH%
 set JVM_OPTIONS=-Xmx256m
 REM set JVM_DEBUG_OPTIONS="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5010"
-set EXEC="%JAVA_CMD%" %JVM_OPTIONS% -Dlog4j.configuration=file:C:\TEMP\donkey\log4j.properties -classpath %CLASSPATH% org.burroloco.donkey.trebuchet.Main %PAYLOAD_CLASSNAME%
+set EXEC="%JAVA_CMD%" %JVM_OPTIONS% -Dlog4j.configuration=file:C:\TEMP\donkey\log4j.properties -classpath %CLASSPATH% org.burroloco.donkey.trebuchet.Main %SPECIFICATION_CLASSNAME%
 
 echo %EXEC%
 %EXEC%

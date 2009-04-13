@@ -4,7 +4,7 @@ import au.net.netstorm.boost.gunge.sledge.java.lang.EdgeClass;
 import au.net.netstorm.boost.spider.api.entry.Go;
 
 public class SpideredMain implements Go {
-    private static final String USAGE = "usage: " + Main.class.getName() + " payload";
+    private static final String USAGE = "usage: " + Main.class.getName() + " specificationClass";
     Trebuchet trebuchet;
     EdgeClass classer;
 

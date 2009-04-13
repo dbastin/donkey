@@ -28,14 +28,14 @@ public class SingleFilePush implements Push {
         String fileName = ((File) obj).getPath();
         set(fileName);
         try {
-            taste();
+            go();
         } finally {
             name.remove();
         }
 
     }
 
-    private void taste() {
+    private void go() {
         Job job = nu.nu(Job.class);
         job.go(config);
     }

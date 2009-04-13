@@ -8,8 +8,8 @@ public class DefaultAsyncDonkeyShell implements AsyncDonkeyShell {
     CommandController controller;
     FileWirer file;
 
-    public void run(String payload) {
-        process = controller.start(file.basedir(), "sh", "donkey.sh", payload);
+    public void run(String specification) {
+        process = controller.start(file.basedir(), "sh", "donkey.sh", specification);
     }
 
     public void stop() {

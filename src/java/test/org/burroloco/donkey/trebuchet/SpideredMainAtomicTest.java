@@ -15,7 +15,7 @@ public class SpideredMainAtomicTest extends DonkeyTestCase implements LazyFields
         subject =impl.impl(SpideredMain.class);
     }
 
-    public void testSuccesfulTaster() {
+    public void testSuccesfulJob() {
         expect.oneCall(trebuchetMock, VOID, "launch", DummySpecification.class);
         execute(DummySpecification.class.getName());
     }

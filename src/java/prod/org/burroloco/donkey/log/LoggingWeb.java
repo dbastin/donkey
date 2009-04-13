@@ -15,7 +15,7 @@ public class LoggingWeb implements Web {
     Wire wire;
 
     public void web() {
-        a.cut(DefaultJob.class, TasterLogger.class);
+        a.cut(DefaultJob.class, JobLogger.class);
         a.cut(DefaultConfigLoader.class, LoaderLogger.class);
         a.cut(DefaultScribbler.class, FileScribblerLogger.class);
         a.cut(DefaultFileShifter.class, FileMovingLogger.class);

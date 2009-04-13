@@ -1,4 +1,4 @@
-package org.burroloco.donkey.core;
+package org.burroloco.donkey.util;
 
 
 public interface FileConstants {

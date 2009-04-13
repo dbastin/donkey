@@ -8,8 +8,8 @@ public class DefaultDonkeyShell implements DonkeyShell {
     CommandRunner runner;
     FileWirer file;
 
-    public void run(String payload) {
-        int result = runner.run(file.basedir(), "sh", "donkey.sh", payload);
+    public void run(String specification) {
+        int result = runner.run(file.basedir(), "sh", "donkey.sh", specification);
         assertEquals("donkey.sh return code", 0, result);
     }
 }

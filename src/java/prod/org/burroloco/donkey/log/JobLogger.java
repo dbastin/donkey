@@ -6,13 +6,13 @@ import au.net.netstorm.boost.gunge.layer.Layer;
 import au.net.netstorm.boost.gunge.layer.Method;
 import org.burroloco.donkey.error.core.HandledException;
 
-public class TasterLogger implements Layer {
+public class JobLogger implements Layer {
     private static final String THINGY = "Process";
     private Object ref;
     ThrowableMaster chuckie;
     Log log;
 
-    public TasterLogger(Object ref) {
+    public JobLogger(Object ref) {
         this.ref = ref;
     }
 
