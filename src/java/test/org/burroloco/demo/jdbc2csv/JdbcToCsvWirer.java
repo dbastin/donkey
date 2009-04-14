@@ -6,7 +6,6 @@ import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.database.DatabaseSlurper;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.csv.CsvSpitter;
-import org.burroloco.donkey.transformation.transform.PassThroughTransform;
 import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;
 
