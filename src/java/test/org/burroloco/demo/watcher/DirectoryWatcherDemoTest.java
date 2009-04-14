@@ -8,6 +8,8 @@ import org.burroloco.donkey.input.watcher.WatcherTestWeb;
 import org.burroloco.donkey.trebuchet.TestTrebuchet;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.snooze.Snoozer;
+import org.burroloco.test.util.io.FileComparator;
+import org.burroloco.test.butcher.fixture.checker.string.Normaliser;
 
 import java.io.File;
 
@@ -20,6 +22,8 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
     private static final File EXPECTED = new File("data/expected/employee.sql");
     FileUtilsStatic fileUtils;
     TestTrebuchet trebuchet;
+    FileComparator comparator;
+    Normaliser normaliser;
     Snoozer snoozer;
 
     public void fixtures() {
@@ -53,7 +57,7 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
 
     private void dropFile() {
         fileUtils.copyFileToDirectory(INPUT, IN);
-        snoozer.snooze(1000);
+        snoozer.snooze(500);
     }
 
     private void checkInDir() {
@@ -62,18 +66,14 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
     }
 
     private void checkOutDir() {
-        String expected = fileUtils.readFileToString(EXPECTED);
-        String actual = fileUtils.readFileToString(ACTUAL);
-        assertEquals(expected, actual);
+        comparator.assertEquals(EXPECTED, ACTUAL);
     }
 
     private void checkCompletedDir(int i) {
-        String expected = fileUtils.readFileToString(INPUT);
         File[] completedFiles = COMPLETED.listFiles();
         assertEquals(i, completedFiles.length);
         for (File file : completedFiles) {
-            String actual = fileUtils.readFileToString(file);
-            assertEquals(expected, actual);
+            comparator.assertEquals(INPUT, file);
         }
     }
 }
