@@ -6,6 +6,7 @@ import org.burroloco.test.util.io.Replace;
 
 import java.io.File;
 
+// FIX TSR-DONKEY Does Donkey need him?  Find out in the next installment of DistributionTests!
 public class DefaultInstallSimulator implements InstallSimulator {
     private static final String TRADEKAST_PROPERTIES = "config/interface/riskvision/tradekast.properties";
     private static final String TIBCO_PROPERTIES = "config/interface/riskvision/tibco.properties";
