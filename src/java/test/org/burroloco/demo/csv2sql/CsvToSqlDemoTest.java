@@ -10,8 +10,8 @@ import java.io.File;
 public class CsvToSqlDemoTest extends DonkeyTestCase {
     private static final File EXPECTED = new File("data/expected/employee-insert.sql");
     private static final File ACTUAL = new File("gen/test/out/employee-insert.sql");
-    FileUtilsStatic fileUtils;
     FileComparator comparator;
+    FileUtilsStatic fileUtils;
     Trebuchet trebuchet;
 
     public void testCsvToSql() {
