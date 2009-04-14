@@ -15,7 +15,7 @@ public class JdbcToCsvWirer implements Wirer {
 
     public void wire(Config config) {
         wire.cls(DatabaseSlurper.class).to(Slurper.class);
-        wire.cls(PassThroughTransform.class).to(Transform.class);
+        wire.cls(JdbcToCsvTransform.class).to(Transform.class);
         wire.cls(CsvSpitter.class).to(Spitter.class);
     }
 }
