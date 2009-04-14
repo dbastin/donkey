@@ -18,8 +18,8 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
     private static final File IN = new File("gen/test/in");
     private static final File OUT = new File("gen/test/out");
     private static final File COMPLETED = new File("gen/test/completed");
-    private static final File ACTUAL = new File(OUT, "employee.sql");
-    private static final File EXPECTED = new File("data/expected/employee.sql");
+    private static final File ACTUAL = new File(OUT, "employee-insert.sql");
+    private static final File EXPECTED = new File("data/expected/employee-insert.sql");
     FileUtilsStatic fileUtils;
     TestTrebuchet trebuchet;
     FileComparator comparator;

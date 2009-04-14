@@ -8,8 +8,8 @@ import org.burroloco.test.util.io.FileComparator;
 import java.io.File;
 
 public class CsvToSqlDemoTest extends DonkeyTestCase {
-    private static final File EXPECTED = new File("data/expected/employee.sql");
-    private static final File ACTUAL = new File("gen/test/out/employee.sql");
+    private static final File EXPECTED = new File("data/expected/employee-insert.sql");
+    private static final File ACTUAL = new File("gen/test/out/employee-insert.sql");
     FileUtilsStatic fileUtils;
     FileComparator comparator;
     Trebuchet trebuchet;
