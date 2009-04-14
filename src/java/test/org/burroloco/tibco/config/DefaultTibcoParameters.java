@@ -1,6 +1,6 @@
 package org.burroloco.tibco.config;
 
-
+// FIX TSR-DONKEY Generify and use in Tibco2FileDemoTest
 public class DefaultTibcoParameters implements TibcoParameters {
 
     public String service() {

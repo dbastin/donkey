@@ -2,6 +2,7 @@ package org.burroloco.test.util.distributor;
 
 import org.burroloco.donkey.trebuchet.AntRunner;
 
+// FIX TSR-DONKEY Write a generic DistributionTest that uses this or something like it.
 public class DefaultDistributor implements Distributor {
     AntRunner ant;
 
