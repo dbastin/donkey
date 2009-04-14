@@ -8,6 +8,7 @@ import org.burroloco.donkey.output.file.FileWizard;
 
 import java.io.File;
 
+// FIX TSR-DONKEY Use or Lose
 public class DefaultErrorReportFileWizard implements ErrorReportFileWizard {
     FileWizard wizard;
     WeakConfig weak;

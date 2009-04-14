@@ -17,6 +17,7 @@ public class DefaultLifecycleTibcoFactory implements LifecycleTibcoFactory {
     TibrvStatic tibrv;
     Nu nu;
 
+    // FIX TSR-DONKEY Use or Lose
     public TibrvQueue queue() {
         open();
         TibrvQueue q = nu.nu(TibrvQueue.class);
@@ -24,6 +25,7 @@ public class DefaultLifecycleTibcoFactory implements LifecycleTibcoFactory {
         return q;
     }
 
+    // FIX TSR-DONKEY Use or Lose
     public TibrvDispatcher dispatcher(TibrvQueue queue) {
         open();
         TibrvDispatcher d = nu.nu(TibrvDispatcher.class, queue);

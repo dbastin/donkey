@@ -4,6 +4,7 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.org.apache.commons.lang.StringEscapeUtilsStatic;
 import org.burroloco.donkey.data.cake.Slice;
 
+// FIX TSR-DONKEY Use or Lose
 public class DefaultXmlSliceCleaner implements XmlSliceCleaner {
     StringEscapeUtilsStatic escaper;
     Nu nu;

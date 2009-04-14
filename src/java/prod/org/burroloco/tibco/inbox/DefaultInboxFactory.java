@@ -3,6 +3,7 @@ package org.burroloco.tibco.inbox;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.tibco.transport.TibcoTransport;
 
+// FIX TSR-DONKEY Use or Lose
 public class DefaultInboxFactory implements InboxFactory {
     LocalHost host;
     Nu nu;

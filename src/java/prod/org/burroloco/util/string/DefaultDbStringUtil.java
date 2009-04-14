@@ -3,6 +3,7 @@ package org.burroloco.util.string;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.input.database.DatabaseNull;
 
+// FIX TSR-DONKEY Use or Lose
 public class DefaultDbStringUtil implements DbStringUtil {
 
     public String concatColumns(Slice in, String... columns) {

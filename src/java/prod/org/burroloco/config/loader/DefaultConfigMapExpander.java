@@ -8,6 +8,7 @@ import java.io.File;
 
 public class DefaultConfigMapExpander implements ConfigMapExpander {
     private static final String PROPERTIES_PROTOCOL = "properties://";
+    // FIX TSR-DONKEY Use, lose, or cover.
     private static final String CONTENTS_PROTOCOL = "contents://";
     FileUtilsStatic fileUtils;
     PropertiesLoader loader;

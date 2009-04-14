@@ -6,6 +6,7 @@ import java.math.BigDecimal;
 import static java.math.BigDecimal.ROUND_HALF_UP;
 import java.math.MathContext;
 
+// FIX TSR-DONKEY Use or Lose
 public class DefaultDollars implements Dollars {
     public BigDecimal round(Slice in, String name) {
         BigDecimal num = number(in, name);

@@ -4,6 +4,7 @@ import au.net.netstorm.boost.spider.api.entry.SpiderMain;
 import au.net.netstorm.boost.spider.ioc.BoostWeb;
 import org.burroloco.donkey.web.DonkeyWeb;
 
+// FIX TSR-DONKEY This will be covered by DistributionTest
 public class Main {
     public static void main(String... args) {
         au.net.netstorm.boost.spider.api.entry.Main entry = new SpiderMain(BoostWeb.class, DonkeyWeb.class);

@@ -18,6 +18,7 @@ public class SafePush implements Push {
         try {
             push.push(o);
         } catch (HandledException e) {
+            // FIX TSR-DONKEY Coverage required...
             ignore();
         } catch (Exception e) {
             log(e);

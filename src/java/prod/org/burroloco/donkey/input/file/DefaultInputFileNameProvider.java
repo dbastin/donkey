@@ -11,6 +11,7 @@ public class DefaultInputFileNameProvider implements InputFileNameProvider {
         return config.get(InputFileName.class);
     }
 
+    // FIX TSR-DONKEY Use or Lose
     public String weak(Config config) {
         return weaken.w(strong(config));    
     }

@@ -2,6 +2,7 @@ package org.burroloco.tibco.inbox;
 
 import edge.java.net.InetAddressStatic;
 
+// FIX TSR-DONKEY Use or Lose
 public class DefaultLocalHost implements LocalHost {
     InetAddressStatic inetAddress;
 

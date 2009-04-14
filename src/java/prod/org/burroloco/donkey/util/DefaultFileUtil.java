@@ -21,6 +21,7 @@ public class DefaultFileUtil implements FileUtil {
         return new File(dir, prefix + "." + extension);
     }
 
+    // FIX TSR-DONKEY Use or Lose
     public File createUniqueFile(String dirname, String prefix, String extension) {
         File dir = makeDirs(dirname);
         return fileStatic.createTempFile(prefix, extension, dir);

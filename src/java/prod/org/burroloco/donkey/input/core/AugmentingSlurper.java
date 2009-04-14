@@ -4,6 +4,7 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.CakeAugmenter;
 
+// FIX TSR-DONKEY Use or Lose
 public class AugmentingSlurper implements Slurper {
     CakeAugmenter augmenter;
     Slurper slurper;

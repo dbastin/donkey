@@ -6,6 +6,7 @@ import edge.com.tibco.tibrv.TibrvMsg;
 import org.burroloco.tibco.handler.core.MessageHandler;
 
 // WARNING: Please do nothing other than delegating in this class!
+// FIX TSR-DONKEY Use or Lose
 public class DefaultEdgeMessageHandler implements EdgeMessageHandler {
     private final MessageHandler delegate;
     Edges edger;

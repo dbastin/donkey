@@ -4,6 +4,7 @@ import static au.net.netstorm.boost.gunge.separator.Separator.LINE;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
 
+// FIX TSR-DONKEY Use or Lose
 public class ResultSetTemplateStringer implements TemplateStringer {
     TemplateStringer stringer;
 

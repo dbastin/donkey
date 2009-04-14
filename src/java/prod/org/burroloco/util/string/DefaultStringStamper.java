@@ -2,6 +2,7 @@ package org.burroloco.util.string;
 
 import edge.org.apache.commons.lang.StringUtilsStatic;
 
+// FIX TSR-DONKEY Use or Lose
 public class DefaultStringStamper implements StringStamper {
     StringUtilsStatic padder;
     StringTruncate truncate;

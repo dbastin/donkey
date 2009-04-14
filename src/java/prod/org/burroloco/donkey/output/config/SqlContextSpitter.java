@@ -5,6 +5,7 @@ import org.burroloco.config.core.MapFlattener;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.output.core.Spitter;
 
+// FIX TSR-DONKEY Use or Lose
 public class SqlContextSpitter implements Spitter {
     MapFlattener flattener;
     Spitter delegate;

@@ -22,6 +22,7 @@ public class DefaultConfig implements Config {
         return parser.parse(type, orig);
     }
 
+    // FIX TSR-DONKEY Use or Lose
     public Config flatten(String label) {
         StrictMap<String, String> flat = flattener.flatten(map, label);
         return nu.nu(Config.class, flat);

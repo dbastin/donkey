@@ -9,6 +9,7 @@ import org.burroloco.util.string.Tail;
 
 import java.util.Map;
 
+// FIX TSR-DONKEY Use or Lose
 public class DefaultFixedWidthRecordStringer implements FixedWidthRecordStringer {
     FixedRecordDefinition definition;
     Filler filler;

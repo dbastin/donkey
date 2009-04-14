@@ -6,6 +6,7 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
+// FIX TSR-DONKEY Use or Lose
 public class DefaultTemplateCache implements TemplateCache {
     private final Map<String, String> cache = new HashMap<String, String>();
     FileUtilsStatic fileUtils;

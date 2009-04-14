@@ -7,6 +7,7 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Currency;
 
+// FIX TSR-DONKEY Use or Lose
 public class DefaultCurrencyUtil implements CurrencyUtil, Constructable {
     private DecimalFormat numberFormat;
     Impl impl;

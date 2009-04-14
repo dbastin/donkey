@@ -15,6 +15,7 @@ import org.burroloco.util.csv.CommaSeparatedValues;
 import java.io.File;
 import java.util.List;
 
+// FIX TSR-DONKEY Use or Lose
 public class FileMetaSlurper implements Slurper {
     CommaSeparatedValues separated;
     FileUtilsStatic files;

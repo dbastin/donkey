@@ -4,6 +4,7 @@ import au.net.netstorm.boost.gunge.array.ArrayMaestro;
 import au.net.netstorm.boost.gunge.collection.DefaultStrictMap;
 import au.net.netstorm.boost.gunge.collection.StrictMap;
 
+// FIX TSR-DONKEY Use or Lose
 public class DefaultMapFlattener implements MapFlattener {
     private static final String DELIMITER = ".";
     ArrayMaestro arrays;

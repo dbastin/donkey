@@ -4,6 +4,7 @@ import org.burroloco.donkey.util.FileUtil;
 
 import java.io.File;
 
+// FIX TSR-DONKEY Use or Lose
 public class UniqueFileWizard implements FileWizard {
     FileUtil fileUtil;
 

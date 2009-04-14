@@ -6,6 +6,7 @@ import org.burroloco.donkey.config.ErrorDirName;
 import org.burroloco.donkey.input.file.InputFileNameProvider;
 import org.burroloco.donkey.util.FileShifter;
 
+// FIX TSR-DONKEY Use or Lose
 public class ShiftyErrorAssistant implements ErrorAssistant {
     InputFileNameProvider provider;
     FileShifter shifty;

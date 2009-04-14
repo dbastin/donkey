@@ -23,6 +23,7 @@ public class DefaultGargler implements Gargler {
         try {
             out.add(transform.transform(slice));
         } catch (TransformException e) {
+            // FIX TSR-DONKEY Coverage required...
             // FIX TSR-4241 This could use the ErrorEventListener things...
             puker.puke(slice, e);
         }
