@@ -3,11 +3,13 @@ package org.burroloco.test.util.io;
 import edge.org.apache.commons.io.FileUtilsStatic;
 import junit.framework.Assert;
 import org.burroloco.test.constants.TestConstants;
+import org.burroloco.test.butcher.fixture.checker.string.Normaliser;
 
 import java.io.File;
 
 public class DefaultFileComparator implements FileComparator, TestConstants {
     FileUtilsStatic fileUtil;
+    Normaliser normaliser;
 
     public void assertEquals(File expected, File actual) {
         String e = read(expected);
@@ -17,15 +19,10 @@ public class DefaultFileComparator implements FileComparator, TestConstants {
 
     private String read(File file) {
         String raw = fileUtil.readFileToString(file);
-        return normalize(dates(raw));
+        return normaliser.normalise(dates(raw));
     }
 
     private String dates(String withDates) {
         return withDates.replaceAll(DATE_PATTERN_SLASH_DMY, DAVES_BIRTHDAY_SLASH);
-    }
-
-    // FIX-DONKEY own component or StringChecker?
-    private String normalize(String raw) {
-        return raw.replaceAll("\\r\\n", "\n");
     }
 }
