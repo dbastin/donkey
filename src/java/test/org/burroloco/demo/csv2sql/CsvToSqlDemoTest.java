@@ -18,8 +18,13 @@ public class CsvToSqlDemoTest extends DonkeyTestCase {
     }
 
     private void check() {
-        String expected = fileUtils.readFileToString(EXPECTED);
-        String actual = fileUtils.readFileToString(ACTUAL);
+        String expected = normalize(fileUtils.readFileToString(EXPECTED));
+        String actual = normalize(fileUtils.readFileToString(ACTUAL));
         assertEquals(expected, actual);
+    }
+
+    // FIX-DONKEY own component or StringChecker?
+    private String normalize(String raw) {
+        return raw.replaceAll("\\r\\n", "\n");
     }
 }

@@ -1,6 +1,6 @@
 package org.burroloco.test.butcher.fixture.checker.type;
 
-public enum Occurence {
+public enum Occurrence {
     NONE,
     ONCE,
     MANY

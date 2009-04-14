@@ -8,7 +8,7 @@ import org.burroloco.donkey.config.ErrorReport;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.log.LogCleaner;
 import org.burroloco.test.butcher.fixture.checker.file.FileChecker;
-import static org.burroloco.test.butcher.fixture.checker.type.Occurence.ONCE;
+import static org.burroloco.test.butcher.fixture.checker.type.Occurrence.ONCE;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.io.FileWirer;
 

@@ -3,7 +3,7 @@ package org.burroloco.test.butcher.fixture.checker.file;
 import au.net.netstorm.boost.bullet.log.Log;
 import au.net.netstorm.boost.sniper.core.Test;
 import edge.org.apache.commons.io.FileUtilsStatic;
-import org.burroloco.test.butcher.fixture.checker.type.Occurence;
+import org.burroloco.test.butcher.fixture.checker.type.Occurrence;
 
 import java.io.File;
 
@@ -24,7 +24,7 @@ public class ShiftingFileChecker implements PollingFileChecker {
         }
     }
 
-    public void check(File file, Occurence type, String... expectations) {
+    public void check(File file, Occurrence type, String... expectations) {
         try {
             delegate.check(file, type, expectations);
         } catch (RuntimeException e) {

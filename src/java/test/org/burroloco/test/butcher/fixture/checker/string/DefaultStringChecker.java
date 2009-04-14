@@ -1,9 +1,9 @@
 package org.burroloco.test.butcher.fixture.checker.string;
 
 import org.burroloco.test.butcher.exception.MissingExpectationException;
-import org.burroloco.test.butcher.fixture.checker.type.Occurence;
-import static org.burroloco.test.butcher.fixture.checker.type.Occurence.MANY;
-import static org.burroloco.test.butcher.fixture.checker.type.Occurence.ONCE;
+import org.burroloco.test.butcher.fixture.checker.type.Occurrence;
+import static org.burroloco.test.butcher.fixture.checker.type.Occurrence.MANY;
+import static org.burroloco.test.butcher.fixture.checker.type.Occurrence.ONCE;
 
 public class DefaultStringChecker implements StringChecker {
     StringMatcher matcher;
@@ -12,11 +12,11 @@ public class DefaultStringChecker implements StringChecker {
         check(content, ONCE, expectations);
     }
 
-    public void check(String content, Occurence type, String... expectations) {
+    public void check(String content, Occurrence type, String... expectations) {
         for (String expectation : expectations) checkMatches(content, type, expectation);
     }
 
-    private void checkMatches(String content, Occurence type, String expectation) {
+    private void checkMatches(String content, Occurrence type, String expectation) {
         int matches = matcher.countMatches(content, expectation);
         if (type.equals(MANY)) checkAtLeastOne(expectation, matches, content);
         else if (type.equals(ONCE)) checkOnlyOne(expectation, matches, content);
