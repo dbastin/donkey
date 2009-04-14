@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- Convention: Aggregating targets no prefix.  Internal targets "-" prefix.  Worker targets "_" prefix. -->
-<project name="donkey" basedir=".">
+<project name="donkey" basedir="." default="donkey">
     <property name="ant.dir" value="build/ant"/>
     <import file="${ant.dir}/build-project.xml"/>
     <target name="clean" depends="-clean"/>
