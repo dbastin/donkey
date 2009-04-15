@@ -3,13 +3,15 @@ package org.burroloco.donkey.error;
 import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
+import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.error.core.HandledException;
 import org.burroloco.donkey.error.listener.assistant.ErrorAssistant;
 import org.burroloco.donkey.error.listener.assistant.ErrorAssistants;
 import org.burroloco.donkey.input.core.Slurper;
+import org.burroloco.donkey.job.Job;
+import org.burroloco.donkey.job.SlurpingJob;
 import org.burroloco.donkey.log.LogCleaner;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.transformation.gargler.Gargler;
@@ -32,6 +34,7 @@ public class DefaultJobFailureMolecularTest extends DonkeyTestCase implements La
     Spitter spitterMock;
     Config configDummy;
     FileWirer file;
+    Impl impl;
     Nu nu;
 
     public void fixtures() {
@@ -69,7 +72,8 @@ public class DefaultJobFailureMolecularTest extends DonkeyTestCase implements La
     }
 
     private void jobFailure() {
-        subject = nu.nu(Job.class);
+        Job slurping = impl.impl(SlurpingJob.class);
+        subject = nu.nu(Job.class, slurping);
         try {
             subject.go(configDummy);
             fail("Go should have failed.");
