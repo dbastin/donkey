@@ -7,7 +7,7 @@ import org.burroloco.donkey.input.watcher.DirectoryWatcher;
 import org.burroloco.donkey.input.watcher.WatcherTestWeb;
 import org.burroloco.donkey.trebuchet.TestTrebuchet;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
-import org.burroloco.test.util.snooze.Snoozer;
+import org.burroloco.util.snooze.Snoozer;
 import org.burroloco.test.util.io.FileComparator;
 import org.burroloco.test.butcher.fixture.checker.string.Normaliser;
 

@@ -27,4 +27,8 @@ public class DefaultConfig implements Config {
         StrictMap<String, String> flat = flattener.flatten(map, label);
         return nu.nu(Config.class, flat);
     }
+
+    public StrictMap<String, String> map(){
+        return map;
+    }
 }

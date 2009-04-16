@@ -2,6 +2,7 @@ package org.burroloco.config.override.instance;
 
 import au.net.netstorm.boost.bullet.incredibles.core.Strong;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
+import au.net.netstorm.boost.gunge.collection.StrictMap;
 import org.burroloco.config.core.Config;
 
 public class InstanceOverrideConfig implements Config {
@@ -25,4 +26,10 @@ public class InstanceOverrideConfig implements Config {
         Config flat = delegate.flatten(label);
         return impl.impl(InstanceOverrideConfig.class, flat, override, value);
     }
+
+    public StrictMap<String, String> map() {
+        return delegate.map();
+    }
+
+
 }

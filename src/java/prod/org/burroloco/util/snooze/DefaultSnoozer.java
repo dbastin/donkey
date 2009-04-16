@@ -1,4 +1,4 @@
-package org.burroloco.test.util.snooze;
+package org.burroloco.util.snooze;
 
 import au.net.netstorm.boost.bullet.edge.java.lang.ThreadStatic;
 

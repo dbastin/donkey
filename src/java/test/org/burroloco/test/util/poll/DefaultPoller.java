@@ -1,7 +1,7 @@
 package org.burroloco.test.util.poll;
 
 import org.burroloco.test.constants.TestConstants;
-import org.burroloco.test.util.snooze.Snoozer;
+import org.burroloco.util.snooze.Snoozer;
 
 public class DefaultPoller implements Poller, TestConstants {
     public static final long TIMEOUT_SECS = 180;

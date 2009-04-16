@@ -27,7 +27,6 @@ public class WatcherFailureMolecularTest extends DonkeyTestCase implements HasFi
 
     public void fixtures() {
         config = config();
-        spinneret.spin(DirectoryWatcherWeb.class);
         subject = impl.impl(DirectoryWatcherLoop.class);
     }
 

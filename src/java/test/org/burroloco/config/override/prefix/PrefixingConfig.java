@@ -5,6 +5,7 @@ import au.net.netstorm.boost.bullet.incredibles.core.Typen;
 import au.net.netstorm.boost.bullet.incredibles.core.Weaken;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
+import au.net.netstorm.boost.gunge.collection.StrictMap;
 import org.burroloco.config.core.Config;
 
 public class PrefixingConfig implements Config {
@@ -29,6 +30,10 @@ public class PrefixingConfig implements Config {
     public Config flatten(String label) {
         Config flat = delegate.flatten(label);
         return impl.impl(PrefixingConfig.class, flat, override, prefix);
+    }
+
+    public StrictMap<String, String> map() {
+        return delegate.map();
     }
 
     private <T extends Strong> T override(Class<T> type) {

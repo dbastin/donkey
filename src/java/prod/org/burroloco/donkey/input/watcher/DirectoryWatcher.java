@@ -1,6 +1,9 @@
 package org.burroloco.donkey.input.watcher;
 
-import au.net.netstorm.boost.gunge.lifecycle.StartStop;
+import org.burroloco.config.core.Config;
 
-public interface DirectoryWatcher extends StartStop {
+public interface DirectoryWatcher {
+    void start(Config config);
+
+    void stop();
 }
