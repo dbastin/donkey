@@ -10,12 +10,12 @@ public class DefaultConfigs implements Configs {
     public Config moosh(Config config, Nvp... entries) {
         StrictMap<String, String> map = config.map();
         for (Nvp entry : entries) {
-            add(map, entry);
+            moosh(map, entry);
         }
         return nu.nu(Config.class, map);
     }
 
-    private void add(StrictMap<String, String> map, Nvp entry) {
+    private void moosh(StrictMap<String, String> map, Nvp entry) {
         String key = entry.name();
         if (map.exists(key)) map.remove(key);
         map.put(key, (String) entry.value());
