@@ -7,7 +7,7 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 public class DefaultConfigs implements Configs {
     Nu nu;
 
-    public Config add(Config config, Nvp... entries) {
+    public Config moosh(Config config, Nvp... entries) {
         StrictMap<String, String> map = config.map();
         for (Nvp entry : entries) {
             add(map, entry);

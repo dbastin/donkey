@@ -43,7 +43,7 @@ public class DefaultDirectoryWatcher implements DirectoryWatcher {
 
     private void process(Config config, File file) {
         Nvp entry = nu.nu(Nvp.class, InputFileName.NAME, file.getPath());
-        Config c = configs.add(config, entry);
+        Config c = configs.moosh(config, entry);
         Loop loop = impl.impl(SingleLoop.class);
         loop.go(c);
     }
