@@ -10,7 +10,7 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.error.listener.assistant.ErrorAssistant;
 import org.burroloco.donkey.error.listener.assistant.ErrorAssistants;
 import org.burroloco.donkey.input.core.Slurper;
-import org.burroloco.donkey.job.DefaultJob;
+import org.burroloco.donkey.job.SafeJob;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.SlurpingJob;
 import org.burroloco.donkey.log.LogCleaner;
@@ -39,7 +39,8 @@ public class DefaultJobFailureMolecularTest extends DonkeyTestCase implements La
     Nu nu;
 
     public void overlay() {
-        wire.cls(SlurpingJob.class).to(Job.class, DefaultJob.class);
+        wire.cls(SafeJob.class).to(Job.class);
+        wire.cls(SlurpingJob.class).to(Job.class, SafeJob.class);
     }
 
     public void fixtures() {

@@ -4,7 +4,7 @@ import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.csv.CsvSlurper;
-import org.burroloco.donkey.job.DefaultJob;
+import org.burroloco.donkey.job.SafeJob;
 import org.burroloco.donkey.job.DirectoryWatcherJob;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.PollingJob;
@@ -24,11 +24,12 @@ public class DirectoryWatcherWirer implements Wirer {
         job();
     }
 
+    // FIX TSR-DONKEY Does DNA do this instead?
     private void poller() {
         wire.cls(PollingJob.class).one().to(Job.class);
         wire.cls(DirectoryWatcherJob.class).to(Job.class, PollingJob.class);
-        wire.cls(DefaultJob.class).to(Job.class, DirectoryWatcherJob.class);
-        wire.cls(SlurpingJob.class).to(Job.class, DefaultJob.class);
+        wire.cls(SafeJob.class).to(Job.class, DirectoryWatcherJob.class);
+        wire.cls(SlurpingJob.class).to(Job.class, SafeJob.class);
     }
 
     //SIMIAN OFF
