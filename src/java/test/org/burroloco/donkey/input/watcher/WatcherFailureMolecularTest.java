@@ -5,7 +5,6 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.spider.api.builder.Spinneret;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import au.net.netstorm.boost.spider.api.runtime.Resolver;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.override.instance.Overrider;
 import org.burroloco.donkey.config.InputDirName;
@@ -16,12 +15,11 @@ import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
 public class WatcherFailureMolecularTest extends DonkeyTestCase implements HasFixtures {
     private static final String DODGY = "foo";
-    private Loop subject;
     private Config config;
+    private Loop subject;
     StrictMap<String, String> empty;
-    Overrider overrider;
-    Resolver resolver;
     Spinneret spinneret;
+    Overrider overrider;
     Impl impl;
     Nu nu;
 
@@ -30,7 +28,7 @@ public class WatcherFailureMolecularTest extends DonkeyTestCase implements HasFi
         subject = impl.impl(DirectoryWatcherLoop.class);
     }
 
-    public void testDodgyPullDir() {
+    public void testDodgyWatchDir() {
         try {
             subject.go(config);
             fail();
