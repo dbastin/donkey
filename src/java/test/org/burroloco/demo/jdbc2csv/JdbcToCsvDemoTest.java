@@ -4,7 +4,6 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.java.sql.Connection;
 import edge.java.sql.Statement;
-import edge.org.apache.commons.io.FileUtilsStatic;
 import org.burroloco.donkey.trebuchet.Trebuchet;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.io.FileComparator;
@@ -14,7 +13,6 @@ import java.io.File;
 public class JdbcToCsvDemoTest extends DonkeyTestCase implements HasFixtures {
     private static final File EXPECTED = new File("data/expected/employee.csv");
     private static final File ACTUAL = new File("gen/test/out/employee.csv");
-    FileUtilsStatic fileUtils;
     FileComparator comparator;
     Trebuchet trebuchet;
     Nu nu;
