@@ -27,16 +27,7 @@ public class DefaultSliceHydrater implements SliceHydrater {
     }
 
     private Object sanitize(Object value) {
-        Object result = handleNull(value);
-        return trimStrings(value, result);
-    }
-
-    private Object trimStrings(Object value, Object result) {
-        return result instanceof String ? trim((String) value) : result;
-    }
-
-    private Object trim(String value) {
-        return value.trim();
+        return handleNull(value);
     }
 
     private Object handleNull(Object value) {

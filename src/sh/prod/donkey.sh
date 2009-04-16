@@ -18,8 +18,9 @@ if [ -z "$JAVA_CMD" ]; then
     exit 1
 fi
 
-CLASSPATH=donkey.jar
-for i in `find ./lib -name "*.jar"`; do
+DIR=`dirname $0`
+CLASSPATH=$CLASSPATH:$DIR/donkey.jar
+for i in `find $DIR/lib -name "*.jar"`; do
     CLASSPATH=$CLASSPATH:$i
 done
 

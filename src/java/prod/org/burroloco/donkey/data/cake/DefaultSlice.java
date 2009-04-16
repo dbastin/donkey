@@ -40,11 +40,7 @@ public class DefaultSlice extends Primordial implements Slice {
 
     private void safePut(String name, Object value) {
         if (map.containsKey(name)) throw new DuplicateColumnException(name);
-        if (value instanceof String) {
-            map.put(name, ((String) value).trim());
-        } else {
-            map.put(name, value);
-        }
+        map.put(name, value);
     }
 
     private void safePutAll(Slice slice) {

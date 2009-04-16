@@ -11,7 +11,7 @@ import org.burroloco.donkey.output.core.SpitterWeb;
 import org.burroloco.util.wire.UtilitiesWeb;
 
 public class DonkeyWeb implements Web {
-    String scope = "org.burroloco";
+    String scope = "";
     Spinneret spinneret;
     Factorer factorer;
     Mapper mapper;
