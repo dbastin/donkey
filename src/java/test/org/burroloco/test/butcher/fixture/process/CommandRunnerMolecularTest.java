@@ -16,7 +16,6 @@ public class CommandRunnerMolecularTest extends DonkeyTestCase implements Constr
     private String[] commandBad;
     CommandRunner runner;
 
-
     public void testOk() throws Exception {
         int returnCode = runner.run(commandCool);
         assertEquals(EVERYTHING_COOL_MAN, returnCode);

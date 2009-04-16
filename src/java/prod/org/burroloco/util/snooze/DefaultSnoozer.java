@@ -7,6 +7,6 @@ public class DefaultSnoozer implements Snoozer {
     public void snooze(long periodMillis) {
         // OK GenericIllegalRegexp {
         threadStatic.sleep(periodMillis);
-        // } GenericIllegalRegexp
+        // }
     }
 }
