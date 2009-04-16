@@ -1,20 +1,22 @@
 package org.burroloco.donkey.input.watcher;
 
+import au.net.netstorm.boost.gunge.lifecycle.Stop;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.java.lang.Thread;
 import org.burroloco.config.core.Config;
+import org.burroloco.donkey.job.Job;
 
-public class AsyncDirectoryWatcher implements DirectoryWatcher {
+public class AsyncJob implements Job, Stop {
     private Thread thread;
-    DirectoryWatcher delegate;
+    Job delegate;
     Impl impl;
     Nu nu;
 
-    public void start(final Config config) {
+    public void go(final Config config) {
         Runnable r = new Runnable() {
             public void run() {
-                delegate.start(config);
+                delegate.go(config);
             }
         };
         thread = nu.nu(Thread.class, r);
@@ -22,7 +24,7 @@ public class AsyncDirectoryWatcher implements DirectoryWatcher {
     }
 
     public void stop() {
-        delegate.stop();
+        ((Stop) delegate).stop();
         thread.join();
     }
 }

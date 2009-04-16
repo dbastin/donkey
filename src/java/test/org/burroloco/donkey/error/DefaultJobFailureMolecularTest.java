@@ -3,13 +3,14 @@ package org.burroloco.donkey.error;
 import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
+import au.net.netstorm.boost.sniper.marker.OverlaysWeb;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.error.core.HandledException;
 import org.burroloco.donkey.error.listener.assistant.ErrorAssistant;
 import org.burroloco.donkey.error.listener.assistant.ErrorAssistants;
 import org.burroloco.donkey.input.core.Slurper;
+import org.burroloco.donkey.job.DefaultJob;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.SlurpingJob;
 import org.burroloco.donkey.log.LogCleaner;
@@ -20,7 +21,7 @@ import org.burroloco.test.constants.TestConstants;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.io.FileWirer;
 
-public class DefaultJobFailureMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures, TestConstants {
+public class DefaultJobFailureMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures, TestConstants, OverlaysWeb {
     private Job subject;
     private RuntimeException errorsAssistantException;
     private RuntimeException originalException;
@@ -36,6 +37,10 @@ public class DefaultJobFailureMolecularTest extends DonkeyTestCase implements La
     FileWirer file;
     Impl impl;
     Nu nu;
+
+    public void overlay() {
+        wire.cls(SlurpingJob.class).to(Job.class, DefaultJob.class);
+    }
 
     public void fixtures() {
         mocks();
@@ -61,7 +66,7 @@ public class DefaultJobFailureMolecularTest extends DonkeyTestCase implements La
 
     private void expectedError() {
         errorsAssistantException = new RuntimeException("error in error assistant");
-        originalException = new RuntimeException("source exception");
+        originalException = new RuntimeException("fake slurp exception");
         expect.oneCall(slurperMock, originalException, "slurp", configDummy);
     }
 
@@ -72,12 +77,11 @@ public class DefaultJobFailureMolecularTest extends DonkeyTestCase implements La
     }
 
     private void jobFailure() {
-        Job slurping = impl.impl(SlurpingJob.class);
-        subject = nu.nu(Job.class, slurping);
+        subject = nu.nu(Job.class);
         try {
             subject.go(configDummy);
             fail("Go should have failed.");
-        } catch (HandledException e) {
+        } catch (RuntimeException e) {
             assertEquals(originalException, throwables.rootCause(e));
         }
     }

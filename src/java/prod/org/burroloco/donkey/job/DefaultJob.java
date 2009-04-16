@@ -4,14 +4,11 @@ import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.error.listener.core.ErrorEventListener;
 
+// FIX TSR-DONKEY Rename to SafeJob.
 public class DefaultJob implements Job {
-    private final Job delegate;
     ErrorEventListener error;
     ThrowableMaster chuckie;
-
-    public DefaultJob(Job delegate) {
-        this.delegate = delegate;
-    }
+    Job delegate;
 
     public void go(Config config) {
         try {

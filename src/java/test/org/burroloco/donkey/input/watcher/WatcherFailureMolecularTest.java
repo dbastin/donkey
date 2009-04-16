@@ -7,10 +7,12 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.override.instance.Overrider;
+import org.burroloco.demo.watcher.DirectoryWatcherWirer;
 import org.burroloco.donkey.config.InputDirName;
-import org.burroloco.donkey.config.WatchInterval;
-import org.burroloco.donkey.loop.DirectoryWatcherLoop;
+import org.burroloco.donkey.config.PollingInterval;
 import org.burroloco.donkey.loop.Loop;
+import org.burroloco.donkey.loop.SimpleLoop;
+import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
 public class WatcherFailureMolecularTest extends DonkeyTestCase implements HasFixtures {
@@ -25,7 +27,10 @@ public class WatcherFailureMolecularTest extends DonkeyTestCase implements HasFi
 
     public void fixtures() {
         config = config();
-        subject = impl.impl(DirectoryWatcherLoop.class);
+        // FIX TSR-DONKEY Cyclic dependency with Demo test package to be removed when Loop is removed.
+        Wirer wirer = impl.impl(DirectoryWatcherWirer.class);
+        wirer.wire(config);
+        subject = impl.impl(SimpleLoop.class);
     }
 
     public void testDodgyWatchDir() {
@@ -40,7 +45,7 @@ public class WatcherFailureMolecularTest extends DonkeyTestCase implements HasFi
     private Config config() {
         Config config = nu.nu(Config.class, empty);
         config = overrider.override(config, InputDirName.class, DODGY);
-        config = overrider.override(config, WatchInterval.class, 500L);
+        config = overrider.override(config, PollingInterval.class, 500L);
         return config;
     }
 }

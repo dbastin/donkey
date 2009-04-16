@@ -1,15 +1,17 @@
 package org.burroloco.demo.watcher;
 
+import au.net.netstorm.boost.gunge.lifecycle.Stop;
 import au.net.netstorm.boost.sniper.marker.Destroyable;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
+import au.net.netstorm.boost.spider.api.runtime.Impl;
 import edge.org.apache.commons.io.FileUtilsStatic;
-import org.burroloco.donkey.input.watcher.DirectoryWatcher;
-import org.burroloco.donkey.input.watcher.WatcherTestWeb;
+import org.burroloco.donkey.job.Job;
+import org.burroloco.donkey.job.PollingJob;
 import org.burroloco.donkey.trebuchet.TestTrebuchet;
-import org.burroloco.test.glue.testcase.DonkeyTestCase;
-import org.burroloco.util.snooze.Snoozer;
-import org.burroloco.test.util.io.FileComparator;
 import org.burroloco.test.butcher.fixture.checker.string.Normaliser;
+import org.burroloco.test.glue.testcase.DonkeyTestCase;
+import org.burroloco.test.util.io.FileComparator;
+import org.burroloco.util.snooze.Snoozer;
 
 import java.io.File;
 
@@ -25,6 +27,7 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
     FileComparator comparator;
     Normaliser normaliser;
     Snoozer snoozer;
+    Impl impl;
 
     public void fixtures() {
         IN.mkdirs();
@@ -37,13 +40,13 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
 
     public void testDirectoryWatcher() {
         Class spec = DirectoryWatcherSpecification.class;
-        trebuchet.launch(spec, WatcherTestWeb.class);
+        trebuchet.launch(spec, DirectoryWatcherTestWeb.class);
         repeat(3);
     }
 
     public void destroy() {
-        DirectoryWatcher watcher = spider.resolve(DirectoryWatcher.class);
-        watcher.stop();
+        Job job = impl.impl(PollingJob.class);
+        ((Stop) job).stop();
     }
 
     private void repeat(int times) {
