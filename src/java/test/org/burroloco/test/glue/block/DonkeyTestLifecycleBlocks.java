@@ -5,7 +5,7 @@ import au.net.netstorm.boost.gunge.array.DefaultArrayMaster;
 import au.net.netstorm.boost.sniper.lifecycle.BoostTestLifecycleBlocks;
 import au.net.netstorm.boost.sniper.lifecycle.TestLifecycleBlocks;
 
-public class TsrTestLifecycleBlocks implements TestLifecycleBlocks {
+public class DonkeyTestLifecycleBlocks implements TestLifecycleBlocks {
     TestLifecycleBlocks delegate = new BoostTestLifecycleBlocks();
     ArrayMaster arrays = new DefaultArrayMaster();
 
