@@ -4,6 +4,7 @@ import au.net.netstorm.boost.gunge.goop.Nvp;
 import au.net.netstorm.boost.gunge.collection.StrictMap;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 
+// FIX DONKEY Need to obey the natural order of things - if config is PrefixingConfig do not change it to DefaultConfig
 public class DefaultConfigs implements Configs {
     Nu nu;
 
