@@ -8,7 +8,7 @@
     <property name="dist.zip" value="${zips.dir}/${dist.zip.name}"/>
     <property name="dist.exec.dir" location="${artifacts.dir}/test/dist"/>
 
-    <target name="-zip" depends="-binary_jar">
+    <target name="-zip" depends="-binary_jar, -source_jar">
         <mkdir dir="${zips.dir}"/>
 
         <tar destfile="${dist.zip}" compression="gzip">

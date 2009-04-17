@@ -50,6 +50,10 @@
         <patternset includes="**"/>
     </fileset>
 
+    <fileset id="jar.test.code" dir="${test.src.dir}">
+        <patternset includes="**"/>
+    </fileset>
+
     <fileset id="jar.prod.properties" dir="${prod.src.dir}">
         <patternset includes="**/*.properties"/>
     </fileset>

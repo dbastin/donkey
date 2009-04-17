@@ -21,6 +21,8 @@
     <property name="webtest.test.dir" location="${java.src.dir}/test"/>
     <property name="data.dir" location="${basedir}/data"/>
     <property name="jar.donkey.fileset.ids" value="jar.prod.class"/>
+    <property name="jar.src.donkey.fileset.ids" value="jar.prod.code"/>
+    <property name="jar.src.donkey-test.fileset.ids" value="jar.test.code"/>
     <property name="jar.donkey-test.fileset.ids" value="jar.test.class"/>
     <property name="zips.dir" location="${artifacts.dir}/zips"/>
     <property name="dist.tar.name" value="donkey.tar"/>
