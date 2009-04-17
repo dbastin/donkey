@@ -16,6 +16,6 @@ public class DefaultTestTrebuchet implements TestTrebuchet {
         Config config = spec.config();
         crank.crank(spec, config);
         spinneret.spin(extras);
-        sling.release(spec, config);
+        sling.release(config);
     }
 }

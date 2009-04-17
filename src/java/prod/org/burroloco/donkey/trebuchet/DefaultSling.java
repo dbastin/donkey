@@ -1,15 +1,14 @@
 package org.burroloco.donkey.trebuchet;
 
-import au.net.netstorm.boost.spider.api.runtime.Impl;
+import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.loop.Loop;
+import org.burroloco.donkey.job.Job;
 
 public class DefaultSling implements Sling {
-    Impl impl;
+    Nu nu;
 
-    public void release(Specification spec, Config config) {
-        Class<? extends Loop> loopCls = spec.loop();
-        Loop loop = impl.impl(loopCls);
-        loop.go(config);
+    public void release(Config config) {
+        Job job = nu.nu(Job.class);
+        job.go(config);
     }
 }

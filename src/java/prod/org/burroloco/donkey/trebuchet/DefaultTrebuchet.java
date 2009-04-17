@@ -12,6 +12,6 @@ public class DefaultTrebuchet implements Trebuchet {
         Specification spec = impl.impl(specCls);
         Config config = spec.config();
         crank.crank(spec, config);
-        sling.release(spec, config);
+        sling.release(config);
     }
 }
