@@ -22,15 +22,7 @@ public class DirectoryWatcherWirer implements Wirer {
     Dna dna;
 
     public void wire(Config config) {
-        poller();
-        job();
-    }
-
-    private void poller() {
         dna.strand(Job.class, PollingJob.class, DirectoryWatcherJob.class, SafeJob.class, SlurpingJob.class);
-    }
-
-    private void job() {
         wire.cls(CsvSlurper.class).to(Slurper.class);
         wire.cls(PassThroughTransform.class).to(Transform.class);
         wire.cls(ShiftySpitter.class).to(Spitter.class);

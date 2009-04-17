@@ -9,11 +9,17 @@ import org.burroloco.donkey.output.replacing.FileSpitter;
 import org.burroloco.donkey.transformation.transform.PassThroughTransform;
 import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;
+import org.burroloco.donkey.job.Job;
+import org.burroloco.donkey.job.SafeJob;
+import org.burroloco.donkey.job.SlurpingJob;
+import org.burroloco.util.wire.Dna;
 
 public class CsvToSqlWirer implements Wirer {
     Wire wire;
+    Dna dna;
 
     public void wire(Config config) {
+        dna.strand(Job.class, SafeJob.class, SlurpingJob.class);
         wire.cls(CsvSlurper.class).to(Slurper.class);
         wire.cls(PassThroughTransform.class).to(Transform.class);
         wire.cls(FileSpitter.class).to(Spitter.class);
