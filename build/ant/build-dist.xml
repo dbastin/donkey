@@ -14,7 +14,7 @@
         <tar destfile="${dist.zip}" compression="gzip">
             <tarfileset dir="${jars.dir}" prefix="donkey"/>
             <tarfileset refid="runtime.lib.jars" prefix="donkey/lib"/>
-            <tarfileset dir="${script.src.dir}" prefix="donkey"/>
+            <tarfileset dir="${script.src.dir}" filemode="655" prefix="donkey" />
             <tarfileset dir="${prod.config.dir}" prefix="donkey/config"/>
         </tar>
     </target>
