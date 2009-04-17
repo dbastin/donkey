@@ -15,29 +15,25 @@ import org.burroloco.donkey.output.replacing.FileSpitter;
 import org.burroloco.donkey.transformation.transform.PassThroughTransform;
 import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;
+import org.burroloco.util.wire.Dna;
 
 public class DirectoryWatcherWirer implements Wirer {
     Wire wire;
+    Dna dna;
 
     public void wire(Config config) {
         poller();
         job();
     }
 
-    // FIX TSR-DONKEY Does DNA do this instead?
     private void poller() {
-        wire.cls(PollingJob.class).one().to(Job.class);
-        wire.cls(DirectoryWatcherJob.class).to(Job.class, PollingJob.class);
-        wire.cls(SafeJob.class).to(Job.class, DirectoryWatcherJob.class);
-        wire.cls(SlurpingJob.class).to(Job.class, SafeJob.class);
+        dna.strand(Job.class, PollingJob.class, DirectoryWatcherJob.class, SafeJob.class, SlurpingJob.class);
     }
 
-    //SIMIAN OFF
     private void job() {
         wire.cls(CsvSlurper.class).to(Slurper.class);
         wire.cls(PassThroughTransform.class).to(Transform.class);
         wire.cls(ShiftySpitter.class).to(Spitter.class);
         wire.cls(FileSpitter.class).to(Spitter.class, ShiftySpitter.class);
     }
-    //SIMIAN ON
 }
