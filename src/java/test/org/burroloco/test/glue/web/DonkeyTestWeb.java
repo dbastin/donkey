@@ -7,6 +7,6 @@ public class DonkeyTestWeb implements Web {
     Spinneret spinneret;
 
     public void web() {
-        spinneret.spin(SniperOverridesWeb.class, IConnectionCacheWeb.class);
+        spinneret.spin(SniperOverridesWeb.class, IConnectionCacheWeb.class, FrameworkWeb.class);
     }
 }

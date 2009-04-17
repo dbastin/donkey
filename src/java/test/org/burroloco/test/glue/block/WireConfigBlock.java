@@ -26,7 +26,7 @@ public class WireConfigBlock implements TestLifecycleBlock {
     Aspector aspector;
 
     public void execute() {
-        for (Class type : DIR_CLASSES) overrides.prefix(type, "gen/artifacts/test/");
+        for (Class type : DIR_CLASSES) overrides.prefix(type, "gen/test/");
         aspector.cut(DefaultConfigLoader.class, LoaderLogger.class, OverrideConfigLayer.class);
         aspector.cut(DefaultPropertiesLoader.class, TokenReplaceLayer.class);
     }
