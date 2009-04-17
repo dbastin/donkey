@@ -12,10 +12,10 @@
         <mkdir dir="${zips.dir}"/>
 
         <tar destfile="${dist.zip}" compression="gzip">
-            <tarfileset dir="${jars.dir}"/>
-            <tarfileset refid="runtime.lib.jars" prefix="lib"/>
-            <tarfileset dir="${script.src.dir}"/>
-            <tarfileset dir="${prod.config.dir}" prefix="config"/>
+            <tarfileset dir="${jars.dir}" prefix="donkey"/>
+            <tarfileset refid="runtime.lib.jars" prefix="donkey/lib"/>
+            <tarfileset dir="${script.src.dir}" prefix="donkey"/>
+            <tarfileset dir="${prod.config.dir}" prefix="donkey/config"/>
         </tar>
     </target>
 
