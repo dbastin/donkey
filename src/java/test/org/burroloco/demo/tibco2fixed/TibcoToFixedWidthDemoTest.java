@@ -23,6 +23,7 @@ public class TibcoToFixedWidthDemoTest extends DonkeyTestCase implements HasFixt
         trebuchet.launch(TibcoToFixedWidthSpecification.class);
         publisher.send("tibco.to.fixed.width.demo.test", payload);
         snoozer.snooze(1000);
+        // FIX DONKEY Figure out the whole tibby thing and reinstate.
 //        comparator.assertEquals(EXPECTED, ACTUAL);
     }
 
