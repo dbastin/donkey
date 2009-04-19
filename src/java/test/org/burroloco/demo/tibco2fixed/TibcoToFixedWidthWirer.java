@@ -28,7 +28,7 @@ public class TibcoToFixedWidthWirer implements Wirer {
     public void wire(Config config) {
         tibby(config);
         wire.cls(PassThroughTransform.class).to(Transform.class);
-        wire.cls(TibcoRecordDefinition.class).to(FixedRecordDefinition.class);
+        wire.cls(EmployeeRecordDefinition.class).to(FixedRecordDefinition.class);
         wire.cls(FixedWidthRecordSpitter.class).to(Spitter.class);
         wire.impl(DonkeyMessageHandler.class, config).to(MessageHandler.class);
     }

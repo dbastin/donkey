@@ -16,7 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthRecordDefinition.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoRecordDefinition.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthRecordDefinition.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoRecordDefinition.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/EmployeeRecordDefinition.java" />
     </list>
     <list name="part2" comment="" />
     <ignored path="burro.iws" />
@@ -154,10 +155,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TibcoRecordDefinition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoRecordDefinition.java">
+      <file leaf-file-name="EmployeeRecordDefinition.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/EmployeeRecordDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="37" selection-start="396" selection-end="396" vertical-scroll-proportion="0.44094488">
+            <state line="14" column="37" selection-start="399" selection-end="399" vertical-scroll-proportion="0.44094488">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2365,9 +2366,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoRecordDefinition.java">
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/EmployeeRecordDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="396" selection-end="396" vertical-scroll-proportion="0.44094488">
+        <state line="14" column="37" selection-start="399" selection-end="399" vertical-scroll-proportion="0.44094488">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
