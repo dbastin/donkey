@@ -27,6 +27,7 @@ public class TibcoToFixedWidthWirer implements Wirer {
 
     public void wire(Config config) {
         tibby(config);
+        dna.strand(Job.class, SafeJob.class, TibcoListenerJob.class);
         wire.cls(PassThroughTransform.class).to(Transform.class);
         wire.cls(EmployeeRecordDefinition.class).to(FixedRecordDefinition.class);
         wire.cls(FixedWidthRecordSpitter.class).to(Spitter.class);
@@ -37,6 +38,5 @@ public class TibcoToFixedWidthWirer implements Wirer {
         Wirer tibby = impl.impl(TibcoWirer.class);
         tibby.wire(config);
         registrar.register(config, Subject.class);
-        dna.strand(Job.class, SafeJob.class, TibcoListenerJob.class);
     }
 }
