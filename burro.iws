@@ -16,7 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthDemoTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthDemoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthSpecification.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthSpecification.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthWirer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthRecordDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
     </list>
     <list name="part2" comment="" />
     <ignored path="burro.iws" />
@@ -96,49 +99,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TibcoToFixedWidthDemoTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FixedWidthRecordSpitter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordSpitter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="14" selection-start="358" selection-end="381" vertical-scroll-proportion="0.15748031">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultFixedWidthRecordStringer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/DefaultFixedWidthRecordStringer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="477" selection-end="477" vertical-scroll-proportion="0.18897638">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixedRecordDefinition.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedRecordDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="16" selection-start="160" selection-end="160" vertical-scroll-proportion="0.15748031">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TibcoToFixedWidthDemoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="69" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.8196721">
+            <state line="25" column="69" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.78740156">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TibcoToFixedWidthSpecification.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthSpecification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="21" selection-start="488" selection-end="488" vertical-scroll-proportion="0.37795275">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tibco2fixed.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/tibco2fixed.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TibrvListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.09836066">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TibrvDispatcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvDispatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="24" selection-start="135" selection-end="135" vertical-scroll-proportion="0.18897638">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -146,16 +140,16 @@
       <file leaf-file-name="DefaultTibcoDispatcherFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/DefaultTibcoDispatcherFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1210" selection-end="1303" vertical-scroll-proportion="0.59016395">
+            <state line="27" column="0" selection-start="1210" selection-end="1303" vertical-scroll-proportion="0.56692916">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TibcoToFixedWirer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWirer.java">
+      <file leaf-file-name="TibcoToFixedWidthWirer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthWirer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1534" selection-end="1534" vertical-scroll-proportion="1.1968504">
+            <state line="30" column="44" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.9448819">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,19 +157,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DonkeyMessageHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/tibco/DonkeyMessageHandler.java">
+      <file leaf-file-name="TibcoToFixedWidthRecordDefinition.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthRecordDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="33" selection-start="660" selection-end="660" vertical-scroll-proportion="0.44094488">
+            <state line="15" column="18" selection-start="432" selection-end="432" vertical-scroll-proportion="0.47244096">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TibcoWirer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/TibcoWirer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.12598425">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultGargler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/DefaultGargler.java">
+      <file leaf-file-name="DonkeyMessageHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/tibco/DonkeyMessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="16" selection-start="615" selection-end="615" vertical-scroll-proportion="0.31496063">
+            <state line="9" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.12598425">
               <folding />
             </state>
           </provider>
@@ -1329,6 +1334,48 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/tibco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/tibco/config" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -1418,6 +1465,94 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/transformation/gargler" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/output" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/output" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/output/fixedwidth" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -1781,9 +1916,9 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.burroloco.demo.tibco2fixed" />
       <recent name="org.burroloco.donkey.input.tibco" />
       <recent name="org.burroloco.donkey.job" />
-      <recent name="org.burroloco.demo.tibco2fixed" />
       <recent name="org.burroloco.demo.jdbc2csv" />
       <recent name="org.burroloco.demo.watcher" />
     </key>
@@ -1976,15 +2111,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1270" height="774" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32565284" order="7" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23341523" order="0" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23341523" order="0" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2764977" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32718894" order="8" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32718894" order="8" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
@@ -2131,41 +2266,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DefaultInstallSimulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="80" selection-start="549" selection-end="549" vertical-scroll-proportion="0.22047244">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config/DefaultTestTibcoWirer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="420" selection-end="471" vertical-scroll-proportion="0.3464567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/TibcoWirer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="824" selection-end="875" vertical-scroll-proportion="0.65084743">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/edge/EdgeMessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="51" selection-start="129" selection-end="145" vertical-scroll-proportion="0.15483871">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="50" selection-end="50" vertical-scroll-proportion="0.077419356">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/factory/DefaultLifecycleTibcoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -2201,6 +2301,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/DefaultGargler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="615" selection-end="615" vertical-scroll-proportion="0.38709676">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="69" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.78740156">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedRecordDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="160" selection-end="160" vertical-scroll-proportion="0.15748031">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/DefaultFixedWidthRecordStringer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="477" selection-end="477" vertical-scroll-proportion="0.18897638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordSpitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="358" selection-end="381" vertical-scroll-proportion="0.15748031">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/TibcoListenerJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="479" selection-end="479" vertical-scroll-proportion="0.3464567">
@@ -2210,39 +2347,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/DefaultTibcoDispatcherFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1210" selection-end="1303" vertical-scroll-proportion="0.59016395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/DefaultGargler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="615" selection-end="615" vertical-scroll-proportion="0.31496063">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/tibco/DonkeyMessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="660" selection-end="660" vertical-scroll-proportion="0.44094488">
+        <state line="9" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.12598425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWirer.java">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/DefaultTibcoDispatcherFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1534" selection-end="1534" vertical-scroll-proportion="1.1968504">
+        <state line="27" column="0" selection-start="1210" selection-end="1303" vertical-scroll-proportion="0.56692916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/TibcoWirer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.12598425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthWirer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="44" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.9448819">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthDemoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthRecordDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="69" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.8196721">
+        <state line="15" column="18" selection-start="432" selection-end="432" vertical-scroll-proportion="0.47244096">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

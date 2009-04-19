@@ -13,6 +13,6 @@ public class TibcoToFixedWidthSpecification implements Specification{
     }
 
     public Class<? extends Wirer> wirer() {
-        return TibcoToFixedWirer.class;
+        return TibcoToFixedWidthWirer.class;
     }
 }
