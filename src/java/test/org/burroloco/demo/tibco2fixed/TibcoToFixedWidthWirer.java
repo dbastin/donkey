@@ -11,7 +11,7 @@ import org.burroloco.donkey.job.TibcoListenerJob;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.fixedwidth.FixedWidthRecordSpitter;
 import org.burroloco.donkey.output.fixedwidth.FixedRecordDefinition;
-import org.burroloco.donkey.transformation.transform.PassThroughTransform;
+import org.burroloco.donkey.transformation.transform.NoOpTransform;
 import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.donkey.input.tibco.DonkeyMessageHandler;
@@ -28,7 +28,7 @@ public class TibcoToFixedWidthWirer implements Wirer {
     public void wire(Config config) {
         tibby(config);
         dna.strand(Job.class, SafeJob.class, TibcoListenerJob.class);
-        wire.cls(PassThroughTransform.class).to(Transform.class);
+        wire.cls(NoOpTransform.class).to(Transform.class);
         wire.cls(EmployeeRecordDefinition.class).to(FixedRecordDefinition.class);
         wire.cls(FixedWidthRecordSpitter.class).to(Spitter.class);
         wire.impl(DonkeyMessageHandler.class, config).to(MessageHandler.class);
