@@ -1,6 +1,7 @@
 package org.burroloco.demo.tibco2fixed;
 
 import au.net.netstorm.boost.sniper.marker.Destroyable;
+import au.net.netstorm.boost.gunge.lifecycle.Stop;
 import org.burroloco.donkey.trebuchet.TestTrebuchet;
 import org.burroloco.test.butcher.fixture.tibco.Publisher;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
@@ -28,6 +29,7 @@ public class TibcoToFixedWidthDemoTest extends DonkeyTestCase implements Destroy
     }
 
     public void destroy() {
-        
+        Stop job = spider.resolve(Stop.class);
+        job.stop();
     }
 }

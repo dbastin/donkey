@@ -1,6 +1,7 @@
 package org.burroloco.donkey.job;
 
 import au.net.netstorm.boost.bullet.incredibles.core.Weaken;
+import au.net.netstorm.boost.gunge.lifecycle.Stop;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.config.Subject;
 import org.burroloco.tibco.dispatcher.TibcoDispatcher;
@@ -9,7 +10,7 @@ import org.burroloco.tibco.factory.LifecycleTibcoFactory;
 import org.burroloco.tibco.handler.core.MessageHandler;
 import org.burroloco.tibco.transport.TibcoTransport;
 
-public class TibcoListenerJob implements Job {
+public class TibcoListenerJob implements Job, Stop {
     TibcoDispatcherFactory dispatchers;
     LifecycleTibcoFactory tibby;
     MessageHandler handler;
@@ -21,5 +22,9 @@ public class TibcoListenerJob implements Job {
         String s = weak.w(subject);
         TibcoDispatcher dispatcher = dispatchers.nu(transport, s, handler);
         dispatcher.join();
+    }
+
+    public void stop() {
+        tibby.destroy();
     }
 }
