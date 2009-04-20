@@ -13,7 +13,7 @@ import org.burroloco.donkey.input.file.FileListing;
 import java.io.File;
 import java.util.List;
 
-public class DirectoryWatcherJob implements Job {
+public class DirectoryJob implements Job {
     FileListing listing;
     Configs configs;
     WeakConfig weak;

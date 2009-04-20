@@ -5,7 +5,7 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.csv.CsvSlurper;
 import org.burroloco.donkey.job.SafeJob;
-import org.burroloco.donkey.job.DirectoryWatcherJob;
+import org.burroloco.donkey.job.DirectoryJob;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.PollingJob;
 import org.burroloco.donkey.job.SlurpingJob;
@@ -22,7 +22,7 @@ public class DirectoryWatcherWirer implements Wirer {
     Dna dna;
 
     public void wire(Config config) {
-        dna.strand(Job.class, PollingJob.class, DirectoryWatcherJob.class, SafeJob.class, SlurpingJob.class);
+        dna.strand(Job.class, PollingJob.class, DirectoryJob.class, SafeJob.class, SlurpingJob.class);
         wire.cls(CsvSlurper.class).to(Slurper.class);
         wire.cls(PassThroughTransform.class).to(Transform.class);
         wire.cls(ShiftySpitter.class).to(Spitter.class);
