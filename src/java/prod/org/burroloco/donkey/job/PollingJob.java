@@ -12,7 +12,7 @@ public class PollingJob implements Job, Stop {
     Snoozer snoozer;
     Job delegate;
 
-    public synchronized void go(Config config) {
+    public void go(Config config) {
         started = true;
         while (started) {
             delegate.go(config);
@@ -20,7 +20,7 @@ public class PollingJob implements Job, Stop {
         }
     }
 
-    public synchronized void stop() {
+    public void stop() {
         started = false;
     }
 
