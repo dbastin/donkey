@@ -16,8 +16,9 @@ public class DefaultFixedWidthRecordStringer implements FixedWidthRecordStringer
 
     public String build(Config config, Cake cake) {
         String header = definition.header(config);
+        if (header.length() > 0) header += LINE; 
         String rows = rows(cake);
-        return header + LINE + rows;
+        return header + rows;
     }
 
     private String rows(Cake cake) {
