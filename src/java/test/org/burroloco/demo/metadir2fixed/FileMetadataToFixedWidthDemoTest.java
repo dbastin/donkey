@@ -8,7 +8,7 @@ import org.burroloco.test.util.io.FileComparator;
 
 import java.io.File;
 
-public class MetaDirectoryToFixedWidthDemoTest extends DonkeyTestCase implements HasFixtures {
+public class FileMetadataToFixedWidthDemoTest extends DonkeyTestCase implements HasFixtures {
     private static final File EXPECTED = new File("data/expected/directory-report.fixed");
     private static final File ACTUAL = new File("gen/test/out/directory-report.fixed");
     private static final File OUT = new File("gen/test/out");
@@ -22,7 +22,7 @@ public class MetaDirectoryToFixedWidthDemoTest extends DonkeyTestCase implements
     }
 
     public void testDirectoryToFixedWidth() {
-        trebuchet.launch(MetaDirectoryToFixedWidthSpecification.class);
+        trebuchet.launch(FileMetadataToFixedWidthSpecification.class);
         comparator.assertEquals(EXPECTED, ACTUAL);
     }
 }

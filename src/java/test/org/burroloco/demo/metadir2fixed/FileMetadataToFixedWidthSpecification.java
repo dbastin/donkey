@@ -5,14 +5,14 @@ import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.trebuchet.Specification;
 import org.burroloco.donkey.trebuchet.Wirer;
 
-public class MetaDirectoryToFixedWidthSpecification implements Specification {
+public class FileMetadataToFixedWidthSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
-        return loader.load("config/metadir2fixed.properties");
+        return loader.load("config/filemeta2fixed.properties");
     }
 
     public Class<? extends Wirer> wirer() {
-        return MetaDirectoryToFixedWidthWirer.class;
+        return FileMetadataToFixedWidthWirer.class;
     }
 }

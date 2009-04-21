@@ -15,7 +15,7 @@ import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
-public class MetaDirectoryToFixedWidthWirer implements Wirer {
+public class FileMetadataToFixedWidthWirer implements Wirer {
     Wire wire;
     Dna dna;
 
@@ -24,7 +24,7 @@ public class MetaDirectoryToFixedWidthWirer implements Wirer {
         dna.strand(Job.class, SafeJob.class, SlurpingJob.class);
         wire.cls(FileMetaSlurper.class).to(Slurper.class);
         wire.cls(NoOpTransform.class).to(Transform.class);
-        wire.cls(MetaDirectoryFixedRecordDefinition.class).to(FixedRecordDefinition.class);
+        wire.cls(FileMetadataFixedRecordDefinition.class).to(FixedRecordDefinition.class);
         wire.cls(FixedWidthRecordSpitter.class).to(Spitter.class);
     }
     //SIMIAN ON

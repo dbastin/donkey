@@ -6,7 +6,7 @@ import org.burroloco.donkey.output.fixedwidth.FixedRecordDefinition;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FileMetaFixedRecordDefinition implements FixedRecordDefinition {
+public class FileMetadataFixedRecordDefinition implements FixedRecordDefinition {
 
     public String header(Config config) {
         return "FileName                 LineCount                ByteCount";
