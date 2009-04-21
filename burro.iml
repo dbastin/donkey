@@ -18,7 +18,6 @@
           <root url="file://$MODULE_DIR$/build/lib/runtime/slf4j" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/dom4j" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/commons-lang" />
-          <root url="file://$MODULE_DIR$/build/lib/runtime/tibco" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/opencsv" />
         </CLASSES>
         <JAVADOC />
@@ -32,7 +31,6 @@
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/log4j" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/opencsv" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/slf4j" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/tibco" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">

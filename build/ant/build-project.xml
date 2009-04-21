@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="project" default="ignore" basedir="../..">
     <import file="build-init.xml"/>
-    <import file="build-stub.xml"/>
     <import file="build-quality.xml"/>
     <import file="build-dist.xml"/>
 

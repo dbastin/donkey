@@ -32,10 +32,6 @@
         <path refid="lib.runtime.classpath"/>
     </path>
 
-    <path id="stub.compile.classpath">
-        <path refid="boost.classpath"/>
-    </path>
-
     <path id="test.compile.classpath">
         <path refid="lib.runtime.classpath"/>
         <path location="${prod.class.dir}"/>

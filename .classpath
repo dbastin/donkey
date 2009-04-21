@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src/java/prod"/>
-	<classpathentry kind="src" path="src/java/stub"/>
 	<classpathentry kind="src" path="src/java/test"/>
 	<classpathentry kind="lib" path="build/lib/runtime/boost/boost.jar"/>
 	<classpathentry kind="lib" path="build/lib/runtime/commons-io/commons-io-1.4.jar"/>
@@ -11,7 +10,6 @@
 	<classpathentry kind="lib" path="build/lib/runtime/opencsv/opencsv-1.8.jar"/>
 	<classpathentry kind="lib" path="build/lib/runtime/slf4j/slf4j-api-1.5.5.jar"/>
 	<classpathentry kind="lib" path="build/lib/runtime/slf4j/slf4j-log4j12-1.5.5.jar"/>
-	<classpathentry kind="lib" path="build/lib/runtime/tibco/tibco.jar"/>
 	<classpathentry kind="lib" path="build/lib/tools/antcontrib/ant-contrib-1.0b3.jar"/>
 	<classpathentry kind="lib" path="build/lib/tools/checkstyle/checkstyle-all-4.4.jar"/>
 	<classpathentry kind="lib" path="build/lib/tools/checkstyle/simian-2.2.24.jar"/>
