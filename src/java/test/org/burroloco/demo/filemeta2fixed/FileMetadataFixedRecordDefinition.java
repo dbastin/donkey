@@ -1,4 +1,4 @@
-package org.burroloco.demo.metadir2fixed;
+package org.burroloco.demo.filemeta2fixed;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.output.fixedwidth.FixedRecordDefinition;

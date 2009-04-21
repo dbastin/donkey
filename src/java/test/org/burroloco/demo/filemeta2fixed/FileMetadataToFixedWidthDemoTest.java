@@ -1,4 +1,4 @@
-package org.burroloco.demo.metadir2fixed;
+package org.burroloco.demo.filemeta2fixed;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import edge.org.apache.commons.io.FileUtilsStatic;
