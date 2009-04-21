@@ -3,15 +3,14 @@ package org.burroloco.test.glue.layer;
 import au.net.netstorm.boost.gunge.collection.StrictMap;
 import au.net.netstorm.boost.gunge.layer.Layer;
 import au.net.netstorm.boost.gunge.layer.Method;
-import org.burroloco.test.glue.env.TestTokens;
 import org.burroloco.util.string.TokenUtil;
 
 import java.util.Map;
 import java.util.Set;
+import java.util.HashMap;
 
 public class TokenReplaceLayer implements Layer {
     private Object ref;
-    TestTokens tokens;
     TokenUtil util;
 
     public TokenReplaceLayer(Object ref) {
@@ -25,7 +24,7 @@ public class TokenReplaceLayer implements Layer {
     }
 
     private void tweak(StrictMap<String, String> map) {
-        Map<String, String> replacements = tokens.replacements();
+        Map<String, String> replacements = new HashMap<String, String>();
         for (String key : keys(map)) {
             String value = map.get(key);
             String nu = util.replace(value, replacements);

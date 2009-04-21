@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class EmployeeRecordDefinition implements FixedRecordDefinition
 {
     public String header(Config config) {
-        return "ID              NAME";
+        return "ID                      NAME";
     }
 
     // FIX DONKEY WIP Please leave...

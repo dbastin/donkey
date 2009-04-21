@@ -5,17 +5,18 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.wire.ConfigRegistrar;
 import org.burroloco.donkey.config.Subject;
+import org.burroloco.donkey.input.tibco.DonkeyMessageHandler;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.SafeJob;
 import org.burroloco.donkey.job.TibcoListenerJob;
 import org.burroloco.donkey.output.core.Spitter;
-import org.burroloco.donkey.output.fixedwidth.FixedWidthRecordSpitter;
 import org.burroloco.donkey.output.fixedwidth.FixedRecordDefinition;
+import org.burroloco.donkey.output.fixedwidth.FixedWidthRecordSpitter;
 import org.burroloco.donkey.transformation.transform.NoOpTransform;
 import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;
-import org.burroloco.donkey.input.tibco.DonkeyMessageHandler;
 import org.burroloco.tibco.config.TibcoWirer;
+import org.burroloco.tibco.handler.core.LoggingMessageHandler;
 import org.burroloco.tibco.handler.core.MessageHandler;
 import org.burroloco.util.wire.Dna;
 
@@ -31,7 +32,8 @@ public class TibcoToFixedWidthWirer implements Wirer {
         wire.cls(NoOpTransform.class).to(Transform.class);
         wire.cls(EmployeeRecordDefinition.class).to(FixedRecordDefinition.class);
         wire.cls(FixedWidthRecordSpitter.class).to(Spitter.class);
-        wire.impl(DonkeyMessageHandler.class, config).to(MessageHandler.class);
+        wire.cls(LoggingMessageHandler.class).to(MessageHandler.class);
+        wire.impl(DonkeyMessageHandler.class, config).to(MessageHandler.class, LoggingMessageHandler.class);
     }
 
     private void tibby(Config config) {
