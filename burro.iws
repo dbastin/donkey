@@ -16,117 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthSpecification.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/core" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/dispatcher" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco/Publisher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/edge/EdgeMessageHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/Tibrv.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/runtime/tibco" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config/DefaultTestTibcoWirer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/DefaultTibcoDispatcherFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/TibcoDispatcherFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/EmployeeRecordDefinition.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/tibco" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/TibcoPublisher.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-init.xml" afterPath="$PROJECT_DIR$/build/ant/build-init.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iml" afterPath="$PROJECT_DIR$/burro.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/Subject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/tibco/DefaultMessageConverter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/DefaultTibcoDispatcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/factory/LifecycleTibcoFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/Daemon.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/base-overrides.xml" afterPath="$PROJECT_DIR$/build/ant/base-overrides.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/TibcoListenerJob.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/runtime/tibco/tibco.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/TransportMolecularTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/common/TibcoConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/tibco/MessageConverter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/DefaultTibcoPublisher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco/WireTap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/TibcoWirer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox/DefaultInboxFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/expected/employee.fixed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/edge" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvTransport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport/TibcoTransport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/inbox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/factory/TibcoFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthWirer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/tibco2fixed.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/Network.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/base-underrides.xml" afterPath="$PROJECT_DIR$/build/ant/base-underrides.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/tibco/TibrvMsgChecker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthTestWeb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport/DefaultTibcoTransportFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/inbox/ContextualInboxFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/dispatcher/TibcoDispatcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox/LocalHost.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco/DefaultPublisher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/edge/com/tibco" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/edge/com" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/tibco/TibrvMsgHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvTimer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/base/base-init.xml" afterPath="$PROJECT_DIR$/build/ant/base/base-init.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/tibco.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvMsgCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/config/log4j/log4j.properties" afterPath="$PROJECT_DIR$/build/config/log4j/log4j.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/TestTibrvRvdTransport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox/Inbox.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/tibco/DonkeyMessageHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/dispatcher/TestTibcoDispatcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/edge/DefaultEdgeMessageHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvDispatcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/core/MessageHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvStatic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport/TibcoTransportFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/tibco/DefaultWireTap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox/InboxFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/transport/DefaultTibcoTransport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvTransport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/tibco2fixed/TibcoToFixedWidthDemoTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/tibco/DefaultTibrvMsgChecker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/checker/tibco/TibrvMsgCheckingPollingBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/tibco" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvDispatcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config/Service.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/factory/DefaultLifecycleTibcoFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/edge/com/tibco/tibrv/TibrvRvdTransport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/config/TestTibcoWirer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/ant/build-stub.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/factory" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/dispatcher/DefaultTibcoDispatcherAtomicTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/tibco/transport/DefaultTestTibrvRvdTransport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvRvdTransport.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-project.xml" afterPath="$PROJECT_DIR$/build/ant/build-project.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/inbox/DefaultLocalHost.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvMsgField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/handler/core/LoggingMessageHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub/com/tibco/tibrv/TibrvMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/tibco/common" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/stub" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-coverage.xml" afterPath="$PROJECT_DIR$/build/ant/build-coverage.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
     </list>
     <list name="part2" comment="" />
@@ -259,10 +149,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base-init.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base-init.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/ant/base/base-init.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="78" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.59800667">
+            <state line="18" column="70" selection-start="955" selection-end="955" vertical-scroll-proportion="0.44850498">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-coverage.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="88" selection-start="783" selection-end="783" vertical-scroll-proportion="0.49833888">
               <folding />
             </state>
           </provider>
@@ -289,7 +188,7 @@
       <file leaf-file-name="burro.iws" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/burro.iws">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3307" column="13" selection-start="193196" selection-end="193196" vertical-scroll-proportion="0.6782178">
+            <state line="3196" column="13" selection-start="178881" selection-end="178881" vertical-scroll-proportion="0.6782178">
               <folding />
             </state>
           </provider>
@@ -3290,7 +3189,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/burro.iws">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3307" column="13" selection-start="193196" selection-end="193196" vertical-scroll-proportion="0.6782178">
+        <state line="3196" column="13" selection-start="178881" selection-end="178881" vertical-scroll-proportion="0.6782178">
           <folding />
         </state>
       </provider>
@@ -3304,7 +3203,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/ant/base/base-init.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="78" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.59800667">
+        <state line="18" column="70" selection-start="955" selection-end="955" vertical-scroll-proportion="0.44850498">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="88" selection-start="783" selection-end="783" vertical-scroll-proportion="0.49833888">
           <folding />
         </state>
       </provider>
