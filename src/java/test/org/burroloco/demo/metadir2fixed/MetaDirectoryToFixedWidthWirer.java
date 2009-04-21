@@ -24,7 +24,7 @@ public class MetaDirectoryToFixedWidthWirer implements Wirer {
         dna.strand(Job.class, SafeJob.class, SlurpingJob.class);
         wire.cls(FileMetaSlurper.class).to(Slurper.class);
         wire.cls(NoOpTransform.class).to(Transform.class);
-        wire.cls(FileMetaFixedRecordDefinition.class).to(FixedRecordDefinition.class);
+        wire.cls(MetaDirectoryFixedRecordDefinition.class).to(FixedRecordDefinition.class);
         wire.cls(FixedWidthRecordSpitter.class).to(Spitter.class);
     }
     //SIMIAN ON
