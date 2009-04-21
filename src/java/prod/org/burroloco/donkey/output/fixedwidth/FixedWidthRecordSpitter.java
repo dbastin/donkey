@@ -8,7 +8,6 @@ import org.burroloco.donkey.output.file.Scribbler;
 
 import java.io.File;
 
-// FIX TSR-DONKEY Use or Lose
 public class FixedWidthRecordSpitter implements Spitter {
     FixedWidthRecordStringer stringer;
     OutputFileWizard wizard;
