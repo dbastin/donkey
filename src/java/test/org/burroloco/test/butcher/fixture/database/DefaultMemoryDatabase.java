@@ -8,7 +8,8 @@ public class DefaultMemoryDatabase implements MemoryDatabase {
     Nu nu;
 
     public Statement statement(String schema) {
-        return connection(schema).createStatement();
+        Connection c = connection(schema);
+        return c.createStatement();
     }
 
     private Connection connection(String schema) {
