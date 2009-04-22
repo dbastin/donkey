@@ -9,13 +9,13 @@ import org.burroloco.donkey.config.Sql;
 import org.burroloco.donkey.input.database.CakeHydrater;
 import org.burroloco.donkey.input.database.ConnectionPurveyor;
 
-public class DefaultInsertRunner implements InsertRunner {
+public class DefaultExecutor implements Executor {
     ConnectionPurveyor purveyor;
     CakeHydrater converter;
     WeakConfig weak;
     Log log;
 
-    public void insert(Config config) {
+    public void execute(Config config) {
         Connection connection = purveyor.connection(config);
         Statement statement = connection.createStatement();
         String sql = weak.get(config, Sql.class);

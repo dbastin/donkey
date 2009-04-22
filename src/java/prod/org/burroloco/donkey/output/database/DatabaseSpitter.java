@@ -14,14 +14,14 @@ import java.util.List;
 
 public class DatabaseSpitter implements Spitter {
     TemplateSliceExpander expander;
-    InsertRunner runner;
+    Executor runner;
     Configs configs;
 
     public void pertuh(Config config, Cake cake) {
         List<Slice> slices = cake.slices();
         for (Slice slice : slices) {
             Config c = sql(config, slice);
-            runner.insert(c);
+            runner.execute(c);
         }
     }
 

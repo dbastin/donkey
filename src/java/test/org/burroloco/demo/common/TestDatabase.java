@@ -4,4 +4,7 @@ public interface TestDatabase {
     void create();
 
     void drop();
+
+    Integer count(String table);
+
 }
