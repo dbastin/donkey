@@ -9,7 +9,7 @@ public class FileMetadataToFixedWidthSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
-        return loader.load("config/filemeta2fixed.properties");
+        return loader.overload("config/filemeta2fixed.properties", "config/filemeta2fixed-override.properties");
     }
 
     public Class<? extends Wirer> wirer() {
