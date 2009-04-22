@@ -1,6 +1,6 @@
 package org.burroloco.demo.common;
 
-public interface EmployeeDatabase {
+public interface TestDatabase {
     void create();
 
     void drop();

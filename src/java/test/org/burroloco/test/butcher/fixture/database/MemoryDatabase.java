@@ -1,7 +1,7 @@
 package org.burroloco.test.butcher.fixture.database;
 
-import edge.java.sql.Connection;
+import edge.java.sql.Statement;
 
 public interface MemoryDatabase {
-    Connection connection(String schema);
+    Statement statement(String schema);
 }
