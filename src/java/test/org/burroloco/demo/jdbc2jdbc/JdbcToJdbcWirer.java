@@ -8,7 +8,7 @@ import org.burroloco.donkey.input.database.DatabaseSlurper;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.SafeJob;
 import org.burroloco.donkey.job.SlurpingJob;
-import org.burroloco.donkey.output.config.ContextualSpitter;
+import org.burroloco.donkey.output.core.ContextualSpitter;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.database.DatabaseSpitter;
 import org.burroloco.donkey.transformation.transform.NoOpTransform;

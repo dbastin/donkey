@@ -1,8 +1,7 @@
-package org.burroloco.donkey.output.config;
+package org.burroloco.donkey.output.core;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
-import org.burroloco.donkey.output.core.Spitter;
 
 public class ContextualSpitter implements Spitter {
     private final String propertyPrefix;
