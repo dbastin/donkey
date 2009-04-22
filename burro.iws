@@ -16,14 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filemeta2fixed.properties" afterPath="$PROJECT_DIR$/config/filemeta2fixed.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultConfigLoader.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultConfigLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/ConfigLoader.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/ConfigLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/filemeta2fixed-override.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthSpecification.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthSpecification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultConfigLoaderEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/ConfigLoaderEngine.java" />
     </list>
     <list name="part2" comment="" />
     <ignored path="burro.iws" />
@@ -110,7 +103,7 @@
       <file leaf-file-name="watcher.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/watcher.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.15384616">
+            <state line="6" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.18907563">
               <folding />
             </state>
           </provider>
@@ -119,7 +112,7 @@
       <file leaf-file-name="filemeta2fixed.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/filemeta2fixed.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="99" selection-end="99" vertical-scroll-proportion="0.051282052">
+            <state line="2" column="22" selection-start="99" selection-end="99" vertical-scroll-proportion="0.063025214">
               <folding />
             </state>
           </provider>
@@ -137,7 +130,7 @@
       <file leaf-file-name="filemeta2fixed-override.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/filemeta2fixed-override.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.051282052">
+            <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.063025214">
               <folding />
             </state>
           </provider>
@@ -155,7 +148,7 @@
       <file leaf-file-name="CsvToSqlDemoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.4871795">
+            <state line="19" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.5987395">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,7 +159,7 @@
       <file leaf-file-name="CsvToSqlSpecification.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlSpecification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="365" selection-end="365" vertical-scroll-proportion="0.20512821">
+            <state line="11" column="22" selection-start="365" selection-end="365" vertical-scroll-proportion="0.25210086">
               <folding />
             </state>
           </provider>
@@ -175,7 +168,7 @@
       <file leaf-file-name="FileMetadataToFixedWidthSpecification.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthSpecification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.3846154">
+            <state line="22" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.5987395">
               <folding />
             </state>
           </provider>
@@ -184,7 +177,25 @@
       <file leaf-file-name="FileMetadataToFixedWidthDemoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.102564104">
+            <state line="24" column="47" selection-start="942" selection-end="942" vertical-scroll-proportion="0.5672269">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrefixingConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/config/override/prefix/PrefixingConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="52" selection-start="864" selection-end="864" vertical-scroll-proportion="0.5987395">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultMapFlattener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/DefaultMapFlattener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.15756303">
               <folding />
             </state>
           </provider>
@@ -193,7 +204,7 @@
       <file leaf-file-name="csv2sql.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/csv2sql.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.102564104">
+            <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.12605043">
               <folding />
             </state>
           </provider>
@@ -202,19 +213,8 @@
       <file leaf-file-name="DefaultTemplateCache.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="52" selection-start="252" selection-end="252" vertical-scroll-proportion="0.12820514">
+            <state line="9" column="52" selection-start="252" selection-end="252" vertical-scroll-proportion="0.15756303">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultTemplator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.43589744">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -222,7 +222,7 @@
       <file leaf-file-name="DefaultTemplateStringer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateStringer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="35" selection-start="678" selection-end="678" vertical-scroll-proportion="0.35897437">
+            <state line="17" column="35" selection-start="678" selection-end="678" vertical-scroll-proportion="0.44117647">
               <folding />
             </state>
           </provider>
@@ -231,7 +231,7 @@
       <file leaf-file-name="DefaultTemplateSelector.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.2820513">
+            <state line="14" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.34663865">
               <folding />
             </state>
           </provider>
@@ -240,7 +240,7 @@
       <file leaf-file-name="ConfigLoader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/ConfigLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="0.102564104">
+            <state line="4" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="0.12605043">
               <folding />
             </state>
           </provider>
@@ -249,7 +249,7 @@
       <file leaf-file-name="DefaultConfigLoader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultConfigLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.35897437">
+            <state line="8" column="27" selection-start="244" selection-end="244" vertical-scroll-proportion="0.25210086">
               <folding />
             </state>
           </provider>
@@ -258,7 +258,7 @@
       <file leaf-file-name="ConfigLoaderEngine.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/ConfigLoaderEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="58" selection-start="176" selection-end="176" vertical-scroll-proportion="0.12820514">
+            <state line="5" column="58" selection-start="176" selection-end="176" vertical-scroll-proportion="0.15756303">
               <folding />
             </state>
           </provider>
@@ -267,7 +267,7 @@
       <file leaf-file-name="DefaultConfigLoaderEngine.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultConfigLoaderEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="78" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.61538464">
+            <state line="24" column="78" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.75630254">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -278,16 +278,7 @@
       <file leaf-file-name="DefaultStrictMap.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/gunge/collection/DefaultStrictMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="16" selection-start="562" selection-end="562" vertical-scroll-proportion="0.3846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultTemplateSliceExpander.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateSliceExpander.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="290" selection-end="290" vertical-scroll-proportion="0.20512821">
+            <state line="17" column="16" selection-start="562" selection-end="562" vertical-scroll-proportion="0.47268906">
               <folding />
             </state>
           </provider>
@@ -858,6 +849,132 @@
           <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/config" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/config/override" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/config/override/prefix" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/config" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/config/override" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test/org/burroloco/config" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -1096,6 +1213,48 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/prod/org/burroloco/config/loader" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/prod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/prod/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/prod/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/prod/org/burroloco/config" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/trunk/src/java/prod/org/burroloco/config/core" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -1512,7 +1671,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1930" height="1154" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" order="8" />
@@ -1523,7 +1682,7 @@
       <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49751243" order="3" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" order="8" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32636815" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32636815" order="8" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32565284" order="7" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -1533,7 +1692,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" order="2" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43482587" order="2" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43482587" order="2" />
       <window_info id="DBOutput" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
@@ -1673,13 +1832,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherTestWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="349" selection-end="349" vertical-scroll-proportion="0.094339624">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/DefaultConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="33" selection-start="727" selection-end="727" vertical-scroll-proportion="0.495283">
@@ -1690,13 +1842,6 @@
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/DefaultConfigs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="48" selection-start="477" selection-end="477" vertical-scroll-proportion="0.21226415">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/config/override/prefix/PrefixingConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.6932773">
           <folding />
         </state>
       </provider>
@@ -1733,21 +1878,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateStringer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="35" selection-start="678" selection-end="678" vertical-scroll-proportion="0.35897437">
+        <state line="17" column="35" selection-start="678" selection-end="678" vertical-scroll-proportion="0.44117647">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/gunge/collection/DefaultStrictMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="562" selection-end="562" vertical-scroll-proportion="0.3846154">
+        <state line="17" column="16" selection-start="562" selection-end="562" vertical-scroll-proportion="0.47268906">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlDemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.4871795">
+        <state line="19" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.5987395">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1756,49 +1901,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="52" selection-start="252" selection-end="252" vertical-scroll-proportion="0.12820514">
+        <state line="9" column="52" selection-start="252" selection-end="252" vertical-scroll-proportion="0.15756303">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.2820513">
+        <state line="14" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.34663865">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/csv2sql.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.102564104">
+        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.12605043">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/ConfigLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="0.102564104">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultConfigLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.35897437">
+        <state line="4" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="0.12605043">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/ConfigLoaderEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="58" selection-start="176" selection-end="176" vertical-scroll-proportion="0.12820514">
+        <state line="5" column="58" selection-start="176" selection-end="176" vertical-scroll-proportion="0.15756303">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultConfigLoaderEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="78" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.61538464">
+        <state line="24" column="78" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.75630254">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1807,28 +1945,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="365" selection-end="365" vertical-scroll-proportion="0.20512821">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.102564104">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/filemeta2fixed-override.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.051282052">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/filemeta2fixed.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="99" selection-end="99" vertical-scroll-proportion="0.051282052">
+        <state line="11" column="22" selection-start="365" selection-end="365" vertical-scroll-proportion="0.25210086">
           <folding />
         </state>
       </provider>
@@ -1849,14 +1966,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/watcher.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.15384616">
+        <state line="6" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.18907563">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultConfigLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="244" selection-end="244" vertical-scroll-proportion="0.25210086">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filemeta2fixed-override.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.063025214">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filemeta2fixed.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="99" selection-end="99" vertical-scroll-proportion="0.063025214">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/core/DefaultMapFlattener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.15756303">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/config/override/prefix/PrefixingConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="52" selection-start="864" selection-end="864" vertical-scroll-proportion="0.5987395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="47" selection-start="942" selection-end="942" vertical-scroll-proportion="0.5672269">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.3846154">
+        <state line="22" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.5987395">
           <folding />
         </state>
       </provider>
