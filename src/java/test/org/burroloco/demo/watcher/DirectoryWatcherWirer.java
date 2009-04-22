@@ -11,7 +11,7 @@ import org.burroloco.donkey.job.PollingJob;
 import org.burroloco.donkey.job.SlurpingJob;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.file.ShiftySpitter;
-import org.burroloco.donkey.output.replacing.FileSpitter;
+import org.burroloco.donkey.output.file.FileSpitter;
 import org.burroloco.donkey.transformation.transform.NoOpTransform;
 import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;

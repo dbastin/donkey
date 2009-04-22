@@ -4,7 +4,7 @@ import au.net.netstorm.boost.spider.api.config.web.Web;
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.donkey.output.config.SqlContextSpitter;
 import org.burroloco.donkey.output.ice.SqlIcerSpitter;
-import org.burroloco.donkey.output.replacing.FileSpitter;
+import org.burroloco.donkey.output.file.FileSpitter;
 
 public class SpitterWeb implements Web {
     Wire wire;
