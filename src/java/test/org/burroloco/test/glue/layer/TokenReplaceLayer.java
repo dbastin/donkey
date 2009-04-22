@@ -9,6 +9,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.HashMap;
 
+// FIX TSR-DONKEY What is this used for???
 public class TokenReplaceLayer implements Layer {
     private Object ref;
     TokenUtil util;
