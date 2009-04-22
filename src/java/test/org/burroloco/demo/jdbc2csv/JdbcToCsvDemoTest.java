@@ -12,7 +12,7 @@ import java.io.File;
 
 public class JdbcToCsvDemoTest extends DonkeyTestCase implements HasFixtures {
     private static final File EXPECTED = new File("data/expected/employee.csv");
-    private static final File ACTUAL = new File("gen/test/out/employee.csv");
+    private static final File ACTUAL = new File("gen/demo/out/employee.csv");
     FileComparator comparator;
     Trebuchet trebuchet;
     Nu nu;

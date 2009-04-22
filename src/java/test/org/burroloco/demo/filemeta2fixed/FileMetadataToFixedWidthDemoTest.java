@@ -10,8 +10,8 @@ import java.io.File;
 
 public class FileMetadataToFixedWidthDemoTest extends DonkeyTestCase implements HasFixtures {
     private static final File EXPECTED = new File("data/expected/directory-report.fixed");
-    private static final File ACTUAL = new File("gen/test/out/directory-report.fixed");
-    private static final File OUT = new File("gen/test/out");
+    private static final File OUT = new File("gen/demo/out");
+    private static final File ACTUAL = new File(OUT, "directory-report.fixed");
     FileUtilsStatic fileUtils;
     FileComparator comparator;
     Trebuchet trebuchet;

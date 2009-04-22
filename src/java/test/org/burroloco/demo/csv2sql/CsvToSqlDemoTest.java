@@ -8,7 +8,7 @@ import java.io.File;
 
 public class CsvToSqlDemoTest extends DonkeyTestCase {
     private static final File EXPECTED = new File("data/expected/employee-insert.sql");
-    private static final File ACTUAL = new File("gen/test/out/employee-insert.sql");
+    private static final File ACTUAL = new File("gen/demo/out/employee-insert.sql");
     FileComparator comparator;
     Trebuchet trebuchet;
 
