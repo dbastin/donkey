@@ -9,11 +9,11 @@ public class DefaultInputDatabase implements InputDatabase {
 
     public void create() {
         Statement s = database.statement(NAME);
-        s.execute("CREATE TABLE EMPLOYEE(ID INT, NAME VARCHAR)");
-        s.execute("INSERT INTO EMPLOYEE (ID, NAME) VALUES (1, 'Fred');");
-        s.execute("INSERT INTO EMPLOYEE (ID, NAME) VALUES (2, 'Wilma');");
-        s.execute("INSERT INTO EMPLOYEE (ID, NAME) VALUES (3, 'Barney');");
-        s.execute("INSERT INTO EMPLOYEE (ID, NAME) VALUES (4, 'Betty');");
+        s.execute("CREATE TABLE EMPLOYEE(ID INT, NAME VARCHAR, SALARY INT, START DATE)");
+        s.execute("INSERT INTO EMPLOYEE (ID, NAME, SALARY, START) VALUES (1, 'Fred', 1000000, '2001-01-01');");
+        s.execute("INSERT INTO EMPLOYEE (ID, NAME, SALARY, START) VALUES (2, 'Wilma', 2000000, '2002-01-01');");
+        s.execute("INSERT INTO EMPLOYEE (ID, NAME, SALARY, START) VALUES (3, 'Barney', 3000000, '2003-01-01');");
+        s.execute("INSERT INTO EMPLOYEE (ID, NAME, SALARY, START) VALUES (4, 'Betty', 4000000, null);");
         s.close();
     }
 
