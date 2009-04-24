@@ -9,7 +9,7 @@ public class DefaultOutputDatabase implements OutputDatabase {
 
     public void create() {
         Statement s = database.statement(NAME);
-        s.execute("CREATE TABLE EMP(ID INT, NAME VARCHAR)");
+        s.execute("CREATE TABLE EMP(ID INT, NAME VARCHAR, START DATE)");
         s.close();
     }
 

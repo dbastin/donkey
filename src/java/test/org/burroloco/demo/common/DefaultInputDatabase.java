@@ -13,7 +13,7 @@ public class DefaultInputDatabase implements InputDatabase {
         s.execute("INSERT INTO EMPLOYEE (ID, NAME, SALARY, START) VALUES (1, 'Fred', 1000000, '2001-01-01');");
         s.execute("INSERT INTO EMPLOYEE (ID, NAME, SALARY, START) VALUES (2, 'Wilma', 2000000, '2002-01-01');");
         s.execute("INSERT INTO EMPLOYEE (ID, NAME, SALARY, START) VALUES (3, 'Barney', 3000000, '2003-01-01');");
-        s.execute("INSERT INTO EMPLOYEE (ID, NAME, SALARY, START) VALUES (4, 'Betty', 4000000, null);");
+        s.execute("INSERT INTO EMPLOYEE (ID, NAME, SALARY, START) VALUES (4, 'Betty', 4000000, '2004-01-01');");
         s.close();
     }
 
