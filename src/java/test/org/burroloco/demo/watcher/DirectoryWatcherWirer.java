@@ -29,7 +29,6 @@ public class DirectoryWatcherWirer implements Wirer {
         dna.strand(Job.class, PollingJob.class, DirectoryJob.class, ErrorHandlingJob.class, SlurpingJob.class);
         wire.cls(CsvSlurper.class).to(Slurper.class);
         wire.cls(NoOpTransform.class).to(Transform.class);
-        wire.cls(ShiftySpitter.class).to(Spitter.class);
-        wire.cls(FileSpitter.class).to(Spitter.class, ShiftySpitter.class);
+        dna.strand(Spitter.class, ShiftySpitter.class, FileSpitter.class);
     }
 }
