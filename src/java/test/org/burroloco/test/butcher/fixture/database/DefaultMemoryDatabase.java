@@ -2,8 +2,8 @@ package org.burroloco.test.butcher.fixture.database;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.java.sql.Connection;
-import edge.java.sql.Statement;
 import edge.java.sql.ResultSet;
+import edge.java.sql.Statement;
 
 public class DefaultMemoryDatabase implements MemoryDatabase {
     Nu nu;
