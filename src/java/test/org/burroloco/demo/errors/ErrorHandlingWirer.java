@@ -15,7 +15,7 @@ public class ErrorHandlingWirer implements Wirer {
 
     public void wire(Config config) {
         useAnotherWirer(config);
-        handleBadInput();
+        jobErrorHandler();
     }
 
     private void useAnotherWirer(Config config) {
@@ -23,7 +23,7 @@ public class ErrorHandlingWirer implements Wirer {
         another.wire(config);
     }
 
-    private void handleBadInput() {
+    private void jobErrorHandler() {
         dna.strand(ErrorHandler.class, SafeErrorHandler.class, ShiftyErrorHandler.class);
     }
 }

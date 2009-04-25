@@ -16,45 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/input/dodgy.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-coverage.xml" afterPath="$PROJECT_DIR$/build/ant/build-coverage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/ErrorReportPuker.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/ErrorReportPuker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/CsvSlurper.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/CsvSlurper.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/DefaultCsvSlurperEngine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/ErrorAssistant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/ErrorAssistants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/ErrorReportExtension.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingDemoTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/DefaultErrorAssistants.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2jdbc/JdbcToJdbcWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2jdbc/JdbcToJdbcWirer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/csv/DefaultWeakCsvSlurper.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultErrorHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlWirer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/common" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/ErrorReportPukerAtomicTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/ErrorReportPukerAtomicTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/ErrorHandler.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/Executive.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthWirer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/ErrorReport.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/SafeErrorHandler.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/ShiftyErrorAssistants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/csv/WeakCsvSlurper.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/assistant/ShiftyErrorAssistant.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultErrorEventListener.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ShiftyErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingSpecification.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvWirer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherWirer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/CsvSlurperEngine.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/ErrorEventListener.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/ErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingWirer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/ErrorHandlingJob.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultExecutive.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/errors.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/error/DefaultJobFailureMolecularTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingDemoTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingDemoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingWirer.java" />
     </list>
     <list name="part2" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
@@ -125,37 +88,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ErrorHandlingDemoTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ErrorHandlingDemoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="32" selection-start="948" selection-end="948" vertical-scroll-proportion="0.65968585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileMetadataToFixedWidthWirer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthWirer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="68" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.4250681">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileMetadataFixedRecordDefinition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataFixedRecordDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="217" selection-end="217" vertical-scroll-proportion="0.12565444">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ErrorHandlingWirer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingWirer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="709" selection-end="709" vertical-scroll-proportion="0.6866485">
+            <state line="27" column="32" selection-start="949" selection-end="949" vertical-scroll-proportion="0.84816754">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,11 +99,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SafeErrorHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/SafeErrorHandler.java">
+      <file leaf-file-name="ErrorHandlingWirer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingWirer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.12565444">
+            <state line="17" column="25" selection-start="626" selection-end="626" vertical-scroll-proportion="0.5558583">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/errors.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.03141361">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorHandlingJob.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/ErrorHandlingJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="7" selection-start="193" selection-end="193" vertical-scroll-proportion="0.18848167">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/ErrorHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.21989529">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlurpingJob.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/SlurpingJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="18" selection-start="414" selection-end="414" vertical-scroll-proportion="0.31413612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultGargler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/DefaultGargler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="6" selection-start="576" selection-end="576" vertical-scroll-proportion="0.21989529">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultErrorHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultErrorHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.15706806">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,37 +179,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build-coverage.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="113" selection-start="808" selection-end="808" vertical-scroll-proportion="0.6837607">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ErrorHandlingSpecification.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingSpecification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="0.13079019">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ErrorReportPukerAtomicTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/ErrorReportPukerAtomicTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="935" selection-end="935" vertical-scroll-proportion="0.45776567">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Puker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/Puker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="115" selection-end="115" vertical-scroll-proportion="0.12565444">
+            <state line="15" column="23" selection-start="510" selection-end="510" vertical-scroll-proportion="0.39237058">
               <folding />
             </state>
           </provider>
@@ -1103,6 +1072,52 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/transformation/gargler" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/transformation" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/transformation/error" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -1455,52 +1470,6 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/error" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/error/listener" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="burro" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="burro" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/data" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -1775,11 +1744,11 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.burroloco.donkey.job" />
       <recent name="org.burroloco.demo.errors" />
       <recent name="org.burroloco.donkey.output.replacing" />
       <recent name="org.burroloco.config.loader" />
       <recent name="org.burroloco.demo.metadir2fixed" />
-      <recent name="org.burroloco.demo.dir2fixed" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.burroloco.donkey.output.file" />
@@ -2158,54 +2127,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="795" selection-end="834" vertical-scroll-proportion="0.29950082">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="260" selection-end="260" vertical-scroll-proportion="0.2513089">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/ErrorHandlingJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="373" selection-end="373" vertical-scroll-proportion="0.40837696">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/DefaultPuker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.12565444">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/log/DefaultLogCleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="355" selection-end="386" vertical-scroll-proportion="0.18848167">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/ErrorReportPuker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/Puker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="17" selection-start="115" selection-end="115" vertical-scroll-proportion="0.12565444">
@@ -2220,42 +2141,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="0.13079019">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="113" selection-start="808" selection-end="808" vertical-scroll-proportion="0.6837607">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ShiftyErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="350" selection-end="350" vertical-scroll-proportion="0.2827225">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/SafeErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.12565444">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingWirer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="709" selection-end="709" vertical-scroll-proportion="0.6866485">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2273,10 +2162,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/SafeErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="24" selection-start="416" selection-end="416" vertical-scroll-proportion="0.34554973">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ShiftyErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="350" selection-end="350" vertical-scroll-proportion="0.2827225">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.15706806">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/DefaultGargler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="6" selection-start="576" selection-end="576" vertical-scroll-proportion="0.21989529">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/SlurpingJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="414" selection-end="414" vertical-scroll-proportion="0.31413612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/ErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.21989529">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingDemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="948" selection-end="948" vertical-scroll-proportion="0.65968585">
+        <state line="27" column="32" selection-start="949" selection-end="949" vertical-scroll-proportion="0.84816754">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="510" selection-end="510" vertical-scroll-proportion="0.39237058">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/ErrorHandlingJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="7" selection-start="193" selection-end="193" vertical-scroll-proportion="0.18848167">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/errors.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.03141361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/errors/ErrorHandlingWirer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="626" selection-end="626" vertical-scroll-proportion="0.5558583">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
