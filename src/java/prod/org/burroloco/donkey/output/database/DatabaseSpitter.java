@@ -8,12 +8,12 @@ import org.burroloco.donkey.config.Sql;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.output.core.Spitter;
-import org.burroloco.donkey.output.replacing.TemplateSliceExpander;
+import org.burroloco.donkey.output.replacing.SqlTemplateSliceExpander;
 
 import java.util.List;
 
 public class DatabaseSpitter implements Spitter {
-    TemplateSliceExpander expander;
+    SqlTemplateSliceExpander expander;
     Executor runner;
     Configs configs;
 
@@ -27,12 +27,7 @@ public class DatabaseSpitter implements Spitter {
 
     private Config sql(Config config, Slice slice) {
         String expanded = expander.expand(config, slice);
-        String nice = unquoteNull(expanded);
-        Nvp sql = new DefaultNvp(Sql.NAME, nice);
+        Nvp sql = new DefaultNvp(Sql.NAME, expanded);
         return configs.moosh(config, sql);
-    }
-
-    private String unquoteNull(String expanded) {
-        return expanded.replaceAll("\'null\'", "null");
     }
 }
