@@ -19,9 +19,9 @@ public class ErrorHandlingDemoTest extends DonkeyTestCase implements HasFixtures
     //SIMIAN ON
 
     public void fixtures() {
-        fileUtils.copyFileToDirectory(DODGY, IN);
         ERROR.mkdirs();
         fileUtils.cleanDirectory(ERROR);
+        fileUtils.copyFileToDirectory(DODGY, IN);
     }
 
     public void testBadInputData() {
