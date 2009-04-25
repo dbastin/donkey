@@ -1,13 +1,12 @@
 package org.burroloco.demo.errors;
 
+import au.net.netstorm.boost.sniper.marker.HasFixtures;
+import edge.org.apache.commons.io.FileUtilsStatic;
 import org.burroloco.donkey.trebuchet.Trebuchet;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.io.FileComparator;
-import au.net.netstorm.boost.sniper.marker.HasFixtures;
 
 import java.io.File;
-
-import edge.org.apache.commons.io.FileUtilsStatic;
 
 public class ErrorHandlingDemoTest extends DonkeyTestCase implements HasFixtures {
     private static final File DODGY = new File("data/input/dodgy.csv");
@@ -18,7 +17,7 @@ public class ErrorHandlingDemoTest extends DonkeyTestCase implements HasFixtures
     FileComparator comparator;
     Trebuchet trebuchet;
     //SIMIAN ON
-    
+
     public void fixtures() {
         fileUtils.copyFileToDirectory(DODGY, IN);
         ERROR.mkdirs();
