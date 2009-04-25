@@ -27,7 +27,12 @@ public class DatabaseSpitter implements Spitter {
 
     private Config sql(Config config, Slice slice) {
         String expanded = expander.expand(config, slice);
-        Nvp sql = new DefaultNvp(Sql.NAME, expanded);
+        String nice = unquoteNull(expanded);
+        Nvp sql = new DefaultNvp(Sql.NAME, nice);
         return configs.moosh(config, sql);
+    }
+
+    private String unquoteNull(String expanded) {
+        return expanded.replaceAll("\'null\'", "null");
     }
 }

@@ -20,7 +20,7 @@ public class DefaultQueryRunnerEngine implements QueryRunnerEngine {
 
     private Cake tryExecuteAndConvert(Statement statement, String sql) {
         try {
-            log.trace("Executing:\n" + sql);
+            log.trace("Executing: " + sql);
             ResultSet resultSet = statement.executeQuery(sql);
             Cake results = converter.convert(resultSet);
             log.trace(results.slices().size() + " rows returned");

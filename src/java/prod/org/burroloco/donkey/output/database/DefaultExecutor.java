@@ -24,7 +24,7 @@ public class DefaultExecutor implements Executor {
 
     private void tryExecute(Statement statement, String sql) {
         try {
-            log.trace("Executing:\n" + sql);
+            log.trace("Executing: " + sql);
             statement.execute(sql);
         } finally {
             statement.close();
