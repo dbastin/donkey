@@ -24,7 +24,7 @@ public class ErrorHandlingDemoTest extends DonkeyTestCase implements HasFixtures
         fileUtils.copyFileToDirectory(DODGY, IN);
     }
 
-    public void testSlurpErrorHandling() {
+    public void testJobErrorHandling() {
         trebuchet.launch(ErrorHandlingSpecification.class);
         checkDodgyInputHasMoved();
     }
