@@ -4,37 +4,31 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.donkey.config.ErrorReport;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.log.LogCleaner;
 import org.burroloco.test.butcher.fixture.checker.file.FileChecker;
 import static org.burroloco.test.butcher.fixture.checker.type.Occurrence.ONCE;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
-import org.burroloco.test.util.io.FileWirer;
 
 import java.io.File;
 
 public class ErrorReportPukerAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {
-    private static final String ERROR_FILE_NAME = "log/error-report.log";
+    private static final File REPORT = new File("gen/demo/log/error-report.log");
     private Puker subject;
-    private File errorReport;
     FileChecker fileChecker;
     LogCleaner logCleaner;
-    FileWirer file;
     Slice slice;
     Impl impl;
     Nu nu;
 
     public void fixtures() {
-        logCleaner.clean(ERROR_FILE_NAME);
-        errorReport = file.file(ERROR_FILE_NAME);
-        wire.nu(ErrorReport.class, errorReport).to(ErrorReport.class);
-        subject = impl.impl(ErrorReportPuker.class);
+        logCleaner.clean(REPORT);
+        subject = impl.impl(ErrorReportPuker.class, REPORT);
     }
 
     public void testErrorReportPuker() {
         TransformException e = new TransformException(slice, "random");
         subject.puke(slice, e);
-        fileChecker.check(errorReport, ONCE, "random: \\{\\} for slice: \\{\\}");
+        fileChecker.check(REPORT, ONCE, "random: \\{\\} for slice: \\{\\}");
     }
 }

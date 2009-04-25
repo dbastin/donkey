@@ -44,11 +44,6 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
         repeat(3);
     }
 
-    public void destroy() {
-        Stop job = spider.resolve(Stop.class);
-        job.stop();
-    }
-
     private void repeat(int times) {
         for (int i = 1; i <= times; i++) {
             dropFile();
@@ -78,5 +73,10 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
         for (File file : completedFiles) {
             comparator.assertEquals(INPUT, file);
         }
+    }
+
+    public void destroy() {
+        Stop job = spider.resolve(Stop.class);
+        job.stop();
     }
 }

@@ -8,7 +8,7 @@ import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.csv.CsvSpitter;
 import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;
-import org.burroloco.donkey.job.SafeJob;
+import org.burroloco.donkey.job.ErrorHandlingJob;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.SlurpingJob;
 import org.burroloco.util.wire.Dna;
@@ -19,7 +19,7 @@ public class JdbcToCsvWirer implements Wirer {
 
     //SIMIAN OFF
     public void wire(Config config) {
-        dna.strand(Job.class, SafeJob.class, SlurpingJob.class);
+        dna.strand(Job.class, ErrorHandlingJob.class, SlurpingJob.class);
         wire.cls(DatabaseSlurper.class).to(Slurper.class);
         wire.cls(EmployeeTransform.class).to(Transform.class);
         wire.cls(CsvSpitter.class).to(Spitter.class);
