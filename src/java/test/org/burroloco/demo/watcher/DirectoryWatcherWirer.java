@@ -12,9 +12,12 @@ import org.burroloco.donkey.job.SlurpingJob;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.file.ShiftySpitter;
 import org.burroloco.donkey.output.file.FileSpitter;
+import org.burroloco.donkey.output.file.ShiftyErrorHandler;
 import org.burroloco.donkey.transformation.transform.NoOpTransform;
 import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;
+import org.burroloco.donkey.error.listener.core.ErrorHandler;
+import org.burroloco.donkey.error.listener.core.SafeErrorHandler;
 import org.burroloco.util.wire.Dna;
 
 public class DirectoryWatcherWirer implements Wirer {
@@ -22,6 +25,7 @@ public class DirectoryWatcherWirer implements Wirer {
     Dna dna;
 
     public void wire(Config config) {
+        dna.strand(ErrorHandler.class, SafeErrorHandler.class, ShiftyErrorHandler.class);
         dna.strand(Job.class, PollingJob.class, DirectoryJob.class, ErrorHandlingJob.class, SlurpingJob.class);
         wire.cls(CsvSlurper.class).to(Slurper.class);
         wire.cls(NoOpTransform.class).to(Transform.class);
