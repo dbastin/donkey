@@ -17,17 +17,17 @@ import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
 public class JdbcToCsvWirer implements Wirer {
+    //SIMIAN OFF
     Wire wire;
     Dna dna;
+    //SIMIAN ON
 
-    //SIMIAN OFF
     public void wire(Config config) {
         dna.strand(Job.class, PukingJob.class, SlurpingJob.class);
         wire.cls(DatabaseSlurper.class).to(Slurper.class);
         transform();
         wire.cls(CsvSpitter.class).to(Spitter.class);
     }
-    //SIMIAN ON
 
     private void transform() {
         dna.strand(Burper.class, LoggingBurper.class, SwallowingBurper.class);
