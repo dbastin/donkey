@@ -30,7 +30,9 @@ public class JdbcToCsvWirer implements Wirer {
     //SIMIAN ON
 
     private void transform() {
-        dna.strand(TransformErrorHandler.class, LoggingTransformErrorHandler.class, SwallowingTransformErrorHandler.class);
+        dna.strand(TransformErrorHandler.class,
+                LoggingTransformErrorHandler.class,
+                SwallowingTransformErrorHandler.class);
         wire.cls(EmployeeTransform.class).to(Transform.class);
     }
 }
