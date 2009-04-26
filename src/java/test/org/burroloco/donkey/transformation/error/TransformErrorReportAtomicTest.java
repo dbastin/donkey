@@ -12,9 +12,9 @@ import org.burroloco.test.glue.testcase.DonkeyTestCase;
 
 import java.io.File;
 
-public class ErrorReportPukerAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {
-    private static final File REPORT = new File("gen/demo/log/error-report.log");
-    private Puker subject;
+public class TransformErrorReportAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {
+    private static final File REPORT = new File("gen/demo/log/transform-errors.log");
+    private TransformErrorHandler subject;
     FileChecker fileChecker;
     LogCleaner logCleaner;
     Slice slice;
@@ -23,12 +23,12 @@ public class ErrorReportPukerAtomicTest extends DonkeyTestCase implements LazyFi
 
     public void fixtures() {
         logCleaner.clean(REPORT);
-        subject = impl.impl(ErrorReportPuker.class, REPORT);
+        subject = impl.impl(ReportingHandler.class, REPORT);
     }
 
     public void testErrorReportPuker() {
         TransformException e = new TransformException(slice, "random");
-        subject.puke(slice, e);
+        subject.error(slice, e);
         fileChecker.check(REPORT, ONCE, "random: \\{\\} for slice: \\{\\}");
     }
 }
