@@ -25,7 +25,7 @@ public class HaltOnErrorDemoTest extends DonkeyTestCase implements HasFixtures {
         Wirer haltWirer = impl.impl(HaltOnErrorWirer.class);
         haltWirer.wire(noConfig);
         noConfig = nu.nu(Config.class, empty);
-        badCake = bakery.cake(1, 10, "chocolate");
+        badCake = bakery.cake(1, 8, "chocolate");
         gargler = nu.nu(Gargler.class);
     }
 
@@ -34,7 +34,6 @@ public class HaltOnErrorDemoTest extends DonkeyTestCase implements HasFixtures {
             gargler.slosh(noConfig, badCake);
             fail();
         } catch (InconsistentSliceException expected) {
-            // FIX DONKEY Check logging.
         }
     }
 }
