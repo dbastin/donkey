@@ -16,32 +16,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/TransformErrorLogger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/DefaultTransformErrorLogger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/report/DefaultErrorReportFileWizard.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/EmployeeTransform.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/EmployeeTransform.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/InvalidEmployeeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/SwallowingTransformErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/LoggingTransformErrorHandlerAtomicTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/DefaultInputDatabase.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/DefaultInputDatabase.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/transform/HaltOnErrorDemoTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/TransformClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/transform/HaltOnErrorWirer.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/TransformErrorHandlerAtomicTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/TransformErrorHandlerAtomicTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/config/log4j/log4j.properties" afterPath="$PROJECT_DIR$/build/config/log4j/log4j.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/config/ErrorReportDirName.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/transform" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/transform/BarfingTransform.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvWirer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/SafeErrorHandler.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/LoggingTransformErrorHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/DefaultTransformErrorHandler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/DefaultTransformErrorHandler.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/report/ErrorReportFileWizard.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/ReportingHandler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/LoggingTransformErrorHandler.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/report" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/ResultSetTemplateStringer.java" afterPath="" />
     </list>
-    <list name="part2" comment="" />
+    <list name="part2" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
+    </list>
     <ignored path="burro.iws" />
     <ignored path=".idea/workspace.xml" />
   </component>
@@ -111,10 +90,19 @@
       <file leaf-file-name="JdbcToCsvWirer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvWirer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="869" selection-end="869" vertical-scroll-proportion="0.56992084">
+            <state line="34" column="16" selection-start="1365" selection-end="1365" vertical-scroll-proportion="1.035533">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultTemplateStringer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateStringer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.5482234">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,10 +127,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InconsistentSliceException.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="InconsistentSliceException.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/InconsistentSliceException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.34828496">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultInputDatabase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/DefaultInputDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="72" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.6965699">
               <folding />
             </state>
           </provider>
@@ -1063,44 +1060,6 @@
           <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/test/org/burroloco/demo" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="burro" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="burro" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/test" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/test/org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/test/org/burroloco" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/test/org/burroloco/demo" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/test/org/burroloco/demo/jdbc2jdbc" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -1555,6 +1514,52 @@
           <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/output" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/output/replacing" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/output" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -1865,6 +1870,14 @@
           <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/error" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/error/listener" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/error/listener/core" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -1905,14 +1918,6 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/error" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/error/listener" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/error/listener/core" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -2760,13 +2765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/DefaultInputDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="72" selection-start="907" selection-end="907" vertical-scroll-proportion="0.64285713">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/InputDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="17" selection-start="71" selection-end="71" vertical-scroll-proportion="0.08135593">
@@ -2843,18 +2841,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/InconsistentSliceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.34828496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/DefaultInputDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="72" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.6965699">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvWirer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="869" selection-end="869" vertical-scroll-proportion="0.56992084">
+        <state line="34" column="16" selection-start="1365" selection-end="1365" vertical-scroll-proportion="1.035533">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/InconsistentSliceException.java">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateStringer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.34828496">
+        <state line="21" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.5482234">
           <folding />
         </state>
       </provider>
