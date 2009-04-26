@@ -9,9 +9,9 @@ import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.SlurpingJob;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.csv.CsvSpitter;
-import org.burroloco.donkey.transformation.error.LoggingTransformErrorHandler;
-import org.burroloco.donkey.transformation.error.SwallowingTransformErrorHandler;
-import org.burroloco.donkey.transformation.error.TransformErrorHandler;
+import org.burroloco.donkey.transformation.error.LoggingTransformPuker;
+import org.burroloco.donkey.transformation.error.SwallowingTransformPuker;
+import org.burroloco.donkey.transformation.error.TransformPuker;
 import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
@@ -30,9 +30,7 @@ public class JdbcToCsvWirer implements Wirer {
     //SIMIAN ON
 
     private void transform() {
-        dna.strand(TransformErrorHandler.class,
-                LoggingTransformErrorHandler.class,
-                SwallowingTransformErrorHandler.class);
+        dna.strand(TransformPuker.class, LoggingTransformPuker.class, SwallowingTransformPuker.class);
         wire.cls(EmployeeTransform.class).to(Transform.class);
     }
 }

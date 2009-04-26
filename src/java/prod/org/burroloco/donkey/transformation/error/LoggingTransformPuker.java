@@ -4,8 +4,8 @@ import org.burroloco.donkey.data.cake.Slice;
 import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
 import au.net.netstorm.boost.bullet.log.Log;
 
-public class LoggingTransformErrorHandler implements TransformErrorHandler {
-    TransformErrorHandler delegate;
+public class LoggingTransformPuker implements TransformPuker {
+    TransformPuker delegate;
     ThrowableMaster chuckie;
     Log log;
 
