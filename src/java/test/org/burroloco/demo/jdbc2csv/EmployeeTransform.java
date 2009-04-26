@@ -8,10 +8,16 @@ public class EmployeeTransform implements Transform {
     Nu nu;
 
     public Slice transform(Slice in) {
+        noPets(in);
         Slice out = nu.nu(Slice.class);
         out.add("ID", multiply("ID", in));
         out.add("NAME", toUpper("NAME", in));
         return out;
+    }
+
+    private void noPets(Slice in) {
+        String name = (String) in.value("NAME");
+        if (name.equals("Dino")) throw new InvalidEmployeeException(name);
     }
 
     private int multiply(String key, Slice in) {
