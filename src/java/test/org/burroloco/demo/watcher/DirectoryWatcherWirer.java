@@ -17,7 +17,7 @@ import org.burroloco.donkey.transformation.transform.NoOpTransform;
 import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.donkey.error.listener.core.Puker;
-import org.burroloco.donkey.error.listener.core.SafeDelegatePuker;
+import org.burroloco.donkey.error.listener.core.BulletProofPuker;
 import org.burroloco.util.wire.Dna;
 
 public class DirectoryWatcherWirer implements Wirer {
@@ -25,7 +25,7 @@ public class DirectoryWatcherWirer implements Wirer {
     Dna dna;
 
     public void wire(Config config) {
-        dna.strand(Puker.class, SafeDelegatePuker.class, ShiftyPuker.class);
+        dna.strand(Puker.class, BulletProofPuker.class, ShiftyPuker.class);
         dna.strand(Job.class, PollingJob.class, DirectoryJob.class, PukingJob.class, SlurpingJob.class);
         wire.cls(CsvSlurper.class).to(Slurper.class);
         wire.cls(NoOpTransform.class).to(Transform.class);
