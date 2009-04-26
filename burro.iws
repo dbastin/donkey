@@ -16,10 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultSingleResultQuery.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-coverage.xml" afterPath="$PROJECT_DIR$/build/ant/build-coverage.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/SingleResultQuery.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/DefaultSingleResultQueryCoverageTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/WhereClauseBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/QueryException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultWhereClauseBuilder.java" afterPath="" />
     </list>
     <list name="part2" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
@@ -90,52 +90,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build-coverage.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build-coverage.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="57" selection-start="415" selection-end="415" vertical-scroll-proportion="0.3305785">
+            <state line="20" column="88" selection-start="783" selection-end="783" vertical-scroll-proportion="0.661157">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcToCsvDemoTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvDemoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="459" selection-end="459" vertical-scroll-proportion="0.12664908">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JdbcToJdbcDemoTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2jdbc/JdbcToJdbcDemoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="33" selection-start="824" selection-end="824" vertical-scroll-proportion="0.6332454">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultInputDatabase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/DefaultInputDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="25" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.7915567">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultMemoryDatabase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/DefaultMemoryDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19" selection-start="594" selection-end="594" vertical-scroll-proportion="0.5065963">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectoryWatcherDemoTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DirectoryWatcherDemoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="73" column="49" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.73614776">
@@ -146,10 +110,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectoryWatcherWirer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherWirer.java">
+      <file leaf-file-name="DefaultSqlBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultSqlBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="73" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.4116095">
+            <state line="2" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.060913704">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/SqlBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="20" selection-start="66" selection-end="66" vertical-scroll-proportion="0.060913704">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WrappingSqlBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/WrappingSqlBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="33" selection-start="380" selection-end="380" vertical-scroll-proportion="0.36548224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseNull.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DatabaseNull.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.060913704">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InconsistentSliceException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/InconsistentSliceException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="24" selection-start="180" selection-end="180" vertical-scroll-proportion="0.18997361">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MissingValueException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/MissingValueException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="13" selection-start="85" selection-end="85" vertical-scroll-proportion="0.09137056">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultSlice.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultSlice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="39" selection-start="317" selection-end="317" vertical-scroll-proportion="0.18274112">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnsupportedTypeException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/UnsupportedTypeException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.12182741">
               <folding />
             </state>
           </provider>
@@ -1482,6 +1509,56 @@
           <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/data" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/data/error" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/data" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/Damien/work/burro/src/java/prod/org/burroloco/donkey/data/cake" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -1860,7 +1937,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1270" height="774" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -1868,7 +1945,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24324325" order="0" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2749616" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30721965" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30721965" order="8" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
@@ -2024,41 +2101,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/watcher.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="209" selection-end="209" vertical-scroll-proportion="0.18274112">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/Transform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.12182741">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/DefaultFieldConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="346" selection-end="346" vertical-scroll-proportion="0.15228426">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/FieldConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.12182741">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="73" selection-end="73" vertical-scroll-proportion="0.060913704">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/XmlEscaper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="27" selection-start="265" selection-end="265" vertical-scroll-proportion="0.12182741">
@@ -2068,7 +2110,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherWirer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="73" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.4116095">
+        <state line="31" column="73" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.39">
           <folding />
         </state>
       </provider>
@@ -2101,19 +2143,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="57" selection-start="415" selection-end="415" vertical-scroll-proportion="0.3305785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherDemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="49" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.73614776">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultSqlBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.060913704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/SqlBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="66" selection-end="66" vertical-scroll-proportion="0.060913704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/database/WrappingSqlBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="380" selection-end="380" vertical-scroll-proportion="0.36548224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DatabaseNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.060913704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/UnsupportedTypeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.12182741">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/InconsistentSliceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="180" selection-end="180" vertical-scroll-proportion="0.18997361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultSlice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="39" selection-start="317" selection-end="317" vertical-scroll-proportion="0.18274112">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/MissingValueException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="85" selection-end="85" vertical-scroll-proportion="0.09137056">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="88" selection-start="783" selection-end="783" vertical-scroll-proportion="0.661157">
+          <folding />
         </state>
       </provider>
     </entry>
