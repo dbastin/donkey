@@ -16,23 +16,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/LoggingTransformErrorHandler.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/TransformPuker.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/SwallowingTransformErrorHandler.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/DefaultTransformPuker.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/TransformException.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/TransformPuker.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/Burper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/DefaultGargler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/DefaultGargler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/config/log4j/log4j.properties" afterPath="$PROJECT_DIR$/build/config/log4j/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/SwallowingTransformPuker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/LoggingTransformErrorHandlerAtomicTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/ErrorHandler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/Puker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvWirer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/DefaultTransformErrorHandler.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/LoggingTransformPukerMolecularTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/TransformErrorHandler.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/DefaultTransformPukerAtomicTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/TransformErrorHandlerAtomicTest.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/LoggingTransformPuker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/ProtectingErrorHandler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/SafeDelegatePuker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2jdbc/JdbcToJdbcWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2jdbc/JdbcToJdbcWirer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherWirer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/DefaultTransformPuker.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/DefaultBurper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/ErrorHandlingJob.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/PukingJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/csv2sql/CsvToSqlWirer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/LoggingTransformPuker.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/LoggingBurper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultErrorHandler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultPuker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/SwallowingTransformPuker.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/SwallowingBurper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/LoggingTransformPukerMolecularTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/LoggingBurperMolecularTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ShiftyErrorHandler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ShiftyPuker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthWirer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/demo/filemeta2fixed/FileMetadataToFixedWidthWirer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/DefaultTransformPukerAtomicTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/DefaultBurperAtomicTest.java" />
     </list>
     <list name="part2" comment="" />
     <ignored path="burro.iws" />
@@ -104,52 +106,32 @@
       <file leaf-file-name="JdbcToCsvWirer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvWirer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="979" selection-end="979" vertical-scroll-proportion="0.30456853">
+            <state line="24" column="37" selection-start="972" selection-end="972" vertical-scroll-proportion="0.30456853">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultTemplateStringer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateStringer.java">
+      <file leaf-file-name="PukingJob.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/PukingJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.5482234">
+            <state line="7" column="35" selection-start="274" selection-end="274" vertical-scroll-proportion="0.18274112">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultInputDatabase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/DefaultInputDatabase.java">
+      <file leaf-file-name="SafeDelegatePuker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/SafeDelegatePuker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.88324875">
+            <state line="6" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.12182741">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoggingTransformPukerMolecularTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/LoggingTransformPukerMolecularTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="114" selection-start="824" selection-end="824" vertical-scroll-proportion="0.5177665">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/config/log4j/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="76" selection-start="177" selection-end="177" vertical-scroll-proportion="0.09137056">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultTransformPukerAtomicTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/DefaultTransformPukerAtomicTest.java">
+      <file leaf-file-name="DefaultBurperAtomicTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/DefaultBurperAtomicTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="13" selection-start="222" selection-end="222" vertical-scroll-proportion="0.18274112">
               <folding>
@@ -159,10 +141,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwallowingTransformPuker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/SwallowingTransformPuker.java">
+      <file leaf-file-name="DefaultBurper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/DefaultBurper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="24" selection-start="238" selection-end="238" vertical-scroll-proportion="0.18274112">
+            <state line="8" column="16" selection-start="253" selection-end="253" vertical-scroll-proportion="0.21319798">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/config/log4j/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="68" selection-start="169" selection-end="169" vertical-scroll-proportion="0.09137056">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggingBurper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/LoggingBurper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.4568528">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggingBurperMolecularTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/LoggingBurperMolecularTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="33" selection-start="599" selection-end="599" vertical-scroll-proportion="0.42639595">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectoryWatcherWirer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherWirer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="33" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.2741117">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwallowingBurper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/SwallowingBurper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="16" selection-start="164" selection-end="164" vertical-scroll-proportion="0.15228426">
               <folding />
             </state>
           </provider>
@@ -2359,14 +2388,14 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.LoggingTransformPukerMolecularTest">
-    <tempConfiguration default="false" name="LoggingTransformPukerMolecularTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
+  <component name="RunManager" selected="JUnit.LoggingBurperMolecularTest">
+    <tempConfiguration default="false" name="LoggingBurperMolecularTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <pattern value="org.burroloco.donkey.transformation.error.*" />
       <module name="burro" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.burroloco.donkey.transformation.error" />
-      <option name="MAIN_CLASS_NAME" value="org.burroloco.donkey.transformation.error.LoggingTransformPukerMolecularTest" />
+      <option name="MAIN_CLASS_NAME" value="org.burroloco.donkey.transformation.error.LoggingBurperMolecularTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -2381,9 +2410,6 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Make" value="true" />
-      </method>
     </tempConfiguration>
     <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false">
       <module name="" />
@@ -2540,6 +2566,28 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <configuration default="false" name="LoggingBurperMolecularTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
+      <pattern value="org.burroloco.donkey.transformation.error.*" />
+      <module name="burro" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.burroloco.donkey.transformation.error" />
+      <option name="MAIN_CLASS_NAME" value="org.burroloco.donkey.transformation.error.LoggingBurperMolecularTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.HaltOnErrorDemoTest.testHaltOnError" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.LoggingPukerMolecularTest" />
@@ -2616,7 +2664,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14578214" order="1" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" order="8" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" order="8" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4592934" order="2" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" order="2" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3996724" order="0" />
@@ -2765,77 +2813,84 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/InputDatabase.java">
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/DefaultInputDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="71" selection-end="71" vertical-scroll-proportion="0.08135593">
+        <state line="29" column="0" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.5790349">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/input/employee.csv">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/Burper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="39" selection-end="39" vertical-scroll-proportion="0.12182741">
+        <state line="5" column="12" selection-start="136" selection-end="136" vertical-scroll-proportion="0.09983361">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvDemoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/Puker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="459" selection-end="459" vertical-scroll-proportion="0.081911266">
+        <state line="5" column="11" selection-start="129" selection-end="129" vertical-scroll-proportion="0.09983361">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/error/InconsistentSliceException.java">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ShiftyPuker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.22525597">
+        <state line="13" column="16" selection-start="436" selection-end="436" vertical-scroll-proportion="0.15973377">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/jdbc2jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/Job.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="4" column="17" selection-start="94" selection-end="94" vertical-scroll-proportion="0.079866886">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/replacing/DefaultTemplateStringer.java">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/PukingJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.5482234">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/SwallowingTransformPuker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="238" selection-end="238" vertical-scroll-proportion="0.18274112">
+        <state line="7" column="35" selection-start="274" selection-end="274" vertical-scroll-proportion="0.18274112">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/jdbc2csv/JdbcToCsvWirer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="979" selection-end="979" vertical-scroll-proportion="0.30456853">
+        <state line="24" column="37" selection-start="972" selection-end="972" vertical-scroll-proportion="0.30456853">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/test/butcher/fixture/database/DefaultInputDatabase.java">
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/DefaultPuker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.88324875">
+        <state line="10" column="16" selection-start="304" selection-end="304" vertical-scroll-proportion="0.15973377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/SwallowingBurper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="16" selection-start="164" selection-end="164" vertical-scroll-proportion="0.15228426">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/DefaultBurper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="253" selection-end="253" vertical-scroll-proportion="0.21319798">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/config/log4j/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="76" selection-start="177" selection-end="177" vertical-scroll-proportion="0.09137056">
+        <state line="3" column="68" selection-start="169" selection-end="169" vertical-scroll-proportion="0.09137056">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/DefaultTransformPukerAtomicTest.java">
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/DefaultBurperAtomicTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="222" selection-end="222" vertical-scroll-proportion="0.18274112">
           <folding>
@@ -2844,12 +2899,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/LoggingTransformPukerMolecularTest.java">
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/error/LoggingBurperMolecularTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="114" selection-start="824" selection-end="824" vertical-scroll-proportion="0.5177665">
+        <state line="14" column="33" selection-start="599" selection-end="599" vertical-scroll-proportion="0.42639595">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/listener/core/SafeDelegatePuker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.12182741">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/demo/watcher/DirectoryWatcherWirer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="33" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.2741117">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/error/LoggingBurper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.4568528">
+          <folding />
         </state>
       </provider>
     </entry>

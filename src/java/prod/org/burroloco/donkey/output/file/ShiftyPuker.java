@@ -4,10 +4,10 @@ import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.ErrorDirName;
 import org.burroloco.donkey.config.InputFileName;
-import org.burroloco.donkey.error.listener.core.ErrorHandler;
+import org.burroloco.donkey.error.listener.core.Puker;
 import org.burroloco.donkey.util.FileShifter;
 
-public class ShiftyErrorHandler implements ErrorHandler {
+public class ShiftyPuker implements Puker {
     FileShifter shifty;
     WeakConfig weak;
 

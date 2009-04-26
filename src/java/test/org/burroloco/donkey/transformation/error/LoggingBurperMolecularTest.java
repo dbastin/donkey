@@ -12,9 +12,9 @@ import org.burroloco.util.wire.Dna;
 
 import java.io.File;
 
-public class LoggingTransformPukerMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures {
+public class LoggingBurperMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private static final File REPORT = new File("gen/demo/log/transform-errors.log");
-    private TransformPuker subject;
+    private Burper subject;
     FileChecker fileChecker;
     LogCleaner logCleaner;
     Slice slice;
@@ -23,8 +23,8 @@ public class LoggingTransformPukerMolecularTest extends DonkeyTestCase implement
 
     public void fixtures() {
         logCleaner.clean(REPORT);
-        dna.strand(TransformPuker.class, LoggingTransformPuker.class, SwallowingTransformPuker.class);
-        subject = nu.nu(TransformPuker.class);
+        dna.strand(Burper.class, LoggingBurper.class, SwallowingBurper.class);
+        subject = nu.nu(Burper.class);
     }
 
     public void testErrorLogging() {

@@ -4,9 +4,9 @@ import au.net.netstorm.boost.bullet.log.Log;
 import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
 import org.burroloco.config.core.Config;
 
-public class ProtectingErrorHandler implements ErrorHandler {
+public class SafeDelegatePuker implements Puker {
     ThrowableMaster chuckie;
-    ErrorHandler delegate;
+    Puker delegate;
     Log log;
 
     public void error(Config config, Exception e) {

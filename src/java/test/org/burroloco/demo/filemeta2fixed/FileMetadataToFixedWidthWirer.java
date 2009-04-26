@@ -5,7 +5,7 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.file.FileMetaSlurper;
 import org.burroloco.donkey.job.Job;
-import org.burroloco.donkey.job.ErrorHandlingJob;
+import org.burroloco.donkey.job.PukingJob;
 import org.burroloco.donkey.job.SlurpingJob;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.fixedwidth.FixedRecordDefinition;
@@ -21,7 +21,7 @@ public class FileMetadataToFixedWidthWirer implements Wirer {
 
     //SIMIAN OFF
     public void wire(Config config) {
-        dna.strand(Job.class, ErrorHandlingJob.class, SlurpingJob.class);
+        dna.strand(Job.class, PukingJob.class, SlurpingJob.class);
         wire.cls(FileMetaSlurper.class).to(Slurper.class);
         wire.cls(NoOpTransform.class).to(Transform.class);
         wire.cls(FileMetadataFixedRecordDefinition.class).to(FixedRecordDefinition.class);
