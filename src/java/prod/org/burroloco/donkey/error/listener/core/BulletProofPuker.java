@@ -10,11 +10,16 @@ public class BulletProofPuker implements Puker {
     Log log;
 
     public void error(Config config, Exception e) {
+        logCause(e);
         try {
             delegate.error(config, e);
         } catch (Exception ignored) {
-            Throwable cause = chuckie.realCause(ignored);
-            log.error(cause);
+            logCause(ignored);
         }
+    }
+
+    private void logCause(Exception e) {
+        Throwable cause = chuckie.rootCause(e);
+        log.error(cause);
     }
 }
