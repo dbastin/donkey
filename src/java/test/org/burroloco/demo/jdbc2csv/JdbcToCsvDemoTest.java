@@ -2,9 +2,8 @@ package org.burroloco.demo.jdbc2csv;
 
 import au.net.netstorm.boost.sniper.marker.Destroyable;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
-import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.test.butcher.fixture.database.InputDatabase;
 import org.burroloco.donkey.trebuchet.Trebuchet;
+import org.burroloco.test.butcher.fixture.database.InputDatabase;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.test.util.io.FileComparator;
 
@@ -16,8 +15,7 @@ public class JdbcToCsvDemoTest extends DonkeyTestCase implements HasFixtures, De
     FileComparator comparator;
     InputDatabase database;
     Trebuchet trebuchet;
-    Nu nu;
-
+    
     public void fixtures() {
         database.create();
     }
