@@ -30,7 +30,6 @@ public class DefaultSliceAtomicTest extends DonkeyTestCase implements HasFixture
             subject.value(random);
         } catch (MissingValueException e) {
             assertEquals("There is no key '" + random + "'", e.getMessage());
-
         }
     }
 
