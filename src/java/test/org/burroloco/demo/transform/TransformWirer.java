@@ -19,22 +19,26 @@ import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
 public class TransformWirer implements Wirer {
-    private static final String SHAZZZZZAM_MAPPINGS = "config/transform/shazzzzzam.properties";
+    private static final String FULLNAME_MAPPINGS = "config/transform/fullname-mappings.properties";
      //SIMIAN OFF
     Wire wire;
     Dna dna;
     //SIMIAN ON
 
     public void wire(Config config) {
-        dna.strand(Job.class, PukingJob.class, SlurpingJob.class);
-        wire.cls(DatabaseSlurper.class).to(Slurper.class);
+        slurp();
         transform();
         wire.cls(CsvSpitter.class).to(Spitter.class);
     }
 
+    private void slurp() {
+        dna.strand(Job.class, PukingJob.class, SlurpingJob.class);
+        wire.cls(DatabaseSlurper.class).to(Slurper.class);
+    }
+
     private void transform() {
         dna.strand(Burper.class, LoggingBurper.class, SwallowingBurper.class);
-        wire.impl(PropertyFileMapper.class, SHAZZZZZAM_MAPPINGS).to(Mapper.class);
-        wire.cls(SuperHeroTransform.class).to(Transform.class);
+        wire.impl(PropertyFileMapper.class, FULLNAME_MAPPINGS).to(Mapper.class);
+        wire.cls(FullNameTransform.class).to(Transform.class);
     }
 }
