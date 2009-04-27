@@ -14,6 +14,6 @@
     </target>
 
     <target name="-coverage_check">
-        <macro_check_cobertura code.type="prod" test.type="donkey" min.line.coverage="99" min.branch.coverage="97"/>
+        <macro_check_cobertura code.type="prod" test.type="donkey" min.line.coverage="99" min.branch.coverage="98"/>
     </target>
 </project>
