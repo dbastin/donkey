@@ -14,6 +14,7 @@ import org.burroloco.donkey.transformation.error.LoggingBurper;
 import org.burroloco.donkey.transformation.error.SwallowingBurper;
 import org.burroloco.donkey.transformation.transform.Mapper;
 import org.burroloco.donkey.transformation.transform.Transform;
+import org.burroloco.donkey.transformation.transform.PropertyFileMapper;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
