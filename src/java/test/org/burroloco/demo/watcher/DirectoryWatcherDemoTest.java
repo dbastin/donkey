@@ -63,7 +63,7 @@ public class DirectoryWatcherDemoTest extends DonkeyTestCase implements HasFixtu
         for (int i = 1; i <= times; i++) {
             dropFile(INPUT);
             checkDir(0, IN, NONE);
-            checkDir(1, OUT, EXPECTED);
+            checkDir(i, OUT, EXPECTED);
             checkDir(0, ERROR, NONE);
             checkDir(i, COMPLETED, INPUT);
         }
