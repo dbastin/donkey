@@ -5,10 +5,6 @@
 
     <fileset id="donkey.fileset" dir="${prod.src.dir}" includes="**/*.java" excludes="**/trebuchet/Main.java"/>
 
-    <fileset id="donkey.test.fileset" dir="${test.src.dir}">
-        <patternset refid="donkey.test.pattern"/>
-    </fileset>
-
     <target name="-instrument">
         <macro_instrument_cobertura code.type="prod" test.type="donkey"/>
     </target>
