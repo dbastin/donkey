@@ -27,13 +27,9 @@ public class TransformWirer implements Wirer {
 
     public void wire(Config config) {
         dna.strand(Job.class, PukingJob.class, SlurpingJob.class);
-        slurp();
+        wire.cls(DatabaseSlurper.class).to(Slurper.class);
         transform();
         wire.cls(CsvSpitter.class).to(Spitter.class);
-    }
-
-    private void slurp() {
-        wire.cls(DatabaseSlurper.class).to(Slurper.class);
     }
 
     private void transform() {
