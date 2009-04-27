@@ -11,6 +11,7 @@
                                   datafile="${coverage.db.dir}/@{test.type}_coverage.ser">
                 <fileset dir="${classes.dir}/@{code.type}">
                     <include name="**/*.class"/>
+                    <exclude name="**/Main.class"/>
                 </fileset>
             </cobertura-instrument>
         </sequential>
