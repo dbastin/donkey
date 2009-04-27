@@ -33,12 +33,12 @@ public class DefaultPukerMolecularTest extends DonkeyTestCase implements HasFixt
             job.go(configDummy);
             fail("Expected the job to fail");
         } catch (RuntimeException e) {
-            checkOriginalError(e);
+            checkErrorOriginal(e);
             checkErrorLogging();
         }
     }
 
-    private void checkOriginalError(RuntimeException e) {
+    private void checkErrorOriginal(RuntimeException e) {
         String actual = e.getMessage();
         assertEquals(MSG, actual);
     }
