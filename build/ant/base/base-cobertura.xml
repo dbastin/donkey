@@ -25,6 +25,10 @@
                               datafile="${coverage.db.dir}/@{test.type}_coverage.ser">
                 <fileset dir="${@{code.type}.src.dir}" includes="**/*.java"/>
             </cobertura-report>
+            <cobertura-report format="xml" destdir="${coverage.reports.dir}/@{code.type}/@{test.type}/xml"
+                              datafile="${coverage.db.dir}/@{test.type}_coverage.ser">
+                <fileset dir="${@{code.type}.src.dir}" includes="**/*.java"/>
+            </cobertura-report>
         </sequential>
     </macrodef>
 
