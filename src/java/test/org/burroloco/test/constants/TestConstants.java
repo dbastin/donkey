@@ -8,7 +8,7 @@ public interface TestConstants {
     String DIST_BASE_PATH = TEST_BASE_PATH + "dist/";
     String INTERFACE = "interface/";
     File TMP_DIR = new File(System.getProperty("java.io.tmpdir"));
-    String LOG = "log/donkey.log";
+    File LOG = new File("gen/artifacts/test/log/donkey.log");
     long ONE_SECOND = 1000;
     long TWO_SECONDS = 2 * ONE_SECOND;
     long FOUR_SECONDS = 4 * ONE_SECOND;
