@@ -1,13 +1,17 @@
 package org.burroloco.donkey.output.file;
 
-import org.burroloco.donkey.util.FileUtil;
+import org.burroloco.donkey.util.FileStamper;
+import org.burroloco.donkey.util.DirUtil;
 
 import java.io.File;
 
 public class UniqueFileWizard implements FileWizard {
-    FileUtil fileUtil;
+    FileStamper stampy;
+    DirUtil files;
 
-    public File file(String dirname, String prefix, String ext) {
-        return fileUtil.createUniqueFile(dirname, prefix, "." + ext);
+    public File file(String dirname, String filename, String ext) {
+        File dir = files.makeDirs(dirname);
+        String name = stampy.stamp(filename + "." + ext);
+        return new File(dir, name);
     }
 }

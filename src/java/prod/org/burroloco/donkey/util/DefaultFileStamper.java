@@ -8,6 +8,6 @@ public class DefaultFileStamper implements FileStamper {
     public String stamp(String fileName) {
         String baseName = FilenameUtils.getBaseName(fileName);
         String extension = FilenameUtils.getExtension(fileName);
-        return baseName + "_" + stampy.getTimeStamp() + "." + extension;
+        return baseName + "-" + stampy.getTimeStamp() + "." + extension;
     }
 }

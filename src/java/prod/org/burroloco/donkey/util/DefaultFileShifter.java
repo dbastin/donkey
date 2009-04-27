@@ -7,7 +7,7 @@ import java.io.File;
 public class DefaultFileShifter implements FileShifter {
     FileUtilsStatic commons;
     FileStamper stampy;
-    FileUtil fileUtil;
+    DirUtil dirUtil;
 
     public void stampAndMove(String sourceName, String targetDirName) {
         File source = new File(sourceName);
@@ -16,7 +16,7 @@ public class DefaultFileShifter implements FileShifter {
     }
 
     private File target(String source, String targetDirName) {
-        File targetDir = fileUtil.makeDirs(targetDirName);
+        File targetDir = dirUtil.makeDirs(targetDirName);
         String target = stampy.stamp(source);
         return new File(targetDir, target);
     }
