@@ -9,7 +9,7 @@ public class JdbcToJdbcSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
-        return loader.load("config/jdbc2jdbc.properties");
+        return loader.load("config/jdbc2jdbc/jdbc2jdbc.properties");
     }
 
     public Class<? extends Wirer> wirer() {

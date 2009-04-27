@@ -9,7 +9,7 @@ public class CsvToSqlSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
-        return loader.load("config/csv2sql.properties");
+        return loader.load("config/csv2sql/csv2sql.properties");
     }
 
     public Class<? extends Wirer> wirer() {

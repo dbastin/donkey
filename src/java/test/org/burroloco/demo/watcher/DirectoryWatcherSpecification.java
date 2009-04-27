@@ -9,7 +9,7 @@ public class DirectoryWatcherSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
-        return loader.load("config/watcher.properties");
+        return loader.load("config/watcher/watcher.properties");
     }
 
     public Class<? extends Wirer> wirer() {

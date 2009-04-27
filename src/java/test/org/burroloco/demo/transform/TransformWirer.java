@@ -19,7 +19,7 @@ import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
 public class TransformWirer implements Wirer {
-    private static final String SHAZZZZZAM_MAPPINGS = "config/shazzzzzam.properties";
+    private static final String SHAZZZZZAM_MAPPINGS = "config/transform/shazzzzzam.properties";
      //SIMIAN OFF
     Wire wire;
     Dna dna;

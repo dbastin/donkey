@@ -9,7 +9,7 @@ public class JdbcToCsvSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
-        return loader.load("config/jdbc2csv.properties");
+        return loader.load("config/jdbc2csv/jdbc2csv.properties");
     }
 
     public Class<? extends Wirer> wirer() {
