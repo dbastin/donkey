@@ -34,7 +34,16 @@ public class DefaultSliceAtomicTest extends DonkeyTestCase implements HasFixture
         }
     }
 
-    public void testPutAllValidatesKeys() {
+    public void testPutAll() {
+        Slice otherSlice = nu.nu(Slice.class);
+        otherSlice.add("b", "two");
+        otherSlice.add("c", "three");
+        subject.addAll(otherSlice);
+        assertEquals("two", subject.value("b"));
+        assertEquals("three", subject.value("c"));
+    }
+
+    public void testPutAllWithDuplicateKeyFails() {
         Slice otherSlice = nu.nu(Slice.class);
         otherSlice.add(DUPLICATE_KEY, "three");
         try {
