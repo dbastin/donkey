@@ -21,9 +21,9 @@ public class DefaultFieldConverter implements FieldConverter {
         Slice converted  = nu.nu(Slice.class);
         for (String name : in.names()) {
             Object value = in.value(name);
-            if(target.equals(value)){
+            if (target.equals(value)){
                 converted.add(name,replacement);
-            }else
+            } else
                 converted.add(name,value);
         }
         return converted;
