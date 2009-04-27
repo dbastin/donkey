@@ -11,9 +11,9 @@ import org.burroloco.donkey.output.core.Spitter;
 import java.util.List;
 
 public class DefaultGargler implements Gargler {
-    Burper handler;
     Transform transform;
     Spitter spitter;
+    Burper handler;
     Nu nu;
 
     public void slosh(Config config, Cake in) {
