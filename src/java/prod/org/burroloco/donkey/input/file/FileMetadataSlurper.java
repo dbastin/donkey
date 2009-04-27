@@ -15,7 +15,7 @@ import org.burroloco.util.csv.CommaSeparatedValues;
 import java.io.File;
 import java.util.List;
 
-public class FileMetaSlurper implements Slurper {
+public class FileMetadataSlurper implements Slurper {
     CommaSeparatedValues separated;
     FileUtilsStatic files;
     WeakConfig weak;
