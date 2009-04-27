@@ -5,7 +5,7 @@ import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.trebuchet.Specification;
 import org.burroloco.donkey.trebuchet.Wirer;
 
-class TransformSpecification implements Specification {
+public class TransformSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
