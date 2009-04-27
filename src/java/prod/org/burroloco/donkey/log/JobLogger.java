@@ -23,7 +23,7 @@ public class JobLogger implements Layer {
             log.info(THINGY + " completed successfully");
             return result;
         } catch (RuntimeException e) {
-            log.error(THINGY + " internal error: ", chuckie.rootCause(e));
+            log.error(THINGY + " internal error: ", chuckie.realCause(e));
             log.info(THINGY + " terminated with an error");
             throw new HandledException(e);
         }

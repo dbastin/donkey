@@ -20,9 +20,11 @@ public class DefaultPukerCoverageTest extends DonkeyTestCase implements LazyFiel
         wire.ref(chuckieMock).to(ThrowableMaster.class);
     }
 
+    //SIMIAN OFF
     public void test() {
-        expect.oneCall(chuckieMock, (Object) causeDummy, "rootCause", e);
+        expect.oneCall(chuckieMock, (Object) causeDummy, "realCause", e);
         expect.oneCall(chuckieMock, VOID, "rethrow", causeDummy);
         subject.error(configDummy, e);
     }
+    //SIMIAN ON
 }

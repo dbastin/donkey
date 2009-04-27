@@ -19,7 +19,7 @@ public class BulletProofPuker implements Puker {
     }
 
     private void logCause(Exception e) {
-        Throwable cause = chuckie.rootCause(e);
+        Throwable cause = chuckie.realCause(e);
         log.error(cause);
     }
 }

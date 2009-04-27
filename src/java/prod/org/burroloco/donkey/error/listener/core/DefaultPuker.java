@@ -9,7 +9,7 @@ public class DefaultPuker implements Puker {
     Log log;
 
     public void error(Config config, Exception exception) {
-        Throwable cause = chuckie.rootCause(exception);
+        Throwable cause = chuckie.realCause(exception);
         log.error(cause);
         chuckie.rethrow(cause);
     }
