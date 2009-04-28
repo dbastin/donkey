@@ -4,7 +4,7 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import edge.org.apache.commons.io.FileUtilsStatic;
 import org.burroloco.donkey.trebuchet.Trebuchet;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
-import org.burroloco.test.butcher.util.io.FileComparator;
+import org.burroloco.test.butcher.util.file.FileComparator;
 
 import java.io.File;
 

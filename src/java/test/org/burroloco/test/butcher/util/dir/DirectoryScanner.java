@@ -1,4 +1,4 @@
-package org.burroloco.test.butcher.util.io;
+package org.burroloco.test.butcher.util.dir;
 
 import org.apache.commons.io.filefilter.IOFileFilter;
 

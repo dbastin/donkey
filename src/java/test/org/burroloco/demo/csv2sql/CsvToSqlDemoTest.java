@@ -2,7 +2,7 @@ package org.burroloco.demo.csv2sql;
 
 import org.burroloco.donkey.trebuchet.Trebuchet;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
-import org.burroloco.test.butcher.util.io.FileComparator;
+import org.burroloco.test.butcher.util.file.FileComparator;
 
 import java.io.File;
 

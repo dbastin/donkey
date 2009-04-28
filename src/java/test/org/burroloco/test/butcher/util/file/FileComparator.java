@@ -1,4 +1,4 @@
-package org.burroloco.test.butcher.util.io;
+package org.burroloco.test.butcher.util.file;
 
 import java.io.File;
 
