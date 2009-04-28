@@ -1,6 +1,5 @@
 package org.burroloco.util.string;
 
-// FIX TSR-DONKEY Use or Lose
 public class DefaultFiller implements Filler {
     public String fill(String s, int width) {
         String result = s;

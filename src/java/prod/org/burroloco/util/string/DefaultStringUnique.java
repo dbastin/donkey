@@ -2,7 +2,6 @@ package org.burroloco.util.string;
 
 import java.util.List;
 
-// FIX TSR-DONKEY Use or Lose
 public class DefaultStringUnique implements StringUnique, ShortNameUnique, LongNameUnique {
     private final boolean alwaysStamp;
     private final int suffixlength;
