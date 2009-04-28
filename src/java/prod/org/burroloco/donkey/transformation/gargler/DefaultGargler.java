@@ -13,7 +13,7 @@ import java.util.List;
 public class DefaultGargler implements Gargler {
     Transform transform;
     Spitter spitter;
-    Burper handler;
+    Burper burper;
     Nu nu;
 
     public void slosh(Config config, Cake in) {
@@ -28,7 +28,7 @@ public class DefaultGargler implements Gargler {
             Slice transformed = transform.transform(slice);
             out.add(transformed);
         } catch (RuntimeException e) {
-            handler.error(slice, e);
+            burper.error(slice, e);
         }
     }
 }
