@@ -3,7 +3,6 @@ package org.burroloco.config.core;
 import au.net.netstorm.boost.bullet.incredibles.core.Strong;
 import au.net.netstorm.boost.gunge.collection.StrictMap;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.config.loader.Parser;
 
 public class DefaultConfig implements Config {
     private StrictMap<String, String> map;

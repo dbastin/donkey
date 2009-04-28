@@ -1,16 +1,14 @@
 package org.burroloco.donkey.util;
 
-import org.burroloco.donkey.data.cake.Slice;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class DefaultCollectionSubtractor implements CollectionSubtractor {
 
-    public List<Slice> subtract(List<Slice> s1, List<Slice> s2) {
-        List<Slice> result = new ArrayList<Slice>(s1);
-        for (Slice s : s2) {
-            result.remove(s);
+    public List subtract(List l1, List l2) {
+        List result = new ArrayList(l1);
+        for (Object o : l2) {
+            result.remove(o);
         }
         return result;
     }
