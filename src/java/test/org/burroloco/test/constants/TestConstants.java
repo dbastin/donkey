@@ -10,9 +10,6 @@ public interface TestConstants {
     File TMP_DIR = new File(System.getProperty("java.io.tmpdir"));
     File LOG = new File("gen/artifacts/test/log/donkey.log");
     long ONE_SECOND = 1000;
-    long TWO_SECONDS = 2 * ONE_SECOND;
-    long FOUR_SECONDS = 4 * ONE_SECOND;
-    long FIVE_SECONDS = 5 * ONE_SECOND;
     long THIRTY_SECONDS = 30 * ONE_SECOND;
     String DONT_CARE = "DONT_CARE";
     int MAX_ROWS = 10;
