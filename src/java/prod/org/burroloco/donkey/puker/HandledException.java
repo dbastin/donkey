@@ -1,4 +1,4 @@
-package org.burroloco.donkey.error.core;
+package org.burroloco.donkey.puker;
 
 public class HandledException extends RuntimeException {
     public HandledException(Throwable t) {

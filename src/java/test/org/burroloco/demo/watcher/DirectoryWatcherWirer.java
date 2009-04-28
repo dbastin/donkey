@@ -2,8 +2,8 @@ package org.burroloco.demo.watcher;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.error.listener.core.BulletProofPuker;
-import org.burroloco.donkey.error.listener.core.Puker;
+import org.burroloco.donkey.puker.BulletProofPuker;
+import org.burroloco.donkey.puker.Puker;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.csv.CsvSlurper;
 import org.burroloco.donkey.job.DirectoryJob;

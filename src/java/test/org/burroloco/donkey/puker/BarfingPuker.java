@@ -1,6 +1,5 @@
-package org.burroloco.donkey.error;
+package org.burroloco.donkey.puker;
 
-import org.burroloco.donkey.error.listener.core.Puker;
 import org.burroloco.config.core.Config;
 
 public class BarfingPuker implements Puker {

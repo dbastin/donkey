@@ -1,7 +1,7 @@
-package org.burroloco.donkey.error;
+package org.burroloco.donkey.puker;
 
-import org.burroloco.donkey.job.Job;
 import org.burroloco.config.core.Config;
+import org.burroloco.donkey.job.Job;
 
 public class BarfingJob implements Job {
     public void go(Config config) {

@@ -1,4 +1,4 @@
-package org.burroloco.donkey.error.listener.core;
+package org.burroloco.donkey.puker;
 
 import org.burroloco.config.core.Config;
 
