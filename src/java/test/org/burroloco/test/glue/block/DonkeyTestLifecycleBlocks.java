@@ -12,8 +12,7 @@ public class DonkeyTestLifecycleBlocks implements TestLifecycleBlocks {
     public Class[] pre() {
         Class[] before = {BasedirBlock.class};
         Class[] boost = delegate.pre();
-        Class[] after = {InsertDataBlock.class};
-        return arrays.plus(arrays.plus(before, boost), after);
+        return arrays.plus(before, boost);
     }
 
     public Class[] post() {
@@ -21,7 +20,6 @@ public class DonkeyTestLifecycleBlocks implements TestLifecycleBlocks {
     }
 
     public Class[] cleanup() {
-        Class[] boost = delegate.cleanup();
-        return arrays.plus(boost, DeleteDataBlock.class);
+        return delegate.cleanup();
     }
 }
