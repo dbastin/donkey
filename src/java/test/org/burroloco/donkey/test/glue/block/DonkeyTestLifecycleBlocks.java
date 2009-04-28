@@ -1,4 +1,4 @@
-package org.burroloco.donkey.glue.block;
+package org.burroloco.donkey.test.glue.block;
 
 import au.net.netstorm.boost.sniper.lifecycle.BoostTestLifecycleBlocks;
 import au.net.netstorm.boost.sniper.lifecycle.TestLifecycleBlocks;

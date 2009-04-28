@@ -1,4 +1,4 @@
-package org.burroloco.donkey.glue.constants;
+package org.burroloco.donkey.test.glue.constants;
 
 import java.io.File;
 

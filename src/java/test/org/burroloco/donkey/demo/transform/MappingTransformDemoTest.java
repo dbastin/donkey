@@ -4,7 +4,7 @@ import au.net.netstorm.boost.sniper.marker.Destroyable;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import org.burroloco.donkey.trebuchet.Trebuchet;
 import org.burroloco.butcher.fixture.database.InputDatabase;
-import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.butcher.util.file.FileComparator;
 
 import java.io.File;

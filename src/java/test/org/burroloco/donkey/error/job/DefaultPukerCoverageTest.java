@@ -5,7 +5,7 @@ import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.sniper.marker.OverlaysWeb;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
 
 public class DefaultPukerCoverageTest extends DonkeyTestCase implements LazyFields, OverlaysWeb {
     ThrowableMaster chuckieMock;

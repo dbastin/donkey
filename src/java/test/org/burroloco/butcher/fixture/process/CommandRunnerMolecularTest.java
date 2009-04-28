@@ -1,6 +1,6 @@
 package org.burroloco.butcher.fixture.process;
 
-import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 import au.net.netstorm.boost.spider.api.lifecycle.Constructable;

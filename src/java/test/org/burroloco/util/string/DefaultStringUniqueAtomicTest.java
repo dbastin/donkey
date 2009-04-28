@@ -1,7 +1,7 @@
 package org.burroloco.util.string;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
 
 public class DefaultStringUniqueAtomicTest extends DonkeyTestCase {
     Nu nu;

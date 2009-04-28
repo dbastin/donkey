@@ -6,7 +6,7 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Bakery;
 import org.burroloco.donkey.data.cake.Cake;
-import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
 
 public class NoHeaderFixedWidthAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private static final String EXPECTED = "1                        chocolate                flour                    egg";

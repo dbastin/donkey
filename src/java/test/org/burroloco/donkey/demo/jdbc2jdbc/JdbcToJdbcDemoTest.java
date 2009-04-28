@@ -5,7 +5,7 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import org.burroloco.butcher.fixture.database.InputDatabase;
 import org.burroloco.butcher.fixture.database.OutputDatabase;
 import org.burroloco.donkey.trebuchet.Trebuchet;
-import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
 
 public class JdbcToJdbcDemoTest extends DonkeyTestCase implements HasFixtures, Destroyable {
     InputDatabase source;

@@ -1,7 +1,7 @@
 package org.burroloco.donkey.trebuchet;
 
 import org.burroloco.butcher.fixture.process.CommandController;
-import static org.burroloco.donkey.glue.constants.TestConstants.DIST;
+import static org.burroloco.donkey.test.glue.constants.TestConstants.DIST;
 
 public class DefaultAsyncDonkeyShell implements AsyncDonkeyShell {
     private Process process;

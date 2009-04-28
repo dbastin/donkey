@@ -1,6 +1,6 @@
 package org.burroloco.config.core;
 
-import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
 
 public class DefaultConfigClassMapperCoverageTest extends DonkeyTestCase {
     ConfigClassMapper subject;

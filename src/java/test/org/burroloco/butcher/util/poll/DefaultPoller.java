@@ -1,6 +1,6 @@
 package org.burroloco.butcher.util.poll;
 
-import org.burroloco.donkey.glue.constants.TestConstants;
+import org.burroloco.donkey.test.glue.constants.TestConstants;
 import org.burroloco.util.snooze.Snoozer;
 
 public class DefaultPoller implements Poller, TestConstants {

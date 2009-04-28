@@ -1,10 +1,10 @@
-package org.burroloco.donkey.glue.testcase;
+package org.burroloco.donkey.test.glue.testcase;
 
 import au.net.netstorm.boost.gunge.array.DefaultArrayMaster;
 import au.net.netstorm.boost.sniper.core.LifecycleTestCase;
 import au.net.netstorm.boost.sniper.marker.InjectableTest;
 import org.burroloco.donkey.web.DonkeyWeb;
-import org.burroloco.donkey.glue.web.DonkeyTestWeb;
+import org.burroloco.donkey.test.glue.web.DonkeyTestWeb;
 
 public class DonkeyTestCase extends LifecycleTestCase implements InjectableTest {
     private static final Class[] WEBS = {

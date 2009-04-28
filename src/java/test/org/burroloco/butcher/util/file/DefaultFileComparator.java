@@ -2,7 +2,7 @@ package org.burroloco.butcher.util.file;
 
 import edge.org.apache.commons.io.FileUtilsStatic;
 import junit.framework.Assert;
-import org.burroloco.donkey.glue.constants.TestConstants;
+import org.burroloco.donkey.test.glue.constants.TestConstants;
 import org.burroloco.butcher.fixture.checker.string.Normaliser;
 
 import java.io.File;

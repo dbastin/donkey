@@ -6,7 +6,7 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.input.database.DatabaseNull;
-import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
 
 public class NullsAsEmptiesTransformCoverageTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String OTHER_FIELD = "OtherField";

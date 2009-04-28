@@ -5,7 +5,7 @@ import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.sniper.marker.OverlaysWeb;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.cake.Slice;
-import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
 
 public class DefaultBurperCoverageTest extends DonkeyTestCase implements LazyFields, OverlaysWeb {
     //SIMIAN OFF

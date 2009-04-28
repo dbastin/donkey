@@ -4,7 +4,7 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.error.ColumnMismatchException;
 import org.burroloco.donkey.data.error.EmptyCakeException;
-import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
 
 public class CakeCoverageTest extends DonkeyTestCase implements HasFixtures {
     private Slice firstSlice;
