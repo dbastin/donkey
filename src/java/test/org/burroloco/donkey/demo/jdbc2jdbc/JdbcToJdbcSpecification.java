@@ -1,4 +1,4 @@
-package org.burroloco.demo.jdbc2jdbc;
+package org.burroloco.donkey.demo.jdbc2jdbc;
 
 import org.burroloco.donkey.trebuchet.Specification;
 import org.burroloco.donkey.trebuchet.Wirer;

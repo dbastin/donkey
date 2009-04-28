@@ -1,4 +1,4 @@
-package org.burroloco.demo.jdbc2csv;
+package org.burroloco.donkey.demo.jdbc2csv;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.cake.Slice;

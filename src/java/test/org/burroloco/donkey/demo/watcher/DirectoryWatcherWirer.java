@@ -1,4 +1,4 @@
-package org.burroloco.demo.watcher;
+package org.burroloco.donkey.demo.watcher;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;

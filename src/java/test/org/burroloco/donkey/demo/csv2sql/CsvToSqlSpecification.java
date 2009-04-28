@@ -1,18 +1,18 @@
-package org.burroloco.demo.transform;
+package org.burroloco.donkey.demo.csv2sql;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.trebuchet.Specification;
 import org.burroloco.donkey.trebuchet.Wirer;
 
-public class TransformSpecification implements Specification {
+public class CsvToSqlSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
-        return loader.load("config/transform/transform.properties");
+        return loader.load("config/csv2sql/csv2sql.properties");
     }
 
     public Class<? extends Wirer> wirer() {
-        return TransformWirer.class;
+        return CsvToSqlWirer.class;
     }
 }

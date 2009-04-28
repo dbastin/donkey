@@ -1,4 +1,4 @@
-package org.burroloco.demo.transform;
+package org.burroloco.donkey.demo.transform;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.cake.Slice;

@@ -1,4 +1,4 @@
-package org.burroloco.demo.filemeta2fixed;
+package org.burroloco.donkey.demo.filemeta2fixed;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;

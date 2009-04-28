@@ -1,4 +1,4 @@
-package org.burroloco.demo.csv2sql;
+package org.burroloco.donkey.demo.csv2sql;
 
 import org.burroloco.donkey.trebuchet.Trebuchet;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;

@@ -1,4 +1,4 @@
-package org.burroloco.demo.csv2sql;
+package org.burroloco.donkey.demo.csv2sql;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;

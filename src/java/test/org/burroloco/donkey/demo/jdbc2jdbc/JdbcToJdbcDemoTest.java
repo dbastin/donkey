@@ -1,4 +1,4 @@
-package org.burroloco.demo.jdbc2jdbc;
+package org.burroloco.donkey.demo.jdbc2jdbc;
 
 import au.net.netstorm.boost.sniper.marker.Destroyable;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;

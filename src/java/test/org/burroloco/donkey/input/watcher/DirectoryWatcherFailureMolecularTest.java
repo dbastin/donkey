@@ -7,7 +7,7 @@ import au.net.netstorm.boost.spider.api.builder.Spinneret;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.demo.watcher.DirectoryWatcherWirer;
+import org.burroloco.donkey.demo.watcher.DirectoryWatcherWirer;
 import org.burroloco.donkey.config.InputDirName;
 import org.burroloco.donkey.config.PollingInterval;
 import org.burroloco.donkey.trebuchet.Sling;

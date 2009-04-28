@@ -1,4 +1,4 @@
-package org.burroloco.demo.watcher;
+package org.burroloco.donkey.demo.watcher;
 
 import au.net.netstorm.boost.gunge.lifecycle.Stop;
 import au.net.netstorm.boost.sniper.marker.Destroyable;

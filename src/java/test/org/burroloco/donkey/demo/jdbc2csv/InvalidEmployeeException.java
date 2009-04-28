@@ -1,4 +1,4 @@
-package org.burroloco.demo.jdbc2csv;
+package org.burroloco.donkey.demo.jdbc2csv;
 
 public class InvalidEmployeeException extends RuntimeException {
     public InvalidEmployeeException(String name) {

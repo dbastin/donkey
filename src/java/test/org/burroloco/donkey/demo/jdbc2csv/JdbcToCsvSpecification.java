@@ -1,18 +1,18 @@
-package org.burroloco.demo.csv2sql;
+package org.burroloco.donkey.demo.jdbc2csv;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.trebuchet.Specification;
 import org.burroloco.donkey.trebuchet.Wirer;
 
-public class CsvToSqlSpecification implements Specification {
+public class JdbcToCsvSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
-        return loader.load("config/csv2sql/csv2sql.properties");
+        return loader.load("config/jdbc2csv/jdbc2csv.properties");
     }
 
     public Class<? extends Wirer> wirer() {
-        return CsvToSqlWirer.class;
+        return JdbcToCsvWirer.class;
     }
 }

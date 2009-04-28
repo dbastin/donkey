@@ -1,18 +1,18 @@
-package org.burroloco.demo.watcher;
+package org.burroloco.donkey.demo.transform;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.trebuchet.Specification;
 import org.burroloco.donkey.trebuchet.Wirer;
 
-public class DirectoryWatcherSpecification implements Specification {
+public class TransformSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
-        return loader.load("config/watcher/watcher.properties");
+        return loader.load("config/transform/transform.properties");
     }
 
     public Class<? extends Wirer> wirer() {
-        return DirectoryWatcherWirer.class;
+        return TransformWirer.class;
     }
 }
