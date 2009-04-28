@@ -3,7 +3,7 @@ package org.burroloco.test.butcher.fixture.checker.stream;
 import edge.java.io.OutputStream;
 import org.burroloco.test.butcher.exception.MissingExpectationException;
 import org.burroloco.test.butcher.fixture.checker.string.StringChecker;
-import org.burroloco.test.util.poll.PollingBlock;
+import org.burroloco.test.butcher.util.poll.PollingBlock;
 
 public class StreamCheckingPollingBlock implements PollingBlock {
     private final String[] expectations;

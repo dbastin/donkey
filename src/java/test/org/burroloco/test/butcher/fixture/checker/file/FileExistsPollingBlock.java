@@ -1,6 +1,6 @@
 package org.burroloco.test.butcher.fixture.checker.file;
 
-import org.burroloco.test.util.poll.PollingBlock;
+import org.burroloco.test.butcher.util.poll.PollingBlock;
 
 import java.io.File;
 

@@ -3,8 +3,8 @@ package org.burroloco.test.butcher.fixture.checker.stream;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import edge.java.io.OutputStream;
 import org.burroloco.test.butcher.fixture.checker.string.StringChecker;
-import org.burroloco.test.util.poll.Poller;
-import org.burroloco.test.util.poll.PollingBlock;
+import org.burroloco.test.butcher.util.poll.Poller;
+import org.burroloco.test.butcher.util.poll.PollingBlock;
 
 public class DefaultStreamChecker implements StreamChecker {
     private static final int TIMEOUT = 20;

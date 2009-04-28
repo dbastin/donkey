@@ -1,8 +1,8 @@
 package org.burroloco.test.butcher.fixture.checker.directory;
 
 import au.net.netstorm.boost.spider.api.runtime.Impl;
-import org.burroloco.test.util.poll.Poller;
-import org.burroloco.test.util.poll.PollingBlock;
+import org.burroloco.test.butcher.util.poll.Poller;
+import org.burroloco.test.butcher.util.poll.PollingBlock;
 
 import java.io.File;
 

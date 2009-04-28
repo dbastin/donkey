@@ -4,8 +4,8 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import edge.org.apache.commons.io.FileUtilsStatic;
 import org.burroloco.test.butcher.fixture.checker.type.Occurrence;
 import static org.burroloco.test.butcher.fixture.checker.type.Occurrence.ONCE;
-import org.burroloco.test.util.poll.Poller;
-import org.burroloco.test.util.poll.PollingBlock;
+import org.burroloco.test.butcher.util.poll.Poller;
+import org.burroloco.test.butcher.util.poll.PollingBlock;
 
 import java.io.File;
 

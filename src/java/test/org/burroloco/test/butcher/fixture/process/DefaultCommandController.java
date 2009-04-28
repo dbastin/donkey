@@ -2,8 +2,8 @@ package org.burroloco.test.butcher.fixture.process;
 
 import edge.java.lang.Runtime;
 import edge.java.lang.RuntimeStatic;
-import org.burroloco.test.util.io.DefaultStreamGobbler;
-import org.burroloco.test.util.io.StreamGobbler;
+import org.burroloco.test.butcher.util.io.DefaultStreamGobbler;
+import org.burroloco.test.butcher.util.io.StreamGobbler;
 
 import java.io.File;
 import java.io.InputStream;

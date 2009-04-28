@@ -8,10 +8,10 @@ import org.burroloco.donkey.error.listener.core.BulletProofPuker;
 import org.burroloco.donkey.error.listener.core.Puker;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.PukingJob;
-import org.burroloco.test.util.file.FileCleaner;
+import org.burroloco.test.butcher.util.file.FileCleaner;
 import org.burroloco.test.butcher.fixture.checker.file.FileChecker;
 import static org.burroloco.test.butcher.fixture.checker.type.Occurrence.ONCE;
-import org.burroloco.test.constants.TestConstants;
+import org.burroloco.test.glue.constants.TestConstants;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.util.wire.Dna;
 
