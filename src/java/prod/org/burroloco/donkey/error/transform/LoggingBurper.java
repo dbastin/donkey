@@ -11,7 +11,7 @@ public class LoggingBurper implements Burper {
 
     public void error(Slice slice, Exception e) {
         Throwable cause = chuckie.realCause(e);
-        log.error("Bad data found while processing: " + slice, cause);
+        log.error("Problem encountered while processing: " + slice, cause);
         delegate.error(slice, e);
     }
 }
