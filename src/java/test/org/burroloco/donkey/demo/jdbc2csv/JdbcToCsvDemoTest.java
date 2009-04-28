@@ -3,9 +3,9 @@ package org.burroloco.donkey.demo.jdbc2csv;
 import au.net.netstorm.boost.sniper.marker.Destroyable;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import org.burroloco.donkey.trebuchet.Trebuchet;
-import org.burroloco.test.butcher.fixture.database.InputDatabase;
-import org.burroloco.test.glue.testcase.DonkeyTestCase;
-import org.burroloco.test.butcher.util.file.FileComparator;
+import org.burroloco.butcher.fixture.database.InputDatabase;
+import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.butcher.util.file.FileComparator;
 
 import java.io.File;
 

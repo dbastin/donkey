@@ -3,8 +3,8 @@ package org.burroloco.donkey.demo.filemeta2fixed;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import edge.org.apache.commons.io.FileUtilsStatic;
 import org.burroloco.donkey.trebuchet.Trebuchet;
-import org.burroloco.test.glue.testcase.DonkeyTestCase;
-import org.burroloco.test.butcher.util.file.FileComparator;
+import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.butcher.util.file.FileComparator;
 
 import java.io.File;
 

@@ -5,8 +5,8 @@ import au.net.netstorm.boost.sniper.marker.Destroyable;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import edge.org.apache.commons.io.FileUtilsStatic;
 import org.burroloco.donkey.trebuchet.TestTrebuchet;
-import org.burroloco.test.glue.testcase.DonkeyTestCase;
-import org.burroloco.test.butcher.util.file.FileComparator;
+import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.butcher.util.file.FileComparator;
 import org.burroloco.util.snooze.Snoozer;
 
 import java.io.File;

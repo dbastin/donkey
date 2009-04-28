@@ -3,7 +3,7 @@ package org.burroloco.donkey.data.cake;
 import au.net.netstorm.boost.sniper.marker.InjectableSubject;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.test.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class ColumnCopierCoverageTest extends DonkeyTestCase implements LazyFields, InjectableSubject {
     private ColumnCopier subject = new DefaultColumnCopier();

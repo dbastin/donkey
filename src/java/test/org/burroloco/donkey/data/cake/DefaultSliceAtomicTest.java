@@ -4,7 +4,7 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.error.MissingValueException;
-import org.burroloco.test.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class DefaultSliceAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String DUPLICATE_KEY = "a";

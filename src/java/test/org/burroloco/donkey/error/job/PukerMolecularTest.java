@@ -6,11 +6,11 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.PukingJob;
-import org.burroloco.test.butcher.fixture.checker.file.FileChecker;
-import static org.burroloco.test.butcher.fixture.checker.type.Occurrence.ONCE;
-import org.burroloco.test.butcher.util.file.FileCleaner;
-import org.burroloco.test.glue.constants.TestConstants;
-import org.burroloco.test.glue.testcase.DonkeyTestCase;
+import org.burroloco.butcher.fixture.checker.file.FileChecker;
+import static org.burroloco.butcher.fixture.checker.type.Occurrence.ONCE;
+import org.burroloco.butcher.util.file.FileCleaner;
+import org.burroloco.donkey.glue.constants.TestConstants;
+import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import org.burroloco.util.wire.Dna;
 
 public class PukerMolecularTest extends DonkeyTestCase implements HasFixtures, TestConstants, LazyFields {

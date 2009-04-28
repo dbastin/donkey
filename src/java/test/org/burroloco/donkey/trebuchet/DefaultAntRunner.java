@@ -1,7 +1,7 @@
 package org.burroloco.donkey.trebuchet;
 
 import au.net.netstorm.boost.gunge.array.ArrayMaster;
-import org.burroloco.test.butcher.fixture.process.CommandRunner;
+import org.burroloco.butcher.fixture.process.CommandRunner;
 
 public class DefaultAntRunner implements AntRunner {
     CommandRunner runner;

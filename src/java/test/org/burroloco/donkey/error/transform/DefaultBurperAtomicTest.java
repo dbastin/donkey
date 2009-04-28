@@ -2,7 +2,7 @@ package org.burroloco.donkey.error.transform;
 
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import org.burroloco.donkey.data.cake.Slice;
-import org.burroloco.test.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class DefaultBurperAtomicTest extends DonkeyTestCase implements LazyFields {
     Burper subject;
