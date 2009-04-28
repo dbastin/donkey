@@ -4,7 +4,7 @@ import au.net.netstorm.boost.bullet.log.Log;
 import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
 import au.net.netstorm.boost.gunge.layer.Layer;
 import au.net.netstorm.boost.gunge.layer.Method;
-import org.burroloco.donkey.error.HandledException;
+import org.burroloco.donkey.error.job.HandledException;
 
 public class JobLogger implements Layer {
     private static final String THINGY = "Process";

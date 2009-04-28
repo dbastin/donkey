@@ -1,4 +1,4 @@
-package org.burroloco.donkey.error;
+package org.burroloco.donkey.error.job;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;

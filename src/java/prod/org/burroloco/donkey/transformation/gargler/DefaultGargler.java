@@ -4,7 +4,7 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
-import org.burroloco.donkey.transformation.error.Burper;
+import org.burroloco.donkey.error.transform.Burper;
 import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.output.core.Spitter;
 

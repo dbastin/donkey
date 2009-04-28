@@ -1,8 +1,8 @@
-package org.burroloco.donkey.transformation.error;
+package org.burroloco.donkey.error.transform;
 
-import org.burroloco.donkey.data.cake.Slice;
-import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
 import au.net.netstorm.boost.bullet.log.Log;
+import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
+import org.burroloco.donkey.data.cake.Slice;
 
 public class LoggingBurper implements Burper {
     Burper delegate;

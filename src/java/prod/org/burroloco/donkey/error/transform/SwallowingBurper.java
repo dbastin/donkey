@@ -1,4 +1,4 @@
-package org.burroloco.donkey.transformation.error;
+package org.burroloco.donkey.error.transform;
 
 import org.burroloco.donkey.data.cake.Slice;
 

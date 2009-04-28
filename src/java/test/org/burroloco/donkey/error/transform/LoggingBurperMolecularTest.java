@@ -1,12 +1,12 @@
-package org.burroloco.donkey.transformation.error;
+package org.burroloco.donkey.error.transform;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.cake.Slice;
-import org.burroloco.test.butcher.util.file.FileCleaner;
 import org.burroloco.test.butcher.fixture.checker.file.FileChecker;
 import static org.burroloco.test.butcher.fixture.checker.type.Occurrence.ONCE;
+import org.burroloco.test.butcher.util.file.FileCleaner;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
 import org.burroloco.util.wire.Dna;
 

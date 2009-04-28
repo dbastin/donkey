@@ -1,7 +1,7 @@
 package org.burroloco.donkey.job;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.error.Puker;
+import org.burroloco.donkey.error.job.Puker;
 
 public class PukingJob implements Job {
     Job delegate;
