@@ -8,7 +8,7 @@ import org.burroloco.donkey.error.listener.core.BulletProofPuker;
 import org.burroloco.donkey.error.listener.core.Puker;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.PukingJob;
-import org.burroloco.donkey.log.LogCleaner;
+import org.burroloco.test.util.file.FileCleaner;
 import org.burroloco.test.butcher.fixture.checker.file.FileChecker;
 import static org.burroloco.test.butcher.fixture.checker.type.Occurrence.ONCE;
 import org.burroloco.test.constants.TestConstants;
@@ -20,13 +20,13 @@ public class PukerMolecularTest extends DonkeyTestCase implements HasFixtures, T
     private static final String JOB_MSG = "Something terrible happened to the job.";
     private Job job;
     FileChecker fileChecker;
-    LogCleaner logCleaner;
+    FileCleaner fileCleaner;
     Config configDummy;
     Dna dna;
     Nu nu;
 
     public void fixtures() {
-        logCleaner.clean(LOG);
+        fileCleaner.clean(LOG);
         dna.strand(Job.class, PukingJob.class, BarfingJob.class);
     }
 

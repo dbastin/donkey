@@ -4,7 +4,7 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.cake.Slice;
-import org.burroloco.donkey.log.LogCleaner;
+import org.burroloco.test.util.file.FileCleaner;
 import org.burroloco.test.butcher.fixture.checker.file.FileChecker;
 import static org.burroloco.test.butcher.fixture.checker.type.Occurrence.ONCE;
 import org.burroloco.test.glue.testcase.DonkeyTestCase;
@@ -16,13 +16,13 @@ public class LoggingBurperMolecularTest extends DonkeyTestCase implements LazyFi
     private static final File REPORT = new File("gen/demo/log/transform-errors.log");
     private Burper subject;
     FileChecker fileChecker;
-    LogCleaner logCleaner;
+    FileCleaner fileCleaner;
     Slice slice;
     Dna dna;
     Nu nu;
 
     public void fixtures() {
-        logCleaner.clean(REPORT);
+        fileCleaner.clean(REPORT);
         dna.strand(Burper.class, LoggingBurper.class, SwallowingBurper.class);
         subject = nu.nu(Burper.class);
     }
