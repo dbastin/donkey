@@ -1,9 +1,9 @@
 package org.burroloco.butcher.util.poll;
 
-import org.burroloco.donkey.test.glue.constants.TestConstants;
+import static org.burroloco.butcher.glue.constants.ButcherTestConstants.ONE_SECOND;
 import org.burroloco.util.snooze.Snoozer;
 
-public class DefaultPoller implements Poller, TestConstants {
+public class DefaultPoller implements Poller {
     public static final long TIMEOUT_SECS = 180;
     Snoozer snoozer;
 

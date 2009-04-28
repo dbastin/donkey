@@ -1,9 +1,9 @@
 package org.burroloco.util.string;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
+import org.burroloco.butcher.glue.testcase.ButcherTestCase;
 
-public class DefaultStringUniqueAtomicTest extends DonkeyTestCase {
+public class DefaultStringUniqueAtomicTest extends ButcherTestCase {
     Nu nu;
 
     public void testAlwaysStamped() {

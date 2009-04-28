@@ -8,7 +8,7 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Resolver;
 import edge.org.slf4j.Logger;
 import edge.org.slf4j.LoggerFactoryStatic;
-import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 import java.util.Random;
 

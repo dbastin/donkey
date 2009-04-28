@@ -2,10 +2,10 @@ package org.burroloco.donkey.demo.transform;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.cake.Slice;
+import static org.burroloco.donkey.input.database.DatabaseNull.DB_NULL;
 import org.burroloco.donkey.transformation.transform.Mapper;
-import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.transformation.transform.Slices;
-import static org.burroloco.donkey.input.database.DatabaseNull.*;
+import org.burroloco.donkey.transformation.transform.Transform;
 
 public class FullNameTransform implements Transform {
     Slices slices;

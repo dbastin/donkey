@@ -1,4 +1,4 @@
-package org.burroloco.butcher.suite;
+package org.burroloco.butcher.glue.suite;
 
 import au.net.netstorm.boost.sniper.suite.core.BoostSuite;
 import au.net.netstorm.boost.sniper.suite.core.FileBasedTestSuites;

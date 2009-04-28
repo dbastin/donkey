@@ -1,7 +1,7 @@
 package org.burroloco.donkey.trebuchet;
 
 import org.burroloco.butcher.fixture.process.CommandRunner;
-import static org.burroloco.donkey.test.glue.constants.TestConstants.DIST;
+import static org.burroloco.donkey.glue.constants.DonkeyTestConstants.DIST;
 import static org.junit.Assert.assertEquals;
 
 public class DefaultDonkeyShell implements DonkeyShell {

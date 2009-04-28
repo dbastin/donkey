@@ -1,4 +1,4 @@
-package org.burroloco.donkey.test.glue.web;
+package org.burroloco.donkey.glue.web;
 
 import au.net.netstorm.boost.sniper.lifecycle.TestLifecycleBlocks;
 import au.net.netstorm.boost.spider.api.config.web.Web;
@@ -9,7 +9,7 @@ import au.net.netstorm.boost.spider.plugs.provider.core.Provider;
 import edge.org.dbunit.database.IDatabaseConnection;
 import org.burroloco.butcher.util.dbunit.IDatabaseConnectionProvider;
 import org.burroloco.donkey.cache.CachingProvider;
-import org.burroloco.donkey.test.glue.block.DonkeyTestLifecycleBlocks;
+import org.burroloco.donkey.glue.block.DonkeyTestLifecycleBlocks;
 
 public class DonkeyTestWeb implements Web {
     Impl impl;

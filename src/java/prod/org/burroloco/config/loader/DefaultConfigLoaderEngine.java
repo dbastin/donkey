@@ -1,9 +1,9 @@
 package org.burroloco.config.loader;
 
-import org.burroloco.config.core.Config;
-import au.net.netstorm.boost.gunge.collection.StrictMap;
 import au.net.netstorm.boost.gunge.collection.DefaultStrictMap;
+import au.net.netstorm.boost.gunge.collection.StrictMap;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
+import org.burroloco.config.core.Config;
 
 public class DefaultConfigLoaderEngine implements ConfigLoaderEngine {
     ConfigMapExpander expander;

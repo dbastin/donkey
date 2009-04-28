@@ -11,7 +11,9 @@ import java.io.File;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.regex.Pattern;
-import static java.util.regex.Pattern.*;
+import static java.util.regex.Pattern.CASE_INSENSITIVE;
+import static java.util.regex.Pattern.DOTALL;
+import static java.util.regex.Pattern.compile;
 
 public class DefaultDbScriptRunner implements DbScriptRunner {
     private static final Pattern STATEMENT = compile("(.*?)go(\\n|\\z)", DOTALL | CASE_INSENSITIVE);

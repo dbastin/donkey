@@ -1,7 +1,7 @@
 package org.burroloco.donkey.output.file;
 
-import org.burroloco.donkey.util.FileStamper;
 import org.burroloco.donkey.util.DirUtil;
+import org.burroloco.donkey.util.FileStamper;
 
 import java.io.File;
 

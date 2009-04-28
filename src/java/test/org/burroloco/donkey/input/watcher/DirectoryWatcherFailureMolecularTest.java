@@ -7,12 +7,12 @@ import au.net.netstorm.boost.spider.api.builder.Spinneret;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.demo.watcher.DirectoryWatcherWirer;
 import org.burroloco.donkey.config.InputDirName;
 import org.burroloco.donkey.config.PollingInterval;
+import org.burroloco.donkey.demo.watcher.DirectoryWatcherWirer;
+import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import org.burroloco.donkey.trebuchet.Sling;
 import org.burroloco.donkey.trebuchet.Wirer;
-import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
 
 public class DirectoryWatcherFailureMolecularTest extends DonkeyTestCase implements HasFixtures {
     private static final String DODGY = "foo";

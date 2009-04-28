@@ -1,7 +1,7 @@
 package org.burroloco.config.core;
 
-import au.net.netstorm.boost.gunge.goop.Nvp;
 import au.net.netstorm.boost.gunge.collection.StrictMap;
+import au.net.netstorm.boost.gunge.goop.Nvp;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 
 public class DefaultConfigs implements Configs {

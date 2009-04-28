@@ -1,6 +1,6 @@
 package org.burroloco.donkey.input.csv;
 
-import org.burroloco.donkey.test.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 import java.util.ArrayList;
 import java.util.List;

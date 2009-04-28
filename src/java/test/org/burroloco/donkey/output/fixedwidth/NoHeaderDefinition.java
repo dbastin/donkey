@@ -2,8 +2,8 @@ package org.burroloco.donkey.output.fixedwidth;
 
 import org.burroloco.config.core.Config;
 
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
 
 public class NoHeaderDefinition implements FixedRecordDefinition {
     public String header(Config config) {
