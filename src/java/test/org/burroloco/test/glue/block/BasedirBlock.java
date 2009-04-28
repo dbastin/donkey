@@ -7,7 +7,6 @@ import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import au.net.netstorm.boost.spider.api.runtime.Resolver;
 import org.burroloco.test.constants.TestConstants;
-import org.burroloco.test.glue.marker.DistBasedir;
 import org.burroloco.test.glue.type.Basedir;
 
 public class BasedirBlock implements TestLifecycleBlock, TestConstants {
@@ -18,12 +17,10 @@ public class BasedirBlock implements TestLifecycleBlock, TestConstants {
     Nu nu;
 
     public void execute() {
-        if (marker.is(test, DistBasedir.class)) basedir(DIST_BASE_PATH);
-        else basedir(TEST_BASE_PATH);
+        basedir(TEST_BASE_PATH);
     }
 
     private void basedir(String basedir) {
         wire.nu(Basedir.class, basedir).to(Basedir.class);
     }
-
 }
