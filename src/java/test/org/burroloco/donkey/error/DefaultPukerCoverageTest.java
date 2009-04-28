@@ -1,4 +1,4 @@
-package org.burroloco.donkey.puker;
+package org.burroloco.donkey.error;
 
 import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
 import au.net.netstorm.boost.sniper.marker.LazyFields;

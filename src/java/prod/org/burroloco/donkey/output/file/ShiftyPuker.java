@@ -4,7 +4,7 @@ import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.ErrorDirName;
 import org.burroloco.donkey.config.InputFileName;
-import org.burroloco.donkey.puker.Puker;
+import org.burroloco.donkey.error.Puker;
 import org.burroloco.donkey.util.FileShifter;
 
 public class ShiftyPuker implements Puker {

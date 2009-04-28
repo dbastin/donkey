@@ -1,4 +1,4 @@
-package org.burroloco.donkey.puker;
+package org.burroloco.donkey.error;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.job.Job;
