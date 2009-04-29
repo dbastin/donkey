@@ -3,7 +3,6 @@ package org.burroloco.donkey.demo.jdbc2csv;
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.error.transform.Burper;
-import org.burroloco.donkey.error.transform.LoggingBurper;
 import org.burroloco.donkey.error.transform.SwallowingBurper;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.database.DatabaseSlurper;
@@ -30,7 +29,7 @@ public class JdbcToCsvWirer implements Wirer {
     }
 
     private void transform() {
-        dna.strand(Burper.class, LoggingBurper.class, SwallowingBurper.class);
+        dna.strand(Burper.class, SwallowingBurper.class);
         wire.cls(EmployeeTransform.class).to(Transform.class);
     }
 }

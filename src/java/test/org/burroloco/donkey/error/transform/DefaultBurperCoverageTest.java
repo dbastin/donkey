@@ -21,7 +21,7 @@ public class DefaultBurperCoverageTest extends DonkeyTestCase implements LazyFie
     }
 
     public void test() {
-        expect.oneCall(chuckieMock, (Object) causeDummy, "realCause", e);
+        expect.manyCalls(chuckieMock, (Object) causeDummy, "realCause", e);
         expect.oneCall(chuckieMock, VOID, "rethrow", causeDummy);
         Slice slice = nu.nu(Slice.class);
         subject.error(slice, e);

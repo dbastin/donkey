@@ -23,7 +23,7 @@ public class LoggingBurperMolecularTest extends DonkeyTestCase implements LazyFi
 
     public void fixtures() {
         fileCleaner.clean(REPORT);
-        dna.strand(Burper.class, LoggingBurper.class, SwallowingBurper.class);
+        dna.strand(Burper.class, SwallowingBurper.class);
         subject = nu.nu(Burper.class);
     }
 
