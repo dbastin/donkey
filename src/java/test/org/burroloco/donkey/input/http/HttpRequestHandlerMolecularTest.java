@@ -1,12 +1,9 @@
 package org.burroloco.donkey.input.http;
 
-import au.net.netstorm.boost.bullet.incredibles.core.Weaken;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
-import au.net.netstorm.boost.sniper.marker.OverlaysWeb;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.config.HttpMessage;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
@@ -15,19 +12,14 @@ import org.burroloco.util.date.Dates;
 
 import java.util.Date;
 
-public class HttpRequestHandlerMolecularTest extends DonkeyTestCase implements HasFixtures, LazyFields, OverlaysWeb {
+public class HttpRequestHandlerMolecularTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String MESSAGE = "Hello World";
     private HttpRequestHandler subject;
     Gargler garglerMock;
     Config configDummy;
     Dates datesMock;
     Date dateDummy;
-    Weaken weaken;
-    Dates dates;
     Nu nu;
-
-    public void overlay() {
-    }
 
     public void fixtures() {
         wire.ref(datesMock).to(Dates.class);
@@ -37,20 +29,17 @@ public class HttpRequestHandlerMolecularTest extends DonkeyTestCase implements H
 
     public void testHttpSlurp() throws InterruptedException {
         expect.oneCall(datesMock, dateDummy, "now");
-        expect.oneCall(garglerMock, VOID, "slosh", configDummy, cake());
+        expect.oneCall(garglerMock, VOID, "slosh", configDummy, expectedCake());
         subject.handleRequest(MESSAGE);
     }
 
-    private Cake cake() {
+    private Cake expectedCake() {
         Cake out = nu.nu(Cake.class);
-        out.add(slice(nu.nu(HttpMessage.class, MESSAGE)));
+        Slice slice = nu.nu(Slice.class);
+        slice.add("Message", MESSAGE);
+        slice.add("Date", dateDummy);
+        out.add(slice);
         return out;
     }
 
-    private Slice slice(HttpMessage message) {
-        Slice slice = nu.nu(Slice.class);
-        slice.add("Message", weaken.w(message));
-        slice.add("Date", dateDummy);
-        return slice;
-    }
 }
