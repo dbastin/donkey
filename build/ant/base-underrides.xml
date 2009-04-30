@@ -12,19 +12,4 @@
         <os name="Linux"/>
     </condition>
 
-    <path id="lib.runtime.classpath">
-        <fileset dir="${runtime.lib.dir}">
-            <include name="boost/boost.jar"/>
-            <include name="commons-io/commons-io-1.4.jar"/>
-            <include name="dom4j/dom4j-1.6.1.jar"/>
-            <include name="log4j/log4j-1.2.15.jar"/>
-            <include name="opencsv/opencsv-1.8.jar"/>
-            <include name="oracle/ojdbc14.jar"/>
-            <include name="riskvision/riskvision.jar"/>
-            <include name="slf4j/slf4j-api-1.5.5.jar"/>
-            <include name="slf4j/slf4j-log4j12-1.5.5.jar"/>
-            <include name="sybase/jtds-1.2.2.jar"/>
-        </fileset>
-    </path>
-
 </project>
