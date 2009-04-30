@@ -1,11 +1,7 @@
 package org.burroloco.donkey.input.http;
 
-import au.net.netstorm.boost.gunge.collection.DefaultStrictMap;
-import au.net.netstorm.boost.gunge.collection.StrictMap;
-import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.config.core.Config;
-import org.burroloco.donkey.config.HttpRequest;
+import org.burroloco.donkey.config.HttpMessage;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
@@ -13,21 +9,15 @@ import org.burroloco.util.date.Dates;
 
 import java.util.Date;
 
-public class HttpSlurperAtomicTest extends DonkeyTestCase implements LazyFields {
+public class HttpRequestConverterAtomicTest extends DonkeyTestCase {
     private static final String MESSAGE = "Hello World";
-    HttpSlurper subject;
+    HttpRequestConverter subject;
     Dates dates;
     Nu nu;
 
     public void testHttpSlurp() throws InterruptedException {
-        Cake cake = subject.slurp(config());
+        Cake cake = subject.convert(nu.nu(HttpMessage.class, MESSAGE));
         check(cake.slices().get(0));
-    }
-
-    private Config config() {
-        StrictMap config = new DefaultStrictMap();
-        config.put(HttpRequest.NAME, MESSAGE);
-        return nu.nu(Config.class, config);
     }
 
     private void check(Slice slice) {

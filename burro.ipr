@@ -270,6 +270,7 @@
     <toggle from="*" to="*UnitTest" />
     <toggle from="*" to="*AtomicTest" />
     <toggle from="Default*" to="*AtomicTest" />
+    <toggle from="Default*" to="*MolecularTest" />
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="svn" />
