@@ -11,6 +11,6 @@ public class HttpToJdbcDemoTest extends DonkeyTestCase {
     // FIX DONKEY WIP Please leave... 
     public void testHttpToJdbc() {
         trebuchet.launch(HttpToJdbcSpecification.class);
-        snoozer.snooze(2000);
+        snoozer.snooze(20000);
     }
 }
