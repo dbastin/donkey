@@ -9,6 +9,7 @@ import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.InputDirName;
 import org.burroloco.donkey.config.InputFileName;
 import org.burroloco.donkey.input.file.FileListing;
+import org.burroloco.util.snooze.Snoozer;
 
 import java.io.File;
 import java.util.List;
@@ -17,6 +18,7 @@ public class DirectoryJob implements Job {
     FileListing listing;
     Configs configs;
     WeakConfig weak;
+    Snoozer snoozer;
     Job delegate;
     Impl impl;
     Nu nu;
@@ -24,7 +26,12 @@ public class DirectoryJob implements Job {
     public void go(Config config) {
         File dir = dir(config);
         List<File> files = listing.list(dir);
+        quietTime();
         for (File file : files) process(config, file);
+    }
+
+    private void quietTime() {
+        snoozer.snooze(1000);
     }
 
     private void process(Config config, File file) {
