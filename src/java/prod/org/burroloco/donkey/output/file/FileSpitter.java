@@ -3,7 +3,7 @@ package org.burroloco.donkey.output.file;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.output.core.Spitter;
-import org.burroloco.donkey.output.replacing.TemplateStringer;
+import org.burroloco.donkey.output.template.TemplateStringer;
 
 import java.io.File;
 

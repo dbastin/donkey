@@ -8,7 +8,7 @@ import org.burroloco.donkey.config.Sql;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.output.core.Spitter;
-import org.burroloco.donkey.output.replacing.SqlTemplateSliceExpander;
+import org.burroloco.donkey.output.template.SqlTemplateSliceExpander;
 
 import java.util.List;
 

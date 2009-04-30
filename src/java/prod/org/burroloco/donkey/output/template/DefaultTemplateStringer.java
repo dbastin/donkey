@@ -1,4 +1,4 @@
-package org.burroloco.donkey.output.replacing;
+package org.burroloco.donkey.output.template;
 
 import static au.net.netstorm.boost.gunge.separator.Separator.LINE;
 import org.burroloco.config.core.Config;

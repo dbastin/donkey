@@ -1,4 +1,4 @@
-package org.burroloco.donkey.output.replacing;
+package org.burroloco.donkey.output.template;
 
 import org.burroloco.donkey.data.cake.Slice;
 
