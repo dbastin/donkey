@@ -269,6 +269,7 @@
   <component name="ToggleTest">
     <toggle from="*" to="*UnitTest" />
     <toggle from="*" to="*AtomicTest" />
+    <toggle from="Default*" to="*AtomicTest" />
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="svn" />
