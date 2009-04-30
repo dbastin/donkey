@@ -19,6 +19,7 @@
           <root url="file://$MODULE_DIR$/build/lib/runtime/dom4j" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/commons-lang" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/opencsv" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/http" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -28,6 +29,7 @@
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons-io" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons-lang" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/dom4j" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/http" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/log4j" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/opencsv" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/slf4j" recursive="false" />
@@ -56,6 +58,15 @@
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/jmock" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/junit" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/misc" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/javaee.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
     <orderEntryProperties />
