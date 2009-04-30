@@ -16,12 +16,16 @@ public class DefaultHttpSlurper implements HttpSlurper {
     public Cake slurp(Config config) {
         HttpRequest httpRequest = config.get(HttpRequest.class);
         Cake out = nu.nu(Cake.class);
+        out.add(slice(httpRequest));
+        return out;
+    }
+
+    private Slice slice(HttpRequest httpRequest) {
         Slice slice = nu.nu(Slice.class);
         slice.add("Message", weaken.w(httpRequest));
         // OK IllegalRegexp {
         slice.add("Date", new Date());
         // }
-        out.add(slice);
-        return out;
+        return slice;
     }
 }

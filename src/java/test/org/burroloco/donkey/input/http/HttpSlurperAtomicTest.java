@@ -17,17 +17,28 @@ public class HttpSlurperAtomicTest extends DonkeyTestCase implements LazyFields 
     HttpSlurper subject;
     Nu nu;
 
-    public void testHttpSlurp() {
+    public void testHttpSlurp() throws InterruptedException {
         Cake cake = subject.slurp(config());
-        Slice slice = cake.slices().get(0);
-        String msg = slice.value("Message").toString();
-        Date date = (Date) slice.value("Date");
-        assertEquals(MESSAGE, msg);
+        check(cake.slices().get(0));
     }
 
     private Config config() {
         StrictMap config = new DefaultStrictMap();
         config.put(HttpRequest.NAME, MESSAGE);
         return nu.nu(Config.class, config);
+    }
+
+    private void check(Slice slice) {
+        assertEquals(MESSAGE, slice.value("Message").toString());
+        checkDateInLast5Seconds((Date) slice.value("Date"));
+    }
+
+    private void checkDateInLast5Seconds(Date date) {
+        // OK IllegalRegexp {
+        Date now = new Date();
+        // }
+        long diff = now.getTime() - date.getTime();
+        assertEquals(true, diff < 5000);
+        assertEquals(true, diff >= 0);
     }
 }
