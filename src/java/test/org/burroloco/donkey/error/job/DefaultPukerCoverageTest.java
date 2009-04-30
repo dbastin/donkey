@@ -21,7 +21,7 @@ public class DefaultPukerCoverageTest extends DonkeyTestCase implements LazyFiel
 
     //SIMIAN OFF
     public void test() {
-        expect.oneCall(chuckieMock, (Object) causeDummy, "realCause", e);
+        expect.manyCalls(chuckieMock, (Object) causeDummy, "realCause", e);
         expect.oneCall(chuckieMock, VOID, "rethrow", causeDummy);
         subject.error(configDummy, e);
     }

@@ -12,7 +12,7 @@ import org.burroloco.util.wire.Dna;
 
 import java.io.File;
 
-public class LoggingBurperMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures {
+public class SwallowingBurperMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private static final File REPORT = new File("gen/demo/log/transform-errors.log");
     private Burper subject;
     FileChecker fileChecker;

@@ -14,7 +14,6 @@ import org.burroloco.donkey.job.PukingJob;
 import org.burroloco.util.wire.Dna;
 
 public class PukerMolecularTest extends DonkeyTestCase implements HasFixtures, DonkeyTestConstants, LazyFields {
-    private static final String PUKE_MSG = "Something terrible happened while puking.";
     private static final String JOB_MSG = "Something terrible happened to the job.";
     private Job job;
     FileChecker fileChecker;
@@ -38,20 +37,8 @@ public class PukerMolecularTest extends DonkeyTestCase implements HasFixtures, D
         }
     }
 
-    public void testBulletProofBehaviour() {
-        dna.strand(Puker.class, BulletProofPuker.class, BarfingPuker.class);
-        job = nu.nu(Job.class);
-        job.go(configDummy);
-        checkBulletProofBehaviour();
-    }
-
     private void checkDefaultBehaviour(RuntimeException e) {
         assertEquals(JOB_MSG, e.getMessage());
         fileChecker.check(LOG, ONCE, JOB_MSG);
-    }
-
-    private void checkBulletProofBehaviour() {
-        fileChecker.check(LOG, ONCE, JOB_MSG);
-        fileChecker.check(LOG, ONCE, PUKE_MSG);
     }
 }
