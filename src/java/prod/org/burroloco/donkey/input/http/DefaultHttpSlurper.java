@@ -1,16 +1,16 @@
 package org.burroloco.donkey.input.http;
 
-import au.net.netstorm.boost.spider.api.runtime.Nu;
 import au.net.netstorm.boost.bullet.incredibles.core.Weaken;
+import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.config.HttpRequest;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
-
-import java.util.Date;
+import org.burroloco.util.date.Dates;
 
 public class DefaultHttpSlurper implements HttpSlurper {
     Weaken weaken;
+    Dates dates;
     Nu nu;
 
     public Cake slurp(Config config) {
@@ -23,9 +23,7 @@ public class DefaultHttpSlurper implements HttpSlurper {
     private Slice slice(HttpRequest httpRequest) {
         Slice slice = nu.nu(Slice.class);
         slice.add("Message", weaken.w(httpRequest));
-        // OK IllegalRegexp {
-        slice.add("Date", new Date());
-        // }
+        slice.add("Date", dates.now());
         return slice;
     }
 }

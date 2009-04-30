@@ -9,12 +9,14 @@ import org.burroloco.donkey.config.HttpRequest;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.util.date.Dates;
 
 import java.util.Date;
 
 public class HttpSlurperAtomicTest extends DonkeyTestCase implements LazyFields {
     private static final String MESSAGE = "Hello World";
     HttpSlurper subject;
+    Dates dates;
     Nu nu;
 
     public void testHttpSlurp() throws InterruptedException {
@@ -34,9 +36,7 @@ public class HttpSlurperAtomicTest extends DonkeyTestCase implements LazyFields 
     }
 
     private void checkDateInLast5Seconds(Date date) {
-        // OK IllegalRegexp {
-        Date now = new Date();
-        // }
+        Date now = dates.now();
         long diff = now.getTime() - date.getTime();
         assertEquals(true, diff < 5000);
         assertEquals(true, diff >= 0);
