@@ -12,9 +12,9 @@ public class SlurpingJob implements Job {
     Log log;
 
     public void go(Config config) {
-        log.info("Process started");
+        log.info("Job started");
         Cake slurped = slurper.slurp(config);
         gargler.slosh(config, slurped);
-        log.info("Process completed successfully");
+        log.info("Job completed successfully");
     }
 }

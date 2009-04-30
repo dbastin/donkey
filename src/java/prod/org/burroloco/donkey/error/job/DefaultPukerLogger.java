@@ -9,7 +9,7 @@ public class DefaultPukerLogger implements PukerLogger {
 
     public void log(RuntimeException e) {
         Throwable cause = chuckie.realCause(e);
-        log.error("Process internal error: ", cause);
-        log.info("Process terminated with an error");
+        log.error("Job internal error: ", cause);
+        log.info("Job terminated with an error");
     }
 }
