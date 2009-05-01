@@ -3,6 +3,7 @@ package org.burroloco.donkey.input.http;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
+import edge.javax.servlet.http.HttpServletRequest;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
@@ -15,6 +16,7 @@ import java.util.Date;
 public class HttpServletMolecularTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String MESSAGE = "Hello World";
     private HttpServlet subject;
+    HttpServletRequest requestMock;
     Gargler garglerMock;
     Config configDummy;
     Dates datesMock;
@@ -30,7 +32,7 @@ public class HttpServletMolecularTest extends DonkeyTestCase implements HasFixtu
     public void testHttpSlurp() throws InterruptedException {
         expect.oneCall(datesMock, dateDummy, "now");
         expect.oneCall(garglerMock, VOID, "slosh", configDummy, expectedCake());
-        subject.handleRequest(MESSAGE);
+        subject.handleRequest(new ControlServletRequest());
     }
 
     private Cake expectedCake() {

@@ -1,8 +1,8 @@
 package org.burroloco.donkey.input.http;
 
-import org.burroloco.donkey.config.HttpMessage;
+import edge.javax.servlet.http.HttpServletRequest;
 import org.burroloco.donkey.data.cake.Cake;
 
 public interface HttpRequestConverter {
-    Cake convert(HttpMessage request);
+    Cake convert(HttpServletRequest request);
 }

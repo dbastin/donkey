@@ -5,6 +5,6 @@ import au.net.netstorm.boost.bullet.scalpel.core.Edge;
 import java.util.Enumeration;
 
 public interface HttpServletRequest extends Edge {
-    Enumeration getAttributeNames();
-    Object getAttribute(String s);
+    Enumeration getParameterNames();
+    String getParameter(String name);
 }

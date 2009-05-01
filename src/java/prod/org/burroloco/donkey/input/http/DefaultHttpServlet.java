@@ -1,10 +1,10 @@
 package org.burroloco.donkey.input.http;
 
+import au.net.netstorm.boost.spider.api.runtime.Nu;
+import edge.javax.servlet.http.HttpServletRequest;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.config.HttpMessage;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.transformation.gargler.Gargler;
-import au.net.netstorm.boost.spider.api.runtime.Nu;
 
 public class DefaultHttpServlet implements HttpServlet {
     private final Config config;
@@ -16,8 +16,8 @@ public class DefaultHttpServlet implements HttpServlet {
         this.config = config;
     }
 
-    public void handleRequest(String request) {
-        Cake cake = converter.convert(nu.nu(HttpMessage.class, request));
+    public void handleRequest(HttpServletRequest request) {
+        Cake cake = converter.convert(request);
         gargler.slosh(config, cake);
     }
 }
