@@ -6,14 +6,13 @@ import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.transformation.gargler.Gargler;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 
-// FIX TSR-DONKEY Rename to DefaultHttpServlet
-public class DefaultHttpRequestHandler implements HttpRequestHandler {
+public class DefaultHttpServlet implements HttpServlet {
     private final Config config;
     HttpRequestConverter converter;
     Gargler gargler;
     Nu nu;
 
-    public DefaultHttpRequestHandler(Config config) {
+    public DefaultHttpServlet(Config config) {
         this.config = config;
     }
 

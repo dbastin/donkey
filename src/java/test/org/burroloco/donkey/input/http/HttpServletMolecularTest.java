@@ -12,9 +12,9 @@ import org.burroloco.util.date.Dates;
 
 import java.util.Date;
 
-public class HttpRequestHandlerMolecularTest extends DonkeyTestCase implements HasFixtures, LazyFields {
+public class HttpServletMolecularTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String MESSAGE = "Hello World";
-    private HttpRequestHandler subject;
+    private HttpServlet subject;
     Gargler garglerMock;
     Config configDummy;
     Dates datesMock;
@@ -24,7 +24,7 @@ public class HttpRequestHandlerMolecularTest extends DonkeyTestCase implements H
     public void fixtures() {
         wire.ref(datesMock).to(Dates.class);
         wire.ref(garglerMock).to(Gargler.class);
-        subject = nu.nu(HttpRequestHandler.class, configDummy);
+        subject = nu.nu(HttpServlet.class, configDummy);
     }
 
     public void testHttpSlurp() throws InterruptedException {

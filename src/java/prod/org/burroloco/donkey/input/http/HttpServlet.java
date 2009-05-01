@@ -1,5 +1,5 @@
 package org.burroloco.donkey.input.http;
 
-public interface HttpRequestHandler {
+public interface HttpServlet {
     void handleRequest(String request);
 }
