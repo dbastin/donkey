@@ -1,12 +1,13 @@
 package org.burroloco.donkey.error.job;
 
 import org.burroloco.config.core.Config;
+import org.burroloco.donkey.log.ProcessLogger;
 
 public class SwallowingPuker implements Puker {
-    PukerLogger logger;
+    ProcessLogger logger;
 
     public void error(Config config, RuntimeException exception) {
-        logger.log(exception);
+        logger.logError(exception);
         swallow();
     }
 
