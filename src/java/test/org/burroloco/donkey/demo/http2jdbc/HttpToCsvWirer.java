@@ -12,7 +12,7 @@ import org.burroloco.donkey.transformation.transform.Transform;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
-public class HttpToJdbcWirer implements Wirer {
+public class HttpToCsvWirer implements Wirer {
     Wire wire;
     Dna dna;
 

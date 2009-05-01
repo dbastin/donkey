@@ -12,14 +12,14 @@ import org.burroloco.util.snooze.Snoozer;
 
 import java.io.IOException;
 
-public class HttpToJdbcDemoTest extends DonkeyTestCase {
+public class HttpToCsvDemoTest extends DonkeyTestCase {
     Trebuchet trebuchet;
     Snoozer snoozer;
     Impl impl;
 
     // FIX DONKEY WIP Please leave... 
     public void testHttpToJdbc() throws IOException {
-        trebuchet.launch(HttpToJdbcSpecification.class);
+        trebuchet.launch(HttpToCsvSpecification.class);
         snoozer.snooze(2000);
         sendMessage("This is the best thing since sliced bread");
     }

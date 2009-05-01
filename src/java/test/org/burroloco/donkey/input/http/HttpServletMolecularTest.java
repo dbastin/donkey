@@ -6,7 +6,7 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.org.apache.commons.io.FileUtilsStatic;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.demo.http2jdbc.HttpToJdbcSpecification;
+import org.burroloco.donkey.demo.http2jdbc.HttpToCsvSpecification;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import org.burroloco.util.date.Dates;
 import org.burroloco.util.string.TokenUtil;
@@ -29,7 +29,7 @@ public class HttpServletMolecularTest extends DonkeyTestCase implements HasFixtu
 
     public void fixtures() {
         wire.ref(datesMock).to(Dates.class);
-        HttpToJdbcSpecification spec = impl.impl(HttpToJdbcSpecification.class);
+        HttpToCsvSpecification spec = impl.impl(HttpToCsvSpecification.class);
         Config config = spec.config();
         impl.impl(spec.wirer()).wire(config);
         subject = nu.nu(TrapDoor.class, config);
