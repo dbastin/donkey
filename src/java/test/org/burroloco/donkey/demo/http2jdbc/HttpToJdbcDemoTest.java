@@ -26,7 +26,7 @@ public class HttpToJdbcDemoTest extends DonkeyTestCase {
         trebuchet.launch(HttpToJdbcSpecification.class);
         snoozer.snooze(2000);
         sendMessage("This is the best thing since sliced bread");
-        snoozer.snooze(2000);
+        snoozer.snooze(4000);
     }
 
     private void sendMessage(String s) throws IOException {
