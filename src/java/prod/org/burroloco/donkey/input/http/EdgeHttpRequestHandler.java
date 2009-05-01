@@ -9,12 +9,12 @@ import org.mortbay.jetty.handler.AbstractHandler;
 import javax.servlet.ServletException;
 import java.io.IOException;
 
-public class EdgeRequestHandler extends AbstractHandler {
+public class EdgeHttpRequestHandler extends AbstractHandler {
     private Config config;
     Edges edges;
     Nu nu;
 
-    public EdgeRequestHandler(Config config) {
+    public EdgeHttpRequestHandler(Config config) {
         this.config = config;
     }
 
