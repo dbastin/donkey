@@ -26,12 +26,12 @@ public class HttpToJdbcDemoTest extends DonkeyTestCase {
         trebuchet.launch(HttpToJdbcSpecification.class);
         snoozer.snooze(2000);
         sendMessage("This is the best thing since sliced bread");
-        snoozer.snooze(4000);
+        snoozer.snooze(2000);
     }
 
     private void sendMessage(String s) throws IOException {
         HttpClient client = new DefaultHttpClient();
-        HttpPost post = new HttpPost("http://localhost:8080/http2jdbc");
+        HttpPost post = new HttpPost("http://localhost:8090/http2jdbc");
         HttpEntity entity = impl.impl(StringEntity.class, s);
         post.setEntity(entity);
         client.execute(post);
