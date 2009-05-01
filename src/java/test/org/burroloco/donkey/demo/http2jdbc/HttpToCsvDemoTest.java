@@ -24,7 +24,7 @@ public class HttpToCsvDemoTest extends DonkeyTestCase implements Destroyable {
     Impl impl;
 
     public void testHttpToCsv() throws IOException {
-        trebuchet.launch(HttpToCsvSpecification.class, TestServerWeb.class);
+        trebuchet.launch(HttpToCsvSpecification.class, HttpServerTestWeb.class);
         snoozer.snooze(1000);
         sendMessage();
         comparator.assertEquals(EXPECTED, ACTUAL);

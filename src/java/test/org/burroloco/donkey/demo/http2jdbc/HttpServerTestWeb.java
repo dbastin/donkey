@@ -6,7 +6,7 @@ import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.HttpListenerJob;
 import org.burroloco.donkey.input.watcher.AsyncJob;
 
-public class TestServerWeb implements Web {
+public class HttpServerTestWeb implements Web {
     Wire wire;
 
     public void web() {
