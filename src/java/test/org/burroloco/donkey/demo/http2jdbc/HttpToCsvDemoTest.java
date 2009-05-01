@@ -18,7 +18,7 @@ public class HttpToCsvDemoTest extends DonkeyTestCase {
     Impl impl;
 
     // FIX DONKEY WIP Please leave... 
-    public void testHttpToJdbc() throws IOException {
+    public void testHttpToCsv() throws IOException {
         trebuchet.launch(HttpToCsvSpecification.class);
         snoozer.snooze(2000);
         sendMessage("This is the best thing since sliced bread");
