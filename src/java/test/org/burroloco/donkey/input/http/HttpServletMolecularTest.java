@@ -2,13 +2,12 @@ package org.burroloco.donkey.input.http;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
+import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import edge.javax.servlet.http.HttpServletRequest;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Cake;
-import org.burroloco.donkey.data.cake.Slice;
+import org.burroloco.config.loader.ConfigLoader;
+import org.burroloco.donkey.demo.http2jdbc.HttpToJdbcWirer;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
-import org.burroloco.donkey.transformation.gargler.Gargler;
 import org.burroloco.util.date.Dates;
 
 import java.util.Date;
@@ -16,32 +15,24 @@ import java.util.Date;
 public class HttpServletMolecularTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String MESSAGE = "Hello World";
     private HttpServlet subject;
-    HttpServletRequest requestMock;
-    Gargler garglerMock;
-    Config configDummy;
+    ConfigLoader loader;
     Dates datesMock;
     Date dateDummy;
+    Impl impl;
     Nu nu;
 
     public void fixtures() {
         wire.ref(datesMock).to(Dates.class);
-        wire.ref(garglerMock).to(Gargler.class);
-        subject = nu.nu(HttpServlet.class, configDummy);
+        // FIX DONKEY Get from Spec instead of hardcode
+        Config config = loader.load("config/http2jdbc/http2jdbc.properties");
+        impl.impl(HttpToJdbcWirer.class).wire(config);
+        subject = nu.nu(HttpServlet.class, config);
     }
 
     public void testHttpSlurp() throws InterruptedException {
         expect.oneCall(datesMock, dateDummy, "now");
-        expect.oneCall(garglerMock, VOID, "slosh", configDummy, expectedCake());
         subject.handleRequest(new ControlServletRequest());
-    }
-
-    private Cake expectedCake() {
-        Cake out = nu.nu(Cake.class);
-        Slice slice = nu.nu(Slice.class);
-        slice.add("Message", MESSAGE);
-        slice.add("Date", dateDummy);
-        out.add(slice);
-        return out;
+        // Compare CSVs
     }
 
 }
