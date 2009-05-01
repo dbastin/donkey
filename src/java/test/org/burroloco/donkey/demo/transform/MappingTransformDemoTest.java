@@ -10,8 +10,8 @@ import org.burroloco.donkey.trebuchet.Trebuchet;
 import java.io.File;
 
 public class MappingTransformDemoTest extends DonkeyTestCase implements HasFixtures, Destroyable {
-    private static final File EXPECTED = new File("data/expected/fullnames.csv");
-    private static final File ACTUAL = new File("gen/demo/out/fullnames.csv");
+    private static final File EXPECTED = new File("data/expected/fullname.csv");
+    private static final File ACTUAL = new File("gen/demo/out/fullname.csv");
     InputDatabase database;
     FileComparator comparator;
     Trebuchet trebuchet;
