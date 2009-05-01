@@ -8,7 +8,7 @@ import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.HttpPort;
 import org.burroloco.donkey.input.http.JettyRequestHandler;
-import org.mortbay.jetty.handler.AbstractHandler;
+import org.mortbay.jetty.Handler;
 
 public class HttpListenerJob implements Job, Stop {
     private Server server;
@@ -33,7 +33,7 @@ public class HttpListenerJob implements Job, Stop {
     }
 
     private void setHandler(Config config) {
-        AbstractHandler handler = impl.impl(JettyRequestHandler.class, config);
+        Handler handler = impl.impl(JettyRequestHandler.class, config);
         server.setHandler(handler);
     }
 }
