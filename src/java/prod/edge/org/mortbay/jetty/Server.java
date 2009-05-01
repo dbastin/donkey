@@ -7,4 +7,8 @@ public interface Server extends Edge {
     void setHandler(Handler handler);
 
     void start();
+
+    void stop();
+
+    void join();
 }

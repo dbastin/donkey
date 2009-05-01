@@ -2,6 +2,7 @@ package org.burroloco.donkey.job;
 
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
+import au.net.netstorm.boost.gunge.lifecycle.Stop;
 import edge.org.mortbay.jetty.Server;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
@@ -9,15 +10,21 @@ import org.burroloco.donkey.config.HttpPort;
 import org.burroloco.donkey.input.http.JettyRequestHandler;
 import org.mortbay.jetty.handler.AbstractHandler;
 
-public class HttpListenerJob implements Job {
+public class HttpListenerJob implements Job, Stop {
+    private Server server;
     WeakConfig weak;
     Impl impl;
     Nu nu;
 
     public void go(Config config) {
-        Server server = server(config);
-        handler(config, server);
+        server = server(config);
+        setHandler(config, server);
         server.start();
+        server.join();
+    }
+
+    public void stop() {
+        server.stop();
     }
 
     private Server server(Config config) {
@@ -25,7 +32,7 @@ public class HttpListenerJob implements Job {
         return nu.nu(Server.class, port);
     }
 
-    private void handler(Config config, Server server) {
+    private void setHandler(Config config, Server server) {
         AbstractHandler handler = impl.impl(JettyRequestHandler.class, config);
         server.setHandler(handler);
     }
