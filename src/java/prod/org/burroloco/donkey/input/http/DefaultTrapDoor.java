@@ -6,13 +6,13 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.transformation.gargler.Gargler;
 
-public class DefaultHttpServlet implements HttpServlet {
+public class DefaultTrapDoor implements TrapDoor {
     private final Config config;
     HttpRequestConverter converter;
     Gargler gargler;
     Nu nu;
 
-    public DefaultHttpServlet(Config config) {
+    public DefaultTrapDoor(Config config) {
         this.config = config;
     }
 
