@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE web-app
-        PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
-        "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+   PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+   "http://java.sun.com/dtd/web-app_2_3.dtd">
 <web-app>
-    <servlet>
-        <servlet-name>SnoopServlet</servlet-name>
-        <servlet-class>org.burroloco.donkey.input.http.SnoopServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>SnoopServlet</servlet-name>
-         <url-pattern>/snoop</url-pattern>
-    </servlet-mapping>
+ <servlet>
+   <servlet-name>EdgeHttpServlet</servlet-name>
+   <servlet-class>org.burroloco.donkey.input.http.EdgeHttpServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>EdgeHttpServlet</servlet-name>
+   <url-pattern>/http2jdbc</url-pattern>
+ </servlet-mapping>
 </web-app>
