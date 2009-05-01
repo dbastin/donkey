@@ -17,8 +17,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HttpRequestHandlerMolecularTest extends DonkeyTestCase implements HasFixtures, LazyFields {
-    private static final String EXPECTED = "data/expected/http2csv.csv";
-    private static final String OUT = "gen/demo/out/http2csv.csv";
+    private static final String EXPECTED = "data/expected/news.csv";
+    private static final String OUT = "gen/demo/out/news.csv";
     private HttpRequestHandler subject;
     FileUtilsStatic fileUtils;
     TokenUtil tokenUtils;
