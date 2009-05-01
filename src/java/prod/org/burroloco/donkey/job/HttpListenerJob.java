@@ -1,31 +1,32 @@
 package org.burroloco.donkey.job;
 
+import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import edge.winstone.Launcher;
-import edge.winstone.LauncherStatic;
+import edge.org.mortbay.jetty.Server;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.HttpPort;
-import org.burroloco.donkey.config.WebRoot;
-
-import java.util.Map;
+import org.burroloco.donkey.input.http.JettyRequestHandler;
+import org.mortbay.jetty.handler.AbstractHandler;
 
 public class HttpListenerJob implements Job {
-    private static final String DISABLE = "-1";
-    LauncherStatic launcherStatic;
     WeakConfig weak;
-    Map args;
+    Impl impl;
     Nu nu;
 
     public void go(Config config) {
-        args(config);
-        launcherStatic.initLogger(args);
-        nu.nu(Launcher.class, args);
+        Server server = server(config);
+        handler(config, server);
+        server.start();
     }
 
-    private void args(Config config) {
-        args.put("webroot", weak.get(config, WebRoot.class));
-        args.put("httpPort", weak.get(config, HttpPort.class));
-        args.put("ajp13Port", DISABLE);
+    private Server server(Config config) {
+        Integer port = weak.get(config, HttpPort.class);
+        return nu.nu(Server.class, port);
+    }
+
+    private void handler(Config config, Server server) {
+        AbstractHandler handler = impl.impl(JettyRequestHandler.class, config);
+        server.setHandler(handler);
     }
 }

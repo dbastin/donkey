@@ -6,17 +6,17 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.transformation.gargler.Gargler;
 
-public class DefaultTrapDoor implements TrapDoor {
+public class DefaultHttpRequestHandler implements HttpRequestHandler {
     private final Config config;
     HttpRequestConverter converter;
     Gargler gargler;
     Nu nu;
 
-    public DefaultTrapDoor(Config config) {
+    public DefaultHttpRequestHandler(Config config) {
         this.config = config;
     }
 
-    public void handleRequest(HttpServletRequest request) {
+    public void handle(HttpServletRequest request) {
         Cake cake = converter.convert(request);
         gargler.slosh(config, cake);
     }

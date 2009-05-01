@@ -10,7 +10,7 @@ import org.burroloco.donkey.log.LoggingWeb;
 import org.burroloco.util.wire.UtilitiesWeb;
 
 public class DonkeyWeb implements Web {
-    String scope = "";
+    String scope = "org.burroloco";
     Spinneret spinneret;
     Factorer factorer;
     Mapper mapper;

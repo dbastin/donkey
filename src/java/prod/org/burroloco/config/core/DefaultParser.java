@@ -16,6 +16,7 @@ public class DefaultParser implements Parser {
     private Object warp(Class type, String value) {
         Class weak = weaken.w(type);
         if (weak == Long.class) return Long.parseLong(value);
+        if (weak == Integer.class) return Integer.parseInt(value);
         return value;
     }
 }

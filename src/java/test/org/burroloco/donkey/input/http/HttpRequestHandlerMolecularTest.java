@@ -16,10 +16,10 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-public class HttpServletMolecularTest extends DonkeyTestCase implements HasFixtures, LazyFields {
+public class HttpRequestHandlerMolecularTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String EXPECTED = "data/expected/http2csv.csv";
-    private static final String OUT = "out/http2csv.csv";
-    private TrapDoor subject;
+    private static final String OUT = "gen/demo/out/http2csv.csv";
+    private HttpRequestHandler subject;
     FileUtilsStatic fileUtils;
     TokenUtil tokenUtils;
     Dates datesMock;
@@ -32,12 +32,12 @@ public class HttpServletMolecularTest extends DonkeyTestCase implements HasFixtu
         HttpToCsvSpecification spec = impl.impl(HttpToCsvSpecification.class);
         Config config = spec.config();
         impl.impl(spec.wirer()).wire(config);
-        subject = nu.nu(TrapDoor.class, config);
+        subject = nu.nu(HttpRequestHandler.class, config);
     }
 
     public void testHttpSlurp() throws InterruptedException {
         expect.oneCall(datesMock, dateDummy, "now");
-        subject.handleRequest(new ControlServletRequest());
+        subject.handle(new ControlServletRequest());
         check();
     }
 
