@@ -1,4 +1,4 @@
-package org.burroloco.donkey.demo.http2jdbc;
+package org.burroloco.donkey.demo.http2csv;
 
 import au.net.netstorm.boost.spider.api.config.web.Web;
 import au.net.netstorm.boost.spider.api.config.wire.Wire;

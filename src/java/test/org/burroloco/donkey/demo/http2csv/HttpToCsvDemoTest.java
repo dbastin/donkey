@@ -1,4 +1,4 @@
-package org.burroloco.donkey.demo.http2jdbc;
+package org.burroloco.donkey.demo.http2csv;
 
 import au.net.netstorm.boost.gunge.lifecycle.Stop;
 import au.net.netstorm.boost.sniper.marker.Destroyable;
@@ -27,7 +27,7 @@ public class HttpToCsvDemoTest extends DonkeyTestCase implements Destroyable {
 
     private void sendHttp() throws IOException {
         HttpClient client = new DefaultHttpClient();
-        HttpGet post = new HttpGet("http://localhost:8090/http2jdbc?Date=2009-01-01&Message=Hello%20World");
+        HttpGet post = new HttpGet("http://localhost:8090/http2csv?Date=2009-01-01&Message=Hello%20World");
         client.execute(post);
     }
 

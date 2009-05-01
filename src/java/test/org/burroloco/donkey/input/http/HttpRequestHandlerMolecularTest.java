@@ -6,7 +6,7 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.butcher.util.file.FileComparator;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.demo.http2jdbc.HttpToCsvSpecification;
+import org.burroloco.donkey.demo.http2csv.HttpToCsvSpecification;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 import java.io.File;
