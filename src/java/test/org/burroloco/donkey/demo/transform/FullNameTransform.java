@@ -8,8 +8,8 @@ import org.burroloco.donkey.transformation.transform.Slices;
 import org.burroloco.donkey.transformation.transform.Transform;
 
 public class FullNameTransform implements Transform {
-    Slices slices;
     Mapper fullNameMapper;
+    Slices slices;
     Nu nu;
 
     public Slice transform(Slice in) {
