@@ -12,8 +12,8 @@ import java.io.File;
 public class MappingTransformDemoTest extends DonkeyTestCase implements HasFixtures, Destroyable {
     private static final File EXPECTED = new File("data/expected/fullname.csv");
     private static final File ACTUAL = new File("gen/demo/out/fullname.csv");
-    InputDatabase database;
     FileComparator comparator;
+    InputDatabase database;
     Trebuchet trebuchet;
 
     public void fixtures() {
