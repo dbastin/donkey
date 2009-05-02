@@ -20,12 +20,12 @@ public class FullNameTransform implements Transform {
         return replaceNulls(out);
     }
 
-    private Slice replaceNulls(Slice slice) {
-        return slices.replaceAllValues(slice, DB_NULL, "CONVERTED NULL");
-    }
-
     private String fullname(String key, Slice in) {
         String s = (String) in.value(key);
         return fullNameMapper.map(s);
+    }
+
+    private Slice replaceNulls(Slice slice) {
+        return slices.replaceAllValues(slice, DB_NULL, "CONVERTED NULL");
     }
 }
