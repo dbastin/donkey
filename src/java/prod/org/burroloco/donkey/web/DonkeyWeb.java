@@ -11,7 +11,7 @@ import org.burroloco.donkey.cache.ConnectionCacheWeb;
 import org.burroloco.donkey.log.LoggingWeb;
 
 public class DonkeyWeb implements Web {
-    private static final String EXTRAS = "config/scope.properties";
+    private static final String EXTRAS = "config/injector.properties";
     Spinneret spinneret;
     Factorer factorer;
     Mapper mapper;
