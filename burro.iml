@@ -24,8 +24,6 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$MODULE_DIR$/build/lib/runtime/boost/boost.jar!/" />
-          <root url="file://$MODULE_DIR$/build/lib/runtime/http/src/test" />
-          <root url="file://$MODULE_DIR$/build/lib/runtime/http/src/java" />
         </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/boost" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons-io" recursive="false" />
