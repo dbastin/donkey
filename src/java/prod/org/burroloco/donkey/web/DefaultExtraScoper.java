@@ -1,5 +1,6 @@
 package org.burroloco.donkey.web;
 
+import au.net.netstorm.boost.bullet.log.Log;
 import au.net.netstorm.boost.gunge.collection.StrictMap;
 import au.net.netstorm.boost.spider.api.config.mapping.Mapper;
 import au.net.netstorm.boost.spider.api.config.scope.Scoper;
@@ -14,10 +15,11 @@ public class DefaultExtraScoper implements ExtraScoper {
     Mapper mapper;
     Scoper scoper;
     Impl impl;
+    Log log;
 
-    public void scope(String extrasFileName) {
-        if (!hasExtras(extrasFileName)) return;
-        addExtras(extrasFileName);
+    public void scope(String fileName) {
+        if (!hasExtras(fileName)) log(fileName);
+        else addExtras(fileName);
     }
 
     private void addExtras(String extras) {
@@ -44,5 +46,9 @@ public class DefaultExtraScoper implements ExtraScoper {
 
     private boolean hasExtras(String extras) {
         return new File(extras).exists();
+    }
+
+    private void log(String fileName) {
+        log.info("No file: " + fileName + " containing extra injection scopes was found.");
     }
 }
