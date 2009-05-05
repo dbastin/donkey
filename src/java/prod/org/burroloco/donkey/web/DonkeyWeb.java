@@ -35,7 +35,7 @@ public class DonkeyWeb implements Web {
     }
 
     private void extraScope() {
-        ExtraScoper scoper = nu.nu(ExtraScoper.class);
+        ScopeExpander scoper = nu.nu(ScopeExpander.class);
         scoper.scope(EXTRAS);
     }
 }

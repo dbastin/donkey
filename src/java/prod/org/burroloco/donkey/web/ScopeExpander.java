@@ -1,5 +1,5 @@
 package org.burroloco.donkey.web;
 
-public interface ExtraScoper {
+public interface ScopeExpander {
     void scope(String extras);
 }

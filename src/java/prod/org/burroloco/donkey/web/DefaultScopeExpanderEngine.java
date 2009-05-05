@@ -9,7 +9,7 @@ import org.burroloco.config.loader.PropertiesLoader;
 
 import java.util.Set;
 
-public class DefaultExtraScoperEngine implements ExtraScoperEngine {
+public class DefaultScopeExpanderEngine implements ScopeExpanderEngine {
     Mapper mapper;
     Scoper scoper;
     Impl impl;

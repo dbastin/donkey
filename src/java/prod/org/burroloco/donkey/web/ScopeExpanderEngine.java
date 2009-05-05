@@ -1,5 +1,5 @@
 package org.burroloco.donkey.web;
 
-public interface ExtraScoperEngine {
+public interface ScopeExpanderEngine {
     void scope(String fileName);
 }

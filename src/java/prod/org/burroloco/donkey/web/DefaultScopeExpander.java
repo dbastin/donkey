@@ -4,8 +4,8 @@ import au.net.netstorm.boost.bullet.log.Log;
 
 import java.io.File;
 
-public class DefaultExtraScoper implements ExtraScoper {
-    ExtraScoperEngine engine;
+public class DefaultScopeExpander implements ScopeExpander {
+    ScopeExpanderEngine engine;
     Log log;
 
     public void scope(String fileName) {
