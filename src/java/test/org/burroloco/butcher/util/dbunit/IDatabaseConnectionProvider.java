@@ -7,7 +7,7 @@ import edge.org.dbunit.database.IDatabaseConnection;
 import org.dbunit.JdbcDatabaseTester;
 
 public class IDatabaseConnectionProvider extends CleanProvider {
-    Edges edger;
+    Edges edges;
 
     public Object nu(Object... args) {
         return getNewConnection((String)args[0], (String)args[1], (String)args[2], (String)args[3]);
@@ -15,7 +15,7 @@ public class IDatabaseConnectionProvider extends CleanProvider {
 
     private IDatabaseConnection getNewConnection(String url, String user, String password, String driver) {
         JdbcDatabaseTester real = new JdbcDatabaseTester(driver, url, user, password);
-        IDatabaseTester database = edger.edge(IDatabaseTester.class, real);
+        IDatabaseTester database = edges.ref(IDatabaseTester.class, real);
         return database.getConnection();
     }
 }

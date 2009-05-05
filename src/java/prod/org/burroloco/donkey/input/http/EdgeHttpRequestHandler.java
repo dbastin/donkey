@@ -29,6 +29,6 @@ public class EdgeHttpRequestHandler extends AbstractHandler {
     // } ThrowsCount
 
     private HttpServletRequest edge(javax.servlet.http.HttpServletRequest request) {
-        return edges.edge(HttpServletRequest.class, request);
+        return edges.ref(HttpServletRequest.class, request);
     }
 }
