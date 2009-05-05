@@ -3,19 +3,20 @@ package org.burroloco.donkey.web;
 import au.net.netstorm.boost.spider.api.builder.Spinneret;
 import au.net.netstorm.boost.spider.api.config.factory.Factorer;
 import au.net.netstorm.boost.spider.api.config.mapping.Mapper;
-import au.net.netstorm.boost.spider.api.config.scope.Scoper;
 import au.net.netstorm.boost.spider.api.config.web.Web;
-import au.net.netstorm.boost.spider.api.runtime.Nu;
+import au.net.netstorm.boost.spider.api.config.scope.Scoper;
+import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.plugs.factory.supplied.ThreadedFactory;
 import org.burroloco.donkey.cache.ConnectionCacheWeb;
 import org.burroloco.donkey.log.LoggingWeb;
 
 public class DonkeyWeb implements Web {
+    private static final String EXTRAS = "config/scope.properties";
     Spinneret spinneret;
     Factorer factorer;
     Mapper mapper;
     Scoper scoper;
-    Nu nu;
+    Impl impl;
 
     public void web() {
         scope();
@@ -24,13 +25,17 @@ public class DonkeyWeb implements Web {
     }
 
     private void scope() {
-        scoper.scope("org.burroloco");
-        mapper.prefix("Default");
+        defaultScope();
         extraScope();
     }
 
+    private void defaultScope() {
+        scoper.scope("org.burroloco");
+        mapper.prefix("Default");
+    }
+
     private void extraScope() {
-        ExtraScoper extraScoper = nu.nu(ExtraScoper.class);
-        extraScoper.scope("config/scope.properties");
+        ExtraScoper scoper = impl.impl(DefaultExtraScoper.class);
+        scoper.scope(EXTRAS);
     }
 }

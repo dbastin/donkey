@@ -16,20 +16,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/ExtraScoperEngine.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/thirdparty" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/thirdparty/scope/test/DefaultFredString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/ExtraScoperWeb.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/thirdparty/scope" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iml" afterPath="$PROJECT_DIR$/burro.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoper.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoper.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoperEngine.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/thirdparty/scope/test/FredString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/au" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/au/com" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/thirdparty/scope/test/DefaultFredString.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/scope.properties" afterPath="$PROJECT_DIR$/config/scope.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/scope.properties" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/au/com/scope" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/thirdparty/scope/test/FredString.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/au/com/scope/test/excluded" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/au/com/scope/test/excluded/OutOfScope.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/scope.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/ExtraScoperWeb.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoperEngine.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/thirdparty/scope/test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/thirdparty" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/au/com/scope/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/au/com/scope/test/included" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/au/com/scope/test/excluded/DefaultOutOfScope.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/au/com/scope/test/included/InScope.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoper.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/ExtraScoperEngine.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/test/org/thirdparty/scope" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DonkeyWeb.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DonkeyWeb.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/DefaultExtraScoperAtomicTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/DefaultExtraScoperAtomicTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/thirdparty/scope/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/au/com/scope/test/included/DefaultInScope.java" />
     </list>
     <list name="part2" comment="" />
     <ignored path="burro.iws" />
@@ -113,19 +123,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="scope.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/scope.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.032608695">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DefaultExtraScoperAtomicTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/DefaultExtraScoperAtomicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="42" selection-start="1220" selection-end="1220" vertical-scroll-proportion="1.076087">
+            <state line="11" column="10" selection-start="529" selection-end="529" vertical-scroll-proportion="0.23775215">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,7 +137,7 @@
       <file leaf-file-name="DonkeyShell.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DonkeyShell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.06521739">
+            <state line="2" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.043227665">
               <folding />
             </state>
           </provider>
@@ -145,7 +146,7 @@
       <file leaf-file-name="SpiderEgg.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/api/builder/SpiderEgg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="20" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.9130435">
+            <state line="31" column="20" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.6051873">
               <folding />
             </state>
           </provider>
@@ -154,7 +155,7 @@
       <file leaf-file-name="DefaultSpinneret.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/api/builder/DefaultSpinneret.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.53695655">
+            <state line="30" column="0" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.49711815">
               <folding />
             </state>
           </provider>
@@ -163,7 +164,7 @@
       <file leaf-file-name="SingleProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/plugs/provider/supplied/SingleProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.42391303">
+            <state line="17" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.28097984">
               <folding />
             </state>
           </provider>
@@ -172,7 +173,7 @@
       <file leaf-file-name="DonkeyWeb.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DonkeyWeb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="10" selection-start="975" selection-end="975" vertical-scroll-proportion="0.70652175">
+            <state line="31" column="33" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.6700288">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,16 +184,7 @@
       <file leaf-file-name="ThreadedFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/plugs/factory/supplied/ThreadedFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="596" selection-end="596" vertical-scroll-proportion="0.13043478">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultFredString.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/thirdparty/scope/test/DefaultFredString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="33" selection-start="8" selection-end="33" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="596" selection-end="596" vertical-scroll-proportion="0.08645533">
               <folding />
             </state>
           </provider>
@@ -201,27 +193,7 @@
       <file leaf-file-name="String.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar:///opt/java/latest/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="19" selection-start="3608" selection-end="3608" vertical-scroll-proportion="0.33258426">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExtraScoperWeb.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/ExtraScoperWeb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="460" selection-end="606" vertical-scroll-proportion="0.5543478">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scope.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/scope.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="91" column="19" selection-start="3608" selection-end="3608" vertical-scroll-proportion="0.021613833">
               <folding />
             </state>
           </provider>
@@ -230,7 +202,7 @@
       <file leaf-file-name="DefaultNu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/api/runtime/DefaultNu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.35869566">
+            <state line="14" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.23775215">
               <folding />
             </state>
           </provider>
@@ -239,7 +211,7 @@
       <file leaf-file-name="DefaultGrapher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/entry/DefaultGrapher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.5869565">
+            <state line="23" column="0" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.389049">
               <folding />
             </state>
           </provider>
@@ -248,7 +220,7 @@
       <file leaf-file-name="ErrorGrapherFu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/entry/ErrorGrapherFu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="0.6195652">
+            <state line="22" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="0.41066283">
               <folding />
             </state>
           </provider>
@@ -257,7 +229,7 @@
       <file leaf-file-name="DefaultTestLifecycleRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/sniper/lifecycle/DefaultTestLifecycleRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="0.8152174">
+            <state line="27" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="0.54034585">
               <folding />
             </state>
           </provider>
@@ -266,7 +238,7 @@
       <file leaf-file-name="DefaultGrapherFu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/entry/DefaultGrapherFu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="832" selection-end="832" vertical-scroll-proportion="0.48913044">
+            <state line="19" column="0" selection-start="832" selection-end="832" vertical-scroll-proportion="0.32420748">
               <folding />
             </state>
           </provider>
@@ -275,7 +247,7 @@
       <file leaf-file-name="ConstructingGraphInstantiator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/graph/instantiate/ConstructingGraphInstantiator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.45652175">
+            <state line="15" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.30259365">
               <folding />
             </state>
           </provider>
@@ -284,7 +256,36 @@
       <file leaf-file-name="DefaultExtraScoper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.26086956">
+            <state line="23" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.49711815">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtraScoper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/ExtraScoper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.043227665">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultExtraScoperEngine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoperEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.043227665">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtraScoperEngine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/ExtraScoperEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.043227665">
               <folding />
             </state>
           </provider>
@@ -293,7 +294,7 @@
       <file leaf-file-name="DefaultPropertiesLoader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultPropertiesLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="288" selection-end="288" vertical-scroll-proportion="0.13043478">
+            <state line="10" column="13" selection-start="288" selection-end="288" vertical-scroll-proportion="0.08645533">
               <folding />
             </state>
           </provider>
@@ -688,10 +689,6 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/src/java/test/org/thirdparty/scope" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/src/java/test/org/thirdparty/scope/test" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -1117,99 +1114,6 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="5/05/09 3:53 PM" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-            <PATH vcs="svn" revision="299">$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoper.java</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-            <PATH vcs="svn" revision="299">$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/ExtraScoperEngine.java</PATH>
-            <PATH vcs="svn" revision="299">$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoperEngine.java</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
-  </component>
   <component name="RunManager" selected="JUnit.DefaultExtraScoperAtomicTest">
     <tempConfiguration default="false" name="DefaultExtraScoperAtomicTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <pattern value="org.burroloco.donkey.web.*" />
@@ -1453,29 +1357,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1150" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="25" width="2562" height="1555" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" order="8" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789212" order="8" />
       <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10438972" order="1" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10438247" order="1" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27290836" order="1" />
       <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49601594" order="3" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32669324" order="8" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4681275" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4677076" order="8" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32565284" order="7" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946466" order="1" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" order="1" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24250536" order="0" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24223107" order="0" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" order="2" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4561753" order="2" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4556423" order="2" />
       <window_info id="DBOutput" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
@@ -1625,13 +1529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/thirdparty/scope/test/FredString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="53" selection-end="53" vertical-scroll-proportion="0.06355932">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/csv2sql/CsvToSqlDemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="242" selection-end="242" vertical-scroll-proportion="0.12711865">
@@ -1653,118 +1550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/plugs/provider/supplied/SingleProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.42391303">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/api/builder/SpiderEgg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.9130435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/api/builder/DefaultSpinneret.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.53695655">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/api/runtime/DefaultNu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.35869566">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/entry/DefaultGrapher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.5869565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/entry/DefaultGrapherFu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="832" selection-end="832" vertical-scroll-proportion="0.48913044">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/graph/instantiate/ConstructingGraphInstantiator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.45652175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/entry/ErrorGrapherFu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="0.6195652">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/sniper/lifecycle/DefaultTestLifecycleRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="0.8152174">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultPropertiesLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="288" selection-end="288" vertical-scroll-proportion="0.13043478">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/java/latest/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="19" selection-start="3608" selection-end="3608" vertical-scroll-proportion="0.33258426">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/thirdparty/scope/test/DefaultFredString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="8" selection-end="33" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/scope.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.26086956">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/scope.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.032608695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DonkeyShell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.06521739">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/graph/instantiate/DefaultGraphInstantiator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="728" selection-end="728" vertical-scroll-proportion="0.5720339">
@@ -1772,34 +1557,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/ExtraScoperWeb.java">
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/DonkeyShell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="460" selection-end="606" vertical-scroll-proportion="0.5543478">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="2" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.043227665">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/DefaultExtraScoperAtomicTest.java">
+    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/api/builder/SpiderEgg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="42" selection-start="1220" selection-end="1220" vertical-scroll-proportion="1.076087">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="31" column="20" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.6051873">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/api/builder/DefaultSpinneret.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.49711815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/plugs/provider/supplied/SingleProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.28097984">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/plugs/factory/supplied/ThreadedFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="596" selection-end="596" vertical-scroll-proportion="0.13043478">
+        <state line="11" column="13" selection-start="596" selection-end="596" vertical-scroll-proportion="0.08645533">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/latest/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="19" selection-start="3608" selection-end="3608" vertical-scroll-proportion="0.021613833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/api/runtime/DefaultNu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.23775215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/entry/DefaultGrapher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.389049">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/entry/ErrorGrapherFu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="0.41066283">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/sniper/lifecycle/DefaultTestLifecycleRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="0.54034585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/entry/DefaultGrapherFu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="832" selection-end="832" vertical-scroll-proportion="0.32420748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/build/lib/runtime/boost/boost.jar!/au/net/netstorm/boost/spider/internals/graph/instantiate/ConstructingGraphInstantiator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.30259365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultPropertiesLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="288" selection-end="288" vertical-scroll-proportion="0.08645533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/scope.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/web/DefaultExtraScoperAtomicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="10" selection-start="529" selection-end="529" vertical-scroll-proportion="0.23775215">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/ExtraScoperEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.043227665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoperEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.043227665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/ExtraScoper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.043227665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DefaultExtraScoper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.49711815">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DonkeyWeb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="10" selection-start="975" selection-end="975" vertical-scroll-proportion="0.70652175">
+        <state line="31" column="33" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.6700288">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
