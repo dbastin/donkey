@@ -16,15 +16,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderDefinition.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderorFooterDefinition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/expected/directory-report.fixed" afterPath="$PROJECT_DIR$/data/expected/directory-report.fixed" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedRecordDefinition.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedRecordDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-test.xml" afterPath="$PROJECT_DIR$/build/ant/build-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderFixedWidthAtomicTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderFixedWidthAtomicTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/filemeta2fixed/FileMetadataFixedRecordDefinition.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/filemeta2fixed/FileMetadataFixedRecordDefinition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.ipr" afterPath="$PROJECT_DIR$/burro.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/DefaultFixedWidthRecordStringer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/DefaultFixedWidthRecordStringer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/tools/clover/clover.jar" afterPath="$PROJECT_DIR$/build/lib/tools/clover/clover.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-compile.xml" afterPath="$PROJECT_DIR$/build/ant/build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-quality.xml" afterPath="$PROJECT_DIR$/build/ant/build-quality.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/base/base-compile.xml" afterPath="$PROJECT_DIR$/build/ant/base/base-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-coverage.xml" afterPath="$PROJECT_DIR$/build/ant/build-coverage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/tools/clover/clover.license" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iml" afterPath="$PROJECT_DIR$/burro.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ant/build-init.xml" afterPath="$PROJECT_DIR$/build/ant/build-init.xml" />
     </list>
     <list name="part2" comment="" />
     <ignored path="burro.iws" />
@@ -108,64 +109,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StringUtilsStatic.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/StringUtilsStatic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="40" selection-start="135" selection-end="135" vertical-scroll-proportion="0.19543974">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateUtilsStatic.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/time/DateUtilsStatic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="141" selection-end="141" vertical-scroll-proportion="0.19543974">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileUtilsStatic.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/io/FileUtilsStatic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.8794788">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateFormatUtilsStatic.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/time/DateFormatUtilsStatic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="141" selection-end="141" vertical-scroll-proportion="0.19543974">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultStringStamper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/DefaultStringStamper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.8794788">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="injector.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/injector.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.09771987">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FixedWidthRecordSpitter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordSpitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.19543974">
+            <state line="10" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.07481297">
               <folding />
             </state>
           </provider>
@@ -174,10 +121,8 @@
       <file leaf-file-name="FixedWidthRecordStringer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordStringer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="152" selection-end="152" vertical-scroll-proportion="0.24429968">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="5" column="17" selection-start="152" selection-end="152" vertical-scroll-proportion="0.07481297">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,10 +130,8 @@
       <file leaf-file-name="FixedRecordDefinition.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedRecordDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="131" selection-end="131" vertical-scroll-proportion="0.2931596">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="6" column="17" selection-start="131" selection-end="131" vertical-scroll-proportion="0.07481297">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,7 +139,7 @@
       <file leaf-file-name="FileMetadataFixedRecordDefinition.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/filemeta2fixed/FileMetadataFixedRecordDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="224" selection-end="224" vertical-scroll-proportion="0.19543974">
+            <state line="8" column="13" selection-start="224" selection-end="224" vertical-scroll-proportion="0.07481297">
               <folding />
             </state>
           </provider>
@@ -205,7 +148,7 @@
       <file leaf-file-name="NoHeaderorFooterDefinition.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderorFooterDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="17" selection-start="523" selection-end="523" vertical-scroll-proportion="0.732899">
+            <state line="18" column="17" selection-start="523" selection-end="523" vertical-scroll-proportion="0.28054863">
               <folding />
             </state>
           </provider>
@@ -214,16 +157,91 @@
       <file leaf-file-name="NoHeaderFixedWidthAtomicTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderFixedWidthAtomicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.19543974">
+            <state line="10" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.07481297">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultFixedWidthRecordStringer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DefaultFixedWidthRecordStringer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/DefaultFixedWidthRecordStringer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="10" selection-start="704" selection-end="704" vertical-scroll-proportion="0.63517916">
+            <state line="48" column="0" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.7668329">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-compile.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/ant/build-compile.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="394" selection-end="394" vertical-scroll-proportion="0.24904214">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-compile.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/ant/base/base-compile.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="0" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.70881224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artifacts.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/config/artifacts/artifacts.html">
+          <provider editor-type-id="HtmlPreview">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="103" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.85204756">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-init.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/ant/build-init.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.6321839">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-init.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/ant/base/base-init.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="14" selection-start="3410" selection-end="3410" vertical-scroll-proportion="0.5019157">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-test.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/ant/build-test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="57" selection-start="387" selection-end="387" vertical-scroll-proportion="0.19157088">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-quality.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/ant/build-quality.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="10" selection-start="383" selection-end="383" vertical-scroll-proportion="0.1532567">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-coverage.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="0.4597701">
               <folding />
             </state>
           </provider>
@@ -232,7 +250,7 @@
       <file leaf-file-name="FileMetadataToFixedWidthDemoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/filemeta2fixed/FileMetadataToFixedWidthDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="363" selection-end="363" vertical-scroll-proportion="0.19543974">
+            <state line="10" column="20" selection-start="363" selection-end="363" vertical-scroll-proportion="0.07481297">
               <folding />
             </state>
           </provider>
@@ -241,7 +259,7 @@
       <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/mortbay/jetty/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="0.1465798">
+            <state line="3" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="0.056109726">
               <folding />
             </state>
           </provider>
@@ -250,7 +268,7 @@
       <file leaf-file-name="EdgeHttpRequestHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/http/EdgeHttpRequestHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.39087948">
+            <state line="8" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.14962594">
               <folding />
             </state>
           </provider>
@@ -259,7 +277,7 @@
       <file leaf-file-name="directory-report.fixed" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/expected/directory-report.fixed">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="232" selection-end="232" vertical-scroll-proportion="0.19543974">
+            <state line="4" column="6" selection-start="232" selection-end="232" vertical-scroll-proportion="0.07481297">
               <folding />
             </state>
           </provider>
@@ -268,7 +286,7 @@
       <file leaf-file-name="StringEscapeUtilsStatic.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/StringEscapeUtilsStatic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="112" selection-end="112" vertical-scroll-proportion="0.19543974">
+            <state line="4" column="17" selection-start="112" selection-end="112" vertical-scroll-proportion="0.07481297">
               <folding />
             </state>
           </provider>
@@ -1658,7 +1676,81 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/build/config" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/build" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/build/config" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/build/config/artifacts" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/build" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/build/ant" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/build" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/build/ant" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/home/tsrdev/work/burro/build/ant/base" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -1682,26 +1774,26 @@
     </navigator>
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="270" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="228" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="430" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="388" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="34" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="253" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="414" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
     <property name="RunManagerConfig.showSettingsBeforeRunnig" value="false" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="205" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="333" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="222" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="203" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="1002" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="203" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="350" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="331" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="1130" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="331" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="1050" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="1209" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
@@ -1772,17 +1864,18 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <module name="" />
@@ -1806,18 +1899,17 @@
         <option name="Make" value="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FileMetadataToFixedWidthDemoTest" />
@@ -1907,24 +1999,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1150" extended-state="0" />
+    <frame x="0" y="25" width="2562" height="1555" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" order="8" />
       <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17130621" order="1" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27689242" order="1" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17091633" order="1" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27679205" order="1" />
       <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39900497" order="3" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" order="8" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.60258967" order="8" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789212" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37828246" order="8" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32565284" order="7" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23394005" order="0" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23386455" order="0" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" order="2" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
@@ -2061,188 +2153,187 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/ant/base/base-artifacts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="480" selection-end="480" vertical-scroll-proportion="0.38054967">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/ant/build-project.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="295" selection-end="295" vertical-scroll-proportion="0.22198732">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="437" selection-end="437" vertical-scroll-proportion="0.25369978">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/java/latest/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2188" column="18" selection-start="83479" selection-end="83479" vertical-scroll-proportion="0.3962264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.72938687">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultCsvStringer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="283" selection-end="283" vertical-scroll-proportion="0.12195122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/CsvStringer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="104" selection-end="104" vertical-scroll-proportion="0.12195122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/expected/employee.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.12195122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/StringUtilsStatic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="135" selection-end="135" vertical-scroll-proportion="0.19543974">
+        <state line="4" column="40" selection-start="135" selection-end="135" vertical-scroll-proportion="0.06872852">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/time/DateUtilsStatic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="141" selection-end="141" vertical-scroll-proportion="0.19543974">
+        <state line="6" column="17" selection-start="141" selection-end="141" vertical-scroll-proportion="0.06872852">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/io/FileUtilsStatic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.8794788">
+        <state line="23" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.30927834">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/time/DateFormatUtilsStatic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="141" selection-end="141" vertical-scroll-proportion="0.19543974">
+        <state line="6" column="17" selection-start="141" selection-end="141" vertical-scroll-proportion="0.06872852">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/util/string/DefaultStringStamper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.8794788">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/StringEscapeUtilsStatic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="112" selection-end="112" vertical-scroll-proportion="0.19543974">
+        <state line="18" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.30927834">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/injector.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.09771987">
+        <state line="2" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.03436426">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/filemeta2fixed/FileMetadataFixedRecordDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="224" selection-end="224" vertical-scroll-proportion="0.19543974">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderFixedWidthAtomicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.19543974">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderorFooterDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="17" selection-start="523" selection-end="523" vertical-scroll-proportion="0.732899">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/expected/directory-report.fixed">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="232" selection-end="232" vertical-scroll-proportion="0.19543974">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/filemeta2fixed/FileMetadataToFixedWidthDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="363" selection-end="363" vertical-scroll-proportion="0.19543974">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/mortbay/jetty/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="0.1465798">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/http/EdgeHttpRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.39087948">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedRecordDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="131" selection-end="131" vertical-scroll-proportion="0.2931596">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordSpitter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.19543974">
+        <state line="10" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.07481297">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordStringer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="152" selection-end="152" vertical-scroll-proportion="0.24429968">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="5" column="17" selection-start="152" selection-end="152" vertical-scroll-proportion="0.07481297">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedRecordDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="131" selection-end="131" vertical-scroll-proportion="0.07481297">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/filemeta2fixed/FileMetadataFixedRecordDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="224" selection-end="224" vertical-scroll-proportion="0.07481297">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderorFooterDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="523" selection-end="523" vertical-scroll-proportion="0.28054863">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderFixedWidthAtomicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.07481297">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/filemeta2fixed/FileMetadataToFixedWidthDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="363" selection-end="363" vertical-scroll-proportion="0.07481297">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/mortbay/jetty/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="0.056109726">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/http/EdgeHttpRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.14962594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/expected/directory-report.fixed">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="232" selection-end="232" vertical-scroll-proportion="0.07481297">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/edge/org/apache/commons/lang/StringEscapeUtilsStatic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="112" selection-end="112" vertical-scroll-proportion="0.07481297">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/build-coverage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="0.4597701">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/build-quality.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="383" selection-end="383" vertical-scroll-proportion="0.1532567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/build-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="57" selection-start="387" selection-end="387" vertical-scroll-proportion="0.19157088">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/DefaultFixedWidthRecordStringer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="704" selection-end="704" vertical-scroll-proportion="0.63517916">
+        <state line="48" column="0" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.7668329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/base/base-init.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="14" selection-start="3410" selection-end="3410" vertical-scroll-proportion="0.5019157">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/build-init.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.6321839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/build-compile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="394" selection-end="394" vertical-scroll-proportion="0.24904214">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/ant/base/base-compile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.70881224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/config/artifacts/artifacts.html">
+      <provider editor-type-id="HtmlPreview">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="103" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.85204756">
           <folding />
         </state>
       </provider>

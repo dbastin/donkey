@@ -8,7 +8,7 @@
         <propertyref name="log4j.configuration"/>
     </propertyset>
 
-    <target name="-test_run">
+    <target name="-test_run" depends="-compile, -compile_coverage">
         <macro_test test.types="donkey" sysprop.refid="sysprops"/>
     </target>
 

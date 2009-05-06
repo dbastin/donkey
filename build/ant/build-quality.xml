@@ -6,7 +6,7 @@
 
     <target name="-checkstyle" depends="-checkstyle_run,-checkstyle_check"/>
     <target name="-quality" depends="-quality_run, -quality_report, -quality_check"/>
-    <target name="-quality-prep" depends="-checkstyle, -compile, -instrument"/>
+    <target name="-quality-prep" depends="-checkstyle, -instrument"/>
     <target name="-quality_run" depends="-quality-prep, -test_run"/>
     <target name="-quality_report" depends="-test_report, -coverage_report"/>
     <target name="-quality_check" depends="-test_check, -coverage_check"/>

@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="instrument" default="ignore" basedir="../..">
     <import file="build-init.xml"/>
-    <import file="build-compile.xml"/>
 
-    <fileset id="donkey.fileset" dir="${prod.src.dir}" includes="**/*.java" excludes="**/trebuchet/Main.java"/>
+    <fileset id="donkey.fileset" dir="${prod.src.dir}" includes="**/*.java"
+             excludes="**/trebuchet/Main.java"/>
+
+    <fileset id="donkey.test.fileset" dir="${test.src.dir}">
+        <patternset refid="donkey.test.pattern"/>
+    </fileset>
 
     <target name="-instrument">
-        <macro_instrument_cobertura code.type="prod" test.type="donkey"/>
+        <macro_instrument_clover test.type="donkey" fileset.ref="donkey.test.fileset"/>
+        <macro_instrument_clover test.type="donkey" fileset.ref="donkey.fileset"/>
     </target>
 
     <target name="-coverage_report">
-        <macro_report_cobertura code.type="prod" test.type="donkey"/>
+        <macro_report_clover code.type="prod" test.type="donkey"/>
     </target>
 
     <target name="-coverage_check">
-        <macro_check_cobertura code.type="prod" test.type="donkey" min.line.coverage="100" min.branch.coverage="100"/>
+        <macro_check_clover code.type="prod" test.type="donkey" min.coverage="100.0%"/>
     </target>
+
 </project>

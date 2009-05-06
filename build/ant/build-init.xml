@@ -46,7 +46,14 @@
         <path location="${test.class.dir}"/>
         <path refid="test.compile.classpath"/>
         <path refid="commons.classpath"/>
-        <path refid="cobertura.classpath"/>
+        <path refid="clover.classpath"/>
+    </path>
+
+    <path id="coverage.compile.classpath">
+        <path refid="prod.compile.classpath"/>
+        <path refid="test.compile.classpath"/>
+        <path refid="clover.classpath"/>
+        <path location="${test.class.dir}"/>
     </path>
 
     <path id="donkey.test.classpath">
