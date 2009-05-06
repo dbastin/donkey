@@ -17,7 +17,7 @@ public class NoHeaderFixedWidthAtomicTest extends DonkeyTestCase implements Lazy
     Nu nu;
 
     public void fixtures() {
-        wire.cls(NoHeaderDefinition.class).to(FixedRecordDefinition.class);
+        wire.cls(NoHeaderorFooterDefinition.class).to(FixedRecordDefinition.class);
         subject = nu.nu(FixedWidthRecordStringer.class);
         cake = bakery.cake(1, 1, "chocolate");
     }

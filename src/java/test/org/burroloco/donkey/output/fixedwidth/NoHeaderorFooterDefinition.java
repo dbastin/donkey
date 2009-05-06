@@ -5,7 +5,7 @@ import org.burroloco.config.core.Config;
 import java.util.HashMap;
 import java.util.Map;
 
-public class NoHeaderDefinition implements FixedRecordDefinition {
+public class NoHeaderorFooterDefinition implements FixedRecordDefinition {
     public String header(Config config) {
         return "";
     }
@@ -17,6 +17,10 @@ public class NoHeaderDefinition implements FixedRecordDefinition {
         w.put("mainly", 25);
         w.put("some.Ref", 0);
         return w;
-
     }
+
+    public String footer(Config config) {
+        return "";
+    }
+
 }

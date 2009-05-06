@@ -19,4 +19,8 @@ public class FileMetadataFixedRecordDefinition implements FixedRecordDefinition 
         w.put("ByteCount", 0);
         return w;
     }
+    public String footer(Config config) {
+        return "Footer";
+
+    }
 }

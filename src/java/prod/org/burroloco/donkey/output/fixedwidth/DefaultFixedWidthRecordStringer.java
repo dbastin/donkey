@@ -18,7 +18,9 @@ public class DefaultFixedWidthRecordStringer implements FixedWidthRecordStringer
         String header = definition.header(config);
         if (header.length() > 0) header += LINE; 
         String rows = rows(cake);
-        return header + rows;
+        String footer = definition.footer(config);
+        if (footer.length() > 0) footer = LINE + footer;
+        return header + rows + footer;
     }
 
     private String rows(Cake cake) {
