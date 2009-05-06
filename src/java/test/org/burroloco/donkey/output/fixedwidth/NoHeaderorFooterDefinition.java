@@ -19,7 +19,7 @@ public class NoHeaderorFooterDefinition implements FixedRecordDefinition {
         return w;
     }
 
-    public String footer(Config config) {
+    public String footer(Config config, Integer rowcount) {
         return "";
     }
 

@@ -18,11 +18,14 @@ public class DefaultFixedWidthRecordStringer implements FixedWidthRecordStringer
         String header = definition.header(config);
         if (header.length() > 0) header += LINE; 
         String rows = rows(cake);
-        String footer = definition.footer(config);
+        String footer = definition.footer(config, rowCount(cake));
         if (footer.length() > 0) footer = LINE + footer;
         return header + rows + footer;
     }
 
+    private Integer rowCount (Cake cake) {
+        return cake.slices().size();
+    }
     private String rows(Cake cake) {
         String result = "";
         for (Slice slice : cake.slices()) result += row(slice) + LINE;

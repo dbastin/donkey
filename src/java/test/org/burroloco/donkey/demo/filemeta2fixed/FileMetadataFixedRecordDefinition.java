@@ -19,7 +19,7 @@ public class FileMetadataFixedRecordDefinition implements FixedRecordDefinition 
         w.put("ByteCount", 0);
         return w;
     }
-    public String footer(Config config) {
+    public String footer(Config config, Integer rowcount) {
         return "Footer";
 
     }

@@ -7,5 +7,5 @@ import java.util.Map;
 public interface FixedRecordDefinition {
     String header(Config config);
     Map<String, Integer> widths();
-    String footer(Config config);
+    String footer(Config config, Integer rowcount);
 }
