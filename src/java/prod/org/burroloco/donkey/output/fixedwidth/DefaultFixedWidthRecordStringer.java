@@ -15,17 +15,22 @@ public class DefaultFixedWidthRecordStringer implements FixedWidthRecordStringer
     Tail tail;
 
     public String build(Config config, Cake cake) {
-        String header = definition.header(config);
-        if (header.length() > 0) header += LINE; 
+        String header = header(config);
         String rows = rows(cake);
-        String footer = definition.footer(config, rowCount(cake));
-        if (footer.length() > 0) footer = LINE + footer;
+        String footer = footer(config, cake);
         return header + rows + footer;
+    }
+
+    private String header(Config config) {
+        String header = definition.header(config);
+        if (header.length() > 0) header += LINE;
+        return header;
     }
 
     private Integer rowCount (Cake cake) {
         return cake.slices().size();
     }
+
     private String rows(Cake cake) {
         String result = "";
         for (Slice slice : cake.slices()) result += row(slice) + LINE;
@@ -47,5 +52,11 @@ public class DefaultFixedWidthRecordStringer implements FixedWidthRecordStringer
     private int width(String name) {
         Map<String, Integer> widths = definition.widths();
         return widths.get(name);
+    }
+
+    private String footer(Config config, Cake cake) {
+        String footer = definition.footer(config, rowCount(cake));
+        if (footer.length() > 0) footer = LINE + footer;
+        return footer;
     }
 }
