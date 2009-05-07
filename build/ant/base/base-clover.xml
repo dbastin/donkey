@@ -22,6 +22,12 @@
                                 title="@{title}"
                                 initstring="${coverage.db.dir}/@{test.type}_coverage">
             </clover-html-report>
+            <clover-setup initstring="${coverage.db.dir}/@{test.type}_coverage"/>
+            <clover-report>
+                <current outfile="${coverage.reports.dir}/@{code.type}/@{test.type}/clover-coverage.xml">
+                    <format type="xml"/>
+                </current>
+            </clover-report>
         </sequential>
     </macrodef>
 
