@@ -9,7 +9,7 @@ import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class NoHeaderFixedWidthAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {
-    private static final String EXPECTED = "1                        chocolate                flour                    egg";
+    private static final String EXPECTED = "1                        chocolate                flour                    ";
     private FixedWidthRecordStringer subject;
     private Cake cake;
     Config configDummy;
