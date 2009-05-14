@@ -55,8 +55,7 @@ public class DefaultFixedWidthRecordStringer implements FixedWidthRecordStringer
     }
 
     private String footer(Config config, Cake cake) {
-        String footer = definition.footer(config, rowCount(cake));
-        if (footer.length() > 0) footer = LINE + footer;
+        String footer = LINE + definition.footer(config, rowCount(cake));
         return footer;
     }
 }
