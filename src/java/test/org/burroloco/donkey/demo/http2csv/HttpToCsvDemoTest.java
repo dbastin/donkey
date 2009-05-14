@@ -27,7 +27,7 @@ public class HttpToCsvDemoTest extends DonkeyTestCase implements Destroyable {
 
     private void sendHttp() throws IOException {
         HttpClient client = new DefaultHttpClient();
-        HttpGet post = new HttpGet("http://localhost:8090/http2csv?Date=2009-01-01&Message=Hello%20World");
+        HttpGet post = new HttpGet("http://localhost:8090/http2csv?Message=Hello%20World&Date=2009-01-01");
         client.execute(post);
     }
 

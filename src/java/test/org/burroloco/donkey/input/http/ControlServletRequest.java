@@ -13,14 +13,14 @@ public class ControlServletRequest implements HttpServletRequest {
 
     public Enumeration getParameterNames() {
         List list = new ArrayList();
-        list.add("Message");
         list.add("Date");
+        list.add("Message");
         return Collections.enumeration(list);
     }
 
     public String getParameter(String s) {
-        if (s.equals("Message")) return MESSAGE;
         if (s.equals("Date")) return DATE;
+        if (s.equals("Message")) return MESSAGE;
         else throw new IllegalArgumentException(s + " not expected.");
     }
 }
