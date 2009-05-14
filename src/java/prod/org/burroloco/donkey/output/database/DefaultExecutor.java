@@ -6,12 +6,10 @@ import edge.java.sql.Statement;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.Sql;
-import org.burroloco.donkey.input.database.CakeHydrater;
 import org.burroloco.donkey.input.database.ConnectionPurveyor;
 
 public class DefaultExecutor implements Executor {
     ConnectionPurveyor purveyor;
-    CakeHydrater converter;
     WeakConfig weak;
     Log log;
 

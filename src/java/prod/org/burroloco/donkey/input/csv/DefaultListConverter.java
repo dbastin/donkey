@@ -1,6 +1,5 @@
 package org.burroloco.donkey.input.csv;
 
-import au.net.netstorm.boost.gunge.array.ArrayMaestro;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
@@ -8,7 +7,6 @@ import org.burroloco.donkey.data.cake.Slice;
 import java.util.List;
 
 public class DefaultListConverter implements ListConverter {
-    ArrayMaestro maestro;
     Nu nu;
 
     public Cake convert(List rows) {

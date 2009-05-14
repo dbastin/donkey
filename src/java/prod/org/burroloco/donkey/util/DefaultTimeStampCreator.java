@@ -9,7 +9,7 @@ public class DefaultTimeStampCreator implements TimeStampCreator {
     private static final DateFormat FORMAT = new SimpleDateFormat("yyyyMMddhhmmssSSS");
     Dates dates;
 
-    public String getTimeStamp() {
+    public synchronized String getTimeStamp() {
         return FORMAT.format(dates.now());
     }
 }

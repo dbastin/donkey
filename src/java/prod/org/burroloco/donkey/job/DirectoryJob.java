@@ -1,7 +1,6 @@
 package org.burroloco.donkey.job;
 
 import au.net.netstorm.boost.gunge.goop.Nvp;
-import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.Configs;
@@ -20,7 +19,6 @@ public class DirectoryJob implements Job {
     WeakConfig weak;
     Snoozer snoozer;
     Job delegate;
-    Impl impl;
     Nu nu;
 
     public void go(Config config) {

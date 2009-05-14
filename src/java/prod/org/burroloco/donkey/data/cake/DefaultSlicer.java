@@ -1,12 +1,9 @@
 package org.burroloco.donkey.data.cake;
 
-import au.net.netstorm.boost.spider.api.runtime.Nu;
-
 import java.util.HashMap;
 import java.util.Map;
 
 public class DefaultSlicer implements Slicer {
-    Nu nu;
 
     public Map<String, String> stringMap(Slice slice) {
         Map<String, String> map = new HashMap<String, String>();
