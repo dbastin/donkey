@@ -1,4 +1,16 @@
 package org.burroloco.donkey.synchronator;
 
-public interface Insert extends Operation {
+import org.burroloco.config.core.Config;
+import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Patissier;
+import org.burroloco.donkey.output.core.Spitter;
+
+public class Insert implements Operation {
+    Patissier patissier;
+    Spitter spitter;
+
+    public void execute(Config c, String[] keys, Cake older, Cake newer) {
+        Cake inserts = patissier.minus(newer, older, keys);
+        spitter.pertuh(c, inserts);
+    }
 }
