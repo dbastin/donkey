@@ -6,13 +6,16 @@ import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.file.OutputFileWizard;
 import org.burroloco.donkey.output.file.Scribbler;
 
+import java.io.File;
+
 public class CsvSpitter implements Spitter {
     OutputFileWizard wizard;
     Scribbler scribbler;
     CsvStringer csv;
 
     public void pertuh(Config config, Cake cake) {
-        scribbler.scribble(wizard.file(config), csv.text(cake));
+        File out = wizard.file(config);
+        String text = csv.text(cake);
+        scribbler.scribble(out, text);
     }
-
 }
