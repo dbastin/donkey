@@ -28,12 +28,6 @@ public class DefaultSynchronatorWirer implements SynchronatorWirer {
         wire.cls(CsvSlurper.class).to(Slurper.class, DefaultArchive.class);
     }
 
-    private void synchronator() {
-        wire.cls(DatabaseSlurper.class).to(Slurper.class, DefaultSynchronator.class);
-        Operation o = hubs.nu(Operation.class, Delete.class, Update.class, Insert.class);
-        wire.ref(o).to(Operation.class);
-    }
-
     private void spitter() {
         dna.strand(Spitter.class, EmptyCheckSpitter.class, CsvSpitter.class);
         contextualSpitter("delete", Delete.class);
@@ -44,5 +38,11 @@ public class DefaultSynchronatorWirer implements SynchronatorWirer {
     private void contextualSpitter(String prefix, Class<? extends Operation> host) {
         Spitter spitter = impl.impl(ContextualSpitter.class, prefix);
         wire.ref(spitter).to(Spitter.class, host);
+    }
+
+    private void synchronator() {
+        wire.cls(DatabaseSlurper.class).to(Slurper.class, DefaultSynchronator.class);
+        Operation o = hubs.nu(Operation.class, Delete.class, Update.class, Insert.class);
+        wire.ref(o).to(Operation.class);
     }
 }
