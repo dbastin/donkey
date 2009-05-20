@@ -8,4 +8,6 @@ public interface ResultSet extends Edge {
     boolean next();
 
     Object getObject(int index);
+
+    String getString(int index);
 }

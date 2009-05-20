@@ -5,7 +5,7 @@ import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.input.core.Slurper;
 
 public class DefaultSynchronator implements Synchronator {
-    Operation operation;
+    Operation operations;
     Archive archive;
     Slurper slurper;
 
@@ -13,6 +13,6 @@ public class DefaultSynchronator implements Synchronator {
         Cake older = archive.get(s.name());
         Cake newer = slurper.slurp(c);
         String[] keys = s.keys();
-        operation.execute(c, keys, older, newer);
+        operations.execute(c, keys, older, newer);
     }
 }

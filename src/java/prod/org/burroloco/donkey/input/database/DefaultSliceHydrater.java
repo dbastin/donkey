@@ -6,6 +6,7 @@ import edge.java.sql.ResultSetMetaData;
 import org.burroloco.donkey.data.cake.Slice;
 
 public class DefaultSliceHydrater implements SliceHydrater {
+    SliceValueHydrator valueHydrator;
     Nu nu;
 
     public Slice convertRow(ResultSet resultSet) {
@@ -28,7 +29,7 @@ public class DefaultSliceHydrater implements SliceHydrater {
     }
 
     private Object getValue(ResultSet resultSet, int i) {
-        Object value = resultSet.getObject(i);
+        Object value = valueHydrator.get(resultSet, i);
         return handleNull(value);
     }
 

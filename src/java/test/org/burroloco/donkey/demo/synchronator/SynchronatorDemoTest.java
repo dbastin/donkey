@@ -16,8 +16,10 @@ import java.io.File;
 
 public class SynchronatorDemoTest extends DonkeyTestCase implements HasFixtures, Destroyable {
     private static final File EXPECTED_DELETE = new File("data/expected/employee-delete.csv");
+    private static final File EXPECTED_UPDATE = new File("data/expected/employee-update.csv");
     private static final File EXPECTED_INSERT = new File("data/expected/employee-insert.csv");
     private static final File ACTUAL_DELETE = new File("gen/demo/out/employee-delete.csv");
+    private static final File ACTUAL_UPDATE = new File("gen/demo/out/employee-update.csv");
     private static final File ACTUAL_INSERT = new File("gen/demo/out/employee-insert.csv");
     private Synchronator subject;
     FileComparator comparator;
@@ -39,9 +41,15 @@ public class SynchronatorDemoTest extends DonkeyTestCase implements HasFixtures,
         check();
     }
 
-    // FIX DONKEY WIP... These files aren't right. Slice equals is not behaving properly.
+    public void testFirstTimeSynch() {
+        Subject s = nu.nu(Subject.class, "emp", new String[]{"ID"});
+        Config c = loader.load("config/synchronator/synchronator.properties");
+        subject.sync(s, c);
+    }
+
     private void check() {
         comparator.assertEquals(EXPECTED_DELETE, ACTUAL_DELETE);
+        comparator.assertEquals(EXPECTED_UPDATE, ACTUAL_UPDATE);
         comparator.assertEquals(EXPECTED_INSERT, ACTUAL_INSERT);
     }
 
