@@ -17,16 +17,18 @@ public class DefaultSliceHydrater implements SliceHydrater {
 
     private void convert(ResultSet resultSet, Slice slice, ResultSetMetaData metaData) {
         for (int i = 1; i <= metaData.getColumnCount(); i++) {
-            Object value = resultSet.getObject(i);
-            slice.add(getColumnName(metaData, i), sanitize(value));
+            String name = getName(metaData, i);
+            Object value = getValue(resultSet, i);
+            slice.add(name, value);
         }
     }
 
-    private String getColumnName(ResultSetMetaData metaData, int i) {
+    private String getName(ResultSetMetaData metaData, int i) {
         return metaData.getColumnLabel(i);
     }
 
-    private Object sanitize(Object value) {
+    private Object getValue(ResultSet resultSet, int i) {
+        Object value = resultSet.getObject(i);
         return handleNull(value);
     }
 
