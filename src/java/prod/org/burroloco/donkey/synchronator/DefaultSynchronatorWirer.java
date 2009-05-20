@@ -5,12 +5,15 @@ import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.database.DatabaseSlurper;
-import org.burroloco.donkey.input.database.StringSliceValueHydrator;
 import org.burroloco.donkey.input.database.SliceValueHydrator;
+import org.burroloco.donkey.input.database.StringSliceValueHydrator;
 import org.burroloco.donkey.output.core.ContextualSpitter;
 import org.burroloco.donkey.output.core.EmptyCheckSpitter;
 import org.burroloco.donkey.output.core.Spitter;
-import org.burroloco.donkey.output.csv.CsvSpitter;
+import org.burroloco.donkey.output.file.FileSpitter;
+import org.burroloco.donkey.output.template.DefaultSqlTemplateSliceExpander;
+import org.burroloco.donkey.output.template.DefaultTemplateSliceExpander;
+import org.burroloco.donkey.output.template.TemplateSliceExpander;
 import org.burroloco.util.wire.Dna;
 
 public class DefaultSynchronatorWirer implements SynchronatorWirer {
@@ -25,7 +28,8 @@ public class DefaultSynchronatorWirer implements SynchronatorWirer {
     }
 
     private void spitter() {
-        dna.strand(Spitter.class, EmptyCheckSpitter.class, CsvSpitter.class);
+        dna.strand(TemplateSliceExpander.class, DefaultSqlTemplateSliceExpander.class, DefaultTemplateSliceExpander.class);
+        dna.strand(Spitter.class, EmptyCheckSpitter.class, FileSpitter.class);
         contextualSpitter("delete", Delete.class);
         contextualSpitter("update", Update.class);
         contextualSpitter("insert", Insert.class);
