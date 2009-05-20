@@ -29,7 +29,7 @@ public class SynchronatorDemoTest extends DonkeyTestCase implements HasFixtures,
 
     public void testFirstTime() {
         synch("address");
-        // check("address-insert.csv");
+        check("address-insert.csv");
     }
 
     public void testDelta() {
