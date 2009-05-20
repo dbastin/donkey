@@ -36,7 +36,7 @@ public class DefaultSynchronatorWirer implements SynchronatorWirer {
 
     private void synchronator() {
         wire.cls(DatabaseSlurper.class).to(Slurper.class, DefaultSynchronator.class);
-        Operation o = hubs.nu(Operation.class, Delete.class, Update.class, Insert.class);
-        wire.ref(o).to(Operation.class);
+        Operation operations = hubs.nu(Operation.class, Delete.class, Update.class, Insert.class);
+        wire.ref(operations).to(Operation.class);
     }
 }
