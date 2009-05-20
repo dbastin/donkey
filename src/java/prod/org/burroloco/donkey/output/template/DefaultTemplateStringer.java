@@ -6,7 +6,7 @@ import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
 
 public class DefaultTemplateStringer implements TemplateStringer {
-    TemplateSliceExpander expander;
+    TemplateExpander expander;
 
     public String text(Config config, Cake cake) {
         StringBuilder result = new StringBuilder();

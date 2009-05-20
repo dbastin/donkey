@@ -11,9 +11,9 @@ import org.burroloco.donkey.output.core.ContextualSpitter;
 import org.burroloco.donkey.output.core.EmptyCheckSpitter;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.file.FileSpitter;
-import org.burroloco.donkey.output.template.DefaultSqlTemplateSliceExpander;
-import org.burroloco.donkey.output.template.DefaultTemplateSliceExpander;
-import org.burroloco.donkey.output.template.TemplateSliceExpander;
+import org.burroloco.donkey.output.template.DefaultSqlTemplateExpander;
+import org.burroloco.donkey.output.template.DefaultTemplateExpander;
+import org.burroloco.donkey.output.template.TemplateExpander;
 import org.burroloco.util.wire.Dna;
 
 public class DefaultSynchronatorWirer implements SynchronatorWirer {
@@ -28,7 +28,7 @@ public class DefaultSynchronatorWirer implements SynchronatorWirer {
     }
 
     private void spitter() {
-        dna.strand(TemplateSliceExpander.class, DefaultSqlTemplateSliceExpander.class, DefaultTemplateSliceExpander.class);
+        dna.strand(TemplateExpander.class, DefaultSqlTemplateExpander.class, DefaultTemplateExpander.class);
         dna.strand(Spitter.class, EmptyCheckSpitter.class, FileSpitter.class);
         contextualSpitter("delete", Delete.class);
         contextualSpitter("update", Update.class);

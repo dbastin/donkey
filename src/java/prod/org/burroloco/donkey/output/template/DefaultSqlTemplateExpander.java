@@ -3,8 +3,8 @@ package org.burroloco.donkey.output.template;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Slice;
 
-public class DefaultSqlTemplateSliceExpander implements SqlTemplateSliceExpander {
-    TemplateSliceExpander expander;
+public class DefaultSqlTemplateExpander implements SqlTemplateExpander {
+    TemplateExpander expander;
 
     public String expand(Config config, Slice slice) {
         String expanded = expander.expand(config, slice);

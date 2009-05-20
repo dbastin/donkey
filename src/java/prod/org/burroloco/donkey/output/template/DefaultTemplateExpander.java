@@ -3,7 +3,7 @@ package org.burroloco.donkey.output.template;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.cake.Slice;
 
-public class DefaultTemplateSliceExpander implements TemplateSliceExpander {
+public class DefaultTemplateExpander implements TemplateExpander {
     TemplateSelector selector;
     Templator templator;
 

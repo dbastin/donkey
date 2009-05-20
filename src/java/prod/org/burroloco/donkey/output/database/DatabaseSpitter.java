@@ -8,12 +8,12 @@ import org.burroloco.donkey.config.Sql;
 import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.data.cake.Slice;
 import org.burroloco.donkey.output.core.Spitter;
-import org.burroloco.donkey.output.template.SqlTemplateSliceExpander;
+import org.burroloco.donkey.output.template.SqlTemplateExpander;
 
 import java.util.List;
 
 public class DatabaseSpitter implements Spitter {
-    SqlTemplateSliceExpander expander;
+    SqlTemplateExpander expander;
     Executor runner;
     Configs configs;
 
