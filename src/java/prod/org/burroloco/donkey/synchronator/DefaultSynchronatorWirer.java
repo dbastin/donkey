@@ -4,7 +4,6 @@ import au.net.netstorm.boost.bullet.hub.Hubs;
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import org.burroloco.donkey.input.core.Slurper;
-import org.burroloco.donkey.input.csv.CsvSlurper;
 import org.burroloco.donkey.input.database.DatabaseSlurper;
 import org.burroloco.donkey.output.core.ContextualSpitter;
 import org.burroloco.donkey.output.core.EmptyCheckSpitter;
@@ -19,13 +18,8 @@ public class DefaultSynchronatorWirer implements SynchronatorWirer {
     Dna dna;
 
     public void wire() {
-        archive();
         spitter();
         synchronator();
-    }
-
-    private void archive() {
-        wire.cls(CsvSlurper.class).to(Slurper.class, DefaultArchive.class);
     }
 
     private void spitter() {
