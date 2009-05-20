@@ -29,14 +29,14 @@ public class SynchronatorDemoTest extends DonkeyTestCase implements HasFixtures,
 
     public void testFirstTime() {
         synch("address");
-        check("address-insert.csv");
+        check("address-insert-0.csv");
     }
 
     public void testDelta() {
         synch("employee");
-        check("employee-delete.csv");
-        check("employee-update.csv");
-        check("employee-insert.csv");
+        check("employee-delete-0.csv");
+        check("employee-update-0.csv");
+        check("employee-insert-0.csv");
     }
 
     private void synch(String subjectName) {
@@ -45,7 +45,7 @@ public class SynchronatorDemoTest extends DonkeyTestCase implements HasFixtures,
     }
 
     private void check(String name) {
-        File e = new File("data/expected/" + name);
+        File e = new File("data/expected/synchronator/" + name);
         File a = new File("gen/demo/out/" + name);
         comparator.assertEquals(e, a);
     }
