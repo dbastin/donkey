@@ -21,13 +21,14 @@ public class DefaultCsvStringer implements CsvStringer {
     private void header(Cake cake, StringBuilder results) {
         Set<String> columns = cake.columnNames();
         values(results, columns);
+        lineEnd(results);
     }
 
     private void body(Cake cake, StringBuilder results) {
         List<Slice> rows = cake.slices();
         for (Slice slice : rows) {
-            lineEnd(results);
             processSlice(results, slice);
+            lineEnd(results);
         }
     }
 
