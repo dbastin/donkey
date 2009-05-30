@@ -30,13 +30,13 @@ public class CommandRunnerMolecularTest extends ButcherTestCase implements Const
     }
     
     // FIX DONKEY REINSTATE...
-//    public void testOk() throws Exception {
-//        int returnCode = runner.run(commandCool);
-//        assertEquals(EVERYTHING_COOL_MAN, returnCode);
-//    }
-//
-//    public void testFail() throws Exception {
-//        int returnCode = runner.run(commandBad);
-//        assertThat(returnCode, equalTo(NOT_GOOD));
-//    }
+    public void testOk() throws Exception {
+        int returnCode = runner.run(commandCool);
+        assertEquals(EVERYTHING_COOL_MAN, returnCode);
+    }
+
+    public void testFail() throws Exception {
+        int returnCode = runner.run(commandBad);
+        assertEquals(returnCode, NOT_GOOD);
+    }
 }
