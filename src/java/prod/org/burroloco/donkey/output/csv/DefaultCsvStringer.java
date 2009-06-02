@@ -3,11 +3,13 @@ package org.burroloco.donkey.output.csv;
 import org.burroloco.donkey.data.cake.Cake;
 
 public class DefaultCsvStringer implements CsvStringer {
-    HeaderAndBodyProcessor headerAndBodyProcessor;
+    HeaderProcessor headerProcessor;
+    BodyProcessor bodyProcessor;
 
     public String text(Cake cake) {
         StringBuilder buffy = new StringBuilder();
-        headerAndBodyProcessor.process(cake, buffy);
+        headerProcessor.process(cake, buffy);
+        bodyProcessor.process(cake, buffy);
         return buffy.toString();
     }
 
