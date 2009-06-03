@@ -19,9 +19,10 @@ public class DonkeyWeb implements Web {
     Nu nu;
 
     public void web() {
+        spinneret.spin(LoggingWeb.class);
         scope();
         factorer.add(ThreadedFactory.class);
-        spinneret.spin(LoggingWeb.class, ConnectionCacheWeb.class);
+        spinneret.spin(ConnectionCacheWeb.class);
     }
 
     private void scope() {
