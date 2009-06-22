@@ -1,5 +1,6 @@
 package org.burroloco.donkey.output.fixedwidth;
 
+import static au.net.netstorm.boost.gunge.separator.Separator.LINE;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
@@ -9,7 +10,7 @@ import org.burroloco.donkey.data.cake.Cake;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class NoHeaderFixedWidthAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {
-    private static final String EXPECTED = "1                        chocolate                flour                    \n";
+    private static final String EXPECTED = "1                        chocolate                flour                    " + LINE;
     private FixedWidthRecordStringer subject;
     private Cake cake;
     Config configDummy;

@@ -6,4 +6,6 @@ public interface ResultSetMetaData extends Edge {
     int getColumnCount();
 
     String getColumnLabel(int i);
+
+    String getColumnTypeName(int column);
 }
