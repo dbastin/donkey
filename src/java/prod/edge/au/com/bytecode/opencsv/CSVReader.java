@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface CSVReader extends Edge {
     List readAll();
+    String[] readNext();
+    
 }
