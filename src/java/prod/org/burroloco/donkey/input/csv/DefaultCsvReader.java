@@ -15,6 +15,8 @@ public class DefaultCsvReader implements CsvReader {
     public List read(InputFileName input) {
         FileReader fileReader = nu.nu(FileReader.class, weaken.w(input));
         CSVReader reader = nu.nu(CSVReader.class, fileReader);
-        return reader.readAll();
+        List output = reader.readAll();
+        reader.close();
+        return output;
     }
 }
