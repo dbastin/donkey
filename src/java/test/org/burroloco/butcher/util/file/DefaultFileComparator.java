@@ -23,6 +23,7 @@ public class DefaultFileComparator implements FileComparator, ButcherTestConstan
     }
 
     private String dates(String withDates) {
-        return withDates.replaceAll(DATE_PATTERN_SLASH_DMY, DAVES_BIRTHDAY_SLASH);
+        String output = withDates.replaceAll(DATE_PATTERN_SLASH_DMY, DAVES_BIRTHDAY_SLASH);
+        return output.replaceAll(DATE_PATTERN_SLASH_YMDHMS, DAVES_BIRTHDAYTIME_SLASH);
     }
 }
