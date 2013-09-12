@@ -8,16 +8,16 @@ import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class DefaultPatissierAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     Patissier subject;
-    Cake leftUnique;
-    Cake leftChanges;
-    Cake rightChanges;
-    Cake rightUnique;
+    Data leftUnique;
+    Data leftChanges;
+    Data rightChanges;
+    Data rightUnique;
     String whatever;
     Bakery bakery;
-    Cake none;
-    Cake same;
-    Cake left;
-    Cake right;
+    Data none;
+    Data same;
+    Data left;
+    Data right;
     Nu nu;
 
     public void fixtures() {
@@ -50,9 +50,9 @@ public class DefaultPatissierAtomicTest extends DonkeyTestCase implements HasFix
         assertEquals(none, subject.changes(left, left, KEYS));
     }
 
-    private Cake moosh(Cake...pieces) {
-        Cake c = nu.nu(Cake.class);
-        for (Cake piece : pieces) c.addAll(piece.slices());
+    private Data moosh(Data...pieces) {
+        Data c = nu.nu(Data.class);
+        for (Data piece : pieces) c.addAll(piece.tuples());
         return c;
     }
 }

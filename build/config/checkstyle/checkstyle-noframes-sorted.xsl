@@ -121,7 +121,7 @@
                 <xsl:sort data-type="number" order="descending" select="count(key('files', @name)/error)"/>
                 <xsl:variable name="errorCount" select="count(error)"/>
                 <tr>
-                    <xsl:call-template name="alternated-row"/>
+                    <xsl:call-template name="alternated-tuple"/>
                     <td>
                         <a href="#f-{@name}">
                             <xsl:value-of select="@name"/>
@@ -149,7 +149,7 @@
             <xsl:for-each select="key('files', @name)/error">
                 <xsl:sort data-type="number" order="ascending" select="@line"/>
                 <tr>
-                    <xsl:call-template name="alternated-row"/>
+                    <xsl:call-template name="alternated-tuple"/>
                     <td>
                         <xsl:value-of select="@message"/>
                     </td>
@@ -173,7 +173,7 @@
                 <th>Errors</th>
             </tr>
             <tr>
-                <xsl:call-template name="alternated-row"/>
+                <xsl:call-template name="alternated-tuple"/>
                 <td>
                     <xsl:value-of select="$fileCount"/>
                 </td>
@@ -184,7 +184,7 @@
         </table>
     </xsl:template>
 
-    <xsl:template name="alternated-row">
+    <xsl:template name="alternated-tuple">
         <xsl:attribute name="class">
             <xsl:if test="position() mod 2 = 1">a</xsl:if>
             <xsl:if test="position() mod 2 = 0">b</xsl:if>

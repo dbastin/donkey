@@ -18,8 +18,8 @@ import org.burroloco.donkey.output.file.FileSpitter;
 import org.burroloco.donkey.output.file.FileWizard;
 import org.burroloco.donkey.output.file.ShiftySpitter;
 import org.burroloco.donkey.output.file.UniqueFileWizard;
-import org.burroloco.donkey.transformation.transform.NoOpTransform;
-import org.burroloco.donkey.transformation.transform.Transform;
+import org.burroloco.donkey.transformation.transform.NoOpTupleTransformer;
+import org.burroloco.donkey.transformation.transform.TupleTransformer;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
@@ -31,7 +31,7 @@ public class DirectoryWatcherWirer implements Wirer {
         dna.strand(Puker.class, ShiftyPuker.class, SwallowingPuker.class);
         dna.strand(Job.class, PollingJob.class, DirectoryJob.class, PukingJob.class, SlurpingJob.class);
         wire.cls(CsvSlurper.class).to(Slurper.class);
-        wire.cls(NoOpTransform.class).to(Transform.class);
+        wire.cls(NoOpTupleTransformer.class).to(TupleTransformer.class);
         spitter();
     }
 

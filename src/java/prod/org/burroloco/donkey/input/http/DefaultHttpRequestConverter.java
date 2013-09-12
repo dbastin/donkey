@@ -2,32 +2,32 @@ package org.burroloco.donkey.input.http;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.javax.servlet.http.HttpServletRequest;
-import org.burroloco.donkey.data.cake.Cake;
-import org.burroloco.donkey.data.cake.Slice;
+import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.cake.Tuple;
 
 import java.util.Enumeration;
 
 public class DefaultHttpRequestConverter implements HttpRequestConverter {
     Nu nu;
 
-    public Cake convert(HttpServletRequest request) {
-        Cake out = nu.nu(Cake.class);
+    public Data convert(HttpServletRequest request) {
+        Data out = nu.nu(Data.class);
         out.add(slice(request));
         return out;
     }
 
-    private Slice slice(HttpServletRequest request) {
-        Slice slice = nu.nu(Slice.class);
+    private Tuple slice(HttpServletRequest request) {
+        Tuple tuple = nu.nu(Tuple.class);
         Enumeration params = request.getParameterNames();
         while (params.hasMoreElements()) {
-            add(request, slice, params);
+            add(request, tuple, params);
         }
-        return slice;
+        return tuple;
     }
 
-    private void add(HttpServletRequest request, Slice slice, Enumeration params) {
+    private void add(HttpServletRequest request, Tuple tuple, Enumeration params) {
         String name = (String) params.nextElement();
         String value = request.getParameter(name);
-        slice.add(name, value);
+        tuple.add(name, value);
     }
 }

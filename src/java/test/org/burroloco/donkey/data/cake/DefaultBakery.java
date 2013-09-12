@@ -5,19 +5,19 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 public class DefaultBakery implements Bakery {
     Nu nu;
 
-    public Cake cake(int start, int end, String flavour) {
-        Cake cake = nu.nu(Cake.class);
+    public Data cake(int start, int end, String flavour) {
+        Data data = nu.nu(Data.class);
         for (int i = start; i <= end; i++)
-            cake.add(bake(i, flavour));
-        return cake;
+            data.add(bake(i, flavour));
+        return data;
     }
 
-    private Slice bake(int key, String flavour) {
-        Slice slice = nu.nu(Slice.class);
-        slice.add("key", key);
-        slice.add("flavour", flavour);
-        slice.add("mainly", "flour");
-        slice.add("some.Ref", "egg");
-        return slice;
+    private Tuple bake(int key, String flavour) {
+        Tuple tuple = nu.nu(Tuple.class);
+        tuple.add("key", key);
+        tuple.add("flavour", flavour);
+        tuple.add("mainly", "flour");
+        tuple.add("some.Ref", "egg");
+        return tuple;
     }
 }

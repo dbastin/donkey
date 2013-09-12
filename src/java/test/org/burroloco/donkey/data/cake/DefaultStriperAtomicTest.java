@@ -11,7 +11,7 @@ import java.util.List;
 
 public class DefaultStriperAtomicTest extends DonkeyTestCase implements HasFixtures {
     private static final int SLICES = 8;
-    private Cake chocolate;
+    private Data chocolate;
     Striper subject;
     Bakery bakery;
     Nu nu;
@@ -27,23 +27,23 @@ public class DefaultStriperAtomicTest extends DonkeyTestCase implements HasFixtu
     }
 
     private void checkStripe(String name, String value) {
-        List<Slice> expected = stripe(name, value, SLICES);
-        List<Slice> actual = subject.stripe(chocolate, name);
+        List<Tuple> expected = stripe(name, value, SLICES);
+        List<Tuple> actual = subject.stripe(chocolate, name);
         assertEquals(expected, actual);
     }
 
-    private List<Slice> stripe(String name, Object value, int size) {
+    private List<Tuple> stripe(String name, Object value, int size) {
         return Collections.nCopies(size, slice(name, value));
     }
 
-    private List<Slice> numbers(String name, int size) {
-        List<Slice> l = new ArrayList<Slice>();
+    private List<Tuple> numbers(String name, int size) {
+        List<Tuple> l = new ArrayList<Tuple>();
         for (int i = 1; i <= size; i++) l.add(slice(name, i));
         return l;
     }
 
-    private Slice slice(String name, Object value) {
-        Slice s = nu.nu(Slice.class);
+    private Tuple slice(String name, Object value) {
+        Tuple s = nu.nu(Tuple.class);
         s.add(name, value);
         return s;
     }

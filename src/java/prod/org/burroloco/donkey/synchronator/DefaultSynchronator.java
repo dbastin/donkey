@@ -2,7 +2,7 @@ package org.burroloco.donkey.synchronator;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 import org.burroloco.donkey.input.core.Slurper;
 
 public class DefaultSynchronator implements Synchronator {
@@ -16,8 +16,8 @@ public class DefaultSynchronator implements Synchronator {
         String name = s.name();
         String[] keys = s.keys();
         Config config = config(name);
-        Cake older = archive.get(name);
-        Cake newer = slurper.slurp(config);
+        Data older = archive.get(name);
+        Data newer = slurper.slurp(config);
         operations.execute(config, keys, older, newer);
     }
 

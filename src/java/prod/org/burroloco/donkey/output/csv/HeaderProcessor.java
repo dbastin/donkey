@@ -1,7 +1,7 @@
 package org.burroloco.donkey.output.csv;
 
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 
 public interface HeaderProcessor {
-    void process(Cake cake, StringBuilder stringBuilder);
+    void process(Data data, StringBuilder stringBuilder);
 }

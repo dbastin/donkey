@@ -3,63 +3,63 @@ package org.burroloco.donkey.data.cake;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.error.ColumnMismatchException;
-import org.burroloco.donkey.data.error.EmptyCakeException;
+import org.burroloco.donkey.data.error.NoDataException;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class CakeCoverageTest extends DonkeyTestCase implements HasFixtures {
-    private Slice firstSlice;
-    private Slice otherSlice;
-    private Slice extraSlice;
-    Cake subject;
+    private Tuple firstTuple;
+    private Tuple otherTuple;
+    private Tuple extraTuple;
+    Data subject;
     Nu nu;
 
     public void fixtures() {
-        firstSlice = slice("1", "2");
-        otherSlice = slice("1", "3");
-        extraSlice = slice("1", "2");
+        firstTuple = slice("1", "2");
+        otherTuple = slice("1", "3");
+        extraTuple = slice("1", "2");
     }
 
     public void testColumnNamesFailsWithNoSlices() {
         try {
             subject.columnNames();
             fail();
-        } catch (EmptyCakeException e) {
+        } catch (NoDataException e) {
             // expected
         }
     }
 
     public void testRefrigerateWithNoSlices() {
         try {
-            subject.refrigerate();
+            subject.readOnly();
             fail();
-        } catch (EmptyCakeException e) {
+        } catch (NoDataException e) {
             // expected
         }
     }
 
     public void testModifyAfterRefrigerate() {
-        subject.add(firstSlice);
-        subject.refrigerate();
+        subject.add(firstTuple);
+        subject.readOnly();
         try {
-            subject.add(extraSlice);
+            subject.add(extraTuple);
         } catch (IllegalArgumentException e) {
             // expected
         }
     }
 
     public void testAddValidatesColumnNames() {
-        subject.add(firstSlice);
+        subject.add(firstTuple);
         try {
-            subject.add(otherSlice);
+            subject.add(otherTuple);
         } catch (ColumnMismatchException e) {
             assertEquals("Expected [1, 2] but was [1, 3]", e.getMessage());
         }
     }
 
-    private Slice slice(String name1, String name2) {
-        Slice slice = nu.nu(Slice.class);
-        slice.add(name1, "nom");
-        slice.add(name2, "nom");
-        return slice;
+    private Tuple slice(String name1, String name2) {
+        Tuple tuple = nu.nu(Tuple.class);
+        tuple.add(name1, "nom");
+        tuple.add(name2, "nom");
+        return tuple;
     }
 }

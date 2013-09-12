@@ -7,8 +7,8 @@ import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.InputDirName;
 import org.burroloco.donkey.config.InputFileNames;
-import org.burroloco.donkey.data.cake.Cake;
-import org.burroloco.donkey.data.cake.Slice;
+import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.cake.Tuple;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.util.csv.CommaSeparatedValues;
 
@@ -22,26 +22,26 @@ public class FileMetadataSlurper implements Slurper {
     Weaken weaken;
     Nu nu;
     
-    public Cake slurp(Config config) {
-        Cake cake = nu.nu(Cake.class);
+    public Data slurp(Config config) {
+        Data data = nu.nu(Data.class);
         InputDirName dir = config.get(InputDirName.class);
         String list = weak.get(config, InputFileNames.class);
         List<String> names = separated.list(list);
-        for (String name : names) slurp(cake, dir, name);
-        return cake;
+        for (String name : names) slurp(data, dir, name);
+        return data;
     }
 
-    private void slurp(Cake cake, InputDirName dir, String name) {
-        Slice slice = nu.nu(Slice.class);
-        slurp(slice, dir, name);
-        cake.add(slice);
+    private void slurp(Data data, InputDirName dir, String name) {
+        Tuple tuple = nu.nu(Tuple.class);
+        slurp(tuple, dir, name);
+        data.add(tuple);
     }
 
-    private void slurp(Slice slice, InputDirName dir, String name) {
+    private void slurp(Tuple tuple, InputDirName dir, String name) {
         File file = new File(weaken.w(dir), name);
-        slice.add("FileName", file.getName());
-        slice.add("LineCount", lines(file));
-        slice.add("ByteCount", bytes(file));
+        tuple.add("FileName", file.getName());
+        tuple.add("LineCount", lines(file));
+        tuple.add("ByteCount", bytes(file));
     }
 
     private int lines(File file) {

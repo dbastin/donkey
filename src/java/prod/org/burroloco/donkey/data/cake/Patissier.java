@@ -1,9 +1,9 @@
 package org.burroloco.donkey.data.cake;
 
 public interface Patissier {
-    Cake same(Cake c1, Cake c2);
+    Data same(Data c1, Data c2);
 
-    Cake minus(Cake c1, Cake c2, String... keys);
+    Data minus(Data c1, Data c2, String... keys);
 
-    Cake changes(Cake c1, Cake c2, String... keys);
+    Data changes(Data c1, Data c2, String... keys);
 }

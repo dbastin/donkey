@@ -2,8 +2,8 @@ package org.burroloco.donkey.output.fixedwidth;
 
 import static au.net.netstorm.boost.gunge.separator.Separator.LINE;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Cake;
-import org.burroloco.donkey.data.cake.Slice;
+import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.cake.Tuple;
 import org.burroloco.util.string.Filler;
 import org.burroloco.util.string.Tail;
 
@@ -14,10 +14,10 @@ public class DefaultFixedWidthRecordStringer implements FixedWidthRecordStringer
     Filler filler;
     Tail tail;
 
-    public String build(Config config, Cake cake) {
+    public String build(Config config, Data data) {
         String header = header(config);
-        String rows = rows(cake);
-        String footer = footer(config, cake);
+        String rows = rows(data);
+        String footer = footer(config, data);
         return header + rows + footer;
     }
 
@@ -27,24 +27,24 @@ public class DefaultFixedWidthRecordStringer implements FixedWidthRecordStringer
         return header;
     }
 
-    private Integer rowCount (Cake cake) {
-        return cake.slices().size();
+    private Integer rowCount (Data data) {
+        return data.tuples().size();
     }
 
-    private String rows(Cake cake) {
+    private String rows(Data data) {
         String result = "";
-        for (Slice slice : cake.slices()) result += row(slice) + LINE;
+        for (Tuple tuple : data.tuples()) result += row(tuple) + LINE;
         return tail.strip(result, LINE);
     }
 
-    private String row(Slice slice) {
+    private String row(Tuple tuple) {
         String result = "";
-        for (String name : slice.names()) result += column(slice, name);
+        for (String name : tuple.names()) result += column(tuple, name);
         return result;
     }
 
-    private String column(Slice slice, String name) {
-        String s = "" + slice.value(name);
+    private String column(Tuple tuple, String name) {
+        String s = "" + tuple.value(name);
         int width = width(name);
         return filler.fill(s, width);
     }
@@ -54,8 +54,8 @@ public class DefaultFixedWidthRecordStringer implements FixedWidthRecordStringer
         return widths.get(name);
     }
 
-    private String footer(Config config, Cake cake) {
-        String footer = LINE + definition.footer(config, rowCount(cake));
+    private String footer(Config config, Data data) {
+        String footer = LINE + definition.footer(config, rowCount(data));
         return footer;
     }
 }

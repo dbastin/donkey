@@ -1,20 +1,20 @@
 package org.burroloco.donkey.output.core;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Cake;
-import org.burroloco.donkey.data.cake.Slice;
+import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.cake.Tuple;
 
 import java.util.List;
 
 public class EmptyCheckSpitter implements Spitter {
     Spitter delegate;
 
-    public void pertuh(Config config, Cake cake) {
-        if (!empty(cake)) delegate.pertuh(config, cake);
+    public void spit(Config config, Data data) {
+        if (!empty(data)) delegate.spit(config, data);
     }
 
-    private boolean empty(Cake cake) {
-        List<Slice> slices = cake.slices();
-        return slices.size() == 0;
+    private boolean empty(Data data) {
+        List<Tuple> tuples = data.tuples();
+        return tuples.size() == 0;
     }
 }

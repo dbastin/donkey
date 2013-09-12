@@ -1,7 +1,7 @@
 package org.burroloco.donkey.output.core;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 
 public class ContextualSpitter implements Spitter {
     private final String propertyPrefix;
@@ -11,8 +11,8 @@ public class ContextualSpitter implements Spitter {
         this.propertyPrefix = propertyPrefix;
     }
 
-    public void pertuh(Config config, Cake cake) {
+    public void spit(Config config, Data data) {
         Config flattened = config.flatten(propertyPrefix);
-        delegate.pertuh(flattened, cake);
+        delegate.spit(flattened, data);
     }
 }

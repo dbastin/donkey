@@ -1,7 +1,7 @@
 package org.burroloco.donkey.output.csv;
 
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 
 public interface CsvStringer {
-    String text(Cake cake);
+    String text(Data data);
 }

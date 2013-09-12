@@ -5,8 +5,8 @@ import au.net.netstorm.boost.gunge.goop.Nvp;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.Configs;
 import org.burroloco.donkey.config.Sql;
-import org.burroloco.donkey.data.cake.Cake;
-import org.burroloco.donkey.data.cake.Slice;
+import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.cake.Tuple;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.template.SqlTemplateExpander;
 
@@ -17,16 +17,16 @@ public class DatabaseSpitter implements Spitter {
     Executor runner;
     Configs configs;
 
-    public void pertuh(Config config, Cake cake) {
-        List<Slice> slices = cake.slices();
-        for (Slice slice : slices) {
-            Config c = sql(config, slice);
+    public void spit(Config config, Data data) {
+        List<Tuple> tuples = data.tuples();
+        for (Tuple tuple : tuples) {
+            Config c = sql(config, tuple);
             runner.execute(c);
         }
     }
 
-    private Config sql(Config config, Slice slice) {
-        String expanded = expander.expand(config, slice);
+    private Config sql(Config config, Tuple tuple) {
+        String expanded = expander.expand(config, tuple);
         Nvp sql = new DefaultNvp(Sql.NAME, expanded);
         return configs.moosh(config, sql);
     }

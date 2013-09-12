@@ -1,7 +1,7 @@
 package org.burroloco.donkey.output.template;
 
-import org.burroloco.donkey.data.cake.Slice;
+import org.burroloco.donkey.data.cake.Tuple;
 
 public interface Templator {
-    String apply(Slice slice, String template);
+    String apply(Tuple tuple, String template);
 }

@@ -9,7 +9,7 @@ import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 public class DefaultSliceAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String DUPLICATE_KEY = "a";
     private static final String EXPECTED_MESSAGE = "Value for '" + DUPLICATE_KEY + "' already set";
-    Slice subject;
+    Tuple subject;
     String random;
     Nu nu;
 
@@ -34,19 +34,19 @@ public class DefaultSliceAtomicTest extends DonkeyTestCase implements HasFixture
     }
 
     public void testPutAll() {
-        Slice otherSlice = nu.nu(Slice.class);
-        otherSlice.add("b", "two");
-        otherSlice.add("c", "three");
-        subject.addAll(otherSlice);
+        Tuple otherTuple = nu.nu(Tuple.class);
+        otherTuple.add("b", "two");
+        otherTuple.add("c", "three");
+        subject.addAll(otherTuple);
         assertEquals("two", subject.value("b"));
         assertEquals("three", subject.value("c"));
     }
 
     public void testPutAllWithDuplicateKeyFails() {
-        Slice otherSlice = nu.nu(Slice.class);
-        otherSlice.add(DUPLICATE_KEY, "three");
+        Tuple otherTuple = nu.nu(Tuple.class);
+        otherTuple.add(DUPLICATE_KEY, "three");
         try {
-            subject.addAll(otherSlice);
+            subject.addAll(otherTuple);
         } catch (Exception e) {
             assertEquals(EXPECTED_MESSAGE, e.getMessage());
         }

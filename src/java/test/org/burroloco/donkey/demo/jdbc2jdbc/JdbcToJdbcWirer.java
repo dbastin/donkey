@@ -11,8 +11,8 @@ import org.burroloco.donkey.job.SlurpingJob;
 import org.burroloco.donkey.output.core.ContextualSpitter;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.database.DatabaseSpitter;
-import org.burroloco.donkey.transformation.transform.NoOpTransform;
-import org.burroloco.donkey.transformation.transform.Transform;
+import org.burroloco.donkey.transformation.transform.NoOpTupleTransformer;
+import org.burroloco.donkey.transformation.transform.TupleTransformer;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
@@ -35,7 +35,7 @@ public class JdbcToJdbcWirer implements Wirer {
     }
 
     private void gargler() {
-        wire.cls(NoOpTransform.class).to(Transform.class);
+        wire.cls(NoOpTupleTransformer.class).to(TupleTransformer.class);
     }
 
     private void spitter() {

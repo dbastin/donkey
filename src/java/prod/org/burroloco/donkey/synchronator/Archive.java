@@ -1,7 +1,7 @@
 package org.burroloco.donkey.synchronator;
 
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 
 public interface Archive {
-    Cake get(String name);
+    Data get(String name);
 }

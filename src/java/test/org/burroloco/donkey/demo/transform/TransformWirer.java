@@ -2,8 +2,8 @@ package org.burroloco.donkey.demo.transform;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.error.transform.Burper;
-import org.burroloco.donkey.error.transform.SwallowingBurper;
+import org.burroloco.donkey.error.transform.ErrorHandler;
+import org.burroloco.donkey.error.transform.LoggingErrorHandler;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.database.DatabaseSlurper;
 import org.burroloco.donkey.job.Job;
@@ -13,7 +13,7 @@ import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.csv.CsvSpitter;
 import org.burroloco.donkey.transformation.transform.Mapper;
 import org.burroloco.donkey.transformation.transform.PropertyFileMapper;
-import org.burroloco.donkey.transformation.transform.Transform;
+import org.burroloco.donkey.transformation.transform.TupleTransformer;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
@@ -36,8 +36,8 @@ public class TransformWirer implements Wirer {
     }
 
     private void transform() {
-        dna.strand(Burper.class, SwallowingBurper.class);
+        dna.strand(ErrorHandler.class, LoggingErrorHandler.class);
         wire.impl(PropertyFileMapper.class, FULLNAME_MAPPINGS).to(Mapper.class);
-        wire.cls(FullNameTransform.class).to(Transform.class);
+        wire.cls(FullNameTupleTransformer.class).to(TupleTransformer.class);
     }
 }

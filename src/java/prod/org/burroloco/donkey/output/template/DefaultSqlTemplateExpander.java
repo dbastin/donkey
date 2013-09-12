@@ -1,13 +1,13 @@
 package org.burroloco.donkey.output.template;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Slice;
+import org.burroloco.donkey.data.cake.Tuple;
 
 public class DefaultSqlTemplateExpander implements SqlTemplateExpander {
     TemplateExpander expander;
 
-    public String expand(Config config, Slice slice) {
-        String expanded = expander.expand(config, slice);
+    public String expand(Config config, Tuple tuple) {
+        String expanded = expander.expand(config, tuple);
         return unquoteNull(expanded);
     }
 

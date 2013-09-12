@@ -1,9 +1,9 @@
 package org.burroloco.donkey.output.csv;
 
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 
 import java.io.File;
 
 public interface CsvSpitterEngine {
-    void pertuh(File out, Cake cake);
+    void spit(File out, Data data);
 }

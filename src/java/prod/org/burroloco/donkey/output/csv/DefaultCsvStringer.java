@@ -1,15 +1,15 @@
 package org.burroloco.donkey.output.csv;
 
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 
 public class DefaultCsvStringer implements CsvStringer {
     HeaderProcessor headerProcessor;
     BodyProcessor bodyProcessor;
 
-    public String text(Cake cake) {
+    public String text(Data data) {
         StringBuilder buffy = new StringBuilder();
-        headerProcessor.process(cake, buffy);
-        bodyProcessor.process(cake, buffy);
+        headerProcessor.process(data, buffy);
+        bodyProcessor.process(data, buffy);
         return buffy.toString();
     }
 

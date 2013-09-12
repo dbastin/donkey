@@ -5,25 +5,25 @@ import edge.java.sql.Connection;
 import edge.java.sql.ResultSet;
 import edge.java.sql.Statement;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 
 public class DefaultQueryRunnerEngine implements QueryRunnerEngine {
     ConnectionPurveyor purveyor;
-    CakeHydrater converter;
+    DataHydrater converter;
     Log log;
 
-    public Cake query(Config config, String sqlStatement) {
+    public Data query(Config config, String sqlStatement) {
         Connection connection = purveyor.connection(config);
         Statement statement = connection.createStatement();
         return tryExecuteAndConvert(statement, sqlStatement);
     }
 
-    private Cake tryExecuteAndConvert(Statement statement, String sql) {
+    private Data tryExecuteAndConvert(Statement statement, String sql) {
         try {
             log.trace("Executing: " + sql);
             ResultSet resultSet = statement.executeQuery(sql);
-            Cake results = converter.convert(resultSet);
-            log.trace(results.slices().size() + " rows returned");
+            Data results = converter.convert(resultSet);
+            log.trace(results.tuples().size() + " rows returned");
             return results;
         } finally {
             statement.close();

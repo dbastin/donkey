@@ -1,8 +1,8 @@
 package org.burroloco.donkey.transformation.gargler;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 
 public interface Gargler {
-    void slosh(Config config, Cake in);
+    Data gargle(Config config, Data in);
 }

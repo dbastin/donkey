@@ -1,9 +1,9 @@
 package org.burroloco.donkey.input.csv;
 
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 
 import java.util.List;
 
 public interface ListConverter {
-    Cake convert(List rows);
+    Data convert(List rows);
 }

@@ -12,7 +12,7 @@ public class DefaultOutputFileWizard implements OutputFileWizard {
     FileWizard files;
     WeakConfig weak;
 
-    public File file(Config config) {
+    public File nu(Config config) {
         String dirname = weak.get(config, OutputDirName.class);
         String filename = weak.get(config, OutputName.class);
         String extension = weak.get(config, OutputExtension.class);

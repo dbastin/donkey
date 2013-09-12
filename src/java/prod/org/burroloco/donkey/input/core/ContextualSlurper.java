@@ -1,7 +1,7 @@
 package org.burroloco.donkey.input.core;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 
 public class ContextualSlurper implements Slurper {
     private final String propertyPrefix;
@@ -11,7 +11,7 @@ public class ContextualSlurper implements Slurper {
         this.propertyPrefix = propertyPrefix;
     }
 
-    public Cake slurp(Config config) {
+    public Data slurp(Config config) {
         Config flattened = config.flatten(propertyPrefix);
         return delegate.slurp(flattened);
     }

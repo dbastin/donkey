@@ -1,20 +1,20 @@
 package org.burroloco.donkey.input.csv;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.donkey.data.cake.Cake;
-import org.burroloco.donkey.data.cake.Slice;
+import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.cake.Tuple;
 
 import java.util.List;
 
 public class DefaultListConverter implements ListConverter {
     Nu nu;
 
-    public Cake convert(List rows) {
+    public Data convert(List rows) {
         String[] headings = headings(rows);
-        Cake cake = nu.nu(Cake.class);
-        addRows(headings, rows, cake);
-        cake.refrigerate();
-        return cake;
+        Data data = nu.nu(Data.class);
+        addRows(headings, rows, data);
+        data.readOnly();
+        return data;
     }
 
     private String[] headings(List rows) {
@@ -27,7 +27,7 @@ public class DefaultListConverter implements ListConverter {
         return results;
     }
 
-    private void addRows(String[] headings, List rows, Cake result) {
+    private void addRows(String[] headings, List rows, Data result) {
         for (int i = 1; i < rows.size(); i++) {
             Object r = rows.get(i);
             Object[] values = (Object[]) r;
@@ -35,17 +35,17 @@ public class DefaultListConverter implements ListConverter {
         }
     }
 
-    private void create(String[] colNames, Object[] values, Cake result) {
-        Slice slice = nu.nu(Slice.class);
-        addValues(slice, values, colNames);
-        result.add(slice);
+    private void create(String[] colNames, Object[] values, Data result) {
+        Tuple tuple = nu.nu(Tuple.class);
+        addValues(tuple, values, colNames);
+        result.add(tuple);
     }
 
-    private void addValues(Slice slice, Object[] values, String[] colNames) {
+    private void addValues(Tuple tuple, Object[] values, String[] colNames) {
         for (int i = 0; i < values.length; i++) {
             String colName = colNames[i];
             Object value = values[i];
-            slice.add(colName, value);
+            tuple.add(colName, value);
         }
     }
 }

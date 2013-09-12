@@ -4,36 +4,36 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.donkey.data.cake.Slice;
+import org.burroloco.donkey.data.cake.Tuple;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import org.burroloco.donkey.input.database.DatabaseNull;
 
 public class NullsAsEmptiesTransformCoverageTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String OTHER_FIELD = "OtherField";
     private static final String NULL_FIELD = "NullField";
-    private NullsAsEmptiesTransform subject;
+    private NullsAsEmptiesTupleTransformer subject;
     String value;
     Impl impl;
     Nu nu;
 
     public void fixtures() {
-        wire.cls(NoOpTransform.class).to(Transform.class);
-        subject = impl.impl(NullsAsEmptiesTransform.class);
+        wire.cls(NoOpTupleTransformer.class).to(TupleTransformer.class);
+        subject = impl.impl(NullsAsEmptiesTupleTransformer.class);
     }
 
     public void testTransform() {
-        Slice actual = subject.transform(slice());
+        Tuple actual = subject.transform(slice());
         check(actual);
     }
 
-    private Slice slice() {
-        Slice in = nu.nu(Slice.class);
+    private Tuple slice() {
+        Tuple in = nu.nu(Tuple.class);
         in.add(NULL_FIELD, new DatabaseNull());
         in.add(OTHER_FIELD, value);
         return in;
     }
 
-    private void check(Slice actual) {
+    private void check(Tuple actual) {
         assertEquals(2, actual.values().size());
         assertEquals("", actual.value(NULL_FIELD));
         assertEquals(value, actual.value(OTHER_FIELD));

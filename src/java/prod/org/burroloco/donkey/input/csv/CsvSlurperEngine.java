@@ -1,8 +1,8 @@
 package org.burroloco.donkey.input.csv;
 
 import org.burroloco.donkey.config.InputFileName;
-import org.burroloco.donkey.data.cake.Cake;
+import org.burroloco.donkey.data.cake.Data;
 
 public interface CsvSlurperEngine {
-    Cake slurp(InputFileName in);
+    Data slurp(InputFileName in);
 }
