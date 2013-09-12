@@ -7,8 +7,8 @@ import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.InputDirName;
 import org.burroloco.donkey.config.InputFileNames;
-import org.burroloco.donkey.data.cake.Data;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Data;
+import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.util.csv.CommaSeparatedValues;
 

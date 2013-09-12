@@ -1,7 +1,7 @@
 package org.burroloco.donkey.input.database;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.input.core.Slurper;
 
 public final class DatabaseSlurper implements Slurper {

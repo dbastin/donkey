@@ -2,7 +2,7 @@ package org.burroloco.donkey.synchronator;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
-import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.input.core.Slurper;
 
 public class DefaultSynchronator implements Synchronator {

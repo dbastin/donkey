@@ -6,7 +6,7 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.butcher.fixture.checker.file.FileChecker;
 import static org.burroloco.butcher.fixture.checker.type.Occurrence.ONCE;
 import org.burroloco.butcher.util.file.FileCleaner;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import org.burroloco.util.wire.Dna;
 

@@ -2,7 +2,7 @@ package org.burroloco.donkey.input.http;
 
 import edge.javax.servlet.http.HttpServletRequest;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.log.ProcessLogger;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.transformation.gargler.Gargler;

@@ -1,7 +1,7 @@
 package org.burroloco.donkey.output.csv;
 
-import org.burroloco.donkey.data.cake.Data;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Data;
+import org.burroloco.donkey.data.core.Tuple;
 
 import static org.burroloco.donkey.util.FileConstants.WIN_EOL;
 

@@ -2,8 +2,8 @@ package org.burroloco.donkey.output.fixedwidth;
 
 import static au.net.netstorm.boost.gunge.separator.Separator.LINE;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Data;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Data;
+import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.util.string.Filler;
 import org.burroloco.util.string.Tail;
 

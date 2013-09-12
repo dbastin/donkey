@@ -1,4 +1,4 @@
-package org.burroloco.donkey.data.cake;
+package org.burroloco.donkey.data.core;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
@@ -6,7 +6,7 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.error.MissingValueException;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
-public class DefaultSliceAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
+public class DefaultTupleAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String DUPLICATE_KEY = "a";
     private static final String EXPECTED_MESSAGE = "Value for '" + DUPLICATE_KEY + "' already set";
     Tuple subject;

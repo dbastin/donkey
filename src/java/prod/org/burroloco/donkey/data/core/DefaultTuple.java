@@ -1,4 +1,4 @@
-package org.burroloco.donkey.data.cake;
+package org.burroloco.donkey.data.core;
 
 import au.net.netstorm.boost.bullet.primordial.Primordial;
 import au.net.netstorm.boost.gunge.nullo.DefaultNullMaster;

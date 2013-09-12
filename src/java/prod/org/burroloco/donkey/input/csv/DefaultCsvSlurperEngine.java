@@ -1,7 +1,7 @@
 package org.burroloco.donkey.input.csv;
 
 import org.burroloco.donkey.config.InputFileName;
-import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.core.Data;
 
 import java.util.List;
 

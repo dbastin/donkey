@@ -3,7 +3,7 @@ package org.burroloco.donkey.input.database;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.java.sql.ResultSet;
 import edge.java.sql.ResultSetMetaData;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Tuple;
 
 public class DefaultTupleHydrater implements TupleHydrater {
     SliceValueHydrator valueHydrator;

@@ -2,8 +2,8 @@ package org.burroloco.donkey.output.template;
 
 import static au.net.netstorm.boost.gunge.separator.Separator.LINE;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Data;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Data;
+import org.burroloco.donkey.data.core.Tuple;
 
 public class DefaultTemplateStringer implements TemplateStringer {
     TemplateExpander expander;

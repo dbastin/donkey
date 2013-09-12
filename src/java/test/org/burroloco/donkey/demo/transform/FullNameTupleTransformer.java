@@ -1,7 +1,7 @@
 package org.burroloco.donkey.demo.transform;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Tuple;
 
 import static org.burroloco.donkey.input.database.DatabaseNull.DB_NULL;
 

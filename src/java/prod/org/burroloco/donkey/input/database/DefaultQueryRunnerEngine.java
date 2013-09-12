@@ -5,7 +5,7 @@ import edge.java.sql.Connection;
 import edge.java.sql.ResultSet;
 import edge.java.sql.Statement;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.core.Data;
 
 public class DefaultQueryRunnerEngine implements QueryRunnerEngine {
     ConnectionPurveyor purveyor;

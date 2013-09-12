@@ -1,4 +1,4 @@
-package org.burroloco.donkey.data.cake;
+package org.burroloco.donkey.data.core;
 
 import org.burroloco.donkey.util.CollectionSubtractor;
 

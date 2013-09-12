@@ -1,4 +1,4 @@
-package org.burroloco.donkey.data.cake;
+package org.burroloco.donkey.data.core;
 
 public interface Patissier {
     Data same(Data c1, Data c2);

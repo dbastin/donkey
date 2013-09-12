@@ -1,15 +1,15 @@
-package org.burroloco.donkey.data.cake;
+package org.burroloco.donkey.data.core;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 
 import java.util.List;
 import java.util.Set;
 
-public class DefaultCakeFilter implements CakeFilter {
+public class DefaultDataFilter implements DataFilter {
     private final Data values;
     Nu nu;
 
-    public DefaultCakeFilter(Data values) {
+    public DefaultDataFilter(Data values) {
         this.values = values;
     }
 

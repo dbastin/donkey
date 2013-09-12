@@ -1,7 +1,7 @@
 package org.burroloco.donkey.transformation.transform;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Tuple;
 
 public class DefaultTupleMaster implements TupleMaster {
     Nu nu;

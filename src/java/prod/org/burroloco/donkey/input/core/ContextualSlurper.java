@@ -1,7 +1,7 @@
 package org.burroloco.donkey.input.core;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.core.Data;
 
 public class ContextualSlurper implements Slurper {
     private final String propertyPrefix;

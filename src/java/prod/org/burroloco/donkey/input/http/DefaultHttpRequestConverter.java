@@ -2,8 +2,8 @@ package org.burroloco.donkey.input.http;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.javax.servlet.http.HttpServletRequest;
-import org.burroloco.donkey.data.cake.Data;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Data;
+import org.burroloco.donkey.data.core.Tuple;
 
 import java.util.Enumeration;
 

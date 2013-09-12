@@ -5,8 +5,8 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Bakery;
-import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.core.Bakery;
+import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class NoHeaderFixedWidthAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {

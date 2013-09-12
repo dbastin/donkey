@@ -1,7 +1,7 @@
 package org.burroloco.donkey.job;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.transformation.gargler.Gargler;

@@ -1,7 +1,7 @@
 package org.burroloco.donkey.demo.jdbc2csv;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.transformation.transform.TupleTransformer;
 
 public class EmployeeTupleTransformer implements TupleTransformer {

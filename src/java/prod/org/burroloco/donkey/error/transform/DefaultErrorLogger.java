@@ -2,7 +2,7 @@ package org.burroloco.donkey.error.transform;
 
 import au.net.netstorm.boost.bullet.log.Log;
 import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Tuple;
 
 public class DefaultErrorLogger implements ErrorLogger {
     ThrowableMaster chuckie;

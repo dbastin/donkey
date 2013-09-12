@@ -1,4 +1,4 @@
-package org.burroloco.donkey.data.cake;
+package org.burroloco.donkey.data.core;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.util.CollectionSubtractor;
@@ -41,7 +41,7 @@ public class DefaultPatissier implements Patissier {
     }
 
     private Data filter(Data c, Data values) {
-        CakeFilter filter = nu.nu(CakeFilter.class, values);
+        DataFilter filter = nu.nu(DataFilter.class, values);
         return filter.filter(c);
     }
 }

@@ -1,7 +1,7 @@
 package org.burroloco.donkey.output.template;
 
-import org.burroloco.donkey.data.cake.Tuple;
-import org.burroloco.donkey.data.cake.Slicer;
+import org.burroloco.donkey.data.core.Tuple;
+import org.burroloco.donkey.data.core.Slicer;
 import org.burroloco.util.string.TokenUtil;
 
 import java.util.Map;

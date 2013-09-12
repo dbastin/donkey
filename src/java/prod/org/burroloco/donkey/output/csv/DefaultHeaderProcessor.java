@@ -1,6 +1,6 @@
 package org.burroloco.donkey.output.csv;
 
-import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.core.Data;
 
 import static org.burroloco.donkey.util.FileConstants.WIN_EOL;
 

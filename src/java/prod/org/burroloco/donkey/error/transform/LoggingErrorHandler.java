@@ -1,6 +1,6 @@
 package org.burroloco.donkey.error.transform;
 
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Tuple;
 
 public class LoggingErrorHandler implements ErrorHandler {
     ErrorLogger logger;

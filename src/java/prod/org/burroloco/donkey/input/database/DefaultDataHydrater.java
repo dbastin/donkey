@@ -2,7 +2,7 @@ package org.burroloco.donkey.input.database;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.java.sql.ResultSet;
-import org.burroloco.donkey.data.cake.Data;
+import org.burroloco.donkey.data.core.Data;
 
 public class DefaultDataHydrater implements DataHydrater {
     TupleHydrater tupleHydrater;

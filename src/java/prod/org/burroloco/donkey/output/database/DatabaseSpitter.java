@@ -5,8 +5,8 @@ import au.net.netstorm.boost.gunge.goop.Nvp;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.Configs;
 import org.burroloco.donkey.config.Sql;
-import org.burroloco.donkey.data.cake.Data;
-import org.burroloco.donkey.data.cake.Tuple;
+import org.burroloco.donkey.data.core.Data;
+import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.template.SqlTemplateExpander;
 

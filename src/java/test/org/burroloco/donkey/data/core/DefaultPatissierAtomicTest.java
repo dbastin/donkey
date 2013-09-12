@@ -1,9 +1,9 @@
-package org.burroloco.donkey.data.cake;
+package org.burroloco.donkey.data.core;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import static org.burroloco.donkey.data.cake.Bakery.KEYS;
+import static org.burroloco.donkey.data.core.Bakery.KEYS;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class DefaultPatissierAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
