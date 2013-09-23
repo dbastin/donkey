@@ -6,8 +6,8 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import static org.burroloco.donkey.data.core.Bakery.KEYS;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
-public class DefaultPatissierAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
-    Patissier subject;
+public class DefaultDataMasterAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
+    DataMaster subject;
     Data leftUnique;
     Data leftChanges;
     Data rightChanges;
@@ -15,26 +15,26 @@ public class DefaultPatissierAtomicTest extends DonkeyTestCase implements HasFix
     String whatever;
     Bakery bakery;
     Data none;
-    Data same;
+    Data both;
     Data left;
     Data right;
     Nu nu;
 
     public void fixtures() {
         leftUnique = bakery.cake(1, 2, whatever);
-        same = bakery.cake(3, 4, "same");
+        both = bakery.cake(3, 4, "same");
         leftChanges = bakery.cake(5, 6, "left");
         rightChanges = bakery.cake(5, 6, "right");
         rightUnique = bakery.cake(7, 8, whatever);
-        left = moosh(leftUnique, same, leftChanges);
-        right = moosh(same, rightChanges, rightUnique);
+        left = moosh(leftUnique, both, leftChanges);
+        right = moosh(both, rightChanges, rightUnique);
     }
 
-    public void testSameness() {
-        assertEquals(same, subject.same(left, right));
-        assertEquals(same, subject.same(right, left));
-        assertEquals(left, subject.same(left, left));
-        assertEquals(none, subject.same(left, none));
+    public void testIntersection() {
+        assertEquals(both, subject.intersection(left, right));
+        assertEquals(both, subject.intersection(right, left));
+        assertEquals(left, subject.intersection(left, left));
+        assertEquals(none, subject.intersection(left, none));
     }
 
     public void testMinus() {
@@ -44,10 +44,10 @@ public class DefaultPatissierAtomicTest extends DonkeyTestCase implements HasFix
         assertEquals(left, subject.minus(left, none, KEYS));
     }
 
-    public void testChanges(){
-        assertEquals(leftChanges, subject.changes(left, right, KEYS));
-        assertEquals(rightChanges, subject.changes(right, left, KEYS));
-        assertEquals(none, subject.changes(left, left, KEYS));
+    public void testDiffs(){
+        assertEquals(leftChanges, subject.diffs(left, right, KEYS));
+        assertEquals(rightChanges, subject.diffs(right, left, KEYS));
+        assertEquals(none, subject.diffs(left, left, KEYS));
     }
 
     private Data moosh(Data...pieces) {

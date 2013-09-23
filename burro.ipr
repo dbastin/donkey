@@ -228,6 +228,8 @@
     <dictionary name="navigo">
       <words>
         <w>hydrater</w>
+        <w>striper</w>
+        <w>subtractor</w>
         <w>tuple</w>
       </words>
     </dictionary>

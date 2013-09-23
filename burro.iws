@@ -15,110 +15,22 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="c9e89cf3-9a96-4c10-beac-778152a647ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/Bakery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/Data.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DataCoverageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DataFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DefaultBakery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultPatissier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DefaultPatissierAtomicTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultSlicer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultStriper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DefaultStriperAtomicTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultStripes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultTuple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DefaultTupleAtomicTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/Patissier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/Slicer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/Striper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/Stripes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/StubTuple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/Tuple.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/CakeFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultCakeFilter.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/cake/DefaultCakeFilter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultDataFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/Archive.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/Archive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/BodyProcessor.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/BodyProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/core/ContextualSlurper.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/core/ContextualSlurper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/core/ContextualSpitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/core/ContextualSpitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/CsvSlurper.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/CsvSlurper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/CsvSlurperEngine.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/CsvSlurperEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/CsvSpitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/CsvSpitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/CsvSpitterEngine.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/CsvSpitterEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/CsvStringer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/CsvStringer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DataHydrater.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DataHydrater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DatabaseSlurper.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DatabaseSlurper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/database/DatabaseSpitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/database/DatabaseSpitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/DefaultArchive.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/DefaultArchive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultBodyProcessor.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultBodyProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/error/transform/DefaultBurperAtomicTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/error/transform/DefaultBurperAtomicTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/error/transform/DefaultBurperCoverageTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/error/transform/DefaultBurperCoverageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/DefaultCsvSlurperEngine.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/DefaultCsvSlurperEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultCsvSpitterEngine.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultCsvSpitterEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultCsvStringer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultCsvStringer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultDataHydrater.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultDataHydrater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/DefaultErrorHandler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/DefaultErrorHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/DefaultErrorLogger.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/DefaultErrorLogger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/DefaultFixedWidthRecordStringer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/DefaultFixedWidthRecordStringer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/DefaultGargler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/DefaultGargler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultHeaderProcessor.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultHeaderProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/http/DefaultHttpRequestConverter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/http/DefaultHttpRequestConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/http/DefaultHttpRequestHandler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/http/DefaultHttpRequestHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/DefaultListConverter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/DefaultListConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultQueryRunner.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultQueryRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultQueryRunnerEngine.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultQueryRunnerEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/DefaultSqlTemplateExpander.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/DefaultSqlTemplateExpander.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/DefaultSynchronator.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/DefaultSynchronator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/DefaultTemplateExpander.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/DefaultTemplateExpander.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/DefaultTemplateSelector.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/DefaultTemplateSelector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/DefaultTemplateStringer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/DefaultTemplateStringer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/DefaultTemplator.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/DefaultTemplator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultTupleHydrater.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/DefaultTupleHydrater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/DefaultTupleMaster.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/DefaultTupleMaster.java" />
+    <list default="true" id="c9e89cf3-9a96-4c10-beac-778152a647ed" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultPatissier.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultDataMaster.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/Patissier.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DataMaster.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DefaultPatissierAtomicTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DefaultDataMasterAtomicTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/CollectionSubtractor.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/CollectionSubtractor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultCollectionSubtractor.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultCollectionSubtractor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/Delete.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/Delete.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/jdbc2csv/EmployeeTupleTransformer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/jdbc2csv/EmployeeTupleTransformer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/core/EmptyCheckSpitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/core/EmptyCheckSpitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/ErrorHandler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/ErrorHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/ErrorLogger.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/ErrorLogger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/file/FileMetadataSlurper.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/file/FileMetadataSlurper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/FileSpitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/FileSpitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordSpitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordSpitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordStringer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/fixedwidth/FixedWidthRecordStringer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/transform/FullNameTupleTransformer.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/transform/FullNameTupleTransformer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/Gargler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/Gargler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/HeaderProcessor.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/HeaderProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/http/HttpRequestConverter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/http/HttpRequestConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/http/HttpSpitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/http/HttpSpitter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/Insert.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/Insert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/ListConverter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/csv/ListConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/LoggingErrorHandler.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/LoggingErrorHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderFixedWidthAtomicTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/output/fixedwidth/NoHeaderFixedWidthAtomicTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/NoOpTupleTransformer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/NoOpTupleTransformer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/transform/NullsAsEmptiesTransformCoverageTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/transformation/transform/NullsAsEmptiesTransformCoverageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/NullsAsEmptiesTupleTransformer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/NullsAsEmptiesTupleTransformer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/Operation.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/Operation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/QueryRunner.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/QueryRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/QueryRunnerEngine.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/QueryRunnerEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ShiftySpitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/ShiftySpitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/core/Slurper.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/core/Slurper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/SlurpingJob.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/SlurpingJob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/core/Spitter.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/core/Spitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/error/transform/SwallowingBurperMolecularTest.java" afterPath="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/error/transform/SwallowingBurperMolecularTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/TemplateExpander.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/TemplateExpander.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/TemplateSelector.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/TemplateSelector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/TemplateStringer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/TemplateStringer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/Templator.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/template/Templator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/TupleHydrater.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/database/TupleHydrater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/TupleMaster.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/TupleMaster.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/TupleTransformer.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/TupleTransformer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/Update.java" afterPath="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/synchronator/Update.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.ipr" afterPath="$PROJECT_DIR$/burro.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/burro.iws" afterPath="$PROJECT_DIR$/burro.iws" />
     </list>
     <list id="091ca076-19b2-4f97-94e4-db66798bba55" name="part2" comment="" />
     <ignored path="burro.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c9e89cf3-9a96-4c10-beac-778152a647ed" time="1378957813094" ignored="false" />
+    <file path="/Dummy.txt" changelist="c9e89cf3-9a96-4c10-beac-778152a647ed" time="1379894560375" ignored="false" />
     <file path="/JdbcToHttpDemoTest.java" changelist="c9e89cf3-9a96-4c10-beac-778152a647ed" time="1378961009433" ignored="false" />
     <file path="/HttpListenerJob.java" changelist="c9e89cf3-9a96-4c10-beac-778152a647ed" time="1378958246443" ignored="false" />
     <file path="/fragment.java" changelist="c9e89cf3-9a96-4c10-beac-778152a647ed" time="1378959864156" ignored="false" />
@@ -139,6 +51,8 @@
     <file path="/CakeFilter.java" changelist="c9e89cf3-9a96-4c10-beac-778152a647ed" time="1378963028833" ignored="false" />
     <file path="/CakeCoverageTest.java" changelist="c9e89cf3-9a96-4c10-beac-778152a647ed" time="1378963146296" ignored="false" />
     <file path="/DefaultSliceAtomicTest.java" changelist="c9e89cf3-9a96-4c10-beac-778152a647ed" time="1378963171583" ignored="false" />
+    <file path="/CollectionSubtractor.java" changelist="c9e89cf3-9a96-4c10-beac-778152a647ed" time="1379895301526" ignored="false" />
+    <file path="/DefaultPatissierAtomicTest.java" changelist="c9e89cf3-9a96-4c10-beac-778152a647ed" time="1379895577310" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,48 +140,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ButcherTestCase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/butcher/glue/testcase/ButcherTestCase.java">
+      <file leaf-file-name="DefaultDataMaster.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultDataMaster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandRunnerMolecularTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/butcher/fixture/process/CommandRunnerMolecularTest.java">
+      <file leaf-file-name="DefaultDataMasterAtomicTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DefaultDataMasterAtomicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="48" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButcherWeb.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/butcher/glue/web/ButcherWeb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="23" selection-start="184" selection-end="184" vertical-scroll-proportion="0.07762557">
+            <state line="9" column="23" selection-start="445" selection-end="445" vertical-scroll-proportion="0.07744875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButcherTestConstants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/butcher/glue/constants/ButcherTestConstants.java">
+      <file leaf-file-name="DefaultStripes.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultStripes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+            <state line="16" column="27" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DonkeyWeb.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DonkeyWeb.java">
+      <file leaf-file-name="Data.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="13" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
+            <state line="5" column="17" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -296,13 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/transform/TupleMaster.java" />
-        <option value="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/SwallowingErrorHandler.java" />
-        <option value="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/error/transform/LoggingErrorHandler.java" />
-        <option value="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/trebuchet/TestTrebuchet.java" />
-        <option value="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/jdbc2http/JdbcToHttpDemoTest.java" />
-        <option value="$PROJECT_DIR$/src/java/test/org/burroloco/butcher/fixture/database/InputDatabase.java" />
-        <option value="$PROJECT_DIR$/src/java/test/org/burroloco/butcher/fixture/database/SourceDatabase.java" />
         <option value="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/http/HttpSpitter.java" />
         <option value="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/jdbc2http/JdbcToHttpWirer.java" />
         <option value="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/jdbc2csv/JdbcToCsvWirer.java" />
@@ -322,6 +227,13 @@
         <option value="$PROJECT_DIR$/src/java/test/org/burroloco/butcher/glue/web/DonkeyLiteWeb.java" />
         <option value="$PROJECT_DIR$/src/java/test/org/burroloco/butcher/glue/constants/ButcherTestConstants.java" />
         <option value="$PROJECT_DIR$/src/java/test/org/burroloco/butcher/glue/web/ButcherWeb.java" />
+        <option value="$PROJECT_DIR$/src/java/test/org/burroloco/butcher/glue/testcase/ButcherTestCase.java" />
+        <option value="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/CollectionSubtractor.java" />
+        <option value="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultPatissier.java" />
+        <option value="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DefaultPatissierAtomicTest.java" />
+        <option value="$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DefaultDataMasterAtomicTest.java" />
+        <option value="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultStripes.java" />
+        <option value="$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultDataMaster.java" />
       </list>
     </option>
   </component>
@@ -3351,7 +3263,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -4265,6 +4176,44 @@
               <option name="myItemId" value="donkey" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="donkey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burroloco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="donkey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -4906,6 +4855,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="donkey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="donkey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burroloco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -5139,6 +5130,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -5155,16 +5147,16 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="206" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="996" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1000" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="202" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="1130" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="199" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="202" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="331" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="199" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="430" />
@@ -5197,8 +5189,8 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -5303,6 +5295,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -5329,19 +5334,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -5464,28 +5456,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="22" width="1670" height="1024" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47566372" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4746137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17077088" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39823008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18657635" sideWeight="0.27876106" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18657635" sideWeight="0.27876106" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25553098" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32565284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3996724" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18657635" sideWeight="0.5243363" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28817734" sideWeight="0.52538633" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37057522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -5494,12 +5485,13 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DBOutput" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -5661,76 +5653,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/input/http/ControlServletRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/PukingJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/job/HttpListenerJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/http2csv/HttpToCsvSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/demo/http2csv/HttpToCsvWirer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/config/loader/DefaultConfigMapExpander.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/http/EdgeHttpRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/transformation/gargler/DefaultGargler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/input/http/DefaultHttpRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/file/DefaultOutputFileWizard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/output/csv/DefaultCsvSpitterEngine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="26" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
@@ -5755,13 +5677,6 @@
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DataCoverageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DefaultPatissierAtomicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -5794,45 +5709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/util/string/DefaultStringUniqueAtomicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="51" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/config/core/DefaultConfigClassMapperCoverageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="58" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/butcher/fixture/process/CommandRunnerMolecularTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="48" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DonkeyWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="13" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/butcher/glue/testcase/ButcherTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/butcher/glue/constants/ButcherTestConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="17" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
@@ -5840,9 +5716,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/butcher/fixture/process/CommandRunnerMolecularTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="43" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/config/core/DefaultConfigClassMapperCoverageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="43" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/util/string/DefaultStringUniqueAtomicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="36" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/cache/ConnectionCacheWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/web/DonkeyWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/glue/web/DonkeyTestWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/butcher/glue/web/ButcherWeb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="184" selection-end="184" vertical-scroll-proportion="0.07762557">
+        <state line="5" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/butcher/glue/testcase/ButcherTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DataMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/DefaultCollectionSubtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/util/CollectionSubtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="47" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultStriper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultStripes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/prod/org/burroloco/donkey/data/core/DefaultDataMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/test/org/burroloco/donkey/data/core/DefaultDataMasterAtomicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="445" selection-end="445" vertical-scroll-proportion="0.07744875">
           <folding />
         </state>
       </provider>
