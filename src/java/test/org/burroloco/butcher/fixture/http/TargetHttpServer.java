@@ -1,6 +1,6 @@
 package org.burroloco.butcher.fixture.http;
 
-public interface HttpServer {
+public interface TargetHttpServer {
     String payload();
 
     void start();
