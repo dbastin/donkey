@@ -5,7 +5,7 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.csv.CsvSlurper;
 import org.burroloco.donkey.job.ConsumeTransformProduce;
-import org.burroloco.donkey.job.ExceptionWrapperJob;
+import org.burroloco.donkey.job.ExceptionWrapper;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.file.FileSpitter;
@@ -19,7 +19,7 @@ public class CsvToSqlWirer implements Wirer {
     Dna dna;
 
     public void wire(Config config) {
-        dna.strand(Job.class, ExceptionWrapperJob.class, ConsumeTransformProduce.class);
+        dna.strand(Job.class, ExceptionWrapper.class, ConsumeTransformProduce.class);
         wire.cls(CsvSlurper.class).to(Slurper.class);
         wire.cls(NoOpTupleGargler.class).to(TupleGargler.class);
         wire.cls(FileSpitter.class).to(Spitter.class);

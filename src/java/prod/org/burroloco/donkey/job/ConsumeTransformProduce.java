@@ -9,8 +9,8 @@ import org.burroloco.donkey.log.ProcessLogger;
 
 public class ConsumeTransformProduce implements Job {
     ProcessLogger logger;
-    Slurper slurper;
     DataGargler gargler;
+    Slurper slurper;
     Spitter spitter;
 
     public void go(Config config) {

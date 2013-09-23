@@ -6,7 +6,7 @@ import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.PollingInterval;
 import org.burroloco.util.snooze.Snoozer;
 
-public class PollingJob implements Job, Stop {
+public class Poller implements Job, Stop {
     private boolean started = false;
     WeakConfig weak;
     Snoozer snoozer;

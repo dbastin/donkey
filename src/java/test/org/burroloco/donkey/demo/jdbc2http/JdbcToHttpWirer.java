@@ -7,7 +7,7 @@ import org.burroloco.donkey.error.transform.LoggingExceptionHandler;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.database.DatabaseSlurper;
 import org.burroloco.donkey.job.ConsumeTransformProduce;
-import org.burroloco.donkey.job.ExceptionWrapperJob;
+import org.burroloco.donkey.job.ExceptionWrapper;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.http.HttpSpitter;
@@ -30,7 +30,7 @@ public class JdbcToHttpWirer implements Wirer {
     }
 
     private void job() {
-        dna.strand(Job.class, ExceptionWrapperJob.class, ConsumeTransformProduce.class);
+        dna.strand(Job.class, ExceptionWrapper.class, ConsumeTransformProduce.class);
     }
 
     private void producer() {

@@ -9,7 +9,7 @@ import org.burroloco.butcher.util.file.FileCleaner;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.glue.constants.DonkeyTestConstants;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
-import org.burroloco.donkey.job.ExceptionWrapperJob;
+import org.burroloco.donkey.job.ExceptionWrapper;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.util.wire.Dna;
 
@@ -24,7 +24,7 @@ public class PukerMolecularTest extends DonkeyTestCase implements HasFixtures, D
 
     public void fixtures() {
         fileCleaner.clean(LOG);
-        dna.strand(Job.class, ExceptionWrapperJob.class, BarfingJob.class);
+        dna.strand(Job.class, ExceptionWrapper.class, BarfingJob.class);
     }
 
     public void testDefaultBehaviour() {

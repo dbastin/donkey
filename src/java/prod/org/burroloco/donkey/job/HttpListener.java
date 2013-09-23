@@ -10,7 +10,7 @@ import org.burroloco.donkey.config.HttpPort;
 import org.burroloco.donkey.input.http.EdgeHttpRequestHandler;
 import org.mortbay.jetty.Handler;
 
-public class HttpListenerJob implements Job, Stop {
+public class HttpListener implements Job, Stop {
     private Server server;
     WeakConfig weak;
     Impl impl;

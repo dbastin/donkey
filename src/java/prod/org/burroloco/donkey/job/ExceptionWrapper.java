@@ -3,7 +3,7 @@ package org.burroloco.donkey.job;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.error.job.Puker;
 
-public class ExceptionWrapperJob implements Job {
+public class ExceptionWrapper implements Job {
     Job delegate;
     Puker puker;
 
