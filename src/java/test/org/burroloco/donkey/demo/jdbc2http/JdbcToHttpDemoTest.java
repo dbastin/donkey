@@ -25,7 +25,7 @@ public class JdbcToHttpDemoTest extends DonkeyTestCase implements HasFixtures, D
 
     private void check() {
         String actual = server.payload();
-        String expected = "Hello World";
+        String expected = "<employee></employee>";
         assertEquals(expected, actual);
     }
 

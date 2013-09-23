@@ -1,9 +1,11 @@
 package org.burroloco.donkey.output.http;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import edge.org.apache.http.impl.client.DefaultHttpClient;
 import edge.org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
+import edge.org.apache.http.impl.client.DefaultHttpClient;
+import edge.org.apache.http.HttpEntity;
+import edge.org.apache.http.client.methods.HttpPost;
+import edge.org.apache.http.entity.StringEntity;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.HttpUrl;
@@ -17,12 +19,20 @@ public class HttpSpitter implements Spitter {
 
     public void spit(Config config, Data data) {
         HttpClient client = nu.nu(DefaultHttpClient.class);
-        HttpGet get = request(config);
-        client.execute(get);
+        HttpPost post = post(config, data);
+        client.execute(post);
     }
 
-    private HttpGet request(Config config) {
+    private HttpPost post(Config config, Data data) {
         String url = weak.get(config, HttpUrl.class);
-        return new HttpGet(url + "?Message=Hello%20World&Date=2009-01-01");
+        HttpPost post = nu.nu(HttpPost.class, url);
+        HttpEntity body = body(data);
+        post.setEntity(body);
+        return post;
+    }
+
+    // TODO - Put the data into the entity...
+    private HttpEntity body(Data data) {
+        return nu.nu(StringEntity.class, "<employee></employee>");
     }
 }
