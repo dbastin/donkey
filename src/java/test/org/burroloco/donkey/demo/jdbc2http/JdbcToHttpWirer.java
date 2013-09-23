@@ -2,8 +2,8 @@ package org.burroloco.donkey.demo.jdbc2http;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.error.transform.ExceptionHandler;
-import org.burroloco.donkey.error.transform.LoggingExceptionHandler;
+import org.burroloco.donkey.error.transform.GarglerExceptionHandler;
+import org.burroloco.donkey.error.transform.LoggingGarglerExceptionHandler;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.database.DatabaseSlurper;
 import org.burroloco.donkey.job.ConsumeTransformProduce;
@@ -31,7 +31,7 @@ public class JdbcToHttpWirer implements Wirer {
 
     private void job() {
         dna.strand(Job.class, ExceptionWrapper.class, ConsumeTransformProduce.class);
-        dna.strand(ExceptionHandler.class, LoggingExceptionHandler.class);
+        dna.strand(GarglerExceptionHandler.class, LoggingGarglerExceptionHandler.class);
     }
 
     private void consumer() {

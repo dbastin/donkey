@@ -2,8 +2,8 @@ package org.burroloco.donkey.demo.transform;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.error.transform.ExceptionHandler;
-import org.burroloco.donkey.error.transform.LoggingExceptionHandler;
+import org.burroloco.donkey.error.transform.GarglerExceptionHandler;
+import org.burroloco.donkey.error.transform.LoggingGarglerExceptionHandler;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.database.DatabaseSlurper;
 import org.burroloco.donkey.job.ConsumeTransformProduce;
@@ -36,7 +36,7 @@ public class TransformWirer implements Wirer {
     }
 
     private void transform() {
-        dna.strand(ExceptionHandler.class, LoggingExceptionHandler.class);
+        dna.strand(GarglerExceptionHandler.class, LoggingGarglerExceptionHandler.class);
         wire.impl(PropertyFileMapper.class, FULLNAME_MAPPINGS).to(Mapper.class);
         wire.cls(FullNameTupleGargler.class).to(TupleGargler.class);
     }

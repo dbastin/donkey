@@ -14,7 +14,7 @@ import java.io.File;
 
 public class SwallowingBurperMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private static final File REPORT = new File("gen/demo/log/transform-errors.log");
-    private ExceptionHandler subject;
+    private GarglerExceptionHandler subject;
     FileChecker fileChecker;
     FileCleaner fileCleaner;
     Tuple tuple;
@@ -23,8 +23,8 @@ public class SwallowingBurperMolecularTest extends DonkeyTestCase implements Laz
 
     public void fixtures() {
         fileCleaner.clean(REPORT);
-        dna.strand(ExceptionHandler.class, LoggingExceptionHandler.class);
-        subject = nu.nu(ExceptionHandler.class);
+        dna.strand(GarglerExceptionHandler.class, LoggingGarglerExceptionHandler.class);
+        subject = nu.nu(GarglerExceptionHandler.class);
     }
 
     public void testErrorLogging() {
