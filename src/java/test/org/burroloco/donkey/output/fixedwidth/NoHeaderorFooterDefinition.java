@@ -13,9 +13,9 @@ public class NoHeaderorFooterDefinition implements FixedRecordDefinition {
     public Map<String, Integer> widths() {
         Map<String, Integer> w = new HashMap<String, Integer>();
         w.put("key", 25);
-        w.put("flavour", 25);
-        w.put("mainly", 25);
-        w.put("some.Ref", 0);
+        w.put("value", 25);
+        w.put("anotherValue", 25);
+        w.put("yetAnotherValue", 0);
         return w;
     }
 

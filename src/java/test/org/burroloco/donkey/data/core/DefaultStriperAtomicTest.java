@@ -2,7 +2,7 @@ package org.burroloco.donkey.data.core;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import static org.burroloco.donkey.data.core.Bakery.KEYS;
+import static org.burroloco.donkey.data.core.DataGenerator.KEYS;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 import java.util.ArrayList;
@@ -10,25 +10,26 @@ import java.util.Collections;
 import java.util.List;
 
 public class DefaultStriperAtomicTest extends DonkeyTestCase implements HasFixtures {
-    private static final int SLICES = 8;
-    private Data chocolate;
+    private static final int TUPLES = 8;
+    private Data data;
+
+    DataGenerator generator;
     Striper subject;
-    Bakery bakery;
     Nu nu;
 
     public void fixtures() {
-        chocolate = bakery.cake(1, SLICES, "chocolate");
+        data = generator.data(1, TUPLES, "meep");
     }
 
     public void testStriping() {
-        checkStripe("flavour", "chocolate");
-        checkStripe("some.Ref", "egg");
-        assertEquals(numbers("key", SLICES), subject.stripe(chocolate, KEYS));
+        checkStripe("anotherValue", "meep");
+        checkStripe("yetAnotherValue", "aarp");
+        assertEquals(numbers("key", TUPLES), subject.stripe(data, KEYS));
     }
 
     private void checkStripe(String name, String value) {
-        List<Tuple> expected = stripe(name, value, SLICES);
-        List<Tuple> actual = subject.stripe(chocolate, name);
+        List<Tuple> expected = stripe(name, value, TUPLES);
+        List<Tuple> actual = subject.stripe(data, name);
         assertEquals(expected, actual);
     }
 
