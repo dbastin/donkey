@@ -1,15 +1,14 @@
 package org.burroloco.donkey.demo.synchronator;
 
-import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.Destroyable;
+import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.butcher.fixture.database.SourceDatabase;
-import org.burroloco.config.loader.ConfigLoader;
+import org.burroloco.butcher.util.file.FileComparator;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import org.burroloco.donkey.synchronator.Subject;
 import org.burroloco.donkey.synchronator.Synchronator;
 import org.burroloco.donkey.synchronator.SynchronatorWirer;
-import org.burroloco.butcher.util.file.FileComparator;
 
 import java.io.File;
 
