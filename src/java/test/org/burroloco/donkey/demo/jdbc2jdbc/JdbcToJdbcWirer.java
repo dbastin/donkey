@@ -5,9 +5,9 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.input.core.ContextualSlurper;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.database.DatabaseSlurper;
+import org.burroloco.donkey.job.ConsumeTransformProduce;
+import org.burroloco.donkey.job.ExceptionWrapperJob;
 import org.burroloco.donkey.job.Job;
-import org.burroloco.donkey.job.PukingJob;
-import org.burroloco.donkey.job.SlurpingJob;
 import org.burroloco.donkey.output.core.ContextualSpitter;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.database.DatabaseSpitter;
@@ -23,7 +23,7 @@ public class JdbcToJdbcWirer implements Wirer {
     //SIMIAN ON
 
     public void wire(Config config) {
-        dna.strand(Job.class, PukingJob.class, SlurpingJob.class);
+        dna.strand(Job.class, ExceptionWrapperJob.class, ConsumeTransformProduce.class);
         slurper();
         gargler();
         spitter();

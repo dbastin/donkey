@@ -13,7 +13,7 @@ import org.burroloco.util.snooze.Snoozer;
 import java.io.File;
 import java.util.List;
 
-public class DirectoryJob implements Job {
+public class DirectoryWatcherJob implements Job {
     FileListing listing;
     Configs configs;
     WeakConfig weak;

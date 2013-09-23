@@ -3,7 +3,7 @@
     <tstamp>
         <format property="build.date" pattern="yyyyMMdd HH:mm:ss"/>
     </tstamp>
-    <property name="build.name" value="build-dev"/>
+    <property name="build.name" value="donkey"/>
     <property name="project.name" value="DONKEY"/>
     <property name="version" value="1.0"/>
     <property name="label" value="build.0"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="base-overrides" basedir="../..">
     <!-- Put project specific overrides here! -->
-    <property name="project.name" value="Donkey - SVN Revision: [${env.SVN_REVISION}]"/>
+    <property name="project.name" value="Donkey - Revision: [${env.SCM_REVISION}]"/>
     <property name="vendor.name" value="org.burroloco"/>
     <property name="src.dir" location="src"/>
     <property name="java.src.dir" location="${src.dir}/java"/>

@@ -1,0 +1,9 @@
+package edge.org.apache.http.client;
+
+import au.net.netstorm.boost.bullet.scalpel.core.Edge;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpUriRequest;
+
+public interface HttpClient extends Edge {
+    HttpResponse execute (HttpUriRequest request);
+}

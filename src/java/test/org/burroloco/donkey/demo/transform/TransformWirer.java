@@ -6,9 +6,9 @@ import org.burroloco.donkey.error.transform.ErrorHandler;
 import org.burroloco.donkey.error.transform.LoggingErrorHandler;
 import org.burroloco.donkey.input.core.Slurper;
 import org.burroloco.donkey.input.database.DatabaseSlurper;
+import org.burroloco.donkey.job.ConsumeTransformProduce;
+import org.burroloco.donkey.job.ExceptionWrapperJob;
 import org.burroloco.donkey.job.Job;
-import org.burroloco.donkey.job.PukingJob;
-import org.burroloco.donkey.job.SlurpingJob;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.csv.CsvSpitter;
 import org.burroloco.donkey.transformation.transform.Mapper;
@@ -31,7 +31,7 @@ public class TransformWirer implements Wirer {
     }
 
     private void slurp() {
-        dna.strand(Job.class, PukingJob.class, SlurpingJob.class);
+        dna.strand(Job.class, ExceptionWrapperJob.class, ConsumeTransformProduce.class);
         wire.cls(DatabaseSlurper.class).to(Slurper.class);
     }
 

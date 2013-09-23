@@ -7,7 +7,7 @@ import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.transformation.gargler.Gargler;
 import org.burroloco.donkey.log.ProcessLogger;
 
-public class SlurpingJob implements Job {
+public class ConsumeTransformProduce implements Job {
     ProcessLogger logger;
     Slurper slurper;
     Gargler gargler;

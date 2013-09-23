@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="init" basedir="../..">
     <property environment="env"/>
-    <property name="env.SVN_REVISION" value="Local Build"/>
+    <property name="env.SCM_REVISION" value="Local Build"/>
 
     <import file="base-overrides.xml"/>
     <import file="base/base.xml"/>
