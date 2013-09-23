@@ -13,12 +13,15 @@ import org.burroloco.butcher.util.file.FileComparator;
 
 import java.io.File;
 
+/**
+ * Using the Donkey to calculate DB data diffs.
+ * Good for database source control.
+ */
 public class SynchronatorDemoTest extends DonkeyTestCase implements HasFixtures, Destroyable {
     private Synchronator subject;
     FileComparator comparator;
     SynchronatorWirer wirer;
     SourceDatabase source;
-    ConfigLoader loader;
     Nu nu;
 
     public void fixtures() {

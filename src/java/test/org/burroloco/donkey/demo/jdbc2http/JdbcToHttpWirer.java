@@ -31,18 +31,18 @@ public class JdbcToHttpWirer implements Wirer {
 
     private void job() {
         dna.strand(Job.class, ExceptionWrapper.class, ConsumeTransformProduce.class);
-    }
-
-    private void producer() {
-        wire.cls(HttpSpitter.class).to(Spitter.class);
-    }
-
-    private void transformer() {
         dna.strand(ExceptionHandler.class, LoggingExceptionHandler.class);
-        wire.cls(NoOpTupleGargler.class).to(TupleGargler.class);
     }
 
     private void consumer() {
         wire.cls(DatabaseSlurper.class).to(Slurper.class);
+    }
+
+    private void transformer() {
+        wire.cls(NoOpTupleGargler.class).to(TupleGargler.class);
+    }
+
+    private void producer() {
+        wire.cls(HttpSpitter.class).to(Spitter.class);
     }
 }
