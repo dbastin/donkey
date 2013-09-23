@@ -12,7 +12,7 @@ public class DefaultBurperCoverageTest extends DonkeyTestCase implements LazyFie
     ThrowableMaster chuckieMock;
     Throwable causeDummy;
     RuntimeException e;
-    ErrorHandler subject;
+    ExceptionHandler subject;
     Nu nu;
     //SIMIAN ON
 

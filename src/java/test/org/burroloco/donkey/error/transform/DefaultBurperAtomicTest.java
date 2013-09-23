@@ -5,7 +5,7 @@ import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class DefaultBurperAtomicTest extends DonkeyTestCase implements LazyFields {
-    ErrorHandler subject;
+    ExceptionHandler subject;
     Tuple tuple;
 
     public void testBurper() {

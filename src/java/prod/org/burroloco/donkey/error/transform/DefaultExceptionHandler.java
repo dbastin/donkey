@@ -3,7 +3,7 @@ package org.burroloco.donkey.error.transform;
 import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
 import org.burroloco.donkey.data.core.Tuple;
 
-public class DefaultErrorHandler implements ErrorHandler {
+public class DefaultExceptionHandler implements ExceptionHandler {
     ThrowableMaster chuckie;
     ErrorLogger logger;
 
