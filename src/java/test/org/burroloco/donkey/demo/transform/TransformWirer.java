@@ -11,9 +11,9 @@ import org.burroloco.donkey.job.ExceptionWrapperJob;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.csv.CsvSpitter;
-import org.burroloco.donkey.transformation.transform.Mapper;
-import org.burroloco.donkey.transformation.transform.PropertyFileMapper;
-import org.burroloco.donkey.transformation.transform.TupleTransformer;
+import org.burroloco.donkey.transform.Mapper;
+import org.burroloco.donkey.transform.PropertyFileMapper;
+import org.burroloco.donkey.transform.TupleGargler;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
@@ -38,6 +38,6 @@ public class TransformWirer implements Wirer {
     private void transform() {
         dna.strand(ExceptionHandler.class, LoggingExceptionHandler.class);
         wire.impl(PropertyFileMapper.class, FULLNAME_MAPPINGS).to(Mapper.class);
-        wire.cls(FullNameTupleTransformer.class).to(TupleTransformer.class);
+        wire.cls(FullNameTupleGargler.class).to(TupleGargler.class);
     }
 }

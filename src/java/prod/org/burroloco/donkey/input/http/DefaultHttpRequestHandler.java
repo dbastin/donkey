@@ -5,13 +5,13 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.log.ProcessLogger;
 import org.burroloco.donkey.output.core.Spitter;
-import org.burroloco.donkey.transformation.gargler.Gargler;
+import org.burroloco.donkey.transform.DataGargler;
 
 public class DefaultHttpRequestHandler implements HttpRequestHandler {
     private final Config config;
     HttpRequestConverter converter;
     ProcessLogger logger;
-    Gargler gargler;
+    DataGargler gargler;
     Spitter spitter;
 
     public DefaultHttpRequestHandler(Config config) {

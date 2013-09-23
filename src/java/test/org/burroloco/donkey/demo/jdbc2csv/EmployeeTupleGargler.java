@@ -2,12 +2,12 @@ package org.burroloco.donkey.demo.jdbc2csv;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.core.Tuple;
-import org.burroloco.donkey.transformation.transform.TupleTransformer;
+import org.burroloco.donkey.transform.TupleGargler;
 
-public class EmployeeTupleTransformer implements TupleTransformer {
+public class EmployeeTupleGargler implements TupleGargler {
     Nu nu;
 
-    public Tuple transform(Tuple in) {
+    public Tuple gargle(Tuple in) {
         noPets(in);
         Tuple out = nu.nu(Tuple.class);
         out.add("ID", multiply("ID", in));

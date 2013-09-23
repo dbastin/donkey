@@ -1,17 +1,16 @@
-package org.burroloco.donkey.transformation.gargler;
+package org.burroloco.donkey.transform;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.error.transform.ExceptionHandler;
-import org.burroloco.donkey.transformation.transform.TupleTransformer;
 
 import java.util.List;
 
-public class DefaultGargler implements Gargler {
-    TupleTransformer transformer;
+public class DefaultDataGargler implements DataGargler {
     ExceptionHandler handler;
+    TupleGargler transformer;
     Nu nu;
 
     public Data gargle(Config config, Data in) {
@@ -23,7 +22,7 @@ public class DefaultGargler implements Gargler {
 
     private void transform(Data out, Tuple tuple) {
         try {
-            Tuple transformed = transformer.transform(tuple);
+            Tuple transformed = transformer.gargle(tuple);
             out.add(transformed);
         } catch (RuntimeException e) {
             handler.handle(tuple, e);

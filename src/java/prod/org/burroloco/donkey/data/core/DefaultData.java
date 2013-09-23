@@ -53,6 +53,6 @@ public class DefaultData extends Primordial implements Data {
     }
 
     private void check() {
-        if (tuples.isEmpty()) throw new NoDataException("No tuples. Data is empty.");
+        if (tuples.isEmpty()) throw new NoDataException("Data is empty.");
     }
 }

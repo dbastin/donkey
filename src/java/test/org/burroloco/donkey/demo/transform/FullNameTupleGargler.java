@@ -5,16 +5,16 @@ import org.burroloco.donkey.data.core.Tuple;
 
 import static org.burroloco.donkey.input.database.DatabaseNull.DB_NULL;
 
-import org.burroloco.donkey.transformation.transform.Mapper;
-import org.burroloco.donkey.transformation.transform.TupleMaster;
-import org.burroloco.donkey.transformation.transform.TupleTransformer;
+import org.burroloco.donkey.transform.Mapper;
+import org.burroloco.donkey.transform.TupleGargler;
+import org.burroloco.donkey.transform.TupleMaster;
 
-public class FullNameTupleTransformer implements TupleTransformer {
+public class FullNameTupleGargler implements TupleGargler {
     Mapper fullNameMapper;
     TupleMaster master;
     Nu nu;
 
-    public Tuple transform(Tuple in) {
+    public Tuple gargle(Tuple in) {
         Tuple out = nu.nu(Tuple.class);
         out.add("NAME", in.value("NAME"));
         out.add("FULL_NAME", fullname("NAME", in));

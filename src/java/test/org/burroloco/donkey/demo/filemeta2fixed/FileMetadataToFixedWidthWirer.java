@@ -10,8 +10,8 @@ import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.output.core.Spitter;
 import org.burroloco.donkey.output.fixedwidth.FixedRecordDefinition;
 import org.burroloco.donkey.output.fixedwidth.FixedWidthRecordSpitter;
-import org.burroloco.donkey.transformation.transform.NoOpTupleTransformer;
-import org.burroloco.donkey.transformation.transform.TupleTransformer;
+import org.burroloco.donkey.transform.NoOpTupleGargler;
+import org.burroloco.donkey.transform.TupleGargler;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
@@ -23,7 +23,7 @@ public class FileMetadataToFixedWidthWirer implements Wirer {
     public void wire(Config config) {
         dna.strand(Job.class, ExceptionWrapperJob.class, ConsumeTransformProduce.class);
         wire.cls(FileMetadataSlurper.class).to(Slurper.class);
-        wire.cls(NoOpTupleTransformer.class).to(TupleTransformer.class);
+        wire.cls(NoOpTupleGargler.class).to(TupleGargler.class);
         wire.cls(FileMetadataFixedRecordDefinition.class).to(FixedRecordDefinition.class);
         wire.cls(FixedWidthRecordSpitter.class).to(Spitter.class);
     }

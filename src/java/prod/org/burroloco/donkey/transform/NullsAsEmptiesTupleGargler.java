@@ -1,16 +1,15 @@
-package org.burroloco.donkey.transformation.transform;
+package org.burroloco.donkey.transform;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.input.database.DatabaseNull;
-import static org.burroloco.donkey.transformation.transform.TransformConstants.EMPTY_FIELD;
 
-public class NullsAsEmptiesTupleTransformer implements TupleTransformer {
-    TupleTransformer delegate;
+public class NullsAsEmptiesTupleGargler implements TupleGargler {
+    TupleGargler delegate;
     Nu nu;
 
-    public Tuple transform(Tuple in) {
-        return delegate.transform(process(in));
+    public Tuple gargle(Tuple in) {
+        return delegate.gargle(process(in));
     }
 
     private Tuple process(Tuple tuple) {
@@ -20,6 +19,6 @@ public class NullsAsEmptiesTupleTransformer implements TupleTransformer {
     }
 
     private Object handleNull(Object obj) {
-        return (obj instanceof DatabaseNull) ? EMPTY_FIELD : obj;
+        return (obj instanceof DatabaseNull) ? TransformConstants.EMPTY_FIELD : obj;
     }
 }
