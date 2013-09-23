@@ -1,3 +1,3 @@
 The Donkey is an open source integration framework. 
 
-Feel free to help us create the best integration solution on the planet.
+This repo is a fork of https://www.assembla.com/spaces/burro
