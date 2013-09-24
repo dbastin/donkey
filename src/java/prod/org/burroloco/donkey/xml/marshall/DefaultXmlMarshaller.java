@@ -10,35 +10,28 @@ import static javax.xml.bind.Marshaller.JAXB_FORMATTED_OUTPUT;
 
 public class DefaultXmlMarshaller implements XmlMarshaller {
 
-    JAXBContextStatic jaxbContextStatic;
+    private static final String ENCODING = "UTF-8";
+
+    JAXBContextStatic contexts;
     Nu nu;
 
     public String marshall(Object o) {
-        JAXBContext jaxbContext = createContext(o);
-        Marshaller jaxbMarshaller = createMarshaller(jaxbContext);
-        ByteArrayOutputStream stream = nu.nu(ByteArrayOutputStream.class);
-        marshall(o, jaxbMarshaller, stream);
-        return convertToString(stream);
+        Marshaller m = createMarshaller(o);
+        ByteArrayOutputStream s = nu.nu(ByteArrayOutputStream.class);
+        m.marshal(o, s);
+        return s.toString(ENCODING);
     }
 
     private JAXBContext createContext(Object o) {
-        Class<?> cls = o.getClass();
-        return jaxbContextStatic.newInstance(cls);
+        Class<?> c = o.getClass();
+        return contexts.newInstance(c);
     }
 
-    private void marshall(Object o, Marshaller jaxbMarshaller, ByteArrayOutputStream stream) {
-        jaxbMarshaller.marshal(o, stream);
-    }
-
-    private Marshaller createMarshaller(JAXBContext jaxbContext) {
-        Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
-        makePretty(jaxbMarshaller);
-        return jaxbMarshaller;
-    }
-
-
-    private String convertToString(ByteArrayOutputStream stream) {
-        return stream.toString("UTF-8");
+    private Marshaller createMarshaller(Object o) {
+        JAXBContext ctx = createContext(o);
+        Marshaller m = ctx.createMarshaller();
+        makePretty(m);
+        return m;
     }
 
     private void makePretty(Marshaller m) {
