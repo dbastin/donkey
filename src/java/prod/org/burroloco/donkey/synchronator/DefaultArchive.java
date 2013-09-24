@@ -4,7 +4,7 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import au.net.netstorm.boost.bullet.incredibles.core.Weaken;
 import org.burroloco.donkey.config.InputFileName;
 import org.burroloco.donkey.data.core.Data;
-import org.burroloco.donkey.input.csv.CsvSlurperEngine;
+import org.burroloco.donkey.slurp.csv.CsvSlurperEngine;
 
 import java.io.File;
 

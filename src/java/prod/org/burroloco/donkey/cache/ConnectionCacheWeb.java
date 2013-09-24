@@ -5,7 +5,7 @@ import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.java.sql.Connection;
-import org.burroloco.donkey.input.database.DatabaseConnectionProvider;
+import org.burroloco.donkey.slurp.database.DatabaseConnectionProvider;
 
 public class ConnectionCacheWeb implements Web {
     Wire wire;

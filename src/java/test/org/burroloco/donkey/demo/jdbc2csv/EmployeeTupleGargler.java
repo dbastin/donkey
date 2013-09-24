@@ -2,7 +2,7 @@ package org.burroloco.donkey.demo.jdbc2csv;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.core.Tuple;
-import org.burroloco.donkey.transform.TupleGargler;
+import org.burroloco.donkey.gargle.TupleGargler;
 
 public class EmployeeTupleGargler implements TupleGargler {
     Nu nu;

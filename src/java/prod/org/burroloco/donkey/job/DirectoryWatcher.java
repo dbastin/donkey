@@ -7,7 +7,7 @@ import org.burroloco.config.core.Configs;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.InputDirName;
 import org.burroloco.donkey.config.InputFileName;
-import org.burroloco.donkey.input.file.FileListing;
+import org.burroloco.donkey.slurp.file.FileListing;
 import org.burroloco.util.snooze.Snoozer;
 
 import java.io.File;

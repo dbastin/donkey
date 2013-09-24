@@ -1,7 +1,7 @@
 package org.burroloco.donkey.demo.filemeta2fixed;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.output.fixedwidth.FixedRecordDefinition;
+import org.burroloco.donkey.spit.fixedwidth.FixedRecordDefinition;
 
 import java.util.HashMap;
 import java.util.Map;

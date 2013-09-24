@@ -5,10 +5,10 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.job.ExceptionWrapper;
 import org.burroloco.donkey.job.HttpListener;
 import org.burroloco.donkey.job.Job;
-import org.burroloco.donkey.output.core.Spitter;
-import org.burroloco.donkey.output.csv.CsvSpitter;
-import org.burroloco.donkey.transform.NoOpTupleGargler;
-import org.burroloco.donkey.transform.TupleGargler;
+import org.burroloco.donkey.spit.core.Spitter;
+import org.burroloco.donkey.spit.csv.CsvSpitter;
+import org.burroloco.donkey.gargle.NoOpTupleGargler;
+import org.burroloco.donkey.gargle.TupleGargler;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 

@@ -3,7 +3,7 @@ package org.burroloco.donkey.synchronator;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.data.core.DataMaster;
-import org.burroloco.donkey.output.core.Spitter;
+import org.burroloco.donkey.spit.core.Spitter;
 
 public class Delete implements Operation {
     DataMaster master;

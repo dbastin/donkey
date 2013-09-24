@@ -4,7 +4,7 @@ import au.net.netstorm.boost.spider.api.config.web.Web;
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.donkey.job.HttpListener;
 import org.burroloco.donkey.job.Job;
-import org.burroloco.donkey.input.watcher.AsyncJob;
+import org.burroloco.donkey.slurp.watcher.AsyncJob;
 
 public class HttpServerTestWeb implements Web {
     Wire wire;

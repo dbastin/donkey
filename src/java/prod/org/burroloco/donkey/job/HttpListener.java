@@ -7,7 +7,7 @@ import edge.org.mortbay.jetty.Server;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.HttpPort;
-import org.burroloco.donkey.input.http.EdgeHttpRequestHandler;
+import org.burroloco.donkey.slurp.http.EdgeHttpRequestHandler;
 import org.mortbay.jetty.Handler;
 
 public class HttpListener implements Job, Stop {

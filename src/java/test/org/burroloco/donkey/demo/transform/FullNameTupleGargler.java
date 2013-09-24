@@ -3,11 +3,11 @@ package org.burroloco.donkey.demo.transform;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.core.Tuple;
 
-import static org.burroloco.donkey.input.database.DatabaseNull.DB_NULL;
+import static org.burroloco.donkey.slurp.database.DatabaseNull.DB_NULL;
 
-import org.burroloco.donkey.transform.Mapper;
-import org.burroloco.donkey.transform.TupleGargler;
-import org.burroloco.donkey.transform.TupleMaster;
+import org.burroloco.donkey.gargle.Mapper;
+import org.burroloco.donkey.gargle.TupleGargler;
+import org.burroloco.donkey.gargle.TupleMaster;
 
 public class FullNameTupleGargler implements TupleGargler {
     Mapper fullNameMapper;

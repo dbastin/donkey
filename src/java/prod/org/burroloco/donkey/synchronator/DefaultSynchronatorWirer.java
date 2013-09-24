@@ -3,17 +3,17 @@ package org.burroloco.donkey.synchronator;
 import au.net.netstorm.boost.bullet.hub.Hubs;
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
-import org.burroloco.donkey.input.core.Slurper;
-import org.burroloco.donkey.input.database.DatabaseSlurper;
-import org.burroloco.donkey.input.database.SliceValueHydrator;
-import org.burroloco.donkey.input.database.StringSliceValueHydrator;
-import org.burroloco.donkey.output.core.ContextualSpitter;
-import org.burroloco.donkey.output.core.EmptyCheckSpitter;
-import org.burroloco.donkey.output.core.Spitter;
-import org.burroloco.donkey.output.file.FileSpitter;
-import org.burroloco.donkey.output.template.DefaultSqlTemplateExpander;
-import org.burroloco.donkey.output.template.DefaultTemplateExpander;
-import org.burroloco.donkey.output.template.TemplateExpander;
+import org.burroloco.donkey.slurp.core.Slurper;
+import org.burroloco.donkey.slurp.database.DatabaseSlurper;
+import org.burroloco.donkey.slurp.database.SliceValueHydrator;
+import org.burroloco.donkey.slurp.database.StringSliceValueHydrator;
+import org.burroloco.donkey.spit.core.ContextualSpitter;
+import org.burroloco.donkey.spit.core.EmptyCheckSpitter;
+import org.burroloco.donkey.spit.core.Spitter;
+import org.burroloco.donkey.spit.file.FileSpitter;
+import org.burroloco.donkey.spit.template.DefaultSqlTemplateExpander;
+import org.burroloco.donkey.spit.template.DefaultTemplateExpander;
+import org.burroloco.donkey.spit.template.TemplateExpander;
 import org.burroloco.util.wire.Dna;
 
 public class DefaultSynchronatorWirer implements SynchronatorWirer {
