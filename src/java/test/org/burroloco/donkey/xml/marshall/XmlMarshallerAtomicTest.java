@@ -6,7 +6,7 @@ import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 import java.io.File;
 
-public class XmlMarshallerMolecularTest extends DonkeyTestCase implements HasFixtures {
+public class XmlMarshallerAtomicTest extends DonkeyTestCase implements HasFixtures {
 
     private static final File XML = new File("data/expected/employee.xml");
     private Employee employee;

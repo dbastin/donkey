@@ -47,6 +47,7 @@ public class DefaultTuple extends Primordial implements Tuple {
         for (String key : tuple.names()) safePut(key, tuple.value(key));
     }
 
+    @Override
     public String toString() {
         return map.toString();
     }
