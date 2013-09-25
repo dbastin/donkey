@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Set;
 
 public interface Tuple {
+    String UNIT_KEY = "WHATEVS";
+
     void add(String name, Object value);
 
     void addAll(Tuple tuple);

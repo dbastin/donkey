@@ -13,9 +13,12 @@ import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import java.io.File;
 import java.util.List;
 
+import static org.burroloco.donkey.data.core.Tuple.UNIT_KEY;
+
 public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtures {
 
     private static final File XML = new File("data/expected/employee.xml");
+    private String expected;
     private Config config;
     private Data data;
 
@@ -26,6 +29,7 @@ public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtur
     public void fixtures() {
         data = data();
         config = loader.load("config/jdbc2http/jdbc2http.properties");
+        expected = files.readFileToString(XML);
     }
 
     public void testGargle() {
@@ -37,9 +41,7 @@ public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtur
     private void check(List<Tuple> tuples) {
         assertEquals(3, tuples.size());
         for (Tuple tuple : tuples) {
-            assertNotNull(tuple);
-            String xml = (String) tuple.value("XML");
-            String expected = files.readFileToString(XML);
+            String xml = (String) tuple.value(UNIT_KEY);
             assertEquals(expected, xml);
         }
     }
