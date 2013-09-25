@@ -13,7 +13,8 @@ import java.util.List;
 
 public class JdbcToHttpDemoTest extends DonkeyTestCase implements HasFixtures, Destroyable {
 
-    public static final String BASE = "data/expected/employee";
+    private static final String BASE = "data/expected/employee";
+    
     TargetHttpServer server;
     SourceDatabase database;
     TestTrebuchet trebuchet;
