@@ -4,7 +4,7 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.data.core.Tuple;
-import org.burroloco.donkey.error.gargle.GarglerExceptionHandler;
+import org.burroloco.donkey.exception.gargle.GarglerExceptionHandler;
 
 import java.util.List;
 

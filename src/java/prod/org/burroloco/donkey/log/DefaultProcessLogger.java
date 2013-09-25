@@ -17,8 +17,8 @@ public class DefaultProcessLogger implements ProcessLogger {
 
     public void logError(RuntimeException e) {
         Throwable cause = chuckie.realCause(e);
-        log.error("Process internal error: ", cause);
-        log.info("Process terminated with an error");
+        log.error("Process internal exception: ", cause);
+        log.info("Process terminated with an exception");
     }
 
 }

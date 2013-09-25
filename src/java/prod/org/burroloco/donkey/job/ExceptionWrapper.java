@@ -1,17 +1,17 @@
 package org.burroloco.donkey.job;
 
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.error.job.Puker;
+import org.burroloco.donkey.exception.job.JobExceptionHandler;
 
 public class ExceptionWrapper implements Job {
     Job delegate;
-    Puker puker;
+    JobExceptionHandler exceptions;
 
     public void go(Config config) {
         try {
             delegate.go(config);
         } catch (RuntimeException e) {
-            puker.error(config, e);
+            exceptions.error(config, e);
         }
     }
 }

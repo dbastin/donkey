@@ -1,7 +1,7 @@
-package org.burroloco.donkey.error.job;
+package org.burroloco.donkey.exception.job;
 
 import org.burroloco.config.core.Config;
 
-public interface Puker {
+public interface JobExceptionHandler {
     void error(Config config, RuntimeException exception);
 }

@@ -2,9 +2,9 @@ package org.burroloco.donkey.demo.watcher;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.error.job.Puker;
-import org.burroloco.donkey.error.job.ShiftyPuker;
-import org.burroloco.donkey.error.job.SwallowingPuker;
+import org.burroloco.donkey.exception.job.JobExceptionHandler;
+import org.burroloco.donkey.exception.job.ShiftyJobExceptionHandler;
+import org.burroloco.donkey.exception.job.SwallowingJobExceptionHandler;
 import org.burroloco.donkey.gargle.NoOpTupleGargler;
 import org.burroloco.donkey.gargle.TupleGargler;
 import org.burroloco.donkey.job.ConsumeTransformProduce;
@@ -28,7 +28,7 @@ public class DirectoryWatcherWirer implements Wirer {
     Dna dna;
 
     public void wire(Config config) {
-        dna.strand(Puker.class, ShiftyPuker.class, SwallowingPuker.class);
+        dna.strand(JobExceptionHandler.class, ShiftyJobExceptionHandler.class, SwallowingJobExceptionHandler.class);
         dna.strand(Job.class, Poller.class, DirectoryWatcher.class, ExceptionWrapper.class, ConsumeTransformProduce.class);
         wire.cls(CsvSlurper.class).to(Slurper.class);
         wire.cls(NoOpTupleGargler.class).to(TupleGargler.class);

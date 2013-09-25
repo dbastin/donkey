@@ -2,8 +2,8 @@ package org.burroloco.donkey.demo.transform;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.error.gargle.GarglerExceptionHandler;
-import org.burroloco.donkey.error.gargle.LoggingGarglerExceptionHandler;
+import org.burroloco.donkey.exception.gargle.GarglerExceptionHandler;
+import org.burroloco.donkey.exception.gargle.LoggingGarglerExceptionHandler;
 import org.burroloco.donkey.gargle.Mapper;
 import org.burroloco.donkey.gargle.PropertyFileMapper;
 import org.burroloco.donkey.gargle.TupleGargler;

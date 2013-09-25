@@ -1,4 +1,4 @@
-package org.burroloco.donkey.error.gargle;
+package org.burroloco.donkey.exception.gargle;
 
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import org.burroloco.donkey.data.core.Tuple;

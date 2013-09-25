@@ -1,29 +1,29 @@
-package org.burroloco.donkey.error.job;
+package org.burroloco.donkey.exception.gargle;
 
 import au.net.netstorm.boost.gunge.exception.ThrowableMaster;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.sniper.marker.OverlaysWeb;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import org.burroloco.config.core.Config;
+import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
-public class DefaultPukerCoverageTest extends DonkeyTestCase implements LazyFields, OverlaysWeb {
+public class DefaultBurperCoverageTest extends DonkeyTestCase implements LazyFields, OverlaysWeb {
+    //SIMIAN OFF
     ThrowableMaster chuckieMock;
     Throwable causeDummy;
     RuntimeException e;
-    Config configDummy;
-    Puker subject;
+    GarglerExceptionHandler subject;
     Nu nu;
+    //SIMIAN ON
 
     public void overlay() {
         wire.ref(chuckieMock).to(ThrowableMaster.class);
     }
 
-    //SIMIAN OFF
     public void test() {
         expect.manyCalls(chuckieMock, (Object) causeDummy, "realCause", e);
         expect.oneCall(chuckieMock, VOID, "rethrow", causeDummy);
-        subject.error(configDummy, e);
+        Tuple tuple = nu.nu(Tuple.class);
+        subject.handle(tuple, e);
     }
-    //SIMIAN ON
 }
