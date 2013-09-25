@@ -1,4 +1,4 @@
-package org.burroloco.donkey.error.transform;
+package org.burroloco.donkey.error.gargle;
 
 import org.burroloco.donkey.data.core.Tuple;
 

@@ -2,8 +2,8 @@ package org.burroloco.donkey.demo.transform;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.error.transform.GarglerExceptionHandler;
-import org.burroloco.donkey.error.transform.LoggingGarglerExceptionHandler;
+import org.burroloco.donkey.error.gargle.GarglerExceptionHandler;
+import org.burroloco.donkey.error.gargle.LoggingGarglerExceptionHandler;
 import org.burroloco.donkey.gargle.Mapper;
 import org.burroloco.donkey.gargle.PropertyFileMapper;
 import org.burroloco.donkey.gargle.TupleGargler;
@@ -18,7 +18,7 @@ import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
 public class TransformWirer implements Wirer {
-    private static final String FULLNAME_MAPPINGS = "config/transform/fullname-mappings.properties";
+    private static final String FULLNAME_MAPPINGS = "config/gargle/fullname-mappings.properties";
      //SIMIAN OFF
     Wire wire;
     Dna dna;

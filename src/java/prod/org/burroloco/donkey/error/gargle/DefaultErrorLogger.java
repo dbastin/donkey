@@ -1,4 +1,4 @@
-package org.burroloco.donkey.error.transform;
+package org.burroloco.donkey.error.gargle;
 
 import au.net.netstorm.boost.bullet.log.Log;
 import au.net.netstorm.boost.gunge.exception.ThrowableMaster;

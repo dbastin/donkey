@@ -9,7 +9,7 @@ public class TransformSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
-        return loader.load("config/transform/transform.properties");
+        return loader.load("config/gargle/gargle.properties");
     }
 
     public Class<? extends Wirer> wirer() {

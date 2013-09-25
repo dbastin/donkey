@@ -2,8 +2,8 @@ package org.burroloco.donkey.demo.jdbc2http;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.error.transform.GarglerExceptionHandler;
-import org.burroloco.donkey.error.transform.LoggingGarglerExceptionHandler;
+import org.burroloco.donkey.error.gargle.GarglerExceptionHandler;
+import org.burroloco.donkey.error.gargle.LoggingGarglerExceptionHandler;
 import org.burroloco.donkey.gargle.DataGargler;
 import org.burroloco.donkey.gargle.DefaultXmlGargler;
 import org.burroloco.donkey.job.ConsumeTransformProduce;
