@@ -2,30 +2,34 @@ package org.burroloco.donkey.gargle;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import edge.org.apache.commons.io.FileUtilsStatic;
+import org.burroloco.config.core.Config;
+import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.data.core.DefaultData;
 import org.burroloco.donkey.data.core.DefaultTuple;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
+import java.io.File;
 import java.util.List;
 
 public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtures {
 
-    //    private static final File XML = new File("data/expected/employee.xml");
-//    private String expected;
+    private static final File XML = new File("data/expected/employee.xml");
+    private Config config;
     private Data data;
 
     FileUtilsStatic files;
+    ConfigLoader loader;
     XmlGargler subject;
 
     public void fixtures() {
-//        expected = files.readFileToString(XML);
         data = data();
+        config = loader.load("config/jdbc2http/jdbc2http.properties");
     }
 
     public void testGargle() {
-        Data actual = subject.gargle(null, data);
+        Data actual = subject.gargle(config, data);
         List<Tuple> tuples = actual.tuples();
         check(tuples);
     }
@@ -34,6 +38,9 @@ public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtur
         assertEquals(3, tuples.size());
         for (Tuple tuple : tuples) {
             assertNotNull(tuple);
+            String xml = (String) tuple.value("XML");
+            String expected = files.readFileToString(XML);
+            assertEquals(expected, xml);
         }
     }
 

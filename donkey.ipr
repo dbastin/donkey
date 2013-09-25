@@ -261,6 +261,11 @@
         <w>tuple</w>
       </words>
     </dictionary>
+    <dictionary name="developers">
+      <words>
+        <w>tuples</w>
+      </words>
+    </dictionary>
   </component>
   <component name="ProjectModuleManager">
     <modules>
