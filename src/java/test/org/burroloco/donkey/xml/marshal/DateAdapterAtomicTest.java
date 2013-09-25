@@ -4,6 +4,8 @@ import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 import java.util.Date;
 
+import static org.burroloco.butcher.util.date.StringDater.date;
+
 public class DateAdapterAtomicTest extends DonkeyTestCase {
 
     // OK IllegalRegexp {
@@ -12,7 +14,11 @@ public class DateAdapterAtomicTest extends DonkeyTestCase {
 
     public void testUnmarshal() throws Exception {
         Date date = subject.unmarshal("2001-01-01");
-        long time = date.getTime();
-        assertEquals(978267600000L, time);
+        checkDate(date);
+    }
+
+    private void checkDate(Date actual) {
+        Date expected = date("2001-01-01");
+        assertEquals(expected, actual);
     }
 }
