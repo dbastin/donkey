@@ -7,7 +7,9 @@ import org.burroloco.donkey.data.core.Tuple;
 import java.lang.reflect.Method;
 import java.util.Set;
 
-import static org.apache.commons.lang.WordUtils.capitalize;
+import static org.apache.commons.beanutils.MethodUtils.getMatchingAccessibleMethod;
+import static org.apache.commons.lang.WordUtils.capitalizeFully;
+import static org.burroloco.donkey.data.core.Null.NULL;
 
 public class DefaultHydrator implements Hydrator {
 
@@ -23,14 +25,17 @@ public class DefaultHydrator implements Hydrator {
 
     private <T> void setAttributes(T ref, Tuple tuple, Class<T> cls, Set<String> attributes) {
         for (String attribute : attributes) {
-            Method method = setterMethod(cls, attribute);
             Object value = tuple.value(attribute);
-            methoder.invoke(method, ref, value);
+            if (value == NULL) continue;
+            Class type = value.getClass();
+            Method setter = setterMethod(cls, attribute, type);
+            methoder.invoke(setter, ref, value);
         }
     }
 
-    private <T> Method setterMethod(Class<T> cls, String suffix) {
-        String name = "set" + capitalize(suffix);
-        return classer.getMethod(cls, name, String.class);
+    private <T> Method setterMethod(Class<T> cls, String suffix, Class type) {
+        String name = "set" + capitalizeFully(suffix);
+        Class[] types = {type};
+        return getMatchingAccessibleMethod(cls, name, types);
     }
 }

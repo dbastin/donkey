@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee>
+  <id>1</id>
+  <name>Fred</name>
+  <salary>1000000</salary>
+  <start>2001-01-01</start>
+</employee>
+<employee>
+<id>2</id>
+<name>Wilma</name>
+<salary>2000000</salary>
+<start>2002-01-01T00:00:00+11:00</start>
+</employee>
+<employee>
+<id>3</id>
+<name>Barney</name>
+<salary>3000000</salary>
+<start>2003-01-01T00:00:00+11:00</start>
+</employee>
+<employee>
+<id>4</id>
+<name>Betty</name>
+<salary>4000000</salary>
+</employee>
+<employee>
+<id>5</id>
+<name>Dino</name>
+<salary>0</salary>
+</employee>

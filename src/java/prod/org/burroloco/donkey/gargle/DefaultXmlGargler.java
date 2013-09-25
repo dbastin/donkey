@@ -9,7 +9,7 @@ import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.data.core.DefaultData;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.hydrator.Hydrator;
-import org.burroloco.donkey.xml.marshall.XmlMarshaller;
+import org.burroloco.donkey.xml.marshal.XmlMarshaller;
 
 import java.util.List;
 
@@ -25,16 +25,13 @@ public class DefaultXmlGargler implements XmlGargler{
         Data result = new DefaultData();
         List<Tuple> tuples = in.tuples();
         Class cls = hydratorClass(config);
-        for (Tuple t : tuples) {
-            Tuple out = gargle(t, cls);
-            result.add(out);
-        }
+        for (Tuple t : tuples) result.add(gargle(t, cls));
         return result;
     }
 
-    private Tuple gargle(Tuple in, Class thingyClass) {
-        Object ref = hydrator.hydrate(in, thingyClass);
-        String xml = marshaller.marshall(ref);
+    private Tuple gargle(Tuple in, Class cls) {
+        Object ref = hydrator.hydrate(in, cls);
+        String xml = marshaller.marshal(ref);
         return converter.convert(xml);
     }
 

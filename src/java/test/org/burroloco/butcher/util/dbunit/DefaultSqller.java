@@ -1,11 +1,12 @@
 package org.burroloco.butcher.util.dbunit;
 
 import edge.org.dbunit.database.IDatabaseConnection;
-import static junit.framework.Assert.fail;
 
 import java.io.File;
 import java.util.List;
 import java.util.regex.Pattern;
+
+import static junit.framework.Assert.fail;
 
 public class DefaultSqller implements Sqller {
     DbScriptRunner dbScriptRunner;

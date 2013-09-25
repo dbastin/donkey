@@ -1,4 +1,4 @@
-package org.burroloco.donkey.xml.marshall;
+package org.burroloco.donkey.xml.marshal;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.java.io.ByteArrayOutputStream;
@@ -15,7 +15,7 @@ public class DefaultXmlMarshaller implements XmlMarshaller {
     JAXBContextStatic contexts;
     Nu nu;
 
-    public String marshall(Object o) {
+    public String marshal(Object o) {
         Marshaller m = createMarshaller(o);
         ByteArrayOutputStream s = nu.nu(ByteArrayOutputStream.class);
         m.marshal(o, s);

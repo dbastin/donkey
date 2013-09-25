@@ -1,9 +1,9 @@
 package org.burroloco.donkey.demo.http2csv;
 
-import org.burroloco.donkey.trebuchet.Specification;
-import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
+import org.burroloco.donkey.trebuchet.Specification;
+import org.burroloco.donkey.trebuchet.Wirer;
 
 public class HttpToCsvSpecification implements Specification {
     ConfigLoader loader;

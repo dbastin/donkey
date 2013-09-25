@@ -3,11 +3,12 @@ package org.burroloco.butcher.fixture.checker.file;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import edge.org.apache.commons.io.FileUtilsStatic;
 import org.burroloco.butcher.fixture.checker.type.Occurrence;
-import static org.burroloco.butcher.fixture.checker.type.Occurrence.ONCE;
 import org.burroloco.butcher.util.poll.Poller;
 import org.burroloco.butcher.util.poll.PollingBlock;
 
 import java.io.File;
+
+import static org.burroloco.butcher.fixture.checker.type.Occurrence.ONCE;
 
 public class DefaultPollingFileChecker implements PollingFileChecker {
     private static final int TIMEOUT = 20;

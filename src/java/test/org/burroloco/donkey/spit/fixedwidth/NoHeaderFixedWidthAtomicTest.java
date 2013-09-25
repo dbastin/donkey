@@ -1,13 +1,14 @@
 package org.burroloco.donkey.spit.fixedwidth;
 
-import static au.net.netstorm.boost.gunge.separator.Separator.LINE;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
-import org.burroloco.donkey.data.core.DataGenerator;
 import org.burroloco.donkey.data.core.Data;
+import org.burroloco.donkey.data.core.DataGenerator;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+
+import static au.net.netstorm.boost.gunge.separator.Separator.LINE;
 
 public class NoHeaderFixedWidthAtomicTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private static final String EXPECTED = "1                        chocolate                meep                     " + LINE;

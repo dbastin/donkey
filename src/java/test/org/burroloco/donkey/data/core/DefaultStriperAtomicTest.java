@@ -2,12 +2,13 @@ package org.burroloco.donkey.data.core;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import static org.burroloco.donkey.data.core.DataGenerator.KEYS;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import static org.burroloco.donkey.data.core.DataGenerator.KEYS;
 
 public class DefaultStriperAtomicTest extends DonkeyTestCase implements HasFixtures {
     private static final int TUPLES = 8;

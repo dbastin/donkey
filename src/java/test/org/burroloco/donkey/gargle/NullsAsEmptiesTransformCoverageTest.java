@@ -6,7 +6,8 @@ import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
-import org.burroloco.donkey.slurp.database.DatabaseNull;
+
+import static org.burroloco.donkey.data.core.Null.NULL;
 
 public class NullsAsEmptiesTransformCoverageTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String OTHER_FIELD = "OtherField";
@@ -28,7 +29,7 @@ public class NullsAsEmptiesTransformCoverageTest extends DonkeyTestCase implemen
 
     private Tuple slice() {
         Tuple in = nu.nu(Tuple.class);
-        in.add(NULL_FIELD, new DatabaseNull());
+        in.add(NULL_FIELD, NULL);
         in.add(OTHER_FIELD, value);
         return in;
     }

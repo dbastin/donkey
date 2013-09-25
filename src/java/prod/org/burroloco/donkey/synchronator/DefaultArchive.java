@@ -1,7 +1,7 @@
 package org.burroloco.donkey.synchronator;
 
-import au.net.netstorm.boost.spider.api.runtime.Nu;
 import au.net.netstorm.boost.bullet.incredibles.core.Weaken;
+import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.config.InputFileName;
 import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.slurp.csv.CsvSlurperEngine;

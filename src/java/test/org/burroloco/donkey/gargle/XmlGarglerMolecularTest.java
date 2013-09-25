@@ -2,11 +2,11 @@ package org.burroloco.donkey.gargle;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import edge.org.apache.commons.io.FileUtilsStatic;
+import org.burroloco.butcher.fixture.harness.Harness;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.data.core.DefaultData;
-import org.burroloco.donkey.data.core.DefaultTuple;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
@@ -17,7 +17,7 @@ import static org.burroloco.donkey.data.core.Tuple.UNIT_KEY;
 
 public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtures {
 
-    private static final File XML = new File("data/expected/employee.xml");
+    private static final File XML = new File("data/expected/employee-1.xml");
     private String expected;
     private Config config;
     private Data data;
@@ -25,6 +25,7 @@ public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtur
     FileUtilsStatic files;
     ConfigLoader loader;
     XmlGargler subject;
+    Harness harness;
 
     public void fixtures() {
         data = data();
@@ -53,14 +54,7 @@ public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtur
     }
 
     private void add(Data data) {
-        Tuple t = tuple();
+        Tuple t = harness.tuple();
         data.add(t);
-    }
-
-    private Tuple tuple() {
-        Tuple t = new DefaultTuple();
-        t.add("name", "Matt");
-        t.add("email", "matt@navigo.com.au");
-        return t;
     }
 }

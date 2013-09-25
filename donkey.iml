@@ -12,22 +12,21 @@
     <orderEntry type="module-library">
       <library name="runtime">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/build/lib/runtime/commons-io" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/log4j" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/boost" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/slf4j" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/dom4j" />
-          <root url="file://$MODULE_DIR$/build/lib/runtime/commons-lang" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/opencsv" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/http" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/commons" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
           <root url="jar://$MODULE_DIR$/build/lib/runtime/boost/boost.jar!/" />
         </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/boost" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons-io" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons-lang" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/dom4j" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/http" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/log4j" recursive="false" />

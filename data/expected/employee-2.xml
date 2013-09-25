@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee>
+    <id>2</id>
+    <name>Wilma</name>
+    <salary>2000000</salary>
+    <start>2002-01-01</start>
+</employee>

@@ -1,6 +1,5 @@
 package org.burroloco.butcher.util.dir;
 
-import static org.apache.commons.io.FileUtils.listFiles;
 import org.apache.commons.io.filefilter.FileFilterUtils;
 import org.apache.commons.io.filefilter.IOFileFilter;
 import org.apache.commons.io.filefilter.SuffixFileFilter;
@@ -13,6 +12,8 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
+import static org.apache.commons.io.FileUtils.listFiles;
 
 public class DefaultDirectoryScanner implements DirectoryScanner {
 

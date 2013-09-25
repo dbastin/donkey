@@ -2,8 +2,8 @@ package org.burroloco.donkey.demo.jdbc2jdbc;
 
 import au.net.netstorm.boost.sniper.marker.Destroyable;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
-import org.burroloco.butcher.fixture.database.SourceDatabase;
 import org.burroloco.butcher.fixture.database.OutputDatabase;
+import org.burroloco.butcher.fixture.database.SourceDatabase;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import org.burroloco.donkey.trebuchet.Trebuchet;
 

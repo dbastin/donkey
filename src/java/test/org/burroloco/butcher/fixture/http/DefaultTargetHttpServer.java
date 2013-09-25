@@ -9,10 +9,14 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import static javax.servlet.http.HttpServletResponse.SC_OK;
 
 public class DefaultTargetHttpServer implements TargetHttpServer {
 
-    private String payload;
+    private List<String> requests = new ArrayList<String>();
     private Server s;
 
     IOUtilsStatic io;
@@ -24,8 +28,8 @@ public class DefaultTargetHttpServer implements TargetHttpServer {
         s.start();
     }
 
-    public String payload() {
-        return payload;
+    public List<String> requests() {
+        return requests;
     }
 
     public void stop() {
@@ -40,7 +44,9 @@ public class DefaultTargetHttpServer implements TargetHttpServer {
                            int i)
                 throws IOException, ServletException {
             byte[] data = io.toByteArray(req.getInputStream());
-            payload = new String(data, "UTF-8");
+            String payload = new String(data, "UTF-8");
+            requests.add(payload);
+            resp.setStatus(SC_OK);
         }
         // }
     }

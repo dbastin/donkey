@@ -3,9 +3,9 @@ package org.burroloco.donkey.slurp.http;
 import edge.javax.servlet.http.HttpServletRequest;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.core.Data;
+import org.burroloco.donkey.gargle.DataGargler;
 import org.burroloco.donkey.log.ProcessLogger;
 import org.burroloco.donkey.spit.core.Spitter;
-import org.burroloco.donkey.gargle.DataGargler;
 
 public class DefaultHttpRequestHandler implements HttpRequestHandler {
     private final Config config;

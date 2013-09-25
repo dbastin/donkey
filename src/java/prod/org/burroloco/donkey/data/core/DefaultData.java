@@ -5,9 +5,10 @@ import org.burroloco.donkey.data.error.ColumnMismatchException;
 import org.burroloco.donkey.data.error.NoDataException;
 
 import java.util.ArrayList;
-import static java.util.Collections.unmodifiableList;
 import java.util.List;
 import java.util.Set;
+
+import static java.util.Collections.unmodifiableList;
 
 public class DefaultData extends Primordial implements Data {
     private List<Tuple> tuples = new ArrayList<Tuple>();

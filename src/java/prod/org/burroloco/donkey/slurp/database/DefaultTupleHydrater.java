@@ -5,6 +5,8 @@ import edge.java.sql.ResultSet;
 import edge.java.sql.ResultSetMetaData;
 import org.burroloco.donkey.data.core.Tuple;
 
+import static org.burroloco.donkey.data.core.Null.NULL;
+
 public class DefaultTupleHydrater implements TupleHydrater {
     SliceValueHydrator valueHydrator;
     Nu nu;
@@ -34,6 +36,6 @@ public class DefaultTupleHydrater implements TupleHydrater {
     }
 
     private Object handleNull(Object value) {
-        return value == null ? new DatabaseNull() : value;
+        return value == null ? NULL : value;
     }
 }

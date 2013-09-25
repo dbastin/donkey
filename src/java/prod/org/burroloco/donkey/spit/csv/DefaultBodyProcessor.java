@@ -3,9 +3,9 @@ package org.burroloco.donkey.spit.csv;
 import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.data.core.Tuple;
 
-import static org.burroloco.donkey.util.FileConstants.WIN_EOL;
-
 import java.util.List;
+
+import static org.burroloco.donkey.util.FileConstants.WIN_EOL;
 
 public class DefaultBodyProcessor implements BodyProcessor{
     SliceProcessor sliceProcessor;

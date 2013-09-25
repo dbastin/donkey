@@ -2,13 +2,13 @@ package org.burroloco.donkey.demo.http2csv;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
+import org.burroloco.donkey.gargle.NoOpTupleGargler;
+import org.burroloco.donkey.gargle.TupleGargler;
 import org.burroloco.donkey.job.ExceptionWrapper;
 import org.burroloco.donkey.job.HttpListener;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.spit.core.Spitter;
 import org.burroloco.donkey.spit.csv.CsvSpitter;
-import org.burroloco.donkey.gargle.NoOpTupleGargler;
-import org.burroloco.donkey.gargle.TupleGargler;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 

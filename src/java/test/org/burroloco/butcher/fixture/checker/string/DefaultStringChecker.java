@@ -2,6 +2,7 @@ package org.burroloco.butcher.fixture.checker.string;
 
 import org.burroloco.butcher.exception.MissingExpectationException;
 import org.burroloco.butcher.fixture.checker.type.Occurrence;
+
 import static org.burroloco.butcher.fixture.checker.type.Occurrence.MANY;
 import static org.burroloco.butcher.fixture.checker.type.Occurrence.ONCE;
 

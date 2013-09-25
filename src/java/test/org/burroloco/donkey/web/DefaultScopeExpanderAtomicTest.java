@@ -1,12 +1,13 @@
 package org.burroloco.donkey.web;
 
-import au.com.scope.test.included.InScope;
 import au.com.scope.test.excluded.OutOfScope;
+import au.com.scope.test.included.InScope;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import org.burroloco.butcher.fixture.checker.file.FileChecker;
 import org.burroloco.butcher.util.file.FileCleaner;
-import static org.burroloco.donkey.glue.constants.DonkeyTestConstants.LOG;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+
+import static org.burroloco.donkey.glue.constants.DonkeyTestConstants.LOG;
 
 public class DefaultScopeExpanderAtomicTest extends DonkeyTestCase implements HasFixtures {
     ScopeExpander subject;

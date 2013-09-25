@@ -2,9 +2,9 @@ package org.burroloco.donkey.spit.csv;
 
 import org.burroloco.donkey.data.core.Data;
 
-import static org.burroloco.donkey.util.FileConstants.WIN_EOL;
-
 import java.util.Set;
+
+import static org.burroloco.donkey.util.FileConstants.WIN_EOL;
 
 public class DefaultHeaderProcessor implements HeaderProcessor {
     SliceProcessor sliceProcessor;

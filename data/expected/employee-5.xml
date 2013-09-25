@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <employee>
-    <email>matt@navigo.com.au</email>
-    <name>Matt</name>
+    <id>5</id>
+    <name>Dino</name>
+    <salary>0</salary>
 </employee>

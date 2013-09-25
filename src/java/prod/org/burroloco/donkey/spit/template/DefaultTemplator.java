@@ -1,7 +1,7 @@
 package org.burroloco.donkey.spit.template;
 
-import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.data.core.Slicer;
+import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.util.string.TokenUtil;
 
 import java.util.Map;

@@ -1,7 +1,9 @@
 package org.burroloco.butcher.fixture.http;
 
+import java.util.List;
+
 public interface TargetHttpServer {
-    String payload();
+    List<String> requests();
 
     void start();
 

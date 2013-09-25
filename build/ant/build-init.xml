@@ -104,7 +104,7 @@
     </path>
 
     <path id="commons.classpath">
-        <fileset dir="build/lib/runtime/commons-lang">
+        <fileset dir="build/lib/runtime/commons">
             <patternset refid="jar.pattern"/>
         </fileset>
     </path>

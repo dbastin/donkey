@@ -1,8 +1,8 @@
 package org.burroloco.donkey.gargle;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
+import org.burroloco.donkey.data.core.Null;
 import org.burroloco.donkey.data.core.Tuple;
-import org.burroloco.donkey.slurp.database.DatabaseNull;
 
 public class NullsAsEmptiesTupleGargler implements TupleGargler {
     TupleGargler delegate;
@@ -19,6 +19,6 @@ public class NullsAsEmptiesTupleGargler implements TupleGargler {
     }
 
     private Object handleNull(Object obj) {
-        return (obj instanceof DatabaseNull) ? TransformConstants.EMPTY_FIELD : obj;
+        return (obj instanceof Null) ? TransformConstants.EMPTY_FIELD : obj;
     }
 }

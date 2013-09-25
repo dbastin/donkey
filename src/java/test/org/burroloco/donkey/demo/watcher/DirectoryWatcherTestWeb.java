@@ -3,9 +3,9 @@ package org.burroloco.donkey.demo.watcher;
 import au.net.netstorm.boost.gunge.lifecycle.Stop;
 import au.net.netstorm.boost.spider.api.config.web.Web;
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
-import org.burroloco.donkey.slurp.watcher.AsyncJob;
 import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.job.Poller;
+import org.burroloco.donkey.slurp.watcher.AsyncJob;
 
 public class DirectoryWatcherTestWeb implements Web {
     Wire wire;

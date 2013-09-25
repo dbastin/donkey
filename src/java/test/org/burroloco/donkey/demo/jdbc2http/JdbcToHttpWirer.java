@@ -4,15 +4,15 @@ import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.error.transform.GarglerExceptionHandler;
 import org.burroloco.donkey.error.transform.LoggingGarglerExceptionHandler;
-import org.burroloco.donkey.slurp.core.Slurper;
-import org.burroloco.donkey.slurp.database.DatabaseSlurper;
+import org.burroloco.donkey.gargle.DataGargler;
+import org.burroloco.donkey.gargle.DefaultXmlGargler;
 import org.burroloco.donkey.job.ConsumeTransformProduce;
 import org.burroloco.donkey.job.ExceptionWrapper;
 import org.burroloco.donkey.job.Job;
+import org.burroloco.donkey.slurp.core.Slurper;
+import org.burroloco.donkey.slurp.database.DatabaseSlurper;
 import org.burroloco.donkey.spit.core.Spitter;
 import org.burroloco.donkey.spit.http.HttpSpitter;
-import org.burroloco.donkey.gargle.NoOpTupleGargler;
-import org.burroloco.donkey.gargle.TupleGargler;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
@@ -24,9 +24,9 @@ public class JdbcToHttpWirer implements Wirer {
 
     public void wire(Config config) {
         job();
-        consumer();
-        transformer();
-        producer();
+        slurper();
+        gargler();
+        spitter();
     }
 
     private void job() {
@@ -34,15 +34,15 @@ public class JdbcToHttpWirer implements Wirer {
         dna.strand(GarglerExceptionHandler.class, LoggingGarglerExceptionHandler.class);
     }
 
-    private void consumer() {
+    private void slurper() {
         wire.cls(DatabaseSlurper.class).to(Slurper.class);
     }
 
-    private void transformer() {
-        wire.cls(NoOpTupleGargler.class).to(TupleGargler.class);
+    private void gargler() {
+        wire.cls(DefaultXmlGargler.class).to(DataGargler.class);
     }
 
-    private void producer() {
+    private void spitter() {
         wire.cls(HttpSpitter.class).to(Spitter.class);
     }
 }

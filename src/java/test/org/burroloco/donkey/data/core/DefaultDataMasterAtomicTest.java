@@ -3,10 +3,9 @@ package org.burroloco.donkey.data.core;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
+import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 import static org.burroloco.donkey.data.core.DataGenerator.KEYS;
-
-import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class DefaultDataMasterAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     DataMaster subject;
