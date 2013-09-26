@@ -43,11 +43,15 @@ public class DefaultTargetHttpServer implements TargetHttpServer {
                            HttpServletResponse resp,
                            int i)
                 throws IOException, ServletException {
-            byte[] data = io.toByteArray(req.getInputStream());
-            String payload = new String(data, "UTF-8");
+            String payload = getPayload(req);
             requests.add(payload);
             resp.setStatus(SC_OK);
         }
         // }
+
+        private String getPayload(HttpServletRequest req) throws IOException {
+            byte[] data = io.toByteArray(req.getInputStream());
+            return new String(data, "UTF-8");
+        }
     }
 }
