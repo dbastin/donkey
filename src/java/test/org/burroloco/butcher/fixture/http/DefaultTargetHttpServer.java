@@ -24,7 +24,7 @@ public class DefaultTargetHttpServer implements TargetHttpServer {
     Nu nu;
 
     public void start() {
-        s = nu.nu(Server.class, 8090);
+        s = nu.nu(Server.class, 8030);
         s.setHandler(new StringHandler());
         s.start();
     }

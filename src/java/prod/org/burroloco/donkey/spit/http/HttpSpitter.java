@@ -36,6 +36,7 @@ public class HttpSpitter implements Spitter {
         HttpResponse response = client.execute(request);
         HttpEntity entity = response.getEntity();
         entity.consumeContent();
+        // TODO - Close the response?
     }
 
     private HttpPost post(Tuple tuple, String url) {
