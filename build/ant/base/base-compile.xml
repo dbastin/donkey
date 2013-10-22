@@ -11,7 +11,6 @@
         <sequential>
             <mkdir dir="@{destdir}"/>
             <property name="temp" refid="@{classpathref}"/>
-            <echo message="classpath: ${temp}"/>
             <javac source="@{version}" target="@{version}" srcdir="@{srcdir}" destdir="@{destdir}"
                    classpathref="@{classpathref}" excludes="@{excludes}" debug="true" includeantruntime="false"/>
         </sequential>

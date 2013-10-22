@@ -1,7 +1,7 @@
-package edge.org.mortbay.jetty;
+package edge.org.eclipse.jetty.server;
 
 import au.net.netstorm.boost.bullet.scalpel.core.Edge;
-import org.mortbay.jetty.Handler;
+import org.eclipse.jetty.server.Handler;
 
 public interface Server extends Edge {
     void setHandler(Handler handler);

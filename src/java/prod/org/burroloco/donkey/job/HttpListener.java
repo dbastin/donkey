@@ -3,12 +3,12 @@ package org.burroloco.donkey.job;
 import au.net.netstorm.boost.gunge.lifecycle.Stop;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-import edge.org.mortbay.jetty.Server;
+import edge.org.eclipse.jetty.server.Server;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.HttpPort;
 import org.burroloco.donkey.slurp.http.EdgeHttpRequestHandler;
-import org.mortbay.jetty.Handler;
+import org.eclipse.jetty.server.Handler;
 
 public class HttpListener implements Job, Stop {
     private Server server;

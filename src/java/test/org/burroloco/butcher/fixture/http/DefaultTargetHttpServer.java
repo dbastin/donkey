@@ -2,8 +2,9 @@ package org.burroloco.butcher.fixture.http;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.org.apache.commons.io.IOUtilsStatic;
-import edge.org.mortbay.jetty.Server;
-import org.mortbay.jetty.handler.AbstractHandler;
+import edge.org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.server.Request;
+import org.eclipse.jetty.server.handler.AbstractHandler;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -38,10 +39,10 @@ public class DefaultTargetHttpServer implements TargetHttpServer {
 
     private class StringHandler extends AbstractHandler {
         // OK ThrowsCount {
-        public void handle(String path,
+        public void handle(String s,
+                           Request r,
                            HttpServletRequest req,
-                           HttpServletResponse resp,
-                           int i)
+                           HttpServletResponse resp)
                 throws IOException, ServletException {
             String payload = getPayload(req);
             requests.add(payload);
