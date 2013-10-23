@@ -20,7 +20,7 @@ import java.util.Collection;
 
 import static org.apache.commons.io.filefilter.CanReadFileFilter.CAN_READ;
 import static org.apache.commons.io.filefilter.FileFileFilter.FILE;
-import static org.burroloco.butcher.fixture.checker.log.LogChecker.*;
+import static org.burroloco.butcher.fixture.checker.log.LogChecker.checkLogContains;
 
 public class HttpsSpitterErrorHandlingMolecularTest extends DonkeyTestCase implements HasFixtures, OverlaysWeb, Destroyable {
 
