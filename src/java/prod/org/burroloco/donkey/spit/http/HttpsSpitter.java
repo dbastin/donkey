@@ -38,7 +38,7 @@ public class HttpsSpitter implements Spitter {
         return clients.nu(l, p);
     }
 
-    // TODO - Error handling.
+    // TODO - Error handling. Handle non-200 return codes.
     private void spit(HttpClient client, Tuple t, String url) {
         HttpPost request = post(t, url);
         CloseableHttpResponse response = client.execute(request);
