@@ -4,7 +4,7 @@ import au.net.netstorm.boost.sniper.marker.LazyFields;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
-public class DefaultBurperAtomicTest extends DonkeyTestCase implements LazyFields {
+public class GarglerExceptionHandlerAtomicTest extends DonkeyTestCase implements LazyFields {
     GarglerExceptionHandler subject;
     Tuple tuple;
 

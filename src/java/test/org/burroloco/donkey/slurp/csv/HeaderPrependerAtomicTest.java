@@ -5,7 +5,7 @@ import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DefaultHeaderPrependerAtomicTest extends DonkeyTestCase {
+public class HeaderPrependerAtomicTest extends DonkeyTestCase {
     private static final Object[] EXPECTED_HEADER = new Object[]{"0", "1", "2"};
     private static final Object[] FIRST_ROW = new String[]{"a", "b", "c"};
     private List rows = new ArrayList();

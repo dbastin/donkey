@@ -7,12 +7,12 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
-public class DefaultBurperCoverageTest extends DonkeyTestCase implements LazyFields, OverlaysWeb {
+public class GarglerExceptionHandlerCoverageTest extends DonkeyTestCase implements LazyFields, OverlaysWeb {
     //SIMIAN OFF
+    GarglerExceptionHandler subject;
     ThrowableMaster chuckieMock;
     Throwable causeDummy;
     RuntimeException e;
-    GarglerExceptionHandler subject;
     Nu nu;
     //SIMIAN ON
 

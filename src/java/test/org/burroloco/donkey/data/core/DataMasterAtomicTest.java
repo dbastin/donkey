@@ -7,14 +7,14 @@ import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 import static org.burroloco.donkey.data.core.DataGenerator.KEYS;
 
-public class DefaultDataMasterAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
+public class DataMasterAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
+    DataGenerator generator;
     DataMaster subject;
     Data leftUnique;
     Data leftChanges;
     Data rightChanges;
     Data rightUnique;
     String whatever;
-    DataGenerator generator;
     Data none;
     Data both;
     Data left;

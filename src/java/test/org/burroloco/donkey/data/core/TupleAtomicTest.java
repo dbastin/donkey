@@ -6,7 +6,7 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.error.MissingValueException;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
-public class DefaultTupleAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
+public class TupleAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String DUPLICATE_KEY = "a";
     private static final String EXPECTED_MESSAGE = "Value for '" + DUPLICATE_KEY + "' already set";
     Tuple subject;

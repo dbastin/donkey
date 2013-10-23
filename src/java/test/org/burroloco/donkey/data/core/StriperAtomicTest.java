@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.burroloco.donkey.data.core.DataGenerator.KEYS;
 
-public class DefaultStriperAtomicTest extends DonkeyTestCase implements HasFixtures {
+public class StriperAtomicTest extends DonkeyTestCase implements HasFixtures {
     private static final int TUPLES = 8;
     private Data data;
 

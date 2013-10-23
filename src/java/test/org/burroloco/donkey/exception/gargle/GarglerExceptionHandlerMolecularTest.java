@@ -13,7 +13,7 @@ import java.io.File;
 
 import static org.burroloco.butcher.fixture.checker.type.Occurrence.ONCE;
 
-public class SwallowingBurperMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures {
+public class GarglerExceptionHandlerMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private static final File REPORT = new File("gen/demo/log/transform-errors.log");
     private GarglerExceptionHandler subject;
     FileChecker fileChecker;

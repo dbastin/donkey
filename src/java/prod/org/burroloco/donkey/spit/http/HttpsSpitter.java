@@ -43,6 +43,7 @@ public class HttpsSpitter implements Spitter {
         HttpPost request = post(t, url);
         CloseableHttpResponse response = client.execute(request);
         try {
+            // TODO - Check the response code.
             HttpEntity entity = response.getEntity();
             entity.consumeContent();
         } finally {

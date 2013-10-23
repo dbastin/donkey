@@ -3,7 +3,6 @@ package org.burroloco.donkey.slurp.watcher;
 import au.net.netstorm.boost.gunge.collection.DefaultStrictMap;
 import au.net.netstorm.boost.gunge.collection.StrictMap;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
-import au.net.netstorm.boost.spider.api.builder.Spinneret;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
@@ -17,7 +16,6 @@ import org.burroloco.donkey.trebuchet.Wirer;
 public class DirectoryWatcherFailureMolecularTest extends DonkeyTestCase implements HasFixtures {
     private static final String DODGY = "foo";
     private Config config;
-    Spinneret spinneret;
     Sling subject;
     Impl impl;
     Nu nu;
