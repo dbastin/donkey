@@ -16,7 +16,6 @@ import static org.burroloco.butcher.fixture.checker.type.Occurrence.ONCE;
 
 public class ExceptionHandlerMolecularTest extends DonkeyTestCase implements HasFixtures, DonkeyTestConstants, LazyFields {
     private static final String JOB_MSG = "Something terrible happened to the job.";
-    private Job job;
 
     FileChecker fileChecker;
     FileCleaner fileCleaner;
@@ -30,7 +29,7 @@ public class ExceptionHandlerMolecularTest extends DonkeyTestCase implements Has
     }
 
     public void testDefaultBehaviour() {
-        job = nu.nu(Job.class);
+        Job job = nu.nu(Job.class);
         try {
             job.go(configDummy);
             fail("Expected the job to fail");

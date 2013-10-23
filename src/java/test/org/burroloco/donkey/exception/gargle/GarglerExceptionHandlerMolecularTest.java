@@ -16,6 +16,7 @@ import static org.burroloco.butcher.fixture.checker.type.Occurrence.ONCE;
 public class GarglerExceptionHandlerMolecularTest extends DonkeyTestCase implements LazyFields, HasFixtures {
     private static final File REPORT = new File("gen/demo/log/transform-errors.log");
     private GarglerExceptionHandler subject;
+
     FileChecker fileChecker;
     FileCleaner fileCleaner;
     Tuple tuple;

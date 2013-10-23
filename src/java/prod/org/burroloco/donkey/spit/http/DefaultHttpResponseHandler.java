@@ -6,6 +6,7 @@ import edge.org.apache.http.HttpResponse;
 import org.apache.http.StatusLine;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.config.ErrorDirName;
+import org.burroloco.donkey.config.HttpsUrl;
 import org.burroloco.donkey.data.core.Tuple;
 
 import static javax.servlet.http.HttpServletResponse.SC_OK;
@@ -29,7 +30,8 @@ public class DefaultHttpResponseHandler implements HttpResponseHandler {
 
     private void handleError(Tuple t, Config c, int status) {
         ErrorDirName dir = c.get(ErrorDirName.class);
-        errors.handle(t, status, dir);
+        HttpsUrl url = c.get(HttpsUrl.class);
+        errors.handle(t, dir, url, status);
     }
 
     private void consume(HttpResponse response) {

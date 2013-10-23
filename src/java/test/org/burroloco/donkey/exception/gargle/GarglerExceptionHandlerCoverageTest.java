@@ -21,7 +21,7 @@ public class GarglerExceptionHandlerCoverageTest extends DonkeyTestCase implemen
     }
 
     public void test() {
-        expect.manyCalls(chuckieMock, (Object) causeDummy, "realCause", e);
+        expect.manyCalls(chuckieMock, causeDummy, "realCause", e);
         expect.oneCall(chuckieMock, VOID, "rethrow", causeDummy);
         Tuple tuple = nu.nu(Tuple.class);
         subject.handle(tuple, e);
