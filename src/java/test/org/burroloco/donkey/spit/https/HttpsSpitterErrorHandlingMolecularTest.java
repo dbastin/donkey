@@ -20,7 +20,7 @@ import java.util.Collection;
 import static org.apache.commons.io.filefilter.CanReadFileFilter.CAN_READ;
 import static org.apache.commons.io.filefilter.FileFileFilter.FILE;
 
-public class HttpsSpitterErrorHandlingTest extends DonkeyTestCase implements HasFixtures, OverlaysWeb, Destroyable {
+public class HttpsSpitterErrorHandlingMolecularTest extends DonkeyTestCase implements HasFixtures, OverlaysWeb, Destroyable {
 
     private static final File EXPECTED = new File("./data/expected/employee-1.xml");
     private static final File ERROR_DIR = new File("./gen/demo/error");

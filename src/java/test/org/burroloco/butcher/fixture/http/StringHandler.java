@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static javax.servlet.http.HttpServletResponse.SC_FORBIDDEN;
+import static javax.servlet.http.HttpServletResponse.SC_INTERNAL_SERVER_ERROR;
 import static javax.servlet.http.HttpServletResponse.SC_OK;
 
 public class StringHandler extends AbstractHandler {
@@ -31,6 +31,7 @@ public class StringHandler extends AbstractHandler {
         requests.add(payload);
         if (error(req)) handleError(resp);
         else resp.setStatus(SC_OK);
+        r.setHandled(true);
     }
     // }
 
@@ -47,7 +48,7 @@ public class StringHandler extends AbstractHandler {
     }
 
     private void handleError(HttpServletResponse resp) {
-        resp.setStatus(SC_FORBIDDEN);
+        resp.setStatus(SC_INTERNAL_SERVER_ERROR);
     }
 
     public List<String> getRequests() {
