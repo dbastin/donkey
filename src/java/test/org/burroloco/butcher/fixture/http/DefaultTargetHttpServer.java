@@ -3,8 +3,11 @@ package org.burroloco.butcher.fixture.http;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.org.apache.commons.io.IOUtilsStatic;
 import edge.org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.handler.AbstractHandler;
+import org.eclipse.jetty.server.ssl.SslSocketConnector;
+import org.eclipse.jetty.util.ssl.SslContextFactory;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -26,6 +29,7 @@ public class DefaultTargetHttpServer implements TargetHttpServer {
     public void start() {
         s = nu.nu(Server.class, 8030);
         s.setHandler(new StringHandler());
+        s.addConnector(sslConnector(8443));
         s.start();
     }
 
@@ -54,5 +58,18 @@ public class DefaultTargetHttpServer implements TargetHttpServer {
             byte[] data = io.toByteArray(req.getInputStream());
             return new String(data, "UTF-8");
         }
+    }
+
+    private Connector sslConnector(int port) {
+        SslContextFactory f = sslContextFactory();
+        SslSocketConnector c = new SslSocketConnector(f);
+        c.setPort(port);
+        return c;
+    }
+
+    private SslContextFactory sslContextFactory() {
+        SslContextFactory cf = new SslContextFactory("./data/ssl/server.keystore");
+        cf.setKeyStorePassword("password");
+        return cf;
     }
 }
