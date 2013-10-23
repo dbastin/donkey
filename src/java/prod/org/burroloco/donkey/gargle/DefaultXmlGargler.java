@@ -13,7 +13,7 @@ import org.burroloco.donkey.xml.marshal.XmlMarshaller;
 
 import java.util.List;
 
-public class DefaultXmlGargler implements XmlGargler{
+public class DefaultXmlGargler implements XmlGargler {
 
     StringToUnitConverter converter;
     XmlMarshaller marshaller;

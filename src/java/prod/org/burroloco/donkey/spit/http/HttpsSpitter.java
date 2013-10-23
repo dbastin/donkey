@@ -8,7 +8,7 @@ import edge.org.apache.http.client.methods.HttpPost;
 import edge.org.apache.http.entity.StringEntity;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
-import org.burroloco.donkey.config.HttpUrl;
+import org.burroloco.donkey.config.HttpsUrl;
 import org.burroloco.donkey.config.KeyStoreLocation;
 import org.burroloco.donkey.config.KeyStorePassword;
 import org.burroloco.donkey.data.core.Data;
@@ -19,15 +19,15 @@ import java.util.List;
 
 import static org.burroloco.donkey.data.core.Tuple.UNIT_KEY;
 
-public class HttpSpitter implements Spitter {
+public class HttpsSpitter implements Spitter {
 
-    HttpClients clients;
+    HttpsClients clients;
     WeakConfig weak;
     Nu nu;
 
     public void spit(Config config, Data data) {
         HttpClient client = client(config);
-        String url = weak.get(config, HttpUrl.class);
+        String url = weak.get(config, HttpsUrl.class);
         List<Tuple> tuples = data.tuples();
         for (Tuple t : tuples) spit(client, t, url);
     }

@@ -29,7 +29,7 @@ public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtur
 
     public void fixtures() {
         data = data();
-        config = loader.load("config/jdbc2http/jdbc2http.properties");
+        config = loader.load("config/jdbc2https/jdbc2https.properties");
         expected = files.readFileToString(XML);
     }
 

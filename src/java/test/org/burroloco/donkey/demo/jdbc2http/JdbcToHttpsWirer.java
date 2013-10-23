@@ -12,11 +12,11 @@ import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.slurp.core.Slurper;
 import org.burroloco.donkey.slurp.database.DatabaseSlurper;
 import org.burroloco.donkey.spit.core.Spitter;
-import org.burroloco.donkey.spit.http.HttpSpitter;
+import org.burroloco.donkey.spit.http.HttpsSpitter;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
-public class JdbcToHttpWirer implements Wirer {
+public class JdbcToHttpsWirer implements Wirer {
     //SIMIAN OFF
     Wire wire;
     Dna dna;
@@ -43,6 +43,6 @@ public class JdbcToHttpWirer implements Wirer {
     }
 
     private void spitter() {
-        wire.cls(HttpSpitter.class).to(Spitter.class);
+        wire.cls(HttpsSpitter.class).to(Spitter.class);
     }
 }

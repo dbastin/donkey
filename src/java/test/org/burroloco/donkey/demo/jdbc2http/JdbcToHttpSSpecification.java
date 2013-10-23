@@ -5,14 +5,14 @@ import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.trebuchet.Specification;
 import org.burroloco.donkey.trebuchet.Wirer;
 
-public class JdbcToHttpSpecification implements Specification {
+public class JdbcToHttpsSpecification implements Specification {
     ConfigLoader loader;
 
     public Config config() {
-        return loader.load("config/jdbc2http/jdbc2http.properties");
+        return loader.load("config/jdbc2https/jdbc2https.properties");
     }
 
     public Class<? extends Wirer> wirer() {
-        return JdbcToHttpWirer.class;
+        return JdbcToHttpsWirer.class;
     }
 }

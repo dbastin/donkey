@@ -11,7 +11,7 @@ import org.burroloco.donkey.trebuchet.TestTrebuchet;
 import java.io.File;
 import java.util.List;
 
-public class JdbcToHttpDemoTest extends DonkeyTestCase implements HasFixtures, Destroyable {
+public class JdbcToHttpsDemoTest extends DonkeyTestCase implements HasFixtures, Destroyable {
 
     private static final String BASE = "data/expected/employee";
     
@@ -26,7 +26,7 @@ public class JdbcToHttpDemoTest extends DonkeyTestCase implements HasFixtures, D
     }
 
     public void testJdbcToHttp() {
-        trebuchet.launch(JdbcToHttpSpecification.class);
+        trebuchet.launch(JdbcToHttpsSpecification.class);
         check();
     }
 

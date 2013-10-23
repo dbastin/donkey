@@ -14,7 +14,7 @@ import org.burroloco.donkey.config.KeyStorePassword;
 
 import static org.apache.http.conn.ssl.SSLConnectionSocketFactory.BROWSER_COMPATIBLE_HOSTNAME_VERIFIER;
 
-public class DefaultHttpClients implements HttpClients {
+public class DefaultHttpsClients implements HttpsClients {
 
     SSLContextsStatic sslContexts;
     HttpClientsStatic httpClients;
