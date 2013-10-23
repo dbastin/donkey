@@ -1,5 +1,6 @@
 package org.burroloco.butcher.fixture.harness;
 
+import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.xml.marshal.Employee;
 
@@ -16,4 +17,6 @@ public interface Harness {
     Employee employee();
 
     Tuple tuple();
+
+    Data rows();
 }

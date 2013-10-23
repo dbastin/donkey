@@ -1,6 +1,7 @@
 package org.burroloco.donkey.spit.http;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
+
 import edge.org.apache.http.HttpEntity;
 import edge.org.apache.http.client.HttpClient;
 import edge.org.apache.http.client.methods.CloseableHttpResponse;
@@ -21,6 +22,7 @@ import static org.burroloco.donkey.data.core.Tuple.UNIT_KEY;
 
 public class HttpsSpitter implements Spitter {
 
+    HttpResponseHandler responses;
     HttpsClients clients;
     WeakConfig weak;
     Nu nu;
@@ -29,7 +31,8 @@ public class HttpsSpitter implements Spitter {
         HttpClient client = client(config);
         String url = weak.get(config, HttpsUrl.class);
         List<Tuple> tuples = data.tuples();
-        for (Tuple t : tuples) spit(client, t, url);
+        for (Tuple t : tuples) spit(client, t, url, config);
+        // TODO - Close the HttpClient.
     }
 
     private HttpClient client(Config config) {
@@ -38,14 +41,11 @@ public class HttpsSpitter implements Spitter {
         return clients.nu(l, p);
     }
 
-    // TODO - Error handling. Handle non-200 return codes.
-    private void spit(HttpClient client, Tuple t, String url) {
+    private void spit(HttpClient client, Tuple t, String url, Config c) {
         HttpPost request = post(t, url);
         CloseableHttpResponse response = client.execute(request);
         try {
-            // TODO - Check the response code.
-            HttpEntity entity = response.getEntity();
-            entity.consumeContent();
+            responses.handle(response, t, c);
         } finally {
             response.close();
         }

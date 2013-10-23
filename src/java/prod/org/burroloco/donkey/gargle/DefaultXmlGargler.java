@@ -4,7 +4,7 @@ import au.net.netstorm.boost.gunge.sledge.java.lang.EdgeClass;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.HydratorClass;
-import org.burroloco.donkey.converter.StringToUnitConverter;
+import org.burroloco.donkey.converter.StringToUnitTupleConverter;
 import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.data.core.DefaultData;
 import org.burroloco.donkey.data.core.Tuple;
@@ -15,7 +15,7 @@ import java.util.List;
 
 public class DefaultXmlGargler implements XmlGargler {
 
-    StringToUnitConverter converter;
+    StringToUnitTupleConverter tuples;
     XmlMarshaller marshaller;
     Hydrator hydrator;
     EdgeClass classer;
@@ -32,7 +32,7 @@ public class DefaultXmlGargler implements XmlGargler {
     private Tuple gargle(Tuple in, Class cls) {
         Object ref = hydrator.hydrate(in, cls);
         String xml = marshaller.marshal(ref);
-        return converter.convert(xml);
+        return tuples.unit(xml);
     }
 
     private Class hydratorClass(Config config) {

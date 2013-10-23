@@ -1,5 +1,7 @@
 package org.burroloco.butcher.fixture.harness;
 
+import org.burroloco.donkey.data.core.Data;
+import org.burroloco.donkey.data.core.DefaultData;
 import org.burroloco.donkey.data.core.DefaultTuple;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.xml.marshal.Employee;
@@ -24,4 +26,10 @@ public class DefaultHarness implements Harness {
         return t;
     }
 
+    public Data rows() {
+        Data rows = new DefaultData();
+        Tuple row = tuple();
+        rows.add(row);
+        return rows;
+    }
 }

@@ -5,9 +5,9 @@ import org.burroloco.donkey.data.core.Tuple;
 
 import static org.burroloco.donkey.data.core.Tuple.UNIT_KEY;
 
-public class DefaultStringToUnitConverter implements StringToUnitConverter {
+public class DefaultStringToUnitTupleConverter implements StringToUnitTupleConverter {
 
-    public Tuple convert(String s) {
+    public Tuple unit(String s) {
         Tuple t = new DefaultTuple();
         t.add(UNIT_KEY, s);
         return t;
