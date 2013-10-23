@@ -4,8 +4,8 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.exception.job.JobExceptionHandler;
 
 public class ExceptionWrapper implements Job {
-    Job delegate;
     JobExceptionHandler exceptions;
+    Job delegate;
 
     public void go(Config config) {
         try {

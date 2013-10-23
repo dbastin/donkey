@@ -7,12 +7,12 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
-public class DefaultPukerCoverageTest extends DonkeyTestCase implements LazyFields, OverlaysWeb {
+public class DefaultJobExceptionHandlerTest extends DonkeyTestCase implements LazyFields, OverlaysWeb {
     ThrowableMaster chuckieMock;
+    JobExceptionHandler subject;
     Throwable causeDummy;
     RuntimeException e;
     Config configDummy;
-    JobExceptionHandler subject;
     Nu nu;
 
     public void overlay() {

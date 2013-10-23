@@ -14,9 +14,10 @@ import org.burroloco.util.wire.Dna;
 
 import static org.burroloco.butcher.fixture.checker.type.Occurrence.ONCE;
 
-public class PukerMolecularTest extends DonkeyTestCase implements HasFixtures, DonkeyTestConstants, LazyFields {
+public class ExceptionHandlerMolecularTest extends DonkeyTestCase implements HasFixtures, DonkeyTestConstants, LazyFields {
     private static final String JOB_MSG = "Something terrible happened to the job.";
     private Job job;
+
     FileChecker fileChecker;
     FileCleaner fileCleaner;
     Config configDummy;
