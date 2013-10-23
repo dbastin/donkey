@@ -1,4 +1,4 @@
-package org.burroloco.donkey.demo.jdbc2http;
+package org.burroloco.donkey.demo.jdbc2https;
 
 import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;

@@ -1,4 +1,4 @@
-package org.burroloco.donkey.demo.jdbc2http;
+package org.burroloco.donkey.demo.jdbc2https;
 
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
