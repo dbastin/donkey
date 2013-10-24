@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="dist" default="ignore" basedir="../..">
-    <import file="build-init.xml"/>
+  <import file="build-init.xml"/>
 
-    <target name="dist" depends="-zip"/>
+  <target name="dist" depends="-zip"/>
 
-    <property name="dist.tar" value="${zips.dir}/${dist.tar.name}"/>
-    <property name="dist.zip" value="${zips.dir}/${dist.zip.name}"/>
-    <property name="dist.exec.dir" location="${artifacts.dir}/test/dist"/>
+  <property name="dist.tar" value="${zips.dir}/${dist.tar.name}"/>
+  <property name="dist.zip" value="${zips.dir}/${dist.zip.name}"/>
+  <property name="dist.exec.dir" location="${artifacts.dir}/test/dist"/>
 
-    <target name="-zip" depends="-binary_jar, -source_jar">
-        <mkdir dir="${zips.dir}"/>
+  <target name="-zip" depends="-binary_jar, -source_jar">
+    <mkdir dir="${zips.dir}"/>
 
-        <tar destfile="${dist.zip}" compression="gzip">
-            <tarfileset dir="${jars.dir}" prefix="donkey"/>
-            <tarfileset refid="runtime.lib.jars" prefix="donkey/lib"/>
-            <tarfileset dir="${script.src.dir}" filemode="755" prefix="donkey" />
-            <tarfileset dir="${prod.config.dir}" prefix="donkey/config"/>
-        </tar>
-    </target>
+    <tar destfile="${dist.zip}" compression="gzip">
+      <tarfileset dir="${jars.dir}" prefix="donkey"/>
+      <tarfileset refid="runtime.lib.jars" prefix="donkey/lib"/>
+      <tarfileset dir="${script.src.dir}" filemode="755" prefix="donkey"/>
+      <tarfileset dir="${prod.config.dir}" prefix="donkey/config"/>
+    </tar>
+  </target>
 
-    <target name="unzip">
-        <delete dir="${dist.exec.dir}"/>
-        <mkdir dir="${dist.exec.dir}"/>
-        <untar src="${dist.zip}" dest="${dist.exec.dir}" compression="gzip" overwrite="true"/>
+  <target name="unzip">
+    <delete dir="${dist.exec.dir}"/>
+    <mkdir dir="${dist.exec.dir}"/>
+    <untar src="${dist.zip}" dest="${dist.exec.dir}" compression="gzip" overwrite="true"/>
 
-    </target>
+  </target>
 </project>

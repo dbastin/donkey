@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="base-underrides" basedir="../..">
-    <!-- Put MUTABLE project specific overrides here! -->
-    <filterset id="artifacts.filterset">
-        <filter token="BUILD_DATE" value="${build.date}"/>
-        <filter token="BUILD_NAME" value="${build.name}"/>
-        <filter token="DIST_JAR_NAME" value="${dist.jar.name}"/>
-        <filter token="SCM_REVISION" value="${env.SCM_REVISION}"/>
-    </filterset>
+  <!-- Put MUTABLE project specific overrides here! -->
+  <filterset id="artifacts.filterset">
+    <filter token="BUILD_DATE" value="${build.date}"/>
+    <filter token="BUILD_NAME" value="${build.name}"/>
+    <filter token="DIST_JAR_NAME" value="${dist.jar.name}"/>
+    <filter token="SCM_REVISION" value="${env.SCM_REVISION}"/>
+  </filterset>
 
-    <condition property="os.linux">
-        <os name="Linux"/>
-    </condition>
+  <condition property="os.linux">
+    <os name="Linux"/>
+  </condition>
 
 </project>
