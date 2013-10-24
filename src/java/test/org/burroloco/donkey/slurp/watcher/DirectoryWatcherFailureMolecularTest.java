@@ -22,7 +22,7 @@ public class DirectoryWatcherFailureMolecularTest extends DonkeyTestCase impleme
 
     public void fixtures() {
         config = config();
-        Wirer wirer = impl.impl(DirectoryWatcherWirer.class);
+        Wirer wirer = impl.impl(Wirer.class, DirectoryWatcherWirer.class);
         wirer.wire(config);
     }
 

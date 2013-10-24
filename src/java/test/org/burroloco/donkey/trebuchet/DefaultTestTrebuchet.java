@@ -12,7 +12,7 @@ public class DefaultTestTrebuchet implements TestTrebuchet {
     Impl impl;
 
     public void launch(Class<? extends Specification> specCls, Class<? extends Web>... extras) {
-        Specification spec = impl.impl(specCls);
+        Specification spec = impl.impl(Specification.class, specCls);
         Config config = spec.config();
         crank.crank(spec, config);
         spinneret.spin(extras);

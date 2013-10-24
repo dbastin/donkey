@@ -44,6 +44,7 @@
     <path refid="dbunit.classpath"/>
     <path refid="hsqldb.classpath"/>
     <path refid="misc.classpath"/>
+    <path refid="boost.classpath"/>
   </path>
 
   <path id="test.runtime.classpath">
@@ -109,6 +110,12 @@
 
   <path id="commons.classpath">
     <fileset dir="build/lib/runtime/commons">
+      <patternset refid="jar.pattern"/>
+    </fileset>
+  </path>
+
+  <path id="boost.classpath">
+    <fileset dir="${tools.lib.dir}/boost">
       <patternset refid="jar.pattern"/>
     </fileset>
   </path>

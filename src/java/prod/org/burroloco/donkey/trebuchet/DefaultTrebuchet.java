@@ -9,7 +9,7 @@ public class DefaultTrebuchet implements Trebuchet {
     Impl impl;
 
     public void launch(Class<? extends Specification> specCls) {
-        Specification spec = impl.impl(specCls);
+        Specification spec = impl.impl(Specification.class, specCls);
         Config config = spec.config();
         crank.crank(spec, config);
         sling.release(config);

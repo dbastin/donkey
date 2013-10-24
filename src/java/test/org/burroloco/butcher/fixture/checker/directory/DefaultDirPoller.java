@@ -12,7 +12,7 @@ public class DefaultDirPoller implements DirPoller {
     Impl impl;
 
     public File check(final File dir) {
-        PollingBlock exists = impl.impl(DirectoryPollingBlock.class, dir);
+        PollingBlock exists = impl.impl(PollingBlock.class, DirectoryPollingBlock.class, dir);
         if (poller.call(exists, TIMEOUT)) return dir.listFiles()[0];
         else throw new RuntimeException(
                 "No files found in " + dir.getAbsolutePath() + " within " + TIMEOUT + " seconds.");

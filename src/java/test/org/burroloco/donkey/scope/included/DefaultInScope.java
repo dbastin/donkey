@@ -6,6 +6,6 @@ public class DefaultInScope implements InScope {
     Impl impl;
 
     public String externalize() {
-        return impl.impl(String.class, "inScope");
+        return impl.impl(String.class, String.class, "inScope");
     }
 }

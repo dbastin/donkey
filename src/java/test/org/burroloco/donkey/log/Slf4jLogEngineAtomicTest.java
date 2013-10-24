@@ -19,6 +19,7 @@ public final class Slf4jLogEngineAtomicTest extends DonkeyTestCase implements La
     private static final LogLevel ERROR = LogLevel.ERROR;
     private static final String NO_LOG_MESSAGE = "NO LOG MESSAGE";
     private LogEngine subject;
+
     LoggerFactoryStatic loggerFactoryMock;
     Throwable throwableDummy;
     Logger loggerMock;
@@ -30,7 +31,7 @@ public final class Slf4jLogEngineAtomicTest extends DonkeyTestCase implements La
         expect.oneCall(loggerFactoryMock, loggerMock, "getLogger", Random.class);
         LoggerFactoryStatic current = resolver.resolve(LoggerFactoryStatic.class);
         wire.ref(loggerFactoryMock).to(LoggerFactoryStatic.class);
-        subject = impl.impl(Slf4jLogEngine.class, Random.class);
+        subject = impl.impl(LogEngine.class, Slf4jLogEngine.class, Random.class);
         wire.ref(current).to(LoggerFactoryStatic.class);
     }
 

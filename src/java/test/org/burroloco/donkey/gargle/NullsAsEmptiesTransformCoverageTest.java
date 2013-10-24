@@ -12,14 +12,14 @@ import static org.burroloco.donkey.data.core.Null.NULL;
 public class NullsAsEmptiesTransformCoverageTest extends DonkeyTestCase implements HasFixtures, LazyFields {
     private static final String OTHER_FIELD = "OtherField";
     private static final String NULL_FIELD = "NullField";
-    private NullsAsEmptiesTupleGargler subject;
+    private TupleGargler subject;
     String value;
     Impl impl;
     Nu nu;
 
     public void fixtures() {
         wire.cls(NoOpTupleGargler.class).to(TupleGargler.class);
-        subject = impl.impl(NullsAsEmptiesTupleGargler.class);
+        subject = impl.impl(TupleGargler.class, NullsAsEmptiesTupleGargler.class);
     }
 
     public void testTransform() {

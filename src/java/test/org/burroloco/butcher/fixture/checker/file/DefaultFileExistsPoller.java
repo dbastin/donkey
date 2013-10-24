@@ -12,7 +12,7 @@ public class DefaultFileExistsPoller implements FileExistsPoller {
     Impl impl;
 
     public boolean check(final File file) {
-        PollingBlock exists = impl.impl(FileExistsPollingBlock.class, file);
+        PollingBlock exists = impl.impl(PollingBlock.class, FileExistsPollingBlock.class, file);
         return poller.call(exists, TIMEOUT);
     }
 }

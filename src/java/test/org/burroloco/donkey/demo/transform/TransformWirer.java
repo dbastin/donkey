@@ -37,7 +37,7 @@ public class TransformWirer implements Wirer {
 
     private void transform() {
         dna.strand(GarglerExceptionHandler.class, LoggingGarglerExceptionHandler.class);
-        wire.impl(PropertyFileMapper.class, FULLNAME_MAPPINGS).to(Mapper.class);
+        wire.impl(Mapper.class, PropertyFileMapper.class, FULLNAME_MAPPINGS).to(Mapper.class);
         wire.cls(FullNameTupleGargler.class).to(TupleGargler.class);
     }
 }

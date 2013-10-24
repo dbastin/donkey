@@ -19,7 +19,7 @@ public class DefaultTargetHttpServer implements TargetHttpServer {
 
     public void start() {
         s = nu.nu(Server.class, 8030);
-        handler = impl.impl(StringHandler.class);
+        handler = impl.impl(StringHandler.class, StringHandler.class);
         s.setHandler(handler);
         s.addConnector(sslConnector(8443));
         s.start();

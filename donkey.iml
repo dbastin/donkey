@@ -22,7 +22,7 @@
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://$MODULE_DIR$/build/lib/runtime/boost/boost.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/lib/tools/boost/boost-src.jar!/" />
         </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/boost" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons" recursive="false" />
@@ -45,10 +45,14 @@
           <root url="file://$MODULE_DIR$/build/lib/tools/hsqldb" />
           <root url="file://$MODULE_DIR$/build/lib/tools/misc" />
           <root url="file://$MODULE_DIR$/build/lib/tools/clover" />
+          <root url="file://$MODULE_DIR$/build/lib/tools/boost" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/build/lib/tools/boost" />
+        </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/antcontrib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/boost" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/checkstyle" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/clover" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/dbunit" recursive="false" />
@@ -56,6 +60,7 @@
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/jmock" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/junit" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/misc" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/tools/boost" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>

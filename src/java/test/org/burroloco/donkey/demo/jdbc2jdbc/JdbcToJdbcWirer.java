@@ -31,7 +31,7 @@ public class JdbcToJdbcWirer implements Wirer {
 
     private void slurper() {
         wire.cls(DatabaseSlurper.class).to(Slurper.class, ContextualSlurper.class);
-        wire.impl(ContextualSlurper.class, "input").to(Slurper.class);
+        wire.impl(Slurper.class, ContextualSlurper.class, "input").to(Slurper.class);
     }
 
     private void gargler() {
@@ -40,6 +40,6 @@ public class JdbcToJdbcWirer implements Wirer {
 
     private void spitter() {
         wire.cls(DatabaseSpitter.class).to(Spitter.class, ContextualSpitter.class);
-        wire.impl(ContextualSpitter.class, "output").to(Spitter.class);
+        wire.impl(Spitter.class, ContextualSpitter.class, "output").to(Spitter.class);
     }
 }

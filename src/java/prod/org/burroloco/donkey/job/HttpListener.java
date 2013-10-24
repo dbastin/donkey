@@ -33,7 +33,7 @@ public class HttpListener implements Job, Stop {
     }
 
     private void setHandler(Config config) {
-        Handler handler = impl.impl(EdgeHttpRequestHandler.class, config);
+        Handler handler = impl.impl(Handler.class, EdgeHttpRequestHandler.class, config);
         server.setHandler(handler);
     }
 }

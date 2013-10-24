@@ -8,6 +8,7 @@ import org.burroloco.butcher.util.file.FileComparator;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.demo.http2csv.HttpToCsvSpecification;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
+import org.burroloco.donkey.trebuchet.Wirer;
 
 import java.io.File;
 
@@ -20,9 +21,9 @@ public class HttpRequestHandlerMolecularTest extends DonkeyTestCase implements H
     Nu nu;
 
     public void fixtures() {
-        HttpToCsvSpecification spec = impl.impl(HttpToCsvSpecification.class);
+        HttpToCsvSpecification spec = impl.impl(HttpToCsvSpecification.class, HttpToCsvSpecification.class);
         Config config = spec.config();
-        impl.impl(spec.wirer()).wire(config);
+        impl.impl(Wirer.class, spec.wirer()).wire(config);
         subject = nu.nu(HttpRequestHandler.class, config);
     }
 

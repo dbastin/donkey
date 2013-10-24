@@ -1,13 +1,13 @@
 package org.burroloco.donkey.slurp.database;
 
-import au.net.netstorm.boost.gunge.sledge.java.lang.EdgeClass;
 import au.net.netstorm.boost.spider.plugs.provider.core.CleanProvider;
+import edge.java.lang.ClassStatic;
 import edge.java.sql.Connection;
 import edge.java.sql.DriverManagerStatic;
 
 public class DatabaseConnectionProvider extends CleanProvider {
     DriverManagerStatic manager;
-    EdgeClass classer;
+    ClassStatic classer;
 
     public Object nu(Object... args) {
         return getNewConnection((String) args[0], (String) args[1], (String) args[2], (String) args[3]);

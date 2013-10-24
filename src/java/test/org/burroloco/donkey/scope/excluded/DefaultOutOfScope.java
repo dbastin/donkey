@@ -6,6 +6,6 @@ public class DefaultOutOfScope implements OutOfScope {
     Impl impl;
 
     public String externalize() {
-        return impl.impl(String.class, "outOfScope");
+        return impl.impl(String.class, String.class, "outOfScope");
     }
 }

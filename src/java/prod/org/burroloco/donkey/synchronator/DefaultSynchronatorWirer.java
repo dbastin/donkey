@@ -36,7 +36,7 @@ public class DefaultSynchronatorWirer implements SynchronatorWirer {
     }
 
     private void contextualSpitter(String prefix, Class<? extends Operation> host) {
-        Spitter spitter = impl.impl(ContextualSpitter.class, prefix);
+        Spitter spitter = impl.impl(Spitter.class, ContextualSpitter.class, prefix);
         wire.ref(spitter).to(Spitter.class, host);
     }
 

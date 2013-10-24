@@ -8,7 +8,7 @@ public class DefaultCrank implements Crank {
 
     public void crank(Specification spec, Config config) {
         Class<? extends Wirer> wirerCls = spec.wirer();
-        Wirer wirer = impl.impl(wirerCls);
+        Wirer wirer = impl.impl(Wirer.class, wirerCls);
         wirer.wire(config);
     }
 }

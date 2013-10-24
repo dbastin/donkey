@@ -22,7 +22,7 @@ public class DonkeyTestWeb implements Web {
     }
 
     private void connections() {
-        IDatabaseConnectionProvider reals = impl.impl(IDatabaseConnectionProvider.class);
+        IDatabaseConnectionProvider reals = impl.impl(IDatabaseConnectionProvider.class, IDatabaseConnectionProvider.class);
         Provider cached = nu.nu(CachingProvider.class, reals);
         wire.provider(cached).to(IDatabaseConnection.class);
     }

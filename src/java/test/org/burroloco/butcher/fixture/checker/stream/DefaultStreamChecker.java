@@ -17,7 +17,7 @@ public class DefaultStreamChecker implements StreamChecker {
     }
 
     private boolean found(OutputStream out, String[] expectations) {
-        PollingBlock checker = impl.impl(StreamCheckingPollingBlock.class, out, expectations);
+        PollingBlock checker = impl.impl(PollingBlock.class, StreamCheckingPollingBlock.class, out, expectations);
         return poller.call(checker, TIMEOUT);
     }
 

@@ -32,7 +32,7 @@ public class DefaultPollingFileChecker implements PollingFileChecker {
     }
 
     private boolean found(File file, Occurrence type, String... contents) {
-        PollingBlock checker = impl.impl(FileCheckingPollingBlock.class, file, type, contents);
+        PollingBlock checker = impl.impl(PollingBlock.class, FileCheckingPollingBlock.class, file, type, contents);
         return poller.call(checker, TIMEOUT);
     }
 

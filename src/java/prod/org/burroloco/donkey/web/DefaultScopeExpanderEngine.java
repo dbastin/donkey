@@ -21,7 +21,7 @@ public class DefaultScopeExpanderEngine implements ScopeExpanderEngine {
     }
 
     private StrictMap<String, String> load(String extras) {
-        PropertiesLoader loader = impl.impl(DefaultPropertiesLoader.class);
+        PropertiesLoader loader = impl.impl(PropertiesLoader.class, DefaultPropertiesLoader.class);
         return loader.load(extras);
     }
 

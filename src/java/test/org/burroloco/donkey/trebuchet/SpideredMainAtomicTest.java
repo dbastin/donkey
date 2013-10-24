@@ -12,7 +12,7 @@ public class SpideredMainAtomicTest extends DonkeyTestCase implements LazyFields
 
     public void fixtures() {
         wire.ref(trebuchetMock).to(Trebuchet.class);
-        subject =impl.impl(SpideredMain.class);
+        subject =impl.impl(SpideredMain.class, SpideredMain.class);
     }
 
     public void testSuccesfulJob() {

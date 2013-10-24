@@ -1,6 +1,6 @@
 package org.burroloco.donkey.gargle;
 
-import au.net.netstorm.boost.gunge.sledge.java.lang.EdgeClass;
+import edge.java.lang.ClassStatic;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.HydratorClass;
@@ -17,8 +17,8 @@ public class DefaultXmlGargler implements XmlGargler {
 
     StringToUnitTupleConverter tuples;
     XmlMarshaller marshaller;
+    ClassStatic classer;
     Hydrator hydrator;
-    EdgeClass classer;
     WeakConfig weak;
 
     public Data gargle(Config config, Data in) {
