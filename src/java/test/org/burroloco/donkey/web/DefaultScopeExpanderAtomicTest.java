@@ -1,7 +1,7 @@
 package org.burroloco.donkey.web;
 
-import au.com.scope.test.excluded.OutOfScope;
-import au.com.scope.test.included.InScope;
+import org.burroloco.donkey.scope.excluded.OutOfScope;
+import org.burroloco.donkey.scope.included.InScope;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import org.burroloco.butcher.fixture.checker.file.FileChecker;
 import org.burroloco.butcher.util.file.FileCleaner;

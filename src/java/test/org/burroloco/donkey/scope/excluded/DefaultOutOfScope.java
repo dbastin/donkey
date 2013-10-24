@@ -1,4 +1,4 @@
-package au.com.scope.test.excluded;
+package org.burroloco.donkey.scope.excluded;
 
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 

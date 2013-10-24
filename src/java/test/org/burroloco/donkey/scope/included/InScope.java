@@ -1,4 +1,4 @@
-package au.com.scope.test.included;
+package org.burroloco.donkey.scope.included;
 
 public interface InScope {
     String externalize();

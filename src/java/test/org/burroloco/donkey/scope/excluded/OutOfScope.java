@@ -1,4 +1,4 @@
-package au.com.scope.test.excluded;
+package org.burroloco.donkey.scope.excluded;
 
 public interface OutOfScope {
     String externalize();
