@@ -7,6 +7,7 @@ import edge.javax.xml.bind.JAXBContextStatic;
 import edge.javax.xml.bind.Marshaller;
 
 import static javax.xml.bind.Marshaller.JAXB_FORMATTED_OUTPUT;
+import static org.eclipse.persistence.jaxb.MarshallerProperties.INDENT_STRING;
 
 public class DefaultXmlMarshaller implements XmlMarshaller {
 
@@ -36,5 +37,6 @@ public class DefaultXmlMarshaller implements XmlMarshaller {
 
     private void makePretty(Marshaller m) {
         m.setProperty(JAXB_FORMATTED_OUTPUT, true);
+        m.setProperty(INDENT_STRING, "  ");
     }
 }

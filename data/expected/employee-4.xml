@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <employee>
-   <id>4</id>
-   <name>Betty</name>
-   <salary>4000000</salary>
-   <fields>
-      <field name="position_title">Grand Pooh Bah</field>
-   </fields>
+  <id>4</id>
+  <name>Betty</name>
+  <salary>4000000</salary>
+  <fields>
+    <field name="position_title">Grand Pooh Bah</field>
+  </fields>
 </employee>
