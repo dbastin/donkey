@@ -13,6 +13,7 @@ public interface Harness {
     String NAME = "Fred";
     Integer SALARY = 1000000;
     Date START = date("2001-01-01");
+    String TITLE = "Grand Pooh Bah";
 
     Employee employee();
 

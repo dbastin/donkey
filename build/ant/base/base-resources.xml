@@ -2,7 +2,8 @@
 <project name="base-resources" default="ignore">
   <import file="base-init.xml"/>
 
-  <target name="resources">
+  <!-- TODO - Used? -->
+  <target name="-resources">
     <copy todir="${prod.class.dir}">
       <fileset dir="${prod.src.dir}" includes="**/*.properties"/>
     </copy>

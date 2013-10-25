@@ -19,6 +19,7 @@
           <root url="file://$MODULE_DIR$/build/lib/runtime/opencsv" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/http" />
           <root url="file://$MODULE_DIR$/build/lib/runtime/commons" />
+          <root url="file://$MODULE_DIR$/build/lib/runtime/eclipselink" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -28,6 +29,7 @@
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/commons-io" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/dom4j" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/eclipselink" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/http" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/log4j" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/build/lib/runtime/opencsv" recursive="false" />

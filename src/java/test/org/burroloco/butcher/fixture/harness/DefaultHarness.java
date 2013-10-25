@@ -14,6 +14,7 @@ public class DefaultHarness implements Harness {
         e.setName(NAME);
         e.setSalary(SALARY);
         e.setStartDate(START);
+        e.setPositionTitle(TITLE);
         return e;
     }
 
@@ -23,6 +24,7 @@ public class DefaultHarness implements Harness {
         t.add("name", NAME);
         t.add("salary", SALARY);
         t.add("start_date", START);
+        t.add("position_title", TITLE);
         return t;
     }
 

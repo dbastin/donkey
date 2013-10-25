@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <employee>
-    <id>2</id>
-    <name>Wilma</name>
-    <salary>2000000</salary>
-    <startDate>2002-01-01</startDate>
+   <id>2</id>
+   <name>Wilma</name>
+   <salary>2000000</salary>
+   <startDate>2002-01-01</startDate>
+   <fields>
+      <field name="position_title">Grand Pooh Bah</field>
+   </fields>
 </employee>

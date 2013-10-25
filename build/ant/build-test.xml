@@ -8,7 +8,18 @@
     <propertyref name="log4j.configuration"/>
   </propertyset>
 
+  <macrodef name="macro_test_resources">
+    <attribute name="test.type"/>
+    <sequential>
+      <copy todir="${coverage.class.dir}/@{test.type}">
+        <fileset dir="${test.src.dir}" includes="**/*.properties"/>
+      </copy>
+    </sequential>
+  </macrodef>
+
+
   <target name="-test_run" depends="-compile, -compile_coverage">
+    <macro_test_resources test.type="donkey"/>
     <macro_test test.types="donkey" sysprop.refid="sysprops"/>
   </target>
 
