@@ -13,7 +13,7 @@ public class Employee extends Primordial {
     private Integer id;
     private String name;
     private Integer salary;
-    private Date start;
+    private Date startDate;
 
     public String getName() {
         return name;
@@ -42,13 +42,13 @@ public class Employee extends Primordial {
         this.salary = salary;
     }
 
-    public Date getStart() {
-        return start;
+    public Date getStartDate() {
+        return startDate;
     }
 
     @XmlElement
     @XmlJavaTypeAdapter(DateAdapter.class)
-    public void setStart(Date start) {
-        this.start = start;
+    public void setStartDate(Date startDate) {
+        this.startDate = startDate;
     }
 }

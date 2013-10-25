@@ -13,7 +13,7 @@ public class DefaultHarness implements Harness {
         e.setId(ID);
         e.setName(NAME);
         e.setSalary(SALARY);
-        e.setStart(START);
+        e.setStartDate(START);
         return e;
     }
 
@@ -22,7 +22,7 @@ public class DefaultHarness implements Harness {
         t.add("id", ID);
         t.add("name", NAME);
         t.add("salary", SALARY);
-        t.add("start", START);
+        t.add("start_date", START);
         return t;
     }
 

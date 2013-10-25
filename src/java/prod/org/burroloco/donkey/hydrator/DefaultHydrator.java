@@ -17,18 +17,22 @@ public class DefaultHydrator implements Hydrator {
 
     public <T> T hydrate(Tuple tuple, Class<T> cls) {
         T result = classer.newInstance(cls);
-        Set<String> attributes = tuple.names();
-        setAttributes(result, tuple, cls, attributes);
+        Set<String> names = tuple.names();
+        setAttributes(result, tuple, cls, names);
         return result;
     }
 
-    private <T> void setAttributes(T ref, Tuple tuple, Class<T> cls, Set<String> attributes) {
-        for (String attribute : attributes) {
-            Object value = tuple.value(attribute);
+    private <T> void setAttributes(T ref, Tuple tuple, Class<T> cls, Set<String> names) {
+        for (String name : names) {
+            Object value = tuple.value(name);
             if (value == NULL) continue;
-            Class type = value.getClass();
-            Method setter = setters.find(cls, attribute, type);
-            methoder.invoke(setter, ref, value);
+            setAttribute(ref, cls, name, value);
         }
+    }
+
+    private <T> void setAttribute(T ref, Class<T> cls, String name, Object value) {
+        Class type = value.getClass();
+        Method setter = setters.find(cls, name, type);
+        methoder.invoke(setter, ref, value);
     }
 }

@@ -3,19 +3,19 @@
   <id>1</id>
   <name>Fred</name>
   <salary>1000000</salary>
-  <start>2001-01-01</start>
+  <startDate>2001-01-01</startDate>
 </employee>
 <employee>
 <id>2</id>
 <name>Wilma</name>
 <salary>2000000</salary>
-<start>2002-01-01T00:00:00+11:00</start>
+<startDate>2002-01-01T00:00:00+11:00</startDate>
 </employee>
 <employee>
 <id>3</id>
 <name>Barney</name>
 <salary>3000000</salary>
-<start>2003-01-01T00:00:00+11:00</start>
+<startDate>2003-01-01T00:00:00+11:00</startDate>
 </employee>
 <employee>
 <id>4</id>
