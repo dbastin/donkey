@@ -31,7 +31,7 @@ public class JdbcToHttpsWirer implements Wirer {
 
     private void job() {
         dna.strand(Job.class, ExceptionWrapper.class, ConsumeTransformProduce.class);
-        dna.strand(GarglerExceptionHandler.class, LoggingGarglerExceptionHandler.class);
+        wire.cls(LoggingGarglerExceptionHandler.class).to(GarglerExceptionHandler.class);
     }
 
     private void slurper() {

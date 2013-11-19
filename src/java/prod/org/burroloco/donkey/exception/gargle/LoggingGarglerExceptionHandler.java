@@ -9,5 +9,4 @@ public class LoggingGarglerExceptionHandler implements GarglerExceptionHandler {
     public void handle(Tuple tuple, Exception e) {
         logger.log(tuple, e);
     }
-
 }
