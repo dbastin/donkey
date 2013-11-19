@@ -8,4 +8,6 @@ public interface Config {
     Config flatten(String label);
 
     StrictMap<String, String> map();
+
+    Config prefix(String prefix);
 }

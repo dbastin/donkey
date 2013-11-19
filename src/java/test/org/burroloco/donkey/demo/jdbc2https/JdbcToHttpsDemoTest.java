@@ -3,6 +3,7 @@ package org.burroloco.donkey.demo.jdbc2https;
 import au.net.netstorm.boost.sniper.marker.Destroyable;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import edge.org.apache.commons.io.FileUtilsStatic;
+import org.burroloco.butcher.fixture.checker.database.ProcessedChecker;
 import org.burroloco.butcher.fixture.database.SourceDatabase;
 import org.burroloco.butcher.fixture.http.TargetHttpServer;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
@@ -14,7 +15,8 @@ import java.util.List;
 public class JdbcToHttpsDemoTest extends DonkeyTestCase implements HasFixtures, Destroyable {
 
     private static final String BASE = "data/expected/employee";
-    
+
+    ProcessedChecker processed;
     TargetHttpServer server;
     SourceDatabase database;
     TestTrebuchet trebuchet;
@@ -26,12 +28,16 @@ public class JdbcToHttpsDemoTest extends DonkeyTestCase implements HasFixtures, 
     }
 
     public void testJdbcToHttp() {
+        processed.check(0);
         trebuchet.launch(JdbcToHttpsSpecification.class);
-        check();
+        checkRequests();
+        // TODO - AAAAAAAAAAAAAA Drive this out...
+//        processed.check(5);
     }
 
-    private void check() {
+    private void checkRequests() {
         List<String> requests = server.requests();
+        assertEquals(5, requests.size());
         for (int i = 1; i <= requests.size(); i++) {
             String expected = readEmployee(i);
             String actual = requests.get(i - 1);

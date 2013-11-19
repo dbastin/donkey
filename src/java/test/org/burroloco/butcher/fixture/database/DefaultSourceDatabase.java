@@ -30,7 +30,6 @@ public class DefaultSourceDatabase implements SourceDatabase {
 
     private void processed(Statement s) {
         s.execute("CREATE TABLE PROCESSED (ID INT, EMPLOYEE_ID INT, PROCESSED DATE)");
-        s.execute("INSERT INTO PROCESSED (ID, EMPLOYEE_ID, PROCESSED) VALUES (1, 1, '2013-01-01');");
     }
 
     public void drop() {

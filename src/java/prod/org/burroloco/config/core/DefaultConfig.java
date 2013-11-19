@@ -6,8 +6,10 @@ import au.net.netstorm.boost.spider.api.runtime.Nu;
 
 public class DefaultConfig implements Config {
     private StrictMap<String, String> map;
+
     ConfigClassMapper mapper;
     MapFlattener flattener;
+    MapPrefixer prefixer;
     Parser parser;
     Nu nu;
 
@@ -24,6 +26,11 @@ public class DefaultConfig implements Config {
     public Config flatten(String label) {
         StrictMap<String, String> flat = flattener.flatten(map, label);
         return nu.nu(Config.class, flat);
+    }
+
+    public Config prefix(String prefix) {
+        StrictMap<String, String> prefixed = prefixer.keys(map, prefix);
+        return nu.nu(Config.class, prefixed);
     }
 
     public StrictMap<String, String> map(){
