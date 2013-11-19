@@ -8,8 +8,8 @@ import org.burroloco.donkey.spit.template.TemplateStringer;
 import java.io.File;
 
 public class FileSpitter implements Spitter {
-    OutputFileWizard wizard;
     TemplateStringer stringer;
+    OutputFileWizard wizard;
     Scribbler scribbler;
 
     public void spit(Config config, Data data) {
