@@ -1,6 +1,5 @@
 package org.burroloco.donkey.gargle;
 
-import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.core.Data;
 import org.burroloco.donkey.data.core.DefaultData;
@@ -9,7 +8,8 @@ import org.burroloco.donkey.data.core.Tuple;
 import java.util.List;
 
 public class DefaultXmlDataGargler implements XmlDataGargler {
-    Nu nu;
+
+    XmlTupleGargler gargler;
 
     public Data gargle(Config config, Data in) {
         Data results = new DefaultData();
@@ -19,9 +19,8 @@ public class DefaultXmlDataGargler implements XmlDataGargler {
     }
 
     private void gargle(Data results, Config config, List<Tuple> tuples) {
-        XmlTupleGargler gargler = nu.nu(XmlTupleGargler.class, config);
         for (Tuple in : tuples) {
-            Tuple result = gargler.gargle(in);
+            Tuple result = gargler.gargle(config, in);
             results.add(result);
         }
     }

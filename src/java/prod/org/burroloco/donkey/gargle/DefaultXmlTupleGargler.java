@@ -1,6 +1,5 @@
 package org.burroloco.donkey.gargle;
 
-import au.net.netstorm.boost.spider.api.lifecycle.Constructable;
 import edge.java.lang.ClassStatic;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
@@ -10,9 +9,7 @@ import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.hydrator.Hydrator;
 import org.burroloco.donkey.xml.marshal.XmlMarshaller;
 
-public class DefaultXmlTupleGargler implements XmlTupleGargler, Constructable {
-    private final Config config;
-    private Class cls;
+public class DefaultXmlTupleGargler implements XmlTupleGargler {
 
     StringToUnitTupleConverter tuples;
     XmlMarshaller marshaller;
@@ -20,15 +17,8 @@ public class DefaultXmlTupleGargler implements XmlTupleGargler, Constructable {
     Hydrator hydrator;
     WeakConfig weak;
 
-    public DefaultXmlTupleGargler(Config config) {
-        this.config = config;
-    }
-
-    public void constructor() {
-        cls = hydratorClass(config);
-    }
-
-    public Tuple gargle(Tuple in) {
+    public Tuple gargle(Config config, Tuple in) {
+        Class cls = hydratorClass(config);
         Object ref = hydrator.hydrate(in, cls);
         String xml = marshaller.marshal(ref);
         return tuples.unit(xml);
