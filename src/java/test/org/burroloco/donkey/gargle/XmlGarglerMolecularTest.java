@@ -22,9 +22,9 @@ public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtur
     private Config config;
     private Data data;
 
+    XmlDataGargler subject;
     FileUtilsStatic files;
     ConfigLoader loader;
-    XmlGargler subject;
     Harness harness;
 
     public void fixtures() {

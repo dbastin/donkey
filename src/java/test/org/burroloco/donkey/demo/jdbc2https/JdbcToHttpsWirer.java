@@ -5,7 +5,7 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.exception.gargle.GarglerExceptionHandler;
 import org.burroloco.donkey.exception.gargle.LoggingGarglerExceptionHandler;
 import org.burroloco.donkey.gargle.DataGargler;
-import org.burroloco.donkey.gargle.DefaultXmlGargler;
+import org.burroloco.donkey.gargle.DefaultXmlDataGargler;
 import org.burroloco.donkey.job.ConsumeTransformProduce;
 import org.burroloco.donkey.job.ExceptionWrapper;
 import org.burroloco.donkey.job.Job;
@@ -41,7 +41,7 @@ public class JdbcToHttpsWirer implements Wirer {
     }
 
     private void gargler() {
-        wire.cls(DefaultXmlGargler.class).to(DataGargler.class);
+        wire.cls(DefaultXmlDataGargler.class).to(DataGargler.class);
     }
 
     private void spitter() {

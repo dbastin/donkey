@@ -9,7 +9,7 @@ import org.burroloco.butcher.fixture.http.TargetHttpServer;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.data.core.Data;
-import org.burroloco.donkey.gargle.XmlGargler;
+import org.burroloco.donkey.gargle.XmlDataGargler;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import org.burroloco.donkey.spit.core.Spitter;
 import org.burroloco.donkey.spit.core.TupleSpitter;
@@ -34,9 +34,9 @@ public class HttpsSpitterErrorHandlingMolecularTest extends DonkeyTestCase imple
     private Config c;
 
     TargetHttpServer server;
+    XmlDataGargler gargler;
     FileUtilsStatic files;
     ConfigLoader loader;
-    XmlGargler gargler;
     Harness harness;
     Spitter subject;
 
@@ -62,6 +62,7 @@ public class HttpsSpitterErrorHandlingMolecularTest extends DonkeyTestCase imple
         Collection<File> errorFiles = files.listFiles(ERROR_DIR, FILE, CAN_READ);
         check(errorFiles);
     }
+
     private void checkErrorLogged() {
         checkLogContains(".*URL: https://.*");
         checkLogContains(".*Response Code: 500.*");
