@@ -10,6 +10,7 @@ public class DefaultSourceDatabase implements SourceDatabase {
         Statement s = database.statement(NAME);
         employee(s);
         address(s);
+        process(s);
         s.close();
     }
 
@@ -27,10 +28,16 @@ public class DefaultSourceDatabase implements SourceDatabase {
         s.execute("INSERT INTO ADDRESS (ID, EMPLOYEE_ID, ADDRESS) VALUES (1, 1, '123 Pleasant Crescent, Rockville');");
     }
 
+    private void process(Statement s) {
+        s.execute("CREATE TABLE PROCESS(ID INT, EMPLOYEE_ID INT, PROCESSED DATE)");
+        s.execute("INSERT INTO PROCESS (ID, EMPLOYEE_ID, PROCESSED) VALUES (1, 1, '2013-01-01');");
+    }
+
     public void drop() {
         Statement s = database.statement(NAME);
         s.execute("DROP TABLE EMPLOYEE");
         s.execute("DROP TABLE ADDRESS");
+        s.execute("DROP TABLE PROCESS");
         s.close();
     }
 
