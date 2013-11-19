@@ -36,16 +36,16 @@ public class HttpsSpitter implements Spitter {
         }
     }
 
-    private void spit(Config config, Data data, CloseableHttpClient client) {
-        String url = weak.get(config, HttpsUrl.class);
-        List<Tuple> tuples = data.tuples();
-        for (Tuple t : tuples) spit(client, t, url, config);
-    }
-
     private CloseableHttpClient client(Config config) {
         KeyStoreLocation l = config.get(KeyStoreLocation.class);
         KeyStorePassword p = config.get(KeyStorePassword.class);
         return clients.nu(l, p);
+    }
+
+    private void spit(Config config, Data data, CloseableHttpClient client) {
+        String url = weak.get(config, HttpsUrl.class);
+        List<Tuple> tuples = data.tuples();
+        for (Tuple t : tuples) spit(client, t, url, config);
     }
 
     private void spit(HttpClient client, Tuple t, String url, Config c) {
