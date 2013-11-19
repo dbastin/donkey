@@ -12,7 +12,9 @@ import org.burroloco.donkey.job.Job;
 import org.burroloco.donkey.slurp.core.Slurper;
 import org.burroloco.donkey.slurp.database.DatabaseSlurper;
 import org.burroloco.donkey.spit.core.Spitter;
+import org.burroloco.donkey.spit.core.TupleSpitter;
 import org.burroloco.donkey.spit.http.HttpsSpitter;
+import org.burroloco.donkey.spit.http.HttpsTupleSpitter;
 import org.burroloco.donkey.trebuchet.Wirer;
 import org.burroloco.util.wire.Dna;
 
@@ -44,5 +46,6 @@ public class JdbcToHttpsWirer implements Wirer {
 
     private void spitter() {
         wire.cls(HttpsSpitter.class).to(Spitter.class);
+        wire.cls(HttpsTupleSpitter.class).to(TupleSpitter.class);
     }
 }

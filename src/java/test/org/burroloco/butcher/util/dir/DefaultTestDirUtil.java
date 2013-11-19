@@ -1,6 +1,6 @@
 package org.burroloco.butcher.util.dir;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 
 import java.io.File;
 

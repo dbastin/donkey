@@ -1,9 +1,9 @@
 package org.burroloco.butcher.util.file;
 
 import edge.org.apache.commons.io.FileUtilsStatic;
-import junit.framework.Assert;
 import org.burroloco.butcher.fixture.checker.string.Normaliser;
 import org.burroloco.butcher.glue.constants.ButcherTestConstants;
+import org.junit.Assert;
 
 import java.io.File;
 
