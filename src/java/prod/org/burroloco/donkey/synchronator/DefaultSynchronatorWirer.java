@@ -5,8 +5,8 @@ import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import au.net.netstorm.boost.spider.api.runtime.Impl;
 import org.burroloco.donkey.slurp.core.Slurper;
 import org.burroloco.donkey.slurp.database.DatabaseSlurper;
-import org.burroloco.donkey.slurp.database.SliceValueHydrator;
-import org.burroloco.donkey.slurp.database.StringSliceValueHydrator;
+import org.burroloco.donkey.slurp.database.ResultSetValues;
+import org.burroloco.donkey.slurp.database.StringResultSetValues;
 import org.burroloco.donkey.spit.core.ContextualSpitter;
 import org.burroloco.donkey.spit.core.EmptyCheckSpitter;
 import org.burroloco.donkey.spit.core.Spitter;
@@ -42,7 +42,7 @@ public class DefaultSynchronatorWirer implements SynchronatorWirer {
 
     private void synchronator() {
         wire.cls(DatabaseSlurper.class).to(Slurper.class, DefaultSynchronator.class);
-        wire.cls(StringSliceValueHydrator.class).to(SliceValueHydrator.class);
+        wire.cls(StringResultSetValues.class).to(ResultSetValues.class);
         Operation operations = hubs.nu(Operation.class, Delete.class, Update.class, Insert.class);
         wire.ref(operations).to(Operation.class);
     }

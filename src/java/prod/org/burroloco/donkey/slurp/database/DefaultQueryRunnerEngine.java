@@ -9,7 +9,7 @@ import org.burroloco.donkey.data.core.Data;
 
 public class DefaultQueryRunnerEngine implements QueryRunnerEngine {
     ConnectionPurveyor purveyor;
-    DataHydrater converter;
+    ResultSetConverter converter;
     Log log;
 
     public Data query(Config config, String sqlStatement) {

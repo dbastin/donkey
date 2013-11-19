@@ -7,11 +7,11 @@ import org.burroloco.donkey.data.core.Tuple;
 
 import static org.burroloco.donkey.data.core.Null.NULL;
 
-public class DefaultTupleHydrater implements TupleHydrater {
-    SliceValueHydrator valueHydrator;
+public class DefaultRowConverter implements RowConverter {
+    ResultSetValues values;
     Nu nu;
 
-    public Tuple convertRow(ResultSet resultSet) {
+    public Tuple convert(ResultSet resultSet) {
         Tuple tuple = nu.nu(Tuple.class);
         ResultSetMetaData metaData = resultSet.getMetaData();
         convert(resultSet, tuple, metaData);
@@ -31,7 +31,7 @@ public class DefaultTupleHydrater implements TupleHydrater {
     }
 
     private Object getValue(ResultSet resultSet, int i) {
-        Object value = valueHydrator.get(resultSet, i);
+        Object value = values.get(resultSet, i);
         return handleNull(value);
     }
 

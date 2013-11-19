@@ -12,11 +12,11 @@ import static org.burroloco.donkey.data.core.Null.NULL;
 public class DefaultHydrator implements Hydrator {
 
     SetterMethodFinder setters;
-    EdgeMethod methoder;
-    EdgeClass classer;
+    EdgeMethod methods;
+    EdgeClass classes;
 
     public <T> T hydrate(Tuple tuple, Class<T> cls) {
-        T result = classer.newInstance(cls);
+        T result = classes.newInstance(cls);
         Set<String> names = tuple.names();
         setAttributes(result, tuple, cls, names);
         return result;
@@ -33,6 +33,6 @@ public class DefaultHydrator implements Hydrator {
     private <T> void setAttribute(T ref, Class<T> cls, String name, Object value) {
         Class type = value.getClass();
         Method setter = setters.find(cls, name, type);
-        methoder.invoke(setter, ref, value);
+        methods.invoke(setter, ref, value);
     }
 }
