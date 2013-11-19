@@ -261,6 +261,7 @@
     <dictionary name="Damien">
       <words>
         <w>flattener</w>
+        <w>templator</w>
       </words>
     </dictionary>
   </component>
