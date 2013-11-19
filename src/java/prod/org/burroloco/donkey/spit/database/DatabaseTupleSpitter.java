@@ -11,12 +11,12 @@ import org.burroloco.donkey.spit.template.SqlTemplateExpander;
 
 public class DatabaseTupleSpitter implements TupleSpitter {
     SqlTemplateExpander expander;
-    Executor runner;
+    Executor executor;
     Configs configs;
 
     public void spit(Config config, Tuple t) {
         Config c = sql(config, t);
-        runner.execute(c);
+        executor.execute(c);
     }
 
     private Config sql(Config config, Tuple tuple) {
