@@ -3,10 +3,10 @@ package org.burroloco.donkey.spit.http;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.java.security.KeyStore;
 import edge.javax.net.ssl.SSLContext;
-import edge.org.apache.http.client.HttpClient;
 import edge.org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 import edge.org.apache.http.conn.ssl.SSLContextBuilder;
 import edge.org.apache.http.conn.ssl.SSLContextsStatic;
+import edge.org.apache.http.impl.client.CloseableHttpClient;
 import edge.org.apache.http.impl.client.HttpClientBuilder;
 import edge.org.apache.http.impl.client.HttpClientsStatic;
 import org.burroloco.donkey.config.KeyStoreLocation;
@@ -21,7 +21,7 @@ public class DefaultHttpsClients implements HttpsClients {
     KeyStores keystores;
     Nu nu;
 
-    public HttpClient nu(KeyStoreLocation l, KeyStorePassword p) {
+    public CloseableHttpClient nu(KeyStoreLocation l, KeyStorePassword p) {
         SSLConnectionSocketFactory f = socketFactory(l, p);
         HttpClientBuilder builder = httpClients.custom();
         return builder.setSSLSocketFactory(f).build();

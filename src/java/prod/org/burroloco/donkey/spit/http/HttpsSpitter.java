@@ -1,12 +1,12 @@
 package org.burroloco.donkey.spit.http;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
-
 import edge.org.apache.http.HttpEntity;
 import edge.org.apache.http.client.HttpClient;
 import edge.org.apache.http.client.methods.CloseableHttpResponse;
 import edge.org.apache.http.client.methods.HttpPost;
 import edge.org.apache.http.entity.StringEntity;
+import edge.org.apache.http.impl.client.CloseableHttpClient;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.core.WeakConfig;
 import org.burroloco.donkey.config.HttpsUrl;
@@ -28,14 +28,21 @@ public class HttpsSpitter implements Spitter {
     Nu nu;
 
     public void spit(Config config, Data data) {
-        HttpClient client = client(config);
+        CloseableHttpClient client = client(config);
+        try {
+            spit(config, data, client);
+        } finally {
+            client.close();
+        }
+    }
+
+    private void spit(Config config, Data data, CloseableHttpClient client) {
         String url = weak.get(config, HttpsUrl.class);
         List<Tuple> tuples = data.tuples();
         for (Tuple t : tuples) spit(client, t, url, config);
-        // TODO - Close the HttpClient.
     }
 
-    private HttpClient client(Config config) {
+    private CloseableHttpClient client(Config config) {
         KeyStoreLocation l = config.get(KeyStoreLocation.class);
         KeyStorePassword p = config.get(KeyStorePassword.class);
         return clients.nu(l, p);
