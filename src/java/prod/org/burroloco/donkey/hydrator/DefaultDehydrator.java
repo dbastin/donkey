@@ -7,6 +7,8 @@ import org.burroloco.donkey.mapper.CarriageCaseMapper;
 
 import java.util.Map;
 
+import static org.burroloco.donkey.data.core.Null.NULL;
+
 public class DefaultDehydrator implements Dehydrator {
 
     PropertyUtilsStatic properties;
@@ -26,11 +28,15 @@ public class DefaultDehydrator implements Dehydrator {
             if (ignorable(key)) continue;
             String k = mapper.map(key);
             Object v = props.get(key);
-            result.add(k, v);
+            result.add(k, handleNull(v));
         }
     }
 
     private boolean ignorable(String key) {
         return key.equals("class");
+    }
+
+    private Object handleNull(Object value) {
+        return value == null ? NULL : value;
     }
 }

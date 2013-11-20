@@ -1,5 +1,5 @@
 package org.burroloco.donkey.gargle;
 
-public interface TransformConstants {
+public interface GarglerConstants {
     String EMPTY_FIELD = "";
 }

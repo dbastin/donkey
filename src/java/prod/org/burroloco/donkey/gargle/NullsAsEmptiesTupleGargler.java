@@ -5,6 +5,8 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.core.Null;
 import org.burroloco.donkey.data.core.Tuple;
 
+import static org.burroloco.donkey.gargle.GarglerConstants.EMPTY_FIELD;
+
 public class NullsAsEmptiesTupleGargler implements TupleGargler {
     TupleGargler delegate;
     Nu nu;
@@ -15,11 +17,19 @@ public class NullsAsEmptiesTupleGargler implements TupleGargler {
 
     private Tuple process(Tuple tuple) {
         Tuple out = nu.nu(Tuple.class);
-        for (String name : tuple.names()) out.add(name, handleNull(tuple.value(name)));
+        for (String name : tuple.names()) {
+            Object nvl = nvl(tuple, name);
+            out.add(name, nvl);
+        }
         return out;
     }
 
+    private Object nvl(Tuple tuple, String name) {
+        Object value = tuple.value(name);
+        return handleNull(value);
+    }
+
     private Object handleNull(Object obj) {
-        return (obj instanceof Null) ? TransformConstants.EMPTY_FIELD : obj;
+        return (obj instanceof Null) ? EMPTY_FIELD : obj;
     }
 }

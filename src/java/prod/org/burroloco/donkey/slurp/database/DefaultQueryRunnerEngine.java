@@ -8,8 +8,8 @@ import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.core.Data;
 
 public class DefaultQueryRunnerEngine implements QueryRunnerEngine {
-    ConnectionPurveyor purveyor;
     ResultSetConverter converter;
+    ConnectionPurveyor purveyor;
     Log log;
 
     public Data query(Config config, String sqlStatement) {

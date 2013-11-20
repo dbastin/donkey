@@ -4,7 +4,7 @@ import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.exception.gargle.GarglerExceptionHandler;
 import org.burroloco.donkey.exception.gargle.LoggingGarglerExceptionHandler;
-import org.burroloco.donkey.gargle.NoOpTupleGargler;
+import org.burroloco.donkey.gargle.FromXmlTupleGargler;
 import org.burroloco.donkey.gargle.TupleGargler;
 import org.burroloco.donkey.gargle.XmlTupleGargler;
 import org.burroloco.donkey.job.ConsumeTransformProduce;
@@ -52,7 +52,7 @@ public class JdbcToHttpsWirer implements Wirer {
     }
 
     private void recorder() {
-        wire.cls(NoOpTupleGargler.class).to(TupleGargler.class, DefaultTupleRecorder.class);
+        wire.cls(FromXmlTupleGargler.class).to(TupleGargler.class, DefaultTupleRecorder.class);
         wire.cls(DatabaseTupleSpitter.class).to(TupleSpitter.class, DefaultTupleRecorder.class);
     }
 }
