@@ -10,7 +10,7 @@ public class DefaultHeaderProcessor implements HeaderProcessor {
     SliceProcessor sliceProcessor;
 
     public void process(Data data, StringBuilder results) {
-        Set<String> columns = data.columnNames();
+        Set<String> columns = data.names();
         sliceProcessor.values(results, columns);
         results.append(WIN_EOL);
     }

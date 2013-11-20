@@ -11,9 +11,15 @@ public class DefaultHttpRequestConverter implements HttpRequestConverter {
     Nu nu;
 
     public Data convert(HttpServletRequest request) {
-        Data out = nu.nu(Data.class);
-        out.add(slice(request));
-        return out;
+        Data result = nu.nu(Data.class);
+        convert(result, request);
+        result.readOnly();
+        return result;
+    }
+
+    private void convert(Data result, HttpServletRequest request) {
+        Tuple t = slice(request);
+        result.add(t);
     }
 
     private Tuple slice(HttpServletRequest request) {

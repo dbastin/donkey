@@ -22,6 +22,7 @@ public class DataMasterAtomicTest extends DonkeyTestCase implements HasFixtures,
     Nu nu;
 
     public void fixtures() {
+        none.readOnly();
         leftUnique = generator.data(1, 2, whatever);
         both = generator.data(3, 4, "same");
         leftChanges = generator.data(5, 6, "left");
@@ -54,6 +55,7 @@ public class DataMasterAtomicTest extends DonkeyTestCase implements HasFixtures,
     private Data moosh(Data... datas) {
         Data result = nu.nu(Data.class);
         for (Data data : datas) result.addAll(data.tuples());
+        result.readOnly();
         return result;
     }
 }

@@ -24,11 +24,16 @@ public class FileMetadataSlurper implements Slurper {
     
     public Data slurp(Config config) {
         Data data = nu.nu(Data.class);
+        slurp(data, config);
+        data.readOnly();
+        return data;
+    }
+
+    private void slurp(Data data, Config config) {
         InputDirName dir = config.get(InputDirName.class);
         String list = weak.get(config, InputFileNames.class);
         List<String> names = separated.list(list);
         for (String name : names) slurp(data, dir, name);
-        return data;
     }
 
     private void slurp(Data data, InputDirName dir, String name) {

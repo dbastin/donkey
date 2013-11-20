@@ -15,9 +15,14 @@ public class DefaultDataGargler implements DataGargler {
 
     public Data gargle(Config config, Data in) {
         Data out = nu.nu(Data.class);
+        gargle(in, out);
+        out.readOnly();
+        return out;
+    }
+
+    private void gargle(Data in, Data out) {
         List<Tuple> tuples = in.tuples();
         for (Tuple tuple : tuples) gargle(out, tuple);
-        return out;
     }
 
     private void gargle(Data out, Tuple tuple) {

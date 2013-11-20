@@ -37,6 +37,7 @@ public class DefaultDataMaster implements DataMaster {
     private Data toData(List<Tuple> tuples) {
         Data result = nu.nu(Data.class);
         result.addAll(tuples);
+        result.readOnly();
         return result;
     }
 

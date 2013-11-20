@@ -8,5 +8,5 @@ public interface Data {
     void addAll(List<Tuple> tuples);
     void readOnly();
     List<Tuple> tuples();
-    Set<String> columnNames();
+    Set<String> names();
 }

@@ -4,7 +4,6 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.error.MissingValueException;
-import org.burroloco.donkey.data.error.NoDataException;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class TupleAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
@@ -34,16 +33,6 @@ public class TupleAtomicTest extends DonkeyTestCase implements HasFixtures, Lazy
             fail();
         } catch (IllegalArgumentException e) {
             assertEquals("Tuple is read only.", e.getMessage());
-        }
-    }
-
-    public void testEmptyReadOnly() {
-        Tuple otherTuple = nu.nu(Tuple.class);
-        try {
-            otherTuple.readOnly();
-            fail();
-        } catch (NoDataException e) {
-            assertEquals("Tuple is empty.", e.getMessage());
         }
     }
 

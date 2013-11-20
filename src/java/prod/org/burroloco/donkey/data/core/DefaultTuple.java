@@ -5,7 +5,6 @@ import au.net.netstorm.boost.gunge.nullo.DefaultNullMaster;
 import au.net.netstorm.boost.gunge.nullo.NullMaster;
 import org.burroloco.donkey.data.error.DuplicateColumnException;
 import org.burroloco.donkey.data.error.MissingValueException;
-import org.burroloco.donkey.data.error.NoDataException;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -42,7 +41,6 @@ public class DefaultTuple extends Primordial implements Tuple {
 
     public void readOnly() {
         readOnly = true;
-        check();
     }
 
     @Override
@@ -58,9 +56,5 @@ public class DefaultTuple extends Primordial implements Tuple {
 
     private void safePutAll(Tuple tuple) {
         for (String key : tuple.names()) safePut(key, tuple.value(key));
-    }
-
-    private void check() {
-        if (map.isEmpty()) throw new NoDataException("Tuple is empty.");
     }
 }

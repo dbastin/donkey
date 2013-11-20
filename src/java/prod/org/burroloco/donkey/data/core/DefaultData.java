@@ -2,7 +2,6 @@ package org.burroloco.donkey.data.core;
 
 import au.net.netstorm.boost.bullet.primordial.Primordial;
 import org.burroloco.donkey.data.error.ColumnMismatchException;
-import org.burroloco.donkey.data.error.NoDataException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,14 +25,12 @@ public class DefaultData extends Primordial implements Data {
         return unmodifiableList(tuples);
     }
 
-    public Set<String> columnNames() {
-        check();
-        return firstNames();
+    public Set<String> names() {
+        return tuples.get(0).names();
     }
 
     public void readOnly() {
         readOnly = true;
-        check();
     }
 
     private void safeAdd(Tuple tuple) {
@@ -44,16 +41,8 @@ public class DefaultData extends Primordial implements Data {
 
     private void checkColumnNames(Tuple tuple) {
         if (tuples.isEmpty()) return;
-        Set<String> cols = firstNames();
+        Set<String> cols = tuples.get(0).names();
         Set<String> newCols = tuple.names();
         if (!cols.equals(newCols)) throw new ColumnMismatchException(cols, newCols);
-    }
-
-    private Set<String> firstNames() {
-        return tuples.get(0).names();
-    }
-
-    private void check() {
-        if (tuples.isEmpty()) throw new NoDataException("Data is empty.");
     }
 }

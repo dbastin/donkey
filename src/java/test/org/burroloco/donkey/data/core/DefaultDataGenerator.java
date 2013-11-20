@@ -7,8 +7,8 @@ public class DefaultDataGenerator implements DataGenerator {
 
     public Data data(int start, int end, String value) {
         Data data = nu.nu(Data.class);
-        for (int i = start; i <= end; i++)
-            data.add(tuple(i, value));
+        for (int i = start; i <= end; i++) data.add(tuple(i, value));
+        data.readOnly();
         return data;
     }
 

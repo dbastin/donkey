@@ -16,6 +16,7 @@ public class DefaultDataFilter implements DataFilter {
     public Data filter(Data c) {
         Data result = nu.nu(Data.class);
         for (Tuple candidate : c.tuples()) if (accept(candidate)) result.add(candidate);
+        result.readOnly();
         return result;
     }
 

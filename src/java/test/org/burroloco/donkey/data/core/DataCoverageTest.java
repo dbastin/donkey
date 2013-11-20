@@ -3,7 +3,6 @@ package org.burroloco.donkey.data.core;
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.error.ColumnMismatchException;
-import org.burroloco.donkey.data.error.NoDataException;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class DataCoverageTest extends DonkeyTestCase implements HasFixtures {
@@ -17,24 +16,6 @@ public class DataCoverageTest extends DonkeyTestCase implements HasFixtures {
         firstTuple = tuple("1", "2");
         otherTuple = tuple("1", "3");
         extraTuple = tuple("1", "2");
-    }
-
-    public void testColumnNamesFailsWithNoTuples() {
-        try {
-            subject.columnNames();
-            fail();
-        } catch (NoDataException e) {
-            // expected
-        }
-    }
-
-    public void testReadOnlyWithNoTuples() {
-        try {
-            subject.readOnly();
-            fail();
-        } catch (NoDataException e) {
-            // expected
-        }
     }
 
     public void testModifyAfterRefrigerate() {

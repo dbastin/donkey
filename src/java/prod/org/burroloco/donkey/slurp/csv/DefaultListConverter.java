@@ -11,10 +11,10 @@ public class DefaultListConverter implements ListConverter {
 
     public Data convert(List rows) {
         String[] headings = headings(rows);
-        Data data = nu.nu(Data.class);
-        addRows(headings, rows, data);
-        data.readOnly();
-        return data;
+        Data result = nu.nu(Data.class);
+        addRows(result, headings, rows);
+        result.readOnly();
+        return result;
     }
 
     private String[] headings(List rows) {
@@ -27,15 +27,15 @@ public class DefaultListConverter implements ListConverter {
         return results;
     }
 
-    private void addRows(String[] headings, List rows, Data result) {
+    private void addRows(Data result, String[] headings, List rows) {
         for (int i = 1; i < rows.size(); i++) {
             Object r = rows.get(i);
             Object[] values = (Object[]) r;
-            create(headings, values, result);
+            create(result, headings, values);
         }
     }
 
-    private void create(String[] colNames, Object[] values, Data result) {
+    private void create(Data result, String[] colNames, Object[] values) {
         Tuple tuple = nu.nu(Tuple.class);
         addValues(tuple, values, colNames);
         tuple.readOnly();
