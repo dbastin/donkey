@@ -10,27 +10,26 @@ import java.util.List;
 
 public class DefaultDataGargler implements DataGargler {
     GarglerExceptionHandler exceptions;
-    TupleGargler transformer;
+    TupleGargler gargler;
     Nu nu;
 
     public Data gargle(Config config, Data in) {
-        Data out = nu.nu(Data.class);
-        gargle(in, out);
-        out.readOnly();
-        return out;
-    }
-
-    private void gargle(Data in, Data out) {
+        Data results = nu.nu(Data.class);
         List<Tuple> tuples = in.tuples();
-        for (Tuple tuple : tuples) gargle(out, tuple);
+        gargle(results, tuples);
+        results.readOnly();
+        return results;
     }
 
-    private void gargle(Data out, Tuple tuple) {
-        try {
-            Tuple transformed = transformer.gargle(tuple);
-            out.add(transformed);
-        } catch (RuntimeException e) {
-            exceptions.handle(tuple, e);
+    private void gargle(Data results, List<Tuple> tuples) {
+        for (Tuple in : tuples) {
+            try {
+                Tuple result = gargler.gargle(in);
+                results.add(result);
+            } catch (RuntimeException e) {
+                exceptions.handle(in, e);
+            }
         }
     }
+
 }

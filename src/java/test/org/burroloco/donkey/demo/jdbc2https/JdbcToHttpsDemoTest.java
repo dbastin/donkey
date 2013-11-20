@@ -31,8 +31,7 @@ public class JdbcToHttpsDemoTest extends DonkeyTestCase implements HasFixtures, 
         processed.check(0);
         trebuchet.launch(JdbcToHttpsSpecification.class);
         checkRequests();
-        // TODO - AAAAAAAAAAAAAA Drive this out...
-//        processed.check(5);
+        processed.check(5);
     }
 
     private void checkRequests() {
