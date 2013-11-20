@@ -8,7 +8,7 @@ import static org.burroloco.donkey.data.core.Tuple.UNIT_KEY;
 public class DefaultStringToUnitTupleConverter implements StringToUnitTupleConverter {
     Nu nu;
 
-    public Tuple unit(String s) {
+    public Tuple convert(String s) {
         Tuple t = nu.nu(Tuple.class);
         t.add(UNIT_KEY, s);
         return t;

@@ -21,7 +21,7 @@ public class XmlTupleGargler implements TupleGargler {
         Class cls = hydratorClass(config);
         Object ref = hydrator.hydrate(in, cls);
         String xml = marshaller.marshal(ref);
-        return tuples.unit(xml);
+        return tuples.convert(xml);
     }
 
     private Class hydratorClass(Config config) {

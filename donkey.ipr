@@ -262,6 +262,8 @@
       <words>
         <w>flattener</w>
         <w>templator</w>
+        <w>unmarshal</w>
+        <w>unmarshaller</w>
       </words>
     </dictionary>
   </component>
