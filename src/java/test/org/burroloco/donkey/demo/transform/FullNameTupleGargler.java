@@ -1,6 +1,7 @@
 package org.burroloco.donkey.demo.transform;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
+import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.gargle.Mapper;
 import org.burroloco.donkey.gargle.TupleGargler;
@@ -13,7 +14,7 @@ public class FullNameTupleGargler implements TupleGargler {
     TupleMaster master;
     Nu nu;
 
-    public Tuple gargle(Tuple in) {
+    public Tuple gargle(Config c, Tuple in) {
         Tuple out = nu.nu(Tuple.class);
         out.add("NAME", in.value("NAME"));
         out.add("FULL_NAME", fullname("NAME", in));

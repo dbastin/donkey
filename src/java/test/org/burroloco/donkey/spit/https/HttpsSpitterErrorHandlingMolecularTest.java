@@ -9,7 +9,9 @@ import org.burroloco.butcher.fixture.http.TargetHttpServer;
 import org.burroloco.config.core.Config;
 import org.burroloco.config.loader.ConfigLoader;
 import org.burroloco.donkey.data.core.Data;
-import org.burroloco.donkey.gargle.XmlDataGargler;
+import org.burroloco.donkey.gargle.DataGargler;
+import org.burroloco.donkey.gargle.TupleGargler;
+import org.burroloco.donkey.gargle.XmlTupleGargler;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import org.burroloco.donkey.spit.core.DefaultSpitter;
 import org.burroloco.donkey.spit.core.Spitter;
@@ -34,13 +36,14 @@ public class HttpsSpitterErrorHandlingMolecularTest extends DonkeyTestCase imple
     private Config c;
 
     TargetHttpServer server;
-    XmlDataGargler gargler;
     FileUtilsStatic files;
     ConfigLoader loader;
+    DataGargler gargler;
     Harness harness;
     Spitter subject;
 
     public void overlay() {
+        wire.cls(XmlTupleGargler.class).to(TupleGargler.class);
         wire.cls(HttpsTupleSpitter.class).to(TupleSpitter.class);
         wire.cls(DefaultSpitter.class).to(Spitter.class);
     }

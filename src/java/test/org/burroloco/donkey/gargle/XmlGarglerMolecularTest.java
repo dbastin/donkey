@@ -1,6 +1,7 @@
 package org.burroloco.donkey.gargle;
 
 import au.net.netstorm.boost.sniper.marker.HasFixtures;
+import au.net.netstorm.boost.sniper.marker.OverlaysWeb;
 import edge.org.apache.commons.io.FileUtilsStatic;
 import org.burroloco.butcher.fixture.harness.Harness;
 import org.burroloco.config.core.Config;
@@ -15,17 +16,21 @@ import java.util.List;
 
 import static org.burroloco.donkey.data.core.Tuple.UNIT_KEY;
 
-public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtures {
+public class XmlGarglerMolecularTest extends DonkeyTestCase implements HasFixtures, OverlaysWeb {
 
     private static final File XML = new File("data/expected/employee-1.xml");
     private String expected;
     private Config config;
     private Data data;
 
-    XmlDataGargler subject;
     FileUtilsStatic files;
+    DataGargler subject;
     ConfigLoader loader;
     Harness harness;
+
+    public void overlay() {
+        wire.cls(XmlTupleGargler.class).to(TupleGargler.class);
+    }
 
     public void fixtures() {
         data = data();

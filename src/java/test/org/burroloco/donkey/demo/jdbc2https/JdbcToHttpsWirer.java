@@ -4,10 +4,9 @@ import au.net.netstorm.boost.spider.api.config.wire.Wire;
 import org.burroloco.config.core.Config;
 import org.burroloco.donkey.exception.gargle.GarglerExceptionHandler;
 import org.burroloco.donkey.exception.gargle.LoggingGarglerExceptionHandler;
-import org.burroloco.donkey.gargle.DataGargler;
-import org.burroloco.donkey.gargle.DefaultXPathTupleGargler;
-import org.burroloco.donkey.gargle.DefaultXmlDataGargler;
+import org.burroloco.donkey.gargle.NoOpTupleGargler;
 import org.burroloco.donkey.gargle.TupleGargler;
+import org.burroloco.donkey.gargle.XmlTupleGargler;
 import org.burroloco.donkey.job.ConsumeTransformProduce;
 import org.burroloco.donkey.job.ExceptionWrapper;
 import org.burroloco.donkey.job.Job;
@@ -44,12 +43,12 @@ public class JdbcToHttpsWirer implements Wirer {
     }
 
     private void gargler() {
-        wire.cls(DefaultXmlDataGargler.class).to(DataGargler.class);
+        wire.cls(XmlTupleGargler.class).to(TupleGargler.class);
     }
 
     private void spitter() {
         dna.strand(TupleSpitter.class, RecordingTupleSpitter.class, HttpsTupleSpitter.class);
-        wire.cls(DefaultXPathTupleGargler.class).to(TupleGargler.class, DefaultTupleRecorder.class);
+        wire.cls(NoOpTupleGargler.class).to(TupleGargler.class, DefaultTupleRecorder.class);
         wire.cls(DatabaseTupleSpitter.class).to(TupleSpitter.class, DefaultTupleRecorder.class);
     }
 }

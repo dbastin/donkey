@@ -1,6 +1,7 @@
 package org.burroloco.donkey.gargle;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
+import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.core.Null;
 import org.burroloco.donkey.data.core.Tuple;
 
@@ -8,8 +9,8 @@ public class NullsAsEmptiesTupleGargler implements TupleGargler {
     TupleGargler delegate;
     Nu nu;
 
-    public Tuple gargle(Tuple in) {
-        return delegate.gargle(process(in));
+    public Tuple gargle(Config c, Tuple in) {
+        return delegate.gargle(c, process(in));
     }
 
     private Tuple process(Tuple tuple) {

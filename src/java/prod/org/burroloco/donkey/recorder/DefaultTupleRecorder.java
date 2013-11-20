@@ -10,7 +10,7 @@ public class DefaultTupleRecorder implements TupleRecorder {
     TupleSpitter spitter;
 
     public void record(Config c, Tuple in) {
-        Tuple out = gargler.gargle(in);
+        Tuple out = gargler.gargle(c, in);
         spitter.spit(c, out);
     }
 }

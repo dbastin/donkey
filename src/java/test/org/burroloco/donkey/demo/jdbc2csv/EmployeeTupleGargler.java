@@ -1,13 +1,14 @@
 package org.burroloco.donkey.demo.jdbc2csv;
 
 import au.net.netstorm.boost.spider.api.runtime.Nu;
+import org.burroloco.config.core.Config;
 import org.burroloco.donkey.data.core.Tuple;
 import org.burroloco.donkey.gargle.TupleGargler;
 
 public class EmployeeTupleGargler implements TupleGargler {
     Nu nu;
 
-    public Tuple gargle(Tuple in) {
+    public Tuple gargle(Config c, Tuple in) {
         noPets(in);
         Tuple out = nu.nu(Tuple.class);
         out.add("ID", multiply("ID", in));
