@@ -5,6 +5,7 @@ import au.net.netstorm.boost.gunge.nullo.DefaultNullMaster;
 import au.net.netstorm.boost.gunge.nullo.NullMaster;
 import org.burroloco.donkey.data.error.DuplicateColumnException;
 import org.burroloco.donkey.data.error.MissingValueException;
+import org.burroloco.donkey.data.error.NoDataException;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -15,6 +16,7 @@ import java.util.Set;
 public class DefaultTuple extends Primordial implements Tuple {
     private static final NullMaster NULLO = new DefaultNullMaster();
     private Map<String, Object> map = new LinkedHashMap<String, Object>();
+    private boolean readOnly;
 
     public void add(String name, Object value) {
         NULLO.check(name, value);
@@ -38,7 +40,18 @@ public class DefaultTuple extends Primordial implements Tuple {
         return map.keySet();
     }
 
+    public void readOnly() {
+        readOnly = true;
+        check();
+    }
+
+    @Override
+    public String toString() {
+        return map.toString();
+    }
+
     private void safePut(String name, Object value) {
+        if (readOnly) throw new IllegalArgumentException("Tuple is read only.");
         if (map.containsKey(name)) throw new DuplicateColumnException(name);
         map.put(name, value);
     }
@@ -47,8 +60,7 @@ public class DefaultTuple extends Primordial implements Tuple {
         for (String key : tuple.names()) safePut(key, tuple.value(key));
     }
 
-    @Override
-    public String toString() {
-        return map.toString();
+    private void check() {
+        if (map.isEmpty()) throw new NoDataException("Tuple is empty.");
     }
 }

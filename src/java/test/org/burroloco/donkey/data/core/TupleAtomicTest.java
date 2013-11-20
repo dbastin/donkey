@@ -4,6 +4,7 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import au.net.netstorm.boost.sniper.marker.LazyFields;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import org.burroloco.donkey.data.error.MissingValueException;
+import org.burroloco.donkey.data.error.NoDataException;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 
 public class TupleAtomicTest extends DonkeyTestCase implements HasFixtures, LazyFields {
@@ -20,14 +21,36 @@ public class TupleAtomicTest extends DonkeyTestCase implements HasFixtures, Lazy
     public void testDuplicateKeysNotAllowed() {
         try {
             subject.add(DUPLICATE_KEY, "two");
+            fail();
         } catch (Exception e) {
             assertEquals(EXPECTED_MESSAGE, e.getMessage());
+        }
+    }
+
+    public void testReadOnly() {
+        subject.readOnly();
+        try {
+            subject.add("b", "B");
+            fail();
+        } catch (IllegalArgumentException e) {
+            assertEquals("Tuple is read only.", e.getMessage());
+        }
+    }
+
+    public void testEmptyReadOnly() {
+        Tuple otherTuple = nu.nu(Tuple.class);
+        try {
+            otherTuple.readOnly();
+            fail();
+        } catch (NoDataException e) {
+            assertEquals("Tuple is empty.", e.getMessage());
         }
     }
 
     public void testMissingKey() {
         try {
             subject.value(random);
+            fail();
         } catch (MissingValueException e) {
             assertEquals("There is no key '" + random + "'", e.getMessage());
         }
@@ -47,6 +70,7 @@ public class TupleAtomicTest extends DonkeyTestCase implements HasFixtures, Lazy
         otherTuple.add(DUPLICATE_KEY, "three");
         try {
             subject.addAll(otherTuple);
+            fail();
         } catch (Exception e) {
             assertEquals(EXPECTED_MESSAGE, e.getMessage());
         }

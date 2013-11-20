@@ -15,6 +15,7 @@ public class DefaultRowConverter implements RowConverter {
         Tuple tuple = nu.nu(Tuple.class);
         ResultSetMetaData metaData = resultSet.getMetaData();
         convert(resultSet, tuple, metaData);
+        tuple.readOnly();
         return tuple;
     }
 

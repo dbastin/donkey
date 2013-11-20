@@ -34,6 +34,7 @@ public class FileMetadataSlurper implements Slurper {
     private void slurp(Data data, InputDirName dir, String name) {
         Tuple tuple = nu.nu(Tuple.class);
         slurp(tuple, dir, name);
+        tuple.readOnly();
         data.add(tuple);
     }
 

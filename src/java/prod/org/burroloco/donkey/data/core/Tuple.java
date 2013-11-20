@@ -15,4 +15,6 @@ public interface Tuple {
     List<Object> values();
 
     Set<String> names();
+
+    void readOnly();
 }

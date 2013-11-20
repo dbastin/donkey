@@ -38,6 +38,7 @@ public class DefaultListConverter implements ListConverter {
     private void create(String[] colNames, Object[] values, Data result) {
         Tuple tuple = nu.nu(Tuple.class);
         addValues(tuple, values, colNames);
+        tuple.readOnly();
         result.add(tuple);
     }
 

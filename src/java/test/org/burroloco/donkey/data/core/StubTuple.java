@@ -31,6 +31,10 @@ public class StubTuple implements Tuple, Constructable {
         return delegate.names();
     }
 
+    public void readOnly() {
+        delegate.readOnly();
+    }
+
     public void addAll(Tuple tuple) {
         delegate.addAll(tuple);
     }

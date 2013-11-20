@@ -18,14 +18,17 @@ public class DefaultHttpRequestConverter implements HttpRequestConverter {
 
     private Tuple slice(HttpServletRequest request) {
         Tuple tuple = nu.nu(Tuple.class);
-        Enumeration params = request.getParameterNames();
-        while (params.hasMoreElements()) {
-            add(request, tuple, params);
-        }
+        addParams(tuple, request);
+        tuple.readOnly();
         return tuple;
     }
 
-    private void add(HttpServletRequest request, Tuple tuple, Enumeration params) {
+    private void addParams(Tuple tuple, HttpServletRequest request) {
+        Enumeration params = request.getParameterNames();
+        while (params.hasMoreElements()) addParam(request, tuple, params);
+    }
+
+    private void addParam(HttpServletRequest request, Tuple tuple, Enumeration params) {
         String name = (String) params.nextElement();
         String value = request.getParameter(name);
         tuple.add(name, value);
