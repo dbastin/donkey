@@ -25,6 +25,7 @@ public class DefaultHarness implements Harness {
         t.add("salary", SALARY);
         t.add("start_date", START);
         t.add("position_title", TITLE);
+        t.readOnly();
         return t;
     }
 
@@ -32,6 +33,7 @@ public class DefaultHarness implements Harness {
         Data rows = new DefaultData();
         Tuple row = tuple();
         rows.add(row);
+        rows.readOnly();
         return rows;
     }
 }

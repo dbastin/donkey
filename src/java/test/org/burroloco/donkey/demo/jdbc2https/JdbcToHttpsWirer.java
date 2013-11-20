@@ -48,6 +48,10 @@ public class JdbcToHttpsWirer implements Wirer {
 
     private void spitter() {
         dna.strand(TupleSpitter.class, RecordingTupleSpitter.class, HttpsTupleSpitter.class);
+        recorder();
+    }
+
+    private void recorder() {
         wire.cls(NoOpTupleGargler.class).to(TupleGargler.class, DefaultTupleRecorder.class);
         wire.cls(DatabaseTupleSpitter.class).to(TupleSpitter.class, DefaultTupleRecorder.class);
     }

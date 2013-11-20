@@ -32,6 +32,6 @@ public class GarglerExceptionHandlerMolecularTest extends DonkeyTestCase impleme
     public void testErrorLogging() {
         RuntimeException e = new RuntimeException("random: " + tuple);
         subject.handle(tuple, e);
-        fileChecker.check(REPORT, ONCE, "random: \\{\\}");
+        fileChecker.check(REPORT, ONCE, "(?ms)random: .*\\{\\}");
     }
 }

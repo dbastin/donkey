@@ -43,11 +43,6 @@ public class DefaultTuple extends Primordial implements Tuple {
         readOnly = true;
     }
 
-    @Override
-    public String toString() {
-        return map.toString();
-    }
-
     private void safePut(String name, Object value) {
         if (readOnly) throw new IllegalArgumentException("Tuple is read only.");
         if (map.containsKey(name)) throw new DuplicateColumnException(name);
