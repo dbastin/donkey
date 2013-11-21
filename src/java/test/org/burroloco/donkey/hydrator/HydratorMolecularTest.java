@@ -32,7 +32,7 @@ public class HydratorMolecularTest extends DonkeyTestCase implements HasFixtures
             fail();
         } catch (RuntimeException e) {
             Throwable c = chuckie.realCause(e);
-            String expected = "There is no method [setId] in [org.burroloco.donkey.hydrator.Blah]";
+            String expected = "There is no method [setId] for [Integer] in [org.burroloco.donkey.hydrator.Blah]";
             assertEquals(expected, c.getMessage());
         }
     }

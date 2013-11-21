@@ -14,12 +14,13 @@ public class DefaultSetterMethodFinder implements SetterMethodFinder {
         String setter = setters.map(name);
         Class[] types = {type};
         Method m = getMatchingAccessibleMethod(cls, setter, types);
-        if (m == null) pop(cls, setter);
+        if (m == null) pop(cls, setter, type);
         return m;
     }
 
-    private void pop(Class cls, String setter) {
-        String msg = "There is no method [" + setter + "] in [" + cls.getName() + "]";
+    private void pop(Class cls, String setter, Class type) {
+        String name = type.getSimpleName();
+        String msg = "There is no method [" + setter + "] for [" + name + "] in [" + cls.getName() + "]";
         throw new RuntimeException(msg);
     }
 }
