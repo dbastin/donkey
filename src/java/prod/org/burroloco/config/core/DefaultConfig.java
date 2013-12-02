@@ -10,6 +10,7 @@ public class DefaultConfig implements Config {
     ConfigClassMapper mapper;
     MapFlattener flattener;
     MapPrefixer prefixer;
+    MapMaster maps;
     Parser parser;
     Nu nu;
 
@@ -33,7 +34,7 @@ public class DefaultConfig implements Config {
         return nu.nu(Config.class, prefixed);
     }
 
-    public StrictMap<String, String> map(){
-        return map;
+    public StrictMap<String, String> map() {
+        return maps.clone(map);
     }
 }
