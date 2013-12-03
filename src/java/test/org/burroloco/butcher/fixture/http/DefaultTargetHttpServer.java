@@ -41,7 +41,7 @@ public class DefaultTargetHttpServer implements TargetHttpServer {
     }
 
     private SslContextFactory sslContextFactory() {
-        SslContextFactory cf = new SslContextFactory("./data/ssl/server.keystore");
+        SslContextFactory cf = new SslContextFactory("./config/ssl/server.keystore");
         cf.setKeyStorePassword("password");
         return cf;
     }
