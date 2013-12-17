@@ -1,9 +1,11 @@
 package org.burroloco.butcher.fixture.http;
 
+import au.net.netstorm.boost.bullet.primordial.Primordial;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public final class HttpRequest {
+public final class HttpRequest extends Primordial {
     Map<String, Object> params = new HashMap<String, Object>();
     String payload;
 
