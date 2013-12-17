@@ -5,6 +5,7 @@ import au.net.netstorm.boost.sniper.marker.HasFixtures;
 import edge.org.apache.commons.io.FileUtilsStatic;
 import org.burroloco.butcher.fixture.checker.database.ProcessedChecker;
 import org.burroloco.butcher.fixture.database.SourceDatabase;
+import org.burroloco.butcher.fixture.http.HttpRequest;
 import org.burroloco.butcher.fixture.http.TargetHttpServer;
 import org.burroloco.donkey.glue.testcase.DonkeyTestCase;
 import org.burroloco.donkey.trebuchet.TestTrebuchet;
@@ -35,11 +36,11 @@ public class JdbcToHttpsDemoTest extends DonkeyTestCase implements HasFixtures, 
     }
 
     private void checkRequests() {
-        List<String> requests = server.requests();
+        List<HttpRequest> requests = server.requests();
         assertEquals(5, requests.size());
         for (int i = 1; i <= requests.size(); i++) {
             String expected = readEmployee(i);
-            String actual = requests.get(i - 1);
+            String actual = requests.get(i - 1).getPayload();
             assertEquals(expected, actual);
         }
     }

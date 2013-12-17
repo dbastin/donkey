@@ -17,7 +17,7 @@ import static javax.servlet.http.HttpServletResponse.SC_OK;
 
 public class StringHandler extends AbstractHandler {
 
-    private List<String> requests = new ArrayList<String>();
+    private List<HttpRequest> requests = new ArrayList<HttpRequest>();
 
     IOUtilsStatic io;
 
@@ -28,7 +28,7 @@ public class StringHandler extends AbstractHandler {
                        HttpServletResponse resp)
             throws IOException, ServletException {
         String payload = getPayload(req);
-        requests.add(payload);
+        requests.add(new HttpRequest(r.getParameterMap(), payload));
         if (error(req)) handleError(resp);
         else resp.setStatus(SC_OK);
         r.setHandled(true);
@@ -51,7 +51,7 @@ public class StringHandler extends AbstractHandler {
         resp.setStatus(SC_INTERNAL_SERVER_ERROR);
     }
 
-    public List<String> getRequests() {
+    public List<HttpRequest> getRequests() {
         return requests;
     }
 }

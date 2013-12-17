@@ -25,7 +25,7 @@ public class DefaultTargetHttpServer implements TargetHttpServer {
         s.start();
     }
 
-    public List<String> requests() {
+    public List<HttpRequest> requests() {
         return handler.getRequests();
     }
 
