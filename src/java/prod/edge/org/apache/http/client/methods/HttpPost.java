@@ -1,8 +1,10 @@
 package edge.org.apache.http.client.methods;
 
 import au.net.netstorm.boost.bullet.scalpel.core.Edge;
-import org.apache.http.Header;
+
+import java.net.URI;
 
 public interface HttpPost extends Edge, HttpEntityEnclosingRequestBase {
-    Header[] getHeaders(String name);
+    URI getURI();
+    void setURI(URI uri);
 }
