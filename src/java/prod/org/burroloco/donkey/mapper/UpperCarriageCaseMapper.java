@@ -1,5 +1,5 @@
 package org.burroloco.donkey.mapper;
 
-public interface CarriageCaseMapper {
+public interface UpperCarriageCaseMapper {
     String map(String name);
 }

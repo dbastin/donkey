@@ -20,11 +20,11 @@ public class DefaultHarness implements Harness {
 
     public Tuple tuple() {
         Tuple t = new DefaultTuple();
-        t.add("id", ID);
-        t.add("name", NAME);
-        t.add("salary", SALARY);
-        t.add("start_date", START);
-        t.add("position_title", TITLE);
+        t.add("ID", ID);
+        t.add("NAME", NAME);
+        t.add("SALARY", SALARY);
+        t.add("START_DATE", START);
+        t.add("POSITION_TITLE", TITLE);
         t.readOnly();
         return t;
     }

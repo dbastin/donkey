@@ -3,7 +3,7 @@ package org.burroloco.donkey.hydrator;
 import au.net.netstorm.boost.spider.api.runtime.Nu;
 import edge.org.apache.commons.beanutils.PropertyUtilsStatic;
 import org.burroloco.donkey.data.core.Tuple;
-import org.burroloco.donkey.mapper.CarriageCaseMapper;
+import org.burroloco.donkey.mapper.UpperCarriageCaseMapper;
 
 import java.util.Map;
 
@@ -11,8 +11,8 @@ import static org.burroloco.donkey.data.core.Null.NULL;
 
 public class DefaultDehydrator implements Dehydrator {
 
+    UpperCarriageCaseMapper mapper;
     PropertyUtilsStatic properties;
-    CarriageCaseMapper mapper;
     Nu nu;
 
     public Tuple dehydrate(Object o) {
