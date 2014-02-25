@@ -13,7 +13,7 @@ public class DateAdapterAtomicTest extends DonkeyTestCase {
     // }
 
     public void testUnmarshal() throws Exception {
-        Date date = subject.unmarshal("2001-01-01");
+        Date date = subject.unmarshal("20010101");
         checkDate(date);
     }
 

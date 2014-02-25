@@ -3,7 +3,7 @@
   <id>3</id>
   <name>Barney</name>
   <salary>3000000</salary>
-  <startDate>2003-01-01</startDate>
+  <startDate>20030101</startDate>
   <fields>
     <field name="position_title">Grand Pooh Bah</field>
   </fields>

@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class DateAdapter extends XmlAdapter<String, Date> {
 
-    private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+    private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd");
 
     @Override
     public String marshal(Date v) throws Exception {
